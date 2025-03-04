@@ -185,3 +185,8 @@ cython_debug/
 *.h5
 *.onnx
 *.ckpt
+*.pt
+#데이터셋 제외
+*.arrow
+*.json
+*.npy
