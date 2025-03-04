@@ -169,3 +169,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# 이미지 파일 제외
+*.jpg
+*.jpeg
+*.png
+
+# 압축 파일 제외
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# 딥러닝 모델 파일 제외
+*.pth
+*.h5
+*.onnx
+*.ckpt
