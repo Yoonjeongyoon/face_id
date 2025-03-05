@@ -36,5 +36,12 @@ per_epoch_evaluations: {
     'batch_size': 32,
     'num_workers': 4
   },
+   "CACD_VS": {
+    'path': 'facerec_val/CACD_VS_huggingface',
+    'evaluation_type': 'verification',
+    'color_space': 'RGB',
+    'batch_size': 32,
+    'num_workers': 4
+  },
 }
 
