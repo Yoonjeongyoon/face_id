@@ -1,3 +1,4 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
+pycharm-community-2024.3.2/plugins/pycharm-community-sharedIndexes-bundled/python-sdk/python-sdk-a5bc9544c897-aa17d162503b.ijx filter=lfs diff=lfs merge=lfs -text
