@@ -36,7 +36,7 @@ parser.add_argument('--model-prefix', default='', help='path to load model.')
 parser.add_argument('--image-path', default='/mnt/workspace/ijb/IJBC', type=str, help='')
 parser.add_argument('--result-dir', default='.', type=str, help='')
 parser.add_argument('--batch-size', default=128, type=int, help='')
-parser.add_argument('--network', default='r50', type=str, help='')
+parser.add_argument('--network', default='r100', type=str, help='')
 parser.add_argument('--job', default='insightface', type=str, help='job name')
 parser.add_argument('--target', default='IJBC', type=str, help='target, set to IJBC')
 args = parser.parse_args()
@@ -51,7 +51,6 @@ use_detector_score = True  # if Ture, TestMode(D1)
 use_flip_test = True  # if Ture, TestMode(F1)
 job = args.job
 batch_size = args.batch_size
-
 
 class Embedding(object):
     def __init__(self, prefix, data_shape, batch_size=1):
@@ -108,12 +107,10 @@ class Embedding(object):
         imgs = torch.Tensor(batch_data).cuda()
         imgs.div_(255).sub_(0.5).div_(0.5)
         feat = self.model(imgs, phase='infer')
-
         feat = feat.reshape([self.batch_size, 2 * feat.shape[1]])
         return feat.cpu().numpy()
 
 
-#
 def divideIntoNstrand(listTemp, n):
     twoList = [[] for i in range(n)]
     for i, e in enumerate(listTemp):

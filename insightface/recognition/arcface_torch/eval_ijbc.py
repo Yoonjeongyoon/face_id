@@ -31,6 +31,7 @@ warnings.filterwarnings("ignore")
 
 parser = argparse.ArgumentParser(description='do ijb test')
 # general
+
 parser.add_argument('--model-prefix', default='', help='path to load model.')
 parser.add_argument('--image-path', default='', type=str, help='')
 parser.add_argument('--result-dir', default='.', type=str, help='')
