@@ -18,6 +18,7 @@ import warnings
 from backbones import get_model
 from utils.utils_config import get_config
 
+
 warnings.filterwarnings(("ignore"))
 script_dir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(script_dir)
@@ -79,9 +80,12 @@ def get_embeddings_from_pathlist(path_list, batch_size=16):
 
 # 임베딩 거리를 계산하는 함수 (코사인 유사도)
 def distance(embeding1, embeding2, distance_metric = 0):
+    eps = 1e-6
     if distance_metric ==0:
         dot = np.sum(np.multiply(embeding1,embeding2), axis=1)# 벡터의 내적
-        norm = np.linalg.norm(embeding1, ord=2, axis=1) * np.linalg.norm(embeding2,ord=2, axis=1)# 각 벡터의 절대 값의 곱
+        norm1 = np.linalg.norm(embeding1, ord=2, axis=1)
+        norm2 = np.linalg.norm(embeding2, ord=2, axis=1)
+        norm = norm1 * norm2 + eps  # 0 나누기를 피하기 위해 eps 추가
         cos_similarity = dot / norm
         dist = np.arccos(cos_similarity) / math.pi # 코사인 유사도 기반 각도를 0~1 사의로 정규화 = 아크코사인 사용
     else:
@@ -309,7 +313,7 @@ def evaluate(embeddings, actual_issame, nrof_folds=10, distance_metric=0, subtra
       - far: 평균 허용 오인율 (false acceptance rate)
       - fp, fn: false positive와 false negative 배열
     """
-    thresholds = np.arange(0, 1, 0.01)
+    thresholds = np.arange(0, 1, 0.001)
     embeddings1 = embeddings[0::2]
     embeddings2 = embeddings[1::2]
     tpr, fpr, accuracy, fp, fn = calculate_roc(thresholds, embeddings1, embeddings2,
@@ -331,5 +335,25 @@ tpr, fpr, accuracy, val, val_std, far, fp, fn = evaluate(embeddings_eval, issame
 print("Accuracy for each fold:", accuracy)
 print("Mean Accuracy:", np.mean(accuracy))
 print("현재 작업 디렉토리:", os.getcwd())
+# 먼저, embeddings_eval에서 쌍별로 임베딩을 분리합니다.
+embeddings1 = embeddings_eval[0::2]
+embeddings2 = embeddings_eval[1::2]
 
+# 전체 쌍에 대해 거리를 계산
+dists = distance(embeddings1, embeddings2, distance_metric=0)
+
+# genuine 쌍(issame_list가 1인 경우)만 선택
+issame_array = np.array(issame_list)
+genuine_dists = dists[issame_array == 1]
+imposter_dists = dists[issame_array == 0]
+# genuine 쌍의 평균 거리를 계산
+average_genuine_dist = np.mean(genuine_dists)
+print("Average distance for genuine pairs:", average_genuine_dist)
+std_genuine_dists = np.std(genuine_dists)
+print("Standard deviation for genuine pairs:", std_genuine_dists)
+
+average_imposter_dist = np.mean(imposter_dists)
+print("Average distance for imposter pairs:", average_imposter_dist)
+std_imposter_dists = np.std(imposter_dists)
+print("Standard deviation for imposter pairs:", std_imposter_dists)
 # 작업 디렉토리를 스크립트 위치로 변경
