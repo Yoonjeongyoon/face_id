@@ -190,3 +190,9 @@ cython_debug/
 *.arrow
 *.json
 *.npy
+*.bin
+*.rec
+*.idx
+TopoFR/faces_emore
+MTLFace/work_dirs
+MTLFace/mtlface_checkpoints.tar

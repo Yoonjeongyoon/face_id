@@ -14,12 +14,12 @@ from torch import distributed
 class CallBackVerification(object):
     
     def __init__(self, val_targets, rec_prefix, summary_writer=None, image_size=(112, 112)):
-        self.rank: int = distributed.get_rank()
+        self.rank: int = 0#distributed.get_rank()
         self.highest_acc: float = 0.0
         self.highest_acc_list: List[float] = [0.0] * len(val_targets)
         self.ver_list: List[object] = []
         self.ver_name_list: List[str] = []
-        if self.rank is 0:
+        if self.rank == 0:
             self.init_dataset(val_targets=val_targets, data_dir=rec_prefix, image_size=image_size)
 
         self.summary_writer = summary_writer
@@ -50,7 +50,7 @@ class CallBackVerification(object):
                 self.ver_name_list.append(name)
 
     def __call__(self, num_update, backbone: torch.nn.Module):
-        if self.rank is 0 and num_update > 0:
+        if self.rank == 0 and num_update > 0:
             backbone.eval()
             self.ver_test(backbone, num_update)
             backbone.train()
@@ -59,8 +59,8 @@ class CallBackVerification(object):
 class CallBackLogging(object):
     def __init__(self, frequent, total_step, batch_size, start_step=0,writer=None):
         self.frequent: int = frequent
-        self.rank: int = distributed.get_rank()
-        self.world_size: int = distributed.get_world_size()
+        self.rank: int = 0#distributed.get_rank()
+        self.world_size: int = 1#distributed.get_world_size()
         self.time_start = time.time()
         self.total_step: int = total_step
         self.start_step: int = start_step
