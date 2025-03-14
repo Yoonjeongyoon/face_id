@@ -19,7 +19,7 @@ config.lr = 0.1
 config.verbose = 2000
 config.dali = False
 
-config.rec = "/mnt/workspace/faces_emore"
+config.rec = "faces_emore"
 config.num_classes = 85742
 config.num_image = 5822653
 config.num_epoch = 25

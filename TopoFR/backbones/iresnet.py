@@ -152,7 +152,7 @@ class IResNet(nn.Module):
         return nn.Sequential(*layers)
 
     def forward(self, x, phase='train'):
-        with torch.cuda.amp.autocast(self.fp16):
+        with torch.autocast("cuda", enabled=self.fp16):
             x = self.conv1(x)
             x = self.bn1(x)
             x = self.prelu(x)
@@ -167,7 +167,7 @@ class IResNet(nn.Module):
             x = self.features(x)
             bottleneck_embedding = x
         if phase != 'infer':
-            with torch.cuda.amp.autocast(self.fp16):
+            with torch.autocast("cuda", enabled=self.fp16):
                 norm_embeddings = normalize(x)
                 norm_weight_activated = normalize(self.weight)
                 logits = linear(norm_embeddings, norm_weight_activated)

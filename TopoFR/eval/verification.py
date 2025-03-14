@@ -33,7 +33,7 @@ import numpy as np
 import sklearn
 import torch
 from mxnet import ndarray as nd
-from scipy import interpolate
+from scipy import interpolate #중복 불가 오류 생김 
 from sklearn.decomposition import PCA
 from sklearn.model_selection import KFold
 
@@ -145,11 +145,17 @@ def calculate_val(thresholds,
         # Find the threshold that gives FAR = far_target
         far_train = np.zeros(nrof_thresholds)
         for threshold_idx, threshold in enumerate(thresholds):
-            _, far_train[threshold_idx] = calculate_val_far(
-                threshold, dist[train_set], actual_issame[train_set])
-        if np.max(far_train) >= far_target:
-            f = interpolate.interp1d(far_train, thresholds, kind='slinear')
+            _, far_train[threshold_idx] = calculate_val_far(threshold, dist[train_set], actual_issame[train_set])
+
+        # far_train과 thresholds에서 중복된 값을 제거함
+        unique_far, unique_indices = np.unique(far_train, return_index=True)
+        unique_thresholds = thresholds[unique_indices]
+
+            # far_target이 unique_far 범위 내에 있고, unique_far에 충분한 데이터가 있을 경우 보간(interpolation) 수행
+        if len(unique_far) > 1 and np.max(unique_far) >= far_target:
+            f = interpolate.interp1d(unique_far, unique_thresholds, kind='slinear', fill_value="extrapolate")
             threshold = f(far_target)
+
         else:
             threshold = 0.0
 
@@ -240,7 +246,8 @@ def test(data_set, backbone, batch_size, nfolds=10):
             _data = data[bb - batch_size: bb]
             time0 = datetime.datetime.now()
             img = ((_data / 255) - 0.5) / 0.5
-            net_out: torch.Tensor = backbone(img, phase='infer')
+            net_input = img.cuda().half() # if cfg.fp16 else img.cuda().float()
+            net_out = backbone(net_input, phase='infer')
 
             _embeddings = net_out.detach().cpu().numpy()
             time_now = datetime.datetime.now()
