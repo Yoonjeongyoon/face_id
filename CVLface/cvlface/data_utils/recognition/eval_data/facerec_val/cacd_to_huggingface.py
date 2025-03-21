@@ -61,7 +61,7 @@ if __name__ == '__main__':
     ds = Dataset.from_generator(generator)
 
     # 저장
-    dataset_name = "CACD_VS_huggingface"
+    dataset_name = "Asian_older_huggingface"
     os.makedirs(args.save_dir, exist_ok=True)
     ds.save_to_disk(os.path.join(args.save_dir, dataset_name), num_shards=1)
 

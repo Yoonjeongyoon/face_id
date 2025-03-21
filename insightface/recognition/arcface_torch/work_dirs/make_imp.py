@@ -26,7 +26,7 @@ for person_folder in os.listdir(input_folder):
 
     if gender == 'm':
         male_folders.append(person_folder)
-    elif gender == 'f':
+    elif gender == 'w':
         female_folders.append(person_folder)
 
 print(f"Male folders: {male_folders}")
@@ -44,7 +44,7 @@ pair_list = []
 if not gender_groups:
     print("❌ 데이터가 충분하지 않습니다. 종료합니다.")
 else:
-    while len(pair_list) < 389:
+    while len(pair_list) < 1884:
         gender_group = random.choice(gender_groups)
 
         if len(gender_group) < 2:

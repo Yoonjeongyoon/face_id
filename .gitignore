@@ -192,6 +192,7 @@ cython_debug/
 *.npy
 *.bin
 *.rec
+*.dat
 *.idx
 TopoFR/faces_emore
 MTLFace/work_dirs
