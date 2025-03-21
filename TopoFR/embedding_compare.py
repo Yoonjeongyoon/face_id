@@ -36,7 +36,7 @@ def get_embedding(img_path):
 
 # 두 임베딩 간의 코사인 유사도 기반 거리 계산 함수
 def calculate_distance(embed1, embed2):
-    eps = 1e-6
+    eps = 1e-10
     dot = np.dot(embed1, embed2)
     norm = np.linalg.norm(embed1) * np.linalg.norm(embed2) + eps
     cos_similarity = dot / norm
@@ -45,8 +45,8 @@ def calculate_distance(embed1, embed2):
 
 
 if __name__ == '__main__':
-    img_path1 = 'testset1/12456_AngieDickinson_73_f.jpg'
-    img_path2 = 'testset1/12459_AngieDickinson_82_f.jpg'
+    img_path1 = 'testset1/pair1_5_KimMin-joung_71_w.jpg'
+    img_path2 = 'testset1/pair2_6_KimMin-joung_68_w.jpg'
 
     embedding1 = get_embedding(img_path1)
     embedding2 = get_embedding(img_path2)

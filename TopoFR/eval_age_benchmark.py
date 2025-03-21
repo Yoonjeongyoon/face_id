@@ -80,13 +80,14 @@ def get_embeddings_from_pathlist(path_list, batch_size=16):
 
 # 임베딩 거리를 계산하는 함수 (코사인 유사도)
 def distance(embeding1, embeding2, distance_metric = 0):
-    eps = 1e-6
+    eps = 1e-10
     if distance_metric ==0:
         dot = np.sum(np.multiply(embeding1,embeding2), axis=1)# 벡터의 내적
         norm1 = np.linalg.norm(embeding1, ord=2, axis=1)
         norm2 = np.linalg.norm(embeding2, ord=2, axis=1)
         norm = norm1 * norm2 + eps  # 0 나누기를 피하기 위해 eps 추가
         cos_similarity = dot / norm
+        cos_similarity = np.clip(cos_similarity, -1.0, 1.0)
         dist = np.arccos(cos_similarity) / math.pi # 코사인 유사도 기반 각도를 0~1 사의로 정규화 = 아크코사인 사용
     else:
         raise Exception("Undefined distance metirc %d" % distance_metric)
@@ -98,12 +99,13 @@ def get_paths(dataset_dir):
     issame_list = []
 
     genuine_path = os.path.join(dataset_dir, "gen") # genuine set의 경로
-    genuine_folders = sorted(os.listdir(genuine_path))# genuine 폴더의 리스트
+    genuine_folders = sorted(os.listdir(genuine_path), key=lambda x: int(x))
+# genuine 폴더의 리스트 근데 이제 int로 정렬해야 숫자 취급 받음
     genuine_count = len(genuine_folders) #총 폴더 수
     genuine_split = np.array_split(genuine_folders, 10)
 
     imposter_path = os.path.join(dataset_dir, "imp")
-    imposter_folders = sorted(os.listdir(imposter_path))
+    imposter_folders = sorted(os.listdir(genuine_path), key=lambda x: int(x))
     imposter_count = len(imposter_folders)
     imposter_split = np.array_split(imposter_folders, 10)
 # 10 fold를 위해 각 fold에 genuine과 imposter를 10분에 1씩 할당
@@ -131,6 +133,7 @@ def get_paths(dataset_dir):
                 nrof_skipped_pairs +=1
     if nrof_skipped_pairs > 0:
         print(f'Skipped {nrof_skipped_pairs} image paiars')
+
     return path_list, issame_list
 
 def calculate_accuracy(threshold, dist, actual_issame):
@@ -143,9 +146,9 @@ def calculate_accuracy(threshold, dist, actual_issame):
     fp = np.sum(np.logical_and(predict_issame, np.logical_not(actual_issame)))
     tn = np.sum(np.logical_and(np.logical_not(predict_issame), np.logical_not(actual_issame)))
     fn = np.sum(np.logical_and(np.logical_not(predict_issame), actual_issame))
-
-    is_fp = np.logical_and(predict_issame, np.logical_not(actual_issame))
-    is_fn = np.logical_and(np.logical_not(predict_issame), actual_issame)
+#오분류된 레이블들 즉 틀린 것들
+    is_fp = np.where(np.logical_and(predict_issame, np.logical_not(actual_issame)))[0]
+    is_fn = np.where(np.logical_and(np.logical_not(predict_issame), actual_issame))[0]
 
     tpr = 0 if (tp + fn == 0) else float(tp) / float(tp + fn)
     fpr = 0 if (fp + tn == 0) else float(fp) / float(fp + tn)
@@ -168,9 +171,7 @@ def calculate_roc(thresholds, embeddings1, embeddings2, actual_issame, nrof_fold
     fprs = np.zeros((nrof_folds, nrof_thresholds))
     accuracy = np.zeros((nrof_folds))
 
-    is_false_positive = []
-    is_false_negative = []
-
+    best_tresholds = np.zeros((nrof_folds))
     indices = np.arange(nrof_pairs)
 
     for fold_idx, (train_set, test_set) in enumerate(k_fold.split(indices)):
@@ -185,26 +186,64 @@ def calculate_roc(thresholds, embeddings1, embeddings2, actual_issame, nrof_fold
         for threshold_idx, threshold in enumerate(thresholds):
             _, _, acc_train[threshold_idx], _, _ = calculate_accuracy(threshold, dist[train_set],
                                                                       actual_issame[train_set])
-        best_threshold_index = np.argmax(acc_train)
+        best_threshold_idx = np.argmax(acc_train)
+        best_threshold = thresholds[best_threshold_idx]
+        best_tresholds[fold_idx] = best_threshold
         for threshold_idx, threshold in enumerate(thresholds):
-            tprs[fold_idx, threshold_idx], fprs[fold_idx, threshold_idx], _, _, _ = calculate_accuracy(threshold,
-                                                                                                       dist[test_set],
-                                                                                                       actual_issame[
-                                                                                                           test_set])
-        _, _, accuracy[fold_idx], is_fp, is_fn = calculate_accuracy(thresholds[best_threshold_index], dist[test_set],
-                                                                    actual_issame[test_set])
+            tprs[fold_idx, threshold_idx], fprs[fold_idx, threshold_idx], _, _, _ = calculate_accuracy(threshold, dist[test_set], actual_issame[test_set])
+        print(f"\n===== 폴드 {fold_idx + 1}/{nrof_folds} 처리 중 =====")
+        print(f"최적 임계값: {best_threshold:.4f} (훈련 정확도: {acc_train[best_threshold_idx]:.4f})")
 
-        is_false_positive.extend(is_fp)
-        is_false_negative.extend(is_fn)
+        #테스트 세트 성능 평가
+        _, _, accuracy[fold_idx], is_fp, is_fn = calculate_accuracy(best_threshold, dist[test_set],
+                                                                    actual_issame[test_set])
+        # False Positive (서로 다른 사람인데 같은 사람으로 오인) 출력
+        if len(is_fp) > 0:
+            fp_indices = [test_set[i] for i in is_fp]  # 전체 데이터셋에서의 인덱스로 변환
+
+            print(f"\n거짓 양성(False Positive) 오탐지: {len(is_fp)}개")
+
+            print("\n상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):")
+            for i, idx in enumerate(fp_indices):
+                real_idx = idx * 2
+                path1 = path_list[real_idx]
+                path2 = path_list[real_idx + 1]
+
+                distance_val = dist[idx]
+                diff = best_threshold - distance_val
+                #리스트 구성이 gen, imp의 10fold로 번갈아 가면서 이루어짐 따라서 진짜 인덱스를 구하기 위한 식
+                folder_name = os.path.basename(os.path.dirname(path_list[idx]))
+
+                print(f"  imp {idx-(int(len(test_set)/2)*(fold_idx+1))}: 거리 = {distance_val:.4f}, 임계값 = {best_threshold:.4f}, 차이 = {diff:.4f}")
+                print(f"    경로1: {path1}")
+                print(f"    경로2: {path2}")
+        # False Negative (같은 사람인데 다른 사람으로 오인) 출력
+        if len(is_fn) > 0:
+            fn_indices = [test_set[i] for i in is_fn]  # 전체 데이터셋에서의 인덱스로 변환
+
+
+            print(f"\n거짓 음성(False Negative) 오탐지: {len(is_fn)}개")
+
+            print("\n상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):")
+            for i, idx in enumerate(fn_indices):
+                real_idx = idx * 2
+                path1 = path_list[real_idx]
+                path2 = path_list[real_idx + 1]
+
+                distance_val = dist[idx]
+                diff = distance_val - best_threshold
+
+                print(f"  gen {idx-(int(len(test_set)/2)*fold_idx)}: 거리 = {distance_val:.4f}, 임계값 = {best_threshold:.4f}, 차이 = {diff:.4f}")
+                print(f"    경로1: {path1}")
+                print(f"    경로2: {path2}")
 
     tpr = np.mean(tprs, axis=0)
     fpr = np.mean(fprs, axis=0)
-    return tpr, fpr, accuracy, is_false_positive, is_false_negative
-
+    return tpr, fpr, accuracy
 
 def calculate_val_far(threshold, dist, actual_issame):
     """
-    주어진 임계값에서의 검증율(val)과 허용 오인율(FAR)을 계산합니다.
+    주어진 임계값에서의 검증율(val)과 허용 오인율(FAR)을 계산
     """
     predict_issame = np.less(dist, threshold)
     true_accept = np.sum(np.logical_and(predict_issame, actual_issame))
@@ -257,7 +296,7 @@ def calculate_val(thresholds, embeddings1, embeddings2, actual_issame, far_targe
 def calculate_val(thresholds, embeddings1, embeddings2, actual_issame, far_target, nrof_folds=10, distance_metric=0,
                   subtract_mean=False):
     """
-    목표 FAR에 해당하는 임계값을 찾아 검증율을 계산합니다.
+    목표 FAR에 해당하는 임계값을 찾아 검증율을 계산
     """
     assert embeddings1.shape[0] == embeddings2.shape[0]
     assert embeddings1.shape[1] == embeddings2.shape[1]
@@ -303,7 +342,7 @@ def calculate_val(thresholds, embeddings1, embeddings2, actual_issame, far_targe
 def evaluate(embeddings, actual_issame, nrof_folds=10, distance_metric=0, subtract_mean=False):
     """
     LFW 평가를 위해 임베딩을 두 그룹(각 쌍의 이미지)으로 나누고,
-    ROC 및 검증 지표를 계산합니다.
+    ROC 및 검증 지표를 계산
     반환 값:
       - tpr: true positive rate 배열
       - fpr: false positive rate 배열
@@ -316,26 +355,24 @@ def evaluate(embeddings, actual_issame, nrof_folds=10, distance_metric=0, subtra
     thresholds = np.arange(0, 1, 0.001)
     embeddings1 = embeddings[0::2]
     embeddings2 = embeddings[1::2]
-    tpr, fpr, accuracy, fp, fn = calculate_roc(thresholds, embeddings1, embeddings2,
+    tpr, fpr, accuracy = calculate_roc(thresholds, embeddings1, embeddings2,
                                                np.asarray(actual_issame), nrof_folds=nrof_folds,
                                                distance_metric=distance_metric, subtract_mean=subtract_mean)
     thresholds = np.arange(0, 1, 0.001)
     val, val_std, far = calculate_val(thresholds, embeddings1, embeddings2,
                                       np.asarray(actual_issame), 1e-3, nrof_folds=nrof_folds,
                                       distance_metric=distance_metric, subtract_mean=subtract_mean)
-    return tpr, fpr, accuracy, val, val_std, far, fp, fn
-
-
+    return tpr, fpr, accuracy, val, val_std, far
 
 
 path_list, issame_list = get_paths(dataset_dir)
 embeddings_dict=get_embeddings_from_pathlist(path_list, batch_size=16)
 embeddings_eval = np.array([embeddings_dict[path] for path in path_list])
-tpr, fpr, accuracy, val, val_std, far, fp, fn = evaluate(embeddings_eval, issame_list)
+tpr, fpr, accuracy, val, val_std, far = evaluate(embeddings_eval, issame_list)
 print("Accuracy for each fold:", accuracy)
 print("Mean Accuracy:", np.mean(accuracy))
 print("현재 작업 디렉토리:", os.getcwd())
-# 먼저, embeddings_eval에서 쌍별로 임베딩을 분리합니다.
+# 먼저, embeddings_eval에서 쌍별로 임베딩을 분리
 embeddings1 = embeddings_eval[0::2]
 embeddings2 = embeddings_eval[1::2]
 
@@ -356,4 +393,4 @@ average_imposter_dist = np.mean(imposter_dists)
 print("Average distance for imposter pairs:", average_imposter_dist)
 std_imposter_dists = np.std(imposter_dists)
 print("Standard deviation for imposter pairs:", std_imposter_dists)
-# 작업 디렉토리를 스크립트 위치로 변경
+

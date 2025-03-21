@@ -2,7 +2,7 @@ data_root: ${oc.env:DATA_ROOT}
 eval_every_n_epochs: 1
 per_epoch_evaluations: {
   "lfw": {
-    'path': 'facerec_val/lfw',
+    'path': 'facerec_val/Asian_older_huggingface',
     'evaluation_type': 'verification',
     'color_space': 'RGB',
     'batch_size': 32,
