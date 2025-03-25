@@ -50,16 +50,17 @@ def master_control(image):
 
 def face_wrinkle(path, backage):
     result = cv2.imread(path)
+    predictor = dlib.shape_predictor(backage)
     rect = dlib.rectangle(0, 0, result.shape[1], result.shape[0])
     gray = cv2.cvtColor(result, cv2.COLOR_BGR2GRAY)
-    shape = backage(gray, rect)
+    shape = predictor(gray, rect)
     landmarks = np.array([[pt.x, pt.y] for pt in shape.parts()])
 
     hull = cv2.convexHull(landmarks)
     hull_points = hull.reshape(-1, 2)
 
     min_y = np.min(hull_points[:, 1])
-    offset = int(0.1 * img.shape[0])
+    offset = int(0.1 * result.shape[0])
 
     adjusted_hull = np.array(hull_points, dtype=np.int32)
     adjusted_hull = cv2.convexHull(adjusted_hull)
@@ -67,7 +68,7 @@ def face_wrinkle(path, backage):
     mask = np.zeros_like(gray)
     cv2.fillConvexPoly(mask, adjusted_hull, 255)
 
-    face_extracted = cv2.bitwise_and(img, img, mask=mask)
+    face_extracted = cv2.bitwise_and(result, result, mask=mask)
     img, count = master_control(result)
     print(img.astype(float))
     result[img > 0.1] = 255
