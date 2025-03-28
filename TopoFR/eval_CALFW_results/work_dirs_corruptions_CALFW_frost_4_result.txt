@@ -1,0 +1,2003 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8946)
+
+거짓 양성(False Positive) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 23: 거리 = 0.4512, 임계값 = 0.4540, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0023/23_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0023/23_1.jpg
+  imp 44: 거리 = 0.4445, 임계값 = 0.4540, 차이 = 0.0095
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0044/44_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0044/44_1.jpg
+  imp 91: 거리 = 0.4532, 임계값 = 0.4540, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0091/91_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0091/91_1.jpg
+  imp 151: 거리 = 0.4452, 임계값 = 0.4540, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0151/151_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0151/151_1.jpg
+  imp 179: 거리 = 0.4452, 임계값 = 0.4540, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0179/179_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0179/179_1.jpg
+  imp 208: 거리 = 0.4539, 임계값 = 0.4540, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0208/208_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0208/208_1.jpg
+  imp 221: 거리 = 0.4392, 임계값 = 0.4540, 차이 = 0.0148
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0221/221_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0221/221_1.jpg
+  imp 231: 거리 = 0.4078, 임계값 = 0.4540, 차이 = 0.0462
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0231/231_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0231/231_1.jpg
+  imp 241: 거리 = 0.4068, 임계값 = 0.4540, 차이 = 0.0472
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0241/241_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0241/241_1.jpg
+  imp 254: 거리 = 0.4523, 임계값 = 0.4540, 차이 = 0.0017
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0254/254_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0254/254_1.jpg
+  imp 256: 거리 = 0.4517, 임계값 = 0.4540, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0256/256_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0256/256_1.jpg
+  imp 264: 거리 = 0.4466, 임계값 = 0.4540, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0264/264_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0264/264_1.jpg
+  imp 298: 거리 = 0.4420, 임계값 = 0.4540, 차이 = 0.0120
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0298/298_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0298/298_1.jpg
+
+거짓 음성(False Negative) 오탐지: 41개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1: 거리 = 0.4683, 임계값 = 0.4540, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0001/1_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0001/1_1.jpg
+  gen 2: 거리 = 0.4713, 임계값 = 0.4540, 차이 = 0.0173
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0002/2_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0002/2_1.jpg
+  gen 3: 거리 = 0.4785, 임계값 = 0.4540, 차이 = 0.0245
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0003/3_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0003/3_1.jpg
+  gen 6: 거리 = 0.4558, 임계값 = 0.4540, 차이 = 0.0018
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0006/6_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0006/6_1.jpg
+  gen 12: 거리 = 0.4665, 임계값 = 0.4540, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0012/12_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0012/12_1.jpg
+  gen 16: 거리 = 0.4607, 임계값 = 0.4540, 차이 = 0.0067
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0016/16_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0016/16_1.jpg
+  gen 24: 거리 = 0.4729, 임계값 = 0.4540, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0024/24_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0024/24_1.jpg
+  gen 31: 거리 = 0.5135, 임계값 = 0.4540, 차이 = 0.0595
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0031/31_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0031/31_1.jpg
+  gen 33: 거리 = 0.5162, 임계값 = 0.4540, 차이 = 0.0622
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0033/33_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0033/33_1.jpg
+  gen 47: 거리 = 0.4645, 임계값 = 0.4540, 차이 = 0.0105
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0047/47_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0047/47_1.jpg
+  gen 54: 거리 = 0.4590, 임계값 = 0.4540, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0054/54_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0054/54_1.jpg
+  gen 60: 거리 = 0.4575, 임계값 = 0.4540, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0060/60_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0060/60_1.jpg
+  gen 64: 거리 = 0.4770, 임계값 = 0.4540, 차이 = 0.0230
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0064/64_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0064/64_1.jpg
+  gen 67: 거리 = 0.4828, 임계값 = 0.4540, 차이 = 0.0288
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0067/67_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0067/67_1.jpg
+  gen 78: 거리 = 0.4628, 임계값 = 0.4540, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0078/78_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0078/78_1.jpg
+  gen 82: 거리 = 0.4583, 임계값 = 0.4540, 차이 = 0.0043
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0082/82_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0082/82_1.jpg
+  gen 83: 거리 = 0.4566, 임계값 = 0.4540, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0083/83_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0083/83_1.jpg
+  gen 84: 거리 = 0.4940, 임계값 = 0.4540, 차이 = 0.0400
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0084/84_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0084/84_1.jpg
+  gen 102: 거리 = 0.4692, 임계값 = 0.4540, 차이 = 0.0152
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0102/102_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0102/102_1.jpg
+  gen 113: 거리 = 0.4609, 임계값 = 0.4540, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0113/113_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0113/113_1.jpg
+  gen 127: 거리 = 0.4709, 임계값 = 0.4540, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0127/127_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0127/127_1.jpg
+  gen 129: 거리 = 0.4610, 임계값 = 0.4540, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0129/129_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0129/129_1.jpg
+  gen 134: 거리 = 0.5163, 임계값 = 0.4540, 차이 = 0.0623
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0134/134_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0134/134_1.jpg
+  gen 146: 거리 = 0.4913, 임계값 = 0.4540, 차이 = 0.0373
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0146/146_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0146/146_1.jpg
+  gen 147: 거리 = 0.4775, 임계값 = 0.4540, 차이 = 0.0235
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0147/147_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0147/147_1.jpg
+  gen 162: 거리 = 0.4651, 임계값 = 0.4540, 차이 = 0.0111
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0162/162_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0162/162_1.jpg
+  gen 168: 거리 = 0.4656, 임계값 = 0.4540, 차이 = 0.0116
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0168/168_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0168/168_1.jpg
+  gen 172: 거리 = 0.4727, 임계값 = 0.4540, 차이 = 0.0187
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0172/172_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0172/172_1.jpg
+  gen 182: 거리 = 0.4783, 임계값 = 0.4540, 차이 = 0.0243
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0182/182_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0182/182_1.jpg
+  gen 197: 거리 = 0.4966, 임계값 = 0.4540, 차이 = 0.0426
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0197/197_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0197/197_1.jpg
+  gen 212: 거리 = 0.4621, 임계값 = 0.4540, 차이 = 0.0081
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0212/212_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0212/212_1.jpg
+  gen 222: 거리 = 0.4765, 임계값 = 0.4540, 차이 = 0.0225
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0222/222_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0222/222_1.jpg
+  gen 228: 거리 = 0.4575, 임계값 = 0.4540, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0228/228_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0228/228_1.jpg
+  gen 231: 거리 = 0.4964, 임계값 = 0.4540, 차이 = 0.0424
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0231/231_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0231/231_1.jpg
+  gen 233: 거리 = 0.4730, 임계값 = 0.4540, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0233/233_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0233/233_1.jpg
+  gen 235: 거리 = 0.4685, 임계값 = 0.4540, 차이 = 0.0145
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0235/235_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0235/235_1.jpg
+  gen 252: 거리 = 0.4887, 임계값 = 0.4540, 차이 = 0.0347
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0252/252_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0252/252_1.jpg
+  gen 260: 거리 = 0.4989, 임계값 = 0.4540, 차이 = 0.0449
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0260/260_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0260/260_1.jpg
+  gen 292: 거리 = 0.4613, 임계값 = 0.4540, 차이 = 0.0073
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0292/292_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0292/292_1.jpg
+  gen 295: 거리 = 0.4563, 임계값 = 0.4540, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0295/295_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0295/295_1.jpg
+  gen 299: 거리 = 0.5206, 임계값 = 0.4540, 차이 = 0.0666
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0299/299_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0299/299_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8976)
+
+거짓 양성(False Positive) 오탐지: 17개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 301: 거리 = 0.4110, 임계값 = 0.4540, 차이 = 0.0430
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0301/301_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0301/301_1.jpg
+  imp 359: 거리 = 0.4476, 임계값 = 0.4540, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0359/359_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0359/359_1.jpg
+  imp 373: 거리 = 0.4357, 임계값 = 0.4540, 차이 = 0.0183
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0373/373_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0373/373_1.jpg
+  imp 382: 거리 = 0.4309, 임계값 = 0.4540, 차이 = 0.0231
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0382/382_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0382/382_1.jpg
+  imp 432: 거리 = 0.4488, 임계값 = 0.4540, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0432/432_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0432/432_1.jpg
+  imp 459: 거리 = 0.4511, 임계값 = 0.4540, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0459/459_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0459/459_1.jpg
+  imp 460: 거리 = 0.4503, 임계값 = 0.4540, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0460/460_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0460/460_1.jpg
+  imp 492: 거리 = 0.4484, 임계값 = 0.4540, 차이 = 0.0056
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0492/492_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0492/492_1.jpg
+  imp 497: 거리 = 0.4390, 임계값 = 0.4540, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0497/497_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0497/497_1.jpg
+  imp 502: 거리 = 0.4257, 임계값 = 0.4540, 차이 = 0.0283
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0502/502_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0502/502_1.jpg
+  imp 508: 거리 = 0.4437, 임계값 = 0.4540, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0508/508_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0508/508_1.jpg
+  imp 522: 거리 = 0.4533, 임계값 = 0.4540, 차이 = 0.0007
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0522/522_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0522/522_1.jpg
+  imp 526: 거리 = 0.4278, 임계값 = 0.4540, 차이 = 0.0262
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0526/526_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0526/526_1.jpg
+  imp 543: 거리 = 0.4361, 임계값 = 0.4540, 차이 = 0.0179
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0543/543_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0543/543_1.jpg
+  imp 550: 거리 = 0.4490, 임계값 = 0.4540, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0550/550_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0550/550_1.jpg
+  imp 586: 거리 = 0.4399, 임계값 = 0.4540, 차이 = 0.0141
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0586/586_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0586/586_1.jpg
+  imp 595: 거리 = 0.4512, 임계값 = 0.4540, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0595/595_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0595/595_1.jpg
+
+거짓 음성(False Negative) 오탐지: 53개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 314: 거리 = 0.4756, 임계값 = 0.4540, 차이 = 0.0216
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0314/314_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0314/314_1.jpg
+  gen 315: 거리 = 0.4589, 임계값 = 0.4540, 차이 = 0.0049
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0315/315_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0315/315_1.jpg
+  gen 323: 거리 = 0.4726, 임계값 = 0.4540, 차이 = 0.0186
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0323/323_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0323/323_1.jpg
+  gen 324: 거리 = 0.4869, 임계값 = 0.4540, 차이 = 0.0329
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0324/324_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0324/324_1.jpg
+  gen 330: 거리 = 0.4888, 임계값 = 0.4540, 차이 = 0.0348
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0330/330_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0330/330_1.jpg
+  gen 338: 거리 = 0.4832, 임계값 = 0.4540, 차이 = 0.0292
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0338/338_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0338/338_1.jpg
+  gen 344: 거리 = 0.4931, 임계값 = 0.4540, 차이 = 0.0391
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0344/344_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0344/344_1.jpg
+  gen 345: 거리 = 0.4684, 임계값 = 0.4540, 차이 = 0.0144
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0345/345_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0345/345_1.jpg
+  gen 346: 거리 = 0.4641, 임계값 = 0.4540, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0346/346_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0346/346_1.jpg
+  gen 356: 거리 = 0.4569, 임계값 = 0.4540, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0356/356_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0356/356_1.jpg
+  gen 359: 거리 = 0.4633, 임계값 = 0.4540, 차이 = 0.0093
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0359/359_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0359/359_1.jpg
+  gen 362: 거리 = 0.4543, 임계값 = 0.4540, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0362/362_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0362/362_1.jpg
+  gen 368: 거리 = 0.4787, 임계값 = 0.4540, 차이 = 0.0247
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0368/368_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0368/368_1.jpg
+  gen 372: 거리 = 0.4585, 임계값 = 0.4540, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0372/372_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0372/372_1.jpg
+  gen 380: 거리 = 0.4715, 임계값 = 0.4540, 차이 = 0.0175
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0380/380_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0380/380_1.jpg
+  gen 382: 거리 = 0.4664, 임계값 = 0.4540, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0382/382_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0382/382_1.jpg
+  gen 383: 거리 = 0.4626, 임계값 = 0.4540, 차이 = 0.0086
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0383/383_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0383/383_1.jpg
+  gen 401: 거리 = 0.4608, 임계값 = 0.4540, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0401/401_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0401/401_1.jpg
+  gen 402: 거리 = 0.4964, 임계값 = 0.4540, 차이 = 0.0424
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0402/402_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0402/402_1.jpg
+  gen 406: 거리 = 0.4589, 임계값 = 0.4540, 차이 = 0.0049
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0406/406_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0406/406_1.jpg
+  gen 407: 거리 = 0.4662, 임계값 = 0.4540, 차이 = 0.0122
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0407/407_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0407/407_1.jpg
+  gen 415: 거리 = 0.4544, 임계값 = 0.4540, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0415/415_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0415/415_1.jpg
+  gen 416: 거리 = 0.4574, 임계값 = 0.4540, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0416/416_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0416/416_1.jpg
+  gen 421: 거리 = 0.4854, 임계값 = 0.4540, 차이 = 0.0314
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0421/421_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0421/421_1.jpg
+  gen 423: 거리 = 0.5109, 임계값 = 0.4540, 차이 = 0.0569
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0423/423_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0423/423_1.jpg
+  gen 429: 거리 = 0.4697, 임계값 = 0.4540, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0429/429_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0429/429_1.jpg
+  gen 431: 거리 = 0.5001, 임계값 = 0.4540, 차이 = 0.0461
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0431/431_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0431/431_1.jpg
+  gen 433: 거리 = 0.5091, 임계값 = 0.4540, 차이 = 0.0551
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0433/433_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0433/433_1.jpg
+  gen 438: 거리 = 0.5023, 임계값 = 0.4540, 차이 = 0.0483
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0438/438_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0438/438_1.jpg
+  gen 451: 거리 = 0.4823, 임계값 = 0.4540, 차이 = 0.0283
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0451/451_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0451/451_1.jpg
+  gen 456: 거리 = 0.5005, 임계값 = 0.4540, 차이 = 0.0465
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0456/456_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0456/456_1.jpg
+  gen 467: 거리 = 0.4796, 임계값 = 0.4540, 차이 = 0.0256
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0467/467_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0467/467_1.jpg
+  gen 481: 거리 = 0.5007, 임계값 = 0.4540, 차이 = 0.0467
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0481/481_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0481/481_1.jpg
+  gen 483: 거리 = 0.4577, 임계값 = 0.4540, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0483/483_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0483/483_1.jpg
+  gen 491: 거리 = 0.4568, 임계값 = 0.4540, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0491/491_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0491/491_1.jpg
+  gen 494: 거리 = 0.4761, 임계값 = 0.4540, 차이 = 0.0221
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0494/494_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0494/494_1.jpg
+  gen 501: 거리 = 0.4866, 임계값 = 0.4540, 차이 = 0.0326
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0501/501_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0501/501_1.jpg
+  gen 511: 거리 = 0.4720, 임계값 = 0.4540, 차이 = 0.0180
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0511/511_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0511/511_1.jpg
+  gen 513: 거리 = 0.4811, 임계값 = 0.4540, 차이 = 0.0271
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0513/513_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0513/513_1.jpg
+  gen 516: 거리 = 0.4590, 임계값 = 0.4540, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0516/516_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0516/516_1.jpg
+  gen 522: 거리 = 0.4641, 임계값 = 0.4540, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0522/522_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0522/522_1.jpg
+  gen 530: 거리 = 0.4570, 임계값 = 0.4540, 차이 = 0.0030
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0530/530_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0530/530_1.jpg
+  gen 532: 거리 = 0.4790, 임계값 = 0.4540, 차이 = 0.0250
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0532/532_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0532/532_1.jpg
+  gen 533: 거리 = 0.4802, 임계값 = 0.4540, 차이 = 0.0262
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0533/533_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0533/533_1.jpg
+  gen 539: 거리 = 0.4812, 임계값 = 0.4540, 차이 = 0.0272
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0539/539_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0539/539_1.jpg
+  gen 543: 거리 = 0.4617, 임계값 = 0.4540, 차이 = 0.0077
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0543/543_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0543/543_1.jpg
+  gen 553: 거리 = 0.4727, 임계값 = 0.4540, 차이 = 0.0187
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0553/553_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0553/553_1.jpg
+  gen 556: 거리 = 0.4773, 임계값 = 0.4540, 차이 = 0.0233
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0556/556_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0556/556_1.jpg
+  gen 558: 거리 = 0.4921, 임계값 = 0.4540, 차이 = 0.0381
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0558/558_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0558/558_1.jpg
+  gen 559: 거리 = 0.4689, 임계값 = 0.4540, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0559/559_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0559/559_1.jpg
+  gen 567: 거리 = 0.4907, 임계값 = 0.4540, 차이 = 0.0367
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0567/567_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0567/567_1.jpg
+  gen 573: 거리 = 0.5129, 임계값 = 0.4540, 차이 = 0.0589
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0573/573_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0573/573_1.jpg
+  gen 579: 거리 = 0.5237, 임계값 = 0.4540, 차이 = 0.0697
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0579/579_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0579/579_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8961)
+
+거짓 양성(False Positive) 오탐지: 16개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 613: 거리 = 0.4411, 임계값 = 0.4540, 차이 = 0.0129
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0613/613_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0613/613_1.jpg
+  imp 619: 거리 = 0.4211, 임계값 = 0.4540, 차이 = 0.0329
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0619/619_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0619/619_1.jpg
+  imp 723: 거리 = 0.4537, 임계값 = 0.4540, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0723/723_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0723/723_1.jpg
+  imp 745: 거리 = 0.4505, 임계값 = 0.4540, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0745/745_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0745/745_1.jpg
+  imp 769: 거리 = 0.4402, 임계값 = 0.4540, 차이 = 0.0138
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0769/769_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0769/769_1.jpg
+  imp 787: 거리 = 0.4476, 임계값 = 0.4540, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0787/787_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0787/787_1.jpg
+  imp 793: 거리 = 0.3892, 임계값 = 0.4540, 차이 = 0.0648
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0793/793_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0793/793_1.jpg
+  imp 810: 거리 = 0.4357, 임계값 = 0.4540, 차이 = 0.0183
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0810/810_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0810/810_1.jpg
+  imp 815: 거리 = 0.4494, 임계값 = 0.4540, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0815/815_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0815/815_1.jpg
+  imp 835: 거리 = 0.4522, 임계값 = 0.4540, 차이 = 0.0018
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0835/835_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0835/835_1.jpg
+  imp 843: 거리 = 0.4427, 임계값 = 0.4540, 차이 = 0.0113
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0843/843_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0843/843_1.jpg
+  imp 855: 거리 = 0.4305, 임계값 = 0.4540, 차이 = 0.0235
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0855/855_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0855/855_1.jpg
+  imp 870: 거리 = 0.4466, 임계값 = 0.4540, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0870/870_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0870/870_1.jpg
+  imp 881: 거리 = 0.4380, 임계값 = 0.4540, 차이 = 0.0160
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0881/881_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0881/881_1.jpg
+  imp 883: 거리 = 0.4352, 임계값 = 0.4540, 차이 = 0.0188
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0883/883_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0883/883_1.jpg
+  imp 891: 거리 = 0.4384, 임계값 = 0.4540, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0891/891_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0891/891_1.jpg
+
+거짓 음성(False Negative) 오탐지: 46개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 601: 거리 = 0.4919, 임계값 = 0.4540, 차이 = 0.0379
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0601/601_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0601/601_1.jpg
+  gen 602: 거리 = 0.4983, 임계값 = 0.4540, 차이 = 0.0443
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0602/602_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0602/602_1.jpg
+  gen 608: 거리 = 0.4604, 임계값 = 0.4540, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0608/608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0608/608_1.jpg
+  gen 634: 거리 = 0.4648, 임계값 = 0.4540, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0634/634_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0634/634_1.jpg
+  gen 635: 거리 = 0.4658, 임계값 = 0.4540, 차이 = 0.0118
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0635/635_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0635/635_1.jpg
+  gen 636: 거리 = 0.4757, 임계값 = 0.4540, 차이 = 0.0217
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0636/636_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0636/636_1.jpg
+  gen 640: 거리 = 0.4947, 임계값 = 0.4540, 차이 = 0.0407
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0640/640_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0640/640_1.jpg
+  gen 644: 거리 = 0.4816, 임계값 = 0.4540, 차이 = 0.0276
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0644/644_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0644/644_1.jpg
+  gen 648: 거리 = 0.4607, 임계값 = 0.4540, 차이 = 0.0067
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0648/648_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0648/648_1.jpg
+  gen 649: 거리 = 0.4581, 임계값 = 0.4540, 차이 = 0.0041
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0649/649_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0649/649_1.jpg
+  gen 652: 거리 = 0.4689, 임계값 = 0.4540, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0652/652_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0652/652_1.jpg
+  gen 656: 거리 = 0.4737, 임계값 = 0.4540, 차이 = 0.0197
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0656/656_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0656/656_1.jpg
+  gen 660: 거리 = 0.4905, 임계값 = 0.4540, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0660/660_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0660/660_1.jpg
+  gen 661: 거리 = 0.4902, 임계값 = 0.4540, 차이 = 0.0362
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0661/661_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0661/661_1.jpg
+  gen 662: 거리 = 0.4873, 임계값 = 0.4540, 차이 = 0.0333
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0662/662_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0662/662_1.jpg
+  gen 673: 거리 = 0.4674, 임계값 = 0.4540, 차이 = 0.0134
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0673/673_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0673/673_1.jpg
+  gen 689: 거리 = 0.4888, 임계값 = 0.4540, 차이 = 0.0348
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0689/689_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0689/689_1.jpg
+  gen 694: 거리 = 0.4864, 임계값 = 0.4540, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0694/694_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0694/694_1.jpg
+  gen 695: 거리 = 0.4971, 임계값 = 0.4540, 차이 = 0.0431
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0695/695_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0695/695_1.jpg
+  gen 701: 거리 = 0.4680, 임계값 = 0.4540, 차이 = 0.0140
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0701/701_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0701/701_1.jpg
+  gen 702: 거리 = 0.4920, 임계값 = 0.4540, 차이 = 0.0380
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0702/702_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0702/702_1.jpg
+  gen 714: 거리 = 0.4566, 임계값 = 0.4540, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0714/714_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0714/714_1.jpg
+  gen 722: 거리 = 0.4749, 임계값 = 0.4540, 차이 = 0.0209
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0722/722_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0722/722_1.jpg
+  gen 741: 거리 = 0.5135, 임계값 = 0.4540, 차이 = 0.0595
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0741/741_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0741/741_1.jpg
+  gen 743: 거리 = 0.4622, 임계값 = 0.4540, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0743/743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0743/743_1.jpg
+  gen 745: 거리 = 0.5026, 임계값 = 0.4540, 차이 = 0.0486
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0745/745_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0745/745_1.jpg
+  gen 755: 거리 = 0.4821, 임계값 = 0.4540, 차이 = 0.0281
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0755/755_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0755/755_1.jpg
+  gen 760: 거리 = 0.4893, 임계값 = 0.4540, 차이 = 0.0353
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0760/760_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0760/760_1.jpg
+  gen 763: 거리 = 0.4551, 임계값 = 0.4540, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0763/763_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0763/763_1.jpg
+  gen 770: 거리 = 0.4691, 임계값 = 0.4540, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0770/770_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0770/770_1.jpg
+  gen 778: 거리 = 0.4880, 임계값 = 0.4540, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0778/778_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0778/778_1.jpg
+  gen 780: 거리 = 0.4550, 임계값 = 0.4540, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0780/780_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0780/780_1.jpg
+  gen 794: 거리 = 0.4659, 임계값 = 0.4540, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0794/794_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0794/794_1.jpg
+  gen 796: 거리 = 0.4780, 임계값 = 0.4540, 차이 = 0.0240
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0796/796_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0796/796_1.jpg
+  gen 809: 거리 = 0.4944, 임계값 = 0.4540, 차이 = 0.0404
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0809/809_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0809/809_1.jpg
+  gen 812: 거리 = 0.4789, 임계값 = 0.4540, 차이 = 0.0249
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0812/812_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0812/812_1.jpg
+  gen 823: 거리 = 0.4678, 임계값 = 0.4540, 차이 = 0.0138
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0823/823_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0823/823_1.jpg
+  gen 833: 거리 = 0.4725, 임계값 = 0.4540, 차이 = 0.0185
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0833/833_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0833/833_1.jpg
+  gen 848: 거리 = 0.4961, 임계값 = 0.4540, 차이 = 0.0421
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0848/848_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0848/848_1.jpg
+  gen 852: 거리 = 0.4880, 임계값 = 0.4540, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0852/852_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0852/852_1.jpg
+  gen 860: 거리 = 0.4706, 임계값 = 0.4540, 차이 = 0.0166
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0860/860_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0860/860_1.jpg
+  gen 863: 거리 = 0.4573, 임계값 = 0.4540, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0863/863_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0863/863_1.jpg
+  gen 877: 거리 = 0.4810, 임계값 = 0.4540, 차이 = 0.0270
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0877/877_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0877/877_1.jpg
+  gen 880: 거리 = 0.4843, 임계값 = 0.4540, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0880/880_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0880/880_1.jpg
+  gen 885: 거리 = 0.4685, 임계값 = 0.4540, 차이 = 0.0145
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0885/885_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0885/885_1.jpg
+  gen 887: 거리 = 0.4826, 임계값 = 0.4540, 차이 = 0.0286
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0887/887_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0887/887_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8956)
+
+거짓 양성(False Positive) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 902: 거리 = 0.4413, 임계값 = 0.4540, 차이 = 0.0127
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0902/902_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0902/902_1.jpg
+  imp 919: 거리 = 0.4472, 임계값 = 0.4540, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0919/919_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0919/919_1.jpg
+  imp 975: 거리 = 0.4507, 임계값 = 0.4540, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0975/975_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0975/975_1.jpg
+  imp 984: 거리 = 0.4382, 임계값 = 0.4540, 차이 = 0.0158
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/0984/984_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/0984/984_1.jpg
+  imp 1015: 거리 = 0.4532, 임계값 = 0.4540, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1015/1015_1.jpg
+  imp 1027: 거리 = 0.4462, 임계값 = 0.4540, 차이 = 0.0078
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1027/1027_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1027/1027_1.jpg
+  imp 1037: 거리 = 0.4379, 임계값 = 0.4540, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1037/1037_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1037/1037_1.jpg
+  imp 1084: 거리 = 0.4520, 임계값 = 0.4540, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1084/1084_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1084/1084_1.jpg
+  imp 1121: 거리 = 0.4458, 임계값 = 0.4540, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1121/1121_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1121/1121_1.jpg
+  imp 1152: 거리 = 0.4430, 임계값 = 0.4540, 차이 = 0.0110
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1152/1152_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1152/1152_1.jpg
+  imp 1166: 거리 = 0.4246, 임계값 = 0.4540, 차이 = 0.0294
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1166/1166_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1166/1166_1.jpg
+  imp 1173: 거리 = 0.4452, 임계값 = 0.4540, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1173/1173_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1173/1173_1.jpg
+  imp 1175: 거리 = 0.4448, 임계값 = 0.4540, 차이 = 0.0092
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1175/1175_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1175/1175_1.jpg
+
+거짓 음성(False Negative) 오탐지: 46개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 908: 거리 = 0.4740, 임계값 = 0.4540, 차이 = 0.0200
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0908/908_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0908/908_1.jpg
+  gen 914: 거리 = 0.4630, 임계값 = 0.4540, 차이 = 0.0090
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0914/914_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0914/914_1.jpg
+  gen 918: 거리 = 0.4604, 임계값 = 0.4540, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0918/918_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0918/918_1.jpg
+  gen 923: 거리 = 0.4641, 임계값 = 0.4540, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0923/923_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0923/923_1.jpg
+  gen 931: 거리 = 0.4796, 임계값 = 0.4540, 차이 = 0.0256
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0931/931_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0931/931_1.jpg
+  gen 938: 거리 = 0.4812, 임계값 = 0.4540, 차이 = 0.0272
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0938/938_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0938/938_1.jpg
+  gen 945: 거리 = 0.4721, 임계값 = 0.4540, 차이 = 0.0181
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0945/945_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0945/945_1.jpg
+  gen 947: 거리 = 0.4910, 임계값 = 0.4540, 차이 = 0.0370
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0947/947_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0947/947_1.jpg
+  gen 952: 거리 = 0.4697, 임계값 = 0.4540, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0952/952_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0952/952_1.jpg
+  gen 955: 거리 = 0.4649, 임계값 = 0.4540, 차이 = 0.0109
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0955/955_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0955/955_1.jpg
+  gen 960: 거리 = 0.4547, 임계값 = 0.4540, 차이 = 0.0007
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0960/960_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0960/960_1.jpg
+  gen 967: 거리 = 0.4642, 임계값 = 0.4540, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0967/967_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0967/967_1.jpg
+  gen 979: 거리 = 0.4903, 임계값 = 0.4540, 차이 = 0.0363
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/0979/979_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/0979/979_1.jpg
+  gen 1000: 거리 = 0.4629, 임계값 = 0.4540, 차이 = 0.0089
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1000/1000_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1000/1000_1.jpg
+  gen 1012: 거리 = 0.4623, 임계값 = 0.4540, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1012/1012_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1012/1012_1.jpg
+  gen 1015: 거리 = 0.4802, 임계값 = 0.4540, 차이 = 0.0262
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1015/1015_1.jpg
+  gen 1017: 거리 = 0.4764, 임계값 = 0.4540, 차이 = 0.0224
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1017/1017_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1017/1017_1.jpg
+  gen 1019: 거리 = 0.5309, 임계값 = 0.4540, 차이 = 0.0769
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1019/1019_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1019/1019_1.jpg
+  gen 1023: 거리 = 0.4638, 임계값 = 0.4540, 차이 = 0.0098
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1023/1023_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1023/1023_1.jpg
+  gen 1027: 거리 = 0.4565, 임계값 = 0.4540, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1027/1027_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1027/1027_1.jpg
+  gen 1031: 거리 = 0.4932, 임계값 = 0.4540, 차이 = 0.0392
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1031/1031_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1031/1031_1.jpg
+  gen 1032: 거리 = 0.4632, 임계값 = 0.4540, 차이 = 0.0092
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1032/1032_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1032/1032_1.jpg
+  gen 1038: 거리 = 0.5076, 임계값 = 0.4540, 차이 = 0.0536
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1038/1038_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1038/1038_1.jpg
+  gen 1046: 거리 = 0.4763, 임계값 = 0.4540, 차이 = 0.0223
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1046/1046_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1046/1046_1.jpg
+  gen 1047: 거리 = 0.4905, 임계값 = 0.4540, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1047/1047_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1047/1047_1.jpg
+  gen 1064: 거리 = 0.4819, 임계값 = 0.4540, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1064/1064_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1064/1064_1.jpg
+  gen 1068: 거리 = 0.4840, 임계값 = 0.4540, 차이 = 0.0300
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1068/1068_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1068/1068_1.jpg
+  gen 1069: 거리 = 0.4569, 임계값 = 0.4540, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1069/1069_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1069/1069_1.jpg
+  gen 1072: 거리 = 0.4710, 임계값 = 0.4540, 차이 = 0.0170
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1072/1072_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1072/1072_1.jpg
+  gen 1082: 거리 = 0.4856, 임계값 = 0.4540, 차이 = 0.0316
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1082/1082_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1082/1082_1.jpg
+  gen 1084: 거리 = 0.4803, 임계값 = 0.4540, 차이 = 0.0263
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1084/1084_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1084/1084_1.jpg
+  gen 1086: 거리 = 0.4751, 임계값 = 0.4540, 차이 = 0.0211
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1086/1086_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1086/1086_1.jpg
+  gen 1095: 거리 = 0.4645, 임계값 = 0.4540, 차이 = 0.0105
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1095/1095_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1095/1095_1.jpg
+  gen 1104: 거리 = 0.4594, 임계값 = 0.4540, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1104/1104_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1104/1104_1.jpg
+  gen 1105: 거리 = 0.4989, 임계값 = 0.4540, 차이 = 0.0449
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1105/1105_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1105/1105_1.jpg
+  gen 1107: 거리 = 0.5079, 임계값 = 0.4540, 차이 = 0.0539
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1107/1107_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1107/1107_1.jpg
+  gen 1110: 거리 = 0.4808, 임계값 = 0.4540, 차이 = 0.0268
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1110/1110_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1110/1110_1.jpg
+  gen 1116: 거리 = 0.4880, 임계값 = 0.4540, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1116/1116_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1116/1116_1.jpg
+  gen 1147: 거리 = 0.4596, 임계값 = 0.4540, 차이 = 0.0056
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1147/1147_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1147/1147_1.jpg
+  gen 1148: 거리 = 0.4641, 임계값 = 0.4540, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1148/1148_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1148/1148_1.jpg
+  gen 1151: 거리 = 0.4831, 임계값 = 0.4540, 차이 = 0.0291
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1151/1151_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1151/1151_1.jpg
+  gen 1160: 거리 = 0.4724, 임계값 = 0.4540, 차이 = 0.0184
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1160/1160_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1160/1160_1.jpg
+  gen 1167: 거리 = 0.4806, 임계값 = 0.4540, 차이 = 0.0266
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1167/1167_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1167/1167_1.jpg
+  gen 1170: 거리 = 0.4600, 임계값 = 0.4540, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1170/1170_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1170/1170_1.jpg
+  gen 1189: 거리 = 0.4639, 임계값 = 0.4540, 차이 = 0.0099
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1189/1189_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1189/1189_1.jpg
+  gen 1192: 거리 = 0.4810, 임계값 = 0.4540, 차이 = 0.0270
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1192/1192_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1192/1192_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8969)
+
+거짓 양성(False Positive) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1223: 거리 = 0.4404, 임계값 = 0.4540, 차이 = 0.0136
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1223/1223_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1223/1223_1.jpg
+  imp 1230: 거리 = 0.4494, 임계값 = 0.4540, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1230/1230_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1230/1230_1.jpg
+  imp 1274: 거리 = 0.4262, 임계값 = 0.4540, 차이 = 0.0278
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1274/1274_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1274/1274_1.jpg
+  imp 1296: 거리 = 0.4408, 임계값 = 0.4540, 차이 = 0.0132
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1296/1296_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1296/1296_1.jpg
+  imp 1332: 거리 = 0.4486, 임계값 = 0.4540, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1332/1332_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1332/1332_1.jpg
+  imp 1339: 거리 = 0.4413, 임계값 = 0.4540, 차이 = 0.0127
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1339/1339_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1339/1339_1.jpg
+  imp 1394: 거리 = 0.4458, 임계값 = 0.4540, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1394/1394_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1394/1394_1.jpg
+  imp 1396: 거리 = 0.4425, 임계값 = 0.4540, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1396/1396_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1396/1396_1.jpg
+  imp 1399: 거리 = 0.4046, 임계값 = 0.4540, 차이 = 0.0494
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1399/1399_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1399/1399_1.jpg
+  imp 1410: 거리 = 0.4498, 임계값 = 0.4540, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1410/1410_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1410/1410_1.jpg
+  imp 1426: 거리 = 0.4336, 임계값 = 0.4540, 차이 = 0.0204
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1426/1426_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1426/1426_1.jpg
+  imp 1450: 거리 = 0.4529, 임계값 = 0.4540, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1450/1450_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1450/1450_1.jpg
+
+거짓 음성(False Negative) 오탐지: 54개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1202: 거리 = 0.4779, 임계값 = 0.4540, 차이 = 0.0239
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1202/1202_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1202/1202_1.jpg
+  gen 1205: 거리 = 0.4637, 임계값 = 0.4540, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1205/1205_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1205/1205_1.jpg
+  gen 1221: 거리 = 0.4907, 임계값 = 0.4540, 차이 = 0.0367
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1221/1221_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1221/1221_1.jpg
+  gen 1235: 거리 = 0.4627, 임계값 = 0.4540, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1235/1235_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1235/1235_1.jpg
+  gen 1236: 거리 = 0.4597, 임계값 = 0.4540, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1236/1236_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1236/1236_1.jpg
+  gen 1240: 거리 = 0.5069, 임계값 = 0.4540, 차이 = 0.0529
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1240/1240_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1240/1240_1.jpg
+  gen 1241: 거리 = 0.4706, 임계값 = 0.4540, 차이 = 0.0166
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1241/1241_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1241/1241_1.jpg
+  gen 1243: 거리 = 0.4753, 임계값 = 0.4540, 차이 = 0.0213
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1243/1243_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1243/1243_1.jpg
+  gen 1253: 거리 = 0.4807, 임계값 = 0.4540, 차이 = 0.0267
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1253/1253_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1253/1253_1.jpg
+  gen 1264: 거리 = 0.4598, 임계값 = 0.4540, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1264/1264_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1264/1264_1.jpg
+  gen 1277: 거리 = 0.4785, 임계값 = 0.4540, 차이 = 0.0245
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1277/1277_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1277/1277_1.jpg
+  gen 1290: 거리 = 0.4636, 임계값 = 0.4540, 차이 = 0.0096
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1290/1290_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1290/1290_1.jpg
+  gen 1292: 거리 = 0.4693, 임계값 = 0.4540, 차이 = 0.0153
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1292/1292_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1292/1292_1.jpg
+  gen 1293: 거리 = 0.4707, 임계값 = 0.4540, 차이 = 0.0167
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1293/1293_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1293/1293_1.jpg
+  gen 1308: 거리 = 0.4715, 임계값 = 0.4540, 차이 = 0.0175
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1308/1308_1.jpg
+  gen 1318: 거리 = 0.4985, 임계값 = 0.4540, 차이 = 0.0445
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1318/1318_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1318/1318_1.jpg
+  gen 1320: 거리 = 0.4659, 임계값 = 0.4540, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1320/1320_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1320/1320_1.jpg
+  gen 1329: 거리 = 0.4747, 임계값 = 0.4540, 차이 = 0.0207
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1329/1329_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1329/1329_1.jpg
+  gen 1333: 거리 = 0.4588, 임계값 = 0.4540, 차이 = 0.0048
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1333/1333_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1333/1333_1.jpg
+  gen 1341: 거리 = 0.4705, 임계값 = 0.4540, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1341/1341_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1341/1341_1.jpg
+  gen 1347: 거리 = 0.4824, 임계값 = 0.4540, 차이 = 0.0284
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1347/1347_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1347/1347_1.jpg
+  gen 1352: 거리 = 0.4659, 임계값 = 0.4540, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1352/1352_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1352/1352_1.jpg
+  gen 1355: 거리 = 0.4692, 임계값 = 0.4540, 차이 = 0.0152
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1355/1355_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1355/1355_1.jpg
+  gen 1361: 거리 = 0.4929, 임계값 = 0.4540, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1361/1361_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1361/1361_1.jpg
+  gen 1362: 거리 = 0.4773, 임계값 = 0.4540, 차이 = 0.0233
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1362/1362_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1362/1362_1.jpg
+  gen 1363: 거리 = 0.4817, 임계값 = 0.4540, 차이 = 0.0277
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1363/1363_1.jpg
+  gen 1367: 거리 = 0.4845, 임계값 = 0.4540, 차이 = 0.0305
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1367/1367_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1367/1367_1.jpg
+  gen 1372: 거리 = 0.4563, 임계값 = 0.4540, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1372/1372_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1372/1372_1.jpg
+  gen 1373: 거리 = 0.4813, 임계값 = 0.4540, 차이 = 0.0273
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1373/1373_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1373/1373_1.jpg
+  gen 1374: 거리 = 0.4606, 임계값 = 0.4540, 차이 = 0.0066
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1374/1374_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1374/1374_1.jpg
+  gen 1384: 거리 = 0.4599, 임계값 = 0.4540, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1384/1384_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1384/1384_1.jpg
+  gen 1396: 거리 = 0.4687, 임계값 = 0.4540, 차이 = 0.0147
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1396/1396_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1396/1396_1.jpg
+  gen 1405: 거리 = 0.4591, 임계값 = 0.4540, 차이 = 0.0051
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1405/1405_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1405/1405_1.jpg
+  gen 1410: 거리 = 0.5070, 임계값 = 0.4540, 차이 = 0.0530
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1410/1410_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1410/1410_1.jpg
+  gen 1412: 거리 = 0.4852, 임계값 = 0.4540, 차이 = 0.0312
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1412/1412_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1412/1412_1.jpg
+  gen 1423: 거리 = 0.4864, 임계값 = 0.4540, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1423/1423_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1423/1423_1.jpg
+  gen 1425: 거리 = 0.4637, 임계값 = 0.4540, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1425/1425_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1425/1425_1.jpg
+  gen 1426: 거리 = 0.4550, 임계값 = 0.4540, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1426/1426_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1426/1426_1.jpg
+  gen 1431: 거리 = 0.4813, 임계값 = 0.4540, 차이 = 0.0273
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1431/1431_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1431/1431_1.jpg
+  gen 1432: 거리 = 0.4552, 임계값 = 0.4540, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1432/1432_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1432/1432_1.jpg
+  gen 1448: 거리 = 0.4664, 임계값 = 0.4540, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1448/1448_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1448/1448_1.jpg
+  gen 1453: 거리 = 0.4718, 임계값 = 0.4540, 차이 = 0.0178
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1453/1453_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1453/1453_1.jpg
+  gen 1458: 거리 = 0.4713, 임계값 = 0.4540, 차이 = 0.0173
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1458/1458_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1458/1458_1.jpg
+  gen 1460: 거리 = 0.5051, 임계값 = 0.4540, 차이 = 0.0511
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1460/1460_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1460/1460_1.jpg
+  gen 1462: 거리 = 0.4716, 임계값 = 0.4540, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1462/1462_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1462/1462_1.jpg
+  gen 1463: 거리 = 0.4738, 임계값 = 0.4540, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1463/1463_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1463/1463_1.jpg
+  gen 1468: 거리 = 0.4742, 임계값 = 0.4540, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1468/1468_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1468/1468_1.jpg
+  gen 1472: 거리 = 0.4754, 임계값 = 0.4540, 차이 = 0.0214
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1472/1472_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1472/1472_1.jpg
+  gen 1474: 거리 = 0.4709, 임계값 = 0.4540, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1474/1474_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1474/1474_1.jpg
+  gen 1477: 거리 = 0.4968, 임계값 = 0.4540, 차이 = 0.0428
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1477/1477_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1477/1477_1.jpg
+  gen 1478: 거리 = 0.4780, 임계값 = 0.4540, 차이 = 0.0240
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1478/1478_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1478/1478_1.jpg
+  gen 1481: 거리 = 0.5105, 임계값 = 0.4540, 차이 = 0.0565
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1481/1481_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1481/1481_1.jpg
+  gen 1497: 거리 = 0.4643, 임계값 = 0.4540, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1497/1497_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1497/1497_1.jpg
+  gen 1499: 거리 = 0.5459, 임계값 = 0.4540, 차이 = 0.0919
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1499/1499_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1499/1499_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8961)
+
+거짓 양성(False Positive) 오탐지: 21개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1542: 거리 = 0.4436, 임계값 = 0.4540, 차이 = 0.0104
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1542/1542_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1542/1542_1.jpg
+  imp 1561: 거리 = 0.4015, 임계값 = 0.4540, 차이 = 0.0525
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1561/1561_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1561/1561_1.jpg
+  imp 1593: 거리 = 0.4272, 임계값 = 0.4540, 차이 = 0.0268
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1593/1593_1.jpg
+  imp 1594: 거리 = 0.4537, 임계값 = 0.4540, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1594/1594_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1594/1594_1.jpg
+  imp 1600: 거리 = 0.4461, 임계값 = 0.4540, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1600/1600_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1600/1600_1.jpg
+  imp 1603: 거리 = 0.4485, 임계값 = 0.4540, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1603/1603_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1603/1603_1.jpg
+  imp 1606: 거리 = 0.4386, 임계값 = 0.4540, 차이 = 0.0154
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1606/1606_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1606/1606_1.jpg
+  imp 1624: 거리 = 0.4502, 임계값 = 0.4540, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1624/1624_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1624/1624_1.jpg
+  imp 1633: 거리 = 0.4293, 임계값 = 0.4540, 차이 = 0.0247
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1633/1633_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1633/1633_1.jpg
+  imp 1658: 거리 = 0.4503, 임계값 = 0.4540, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1658/1658_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1658/1658_1.jpg
+  imp 1676: 거리 = 0.4452, 임계값 = 0.4540, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1676/1676_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1676/1676_1.jpg
+  imp 1683: 거리 = 0.4511, 임계값 = 0.4540, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1683/1683_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1683/1683_1.jpg
+  imp 1700: 거리 = 0.4472, 임계값 = 0.4540, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1700/1700_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1700/1700_1.jpg
+  imp 1716: 거리 = 0.4471, 임계값 = 0.4540, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1716/1716_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1716/1716_1.jpg
+  imp 1721: 거리 = 0.4078, 임계값 = 0.4540, 차이 = 0.0462
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1721/1721_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1721/1721_1.jpg
+  imp 1728: 거리 = 0.4375, 임계값 = 0.4540, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1728/1728_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1728/1728_1.jpg
+  imp 1731: 거리 = 0.4517, 임계값 = 0.4540, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1731/1731_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1731/1731_1.jpg
+  imp 1776: 거리 = 0.4464, 임계값 = 0.4540, 차이 = 0.0076
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1776/1776_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1776/1776_1.jpg
+  imp 1793: 거리 = 0.4472, 임계값 = 0.4540, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1793/1793_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1793/1793_1.jpg
+  imp 1798: 거리 = 0.4263, 임계값 = 0.4540, 차이 = 0.0277
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1798/1798_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1798/1798_1.jpg
+  imp 1799: 거리 = 0.4341, 임계값 = 0.4540, 차이 = 0.0199
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1799/1799_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1799/1799_1.jpg
+
+거짓 음성(False Negative) 오탐지: 41개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1500: 거리 = 0.4696, 임계값 = 0.4540, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1500/1500_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1500/1500_1.jpg
+  gen 1521: 거리 = 0.4609, 임계값 = 0.4540, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1521/1521_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1521/1521_1.jpg
+  gen 1526: 거리 = 0.4879, 임계값 = 0.4540, 차이 = 0.0339
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1526/1526_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1526/1526_1.jpg
+  gen 1530: 거리 = 0.4573, 임계값 = 0.4540, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1530/1530_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1530/1530_1.jpg
+  gen 1536: 거리 = 0.4584, 임계값 = 0.4540, 차이 = 0.0044
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1536/1536_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1536/1536_1.jpg
+  gen 1538: 거리 = 0.4760, 임계값 = 0.4540, 차이 = 0.0220
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1538/1538_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1538/1538_1.jpg
+  gen 1543: 거리 = 0.4609, 임계값 = 0.4540, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1543/1543_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1543/1543_1.jpg
+  gen 1544: 거리 = 0.4571, 임계값 = 0.4540, 차이 = 0.0031
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1544/1544_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1544/1544_1.jpg
+  gen 1559: 거리 = 0.4772, 임계값 = 0.4540, 차이 = 0.0232
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1559/1559_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1559/1559_1.jpg
+  gen 1563: 거리 = 0.4743, 임계값 = 0.4540, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1563/1563_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1563/1563_1.jpg
+  gen 1565: 거리 = 0.4965, 임계값 = 0.4540, 차이 = 0.0425
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1565/1565_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1565/1565_1.jpg
+  gen 1569: 거리 = 0.4857, 임계값 = 0.4540, 차이 = 0.0317
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1569/1569_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1569/1569_1.jpg
+  gen 1570: 거리 = 0.4889, 임계값 = 0.4540, 차이 = 0.0349
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1570/1570_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1570/1570_1.jpg
+  gen 1571: 거리 = 0.4738, 임계값 = 0.4540, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1571/1571_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1571/1571_1.jpg
+  gen 1577: 거리 = 0.5067, 임계값 = 0.4540, 차이 = 0.0527
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1577/1577_1.jpg
+  gen 1579: 거리 = 0.5034, 임계값 = 0.4540, 차이 = 0.0494
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1579/1579_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1579/1579_1.jpg
+  gen 1581: 거리 = 0.4850, 임계값 = 0.4540, 차이 = 0.0310
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1581/1581_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1581/1581_1.jpg
+  gen 1589: 거리 = 0.4556, 임계값 = 0.4540, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1589/1589_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1589/1589_1.jpg
+  gen 1608: 거리 = 0.4651, 임계값 = 0.4540, 차이 = 0.0111
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1608/1608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1608/1608_1.jpg
+  gen 1611: 거리 = 0.4839, 임계값 = 0.4540, 차이 = 0.0299
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1611/1611_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1611/1611_1.jpg
+  gen 1614: 거리 = 0.4860, 임계값 = 0.4540, 차이 = 0.0320
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1614/1614_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1614/1614_1.jpg
+  gen 1628: 거리 = 0.4985, 임계값 = 0.4540, 차이 = 0.0445
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1628/1628_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1628/1628_1.jpg
+  gen 1636: 거리 = 0.4692, 임계값 = 0.4540, 차이 = 0.0152
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1636/1636_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1636/1636_1.jpg
+  gen 1640: 거리 = 0.4780, 임계값 = 0.4540, 차이 = 0.0240
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1640/1640_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1640/1640_1.jpg
+  gen 1643: 거리 = 0.4599, 임계값 = 0.4540, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1643/1643_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1643/1643_1.jpg
+  gen 1651: 거리 = 0.4828, 임계값 = 0.4540, 차이 = 0.0288
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1651/1651_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1651/1651_1.jpg
+  gen 1655: 거리 = 0.4580, 임계값 = 0.4540, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1655/1655_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1655/1655_1.jpg
+  gen 1657: 거리 = 0.4640, 임계값 = 0.4540, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1657/1657_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1657/1657_1.jpg
+  gen 1668: 거리 = 0.4609, 임계값 = 0.4540, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1668/1668_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1668/1668_1.jpg
+  gen 1671: 거리 = 0.4615, 임계값 = 0.4540, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1671/1671_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1671/1671_1.jpg
+  gen 1675: 거리 = 0.4568, 임계값 = 0.4540, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1675/1675_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1675/1675_1.jpg
+  gen 1680: 거리 = 0.5071, 임계값 = 0.4540, 차이 = 0.0531
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1680/1680_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1680/1680_1.jpg
+  gen 1689: 거리 = 0.4640, 임계값 = 0.4540, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1689/1689_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1689/1689_1.jpg
+  gen 1695: 거리 = 0.4877, 임계값 = 0.4540, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1695/1695_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1695/1695_1.jpg
+  gen 1726: 거리 = 0.4819, 임계값 = 0.4540, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1726/1726_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1726/1726_1.jpg
+  gen 1739: 거리 = 0.4691, 임계값 = 0.4540, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1739/1739_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1739/1739_1.jpg
+  gen 1742: 거리 = 0.4743, 임계값 = 0.4540, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1742/1742_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1742/1742_1.jpg
+  gen 1743: 거리 = 0.5189, 임계값 = 0.4540, 차이 = 0.0649
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1743/1743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1743/1743_1.jpg
+  gen 1772: 거리 = 0.4975, 임계값 = 0.4540, 차이 = 0.0435
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1772/1772_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1772/1772_1.jpg
+  gen 1781: 거리 = 0.4996, 임계값 = 0.4540, 차이 = 0.0456
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1781/1781_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1781/1781_1.jpg
+  gen 1786: 거리 = 0.4683, 임계값 = 0.4540, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1786/1786_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1786/1786_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8946)
+
+거짓 양성(False Positive) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1836: 거리 = 0.4392, 임계값 = 0.4540, 차이 = 0.0148
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1836/1836_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1836/1836_1.jpg
+  imp 1845: 거리 = 0.4474, 임계값 = 0.4540, 차이 = 0.0066
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1845/1845_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1845/1845_1.jpg
+  imp 1865: 거리 = 0.4463, 임계값 = 0.4540, 차이 = 0.0077
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1865/1865_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1865/1865_1.jpg
+  imp 1879: 거리 = 0.4466, 임계값 = 0.4540, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1879/1879_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1879/1879_1.jpg
+  imp 1944: 거리 = 0.4369, 임계값 = 0.4540, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1944/1944_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1944/1944_1.jpg
+  imp 1972: 거리 = 0.4470, 임계값 = 0.4540, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/1972/1972_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/1972/1972_1.jpg
+  imp 2034: 거리 = 0.4374, 임계값 = 0.4540, 차이 = 0.0166
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2034/2034_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2034/2034_1.jpg
+  imp 2043: 거리 = 0.4203, 임계값 = 0.4540, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2043/2043_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2043/2043_1.jpg
+  imp 2046: 거리 = 0.4294, 임계값 = 0.4540, 차이 = 0.0246
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2046/2046_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2046/2046_1.jpg
+  imp 2087: 거리 = 0.4142, 임계값 = 0.4540, 차이 = 0.0398
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2087/2087_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2087/2087_1.jpg
+  imp 2095: 거리 = 0.4315, 임계값 = 0.4540, 차이 = 0.0225
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2095/2095_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2095/2095_1.jpg
+
+거짓 음성(False Negative) 오탐지: 43개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1803: 거리 = 0.5277, 임계값 = 0.4540, 차이 = 0.0737
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1803/1803_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1803/1803_1.jpg
+  gen 1812: 거리 = 0.5003, 임계값 = 0.4540, 차이 = 0.0463
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1812/1812_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1812/1812_1.jpg
+  gen 1813: 거리 = 0.4693, 임계값 = 0.4540, 차이 = 0.0153
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1813/1813_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1813/1813_1.jpg
+  gen 1816: 거리 = 0.4619, 임계값 = 0.4540, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1816/1816_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1816/1816_1.jpg
+  gen 1818: 거리 = 0.4730, 임계값 = 0.4540, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1818/1818_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1818/1818_1.jpg
+  gen 1820: 거리 = 0.4748, 임계값 = 0.4540, 차이 = 0.0208
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1820/1820_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1820/1820_1.jpg
+  gen 1827: 거리 = 0.4564, 임계값 = 0.4540, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1827/1827_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1827/1827_1.jpg
+  gen 1834: 거리 = 0.4779, 임계값 = 0.4540, 차이 = 0.0239
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1834/1834_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1834/1834_1.jpg
+  gen 1835: 거리 = 0.4731, 임계값 = 0.4540, 차이 = 0.0191
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1835/1835_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1835/1835_1.jpg
+  gen 1842: 거리 = 0.4666, 임계값 = 0.4540, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1842/1842_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1842/1842_1.jpg
+  gen 1844: 거리 = 0.4549, 임계값 = 0.4540, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1844/1844_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1844/1844_1.jpg
+  gen 1850: 거리 = 0.4817, 임계값 = 0.4540, 차이 = 0.0277
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1850/1850_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1850/1850_1.jpg
+  gen 1857: 거리 = 0.5069, 임계값 = 0.4540, 차이 = 0.0529
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1857/1857_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1857/1857_1.jpg
+  gen 1859: 거리 = 0.4802, 임계값 = 0.4540, 차이 = 0.0262
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1859/1859_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1859/1859_1.jpg
+  gen 1860: 거리 = 0.4568, 임계값 = 0.4540, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1860/1860_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1860/1860_1.jpg
+  gen 1862: 거리 = 0.4782, 임계값 = 0.4540, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1862/1862_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1862/1862_1.jpg
+  gen 1877: 거리 = 0.5181, 임계값 = 0.4540, 차이 = 0.0641
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1877/1877_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1877/1877_1.jpg
+  gen 1891: 거리 = 0.4696, 임계값 = 0.4540, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1891/1891_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1891/1891_1.jpg
+  gen 1892: 거리 = 0.4727, 임계값 = 0.4540, 차이 = 0.0187
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1892/1892_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1892/1892_1.jpg
+  gen 1894: 거리 = 0.4765, 임계값 = 0.4540, 차이 = 0.0225
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1894/1894_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1894/1894_1.jpg
+  gen 1898: 거리 = 0.4663, 임계값 = 0.4540, 차이 = 0.0123
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1898/1898_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1898/1898_1.jpg
+  gen 1901: 거리 = 0.5092, 임계값 = 0.4540, 차이 = 0.0552
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1901/1901_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1901/1901_1.jpg
+  gen 1912: 거리 = 0.4777, 임계값 = 0.4540, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1912/1912_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1912/1912_1.jpg
+  gen 1922: 거리 = 0.4754, 임계값 = 0.4540, 차이 = 0.0214
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1922/1922_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1922/1922_1.jpg
+  gen 1927: 거리 = 0.4905, 임계값 = 0.4540, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1927/1927_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1927/1927_1.jpg
+  gen 1936: 거리 = 0.4930, 임계값 = 0.4540, 차이 = 0.0390
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1936/1936_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1936/1936_1.jpg
+  gen 1947: 거리 = 0.4701, 임계값 = 0.4540, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1947/1947_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1947/1947_1.jpg
+  gen 1953: 거리 = 0.4827, 임계값 = 0.4540, 차이 = 0.0287
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1953/1953_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1953/1953_1.jpg
+  gen 1961: 거리 = 0.4693, 임계값 = 0.4540, 차이 = 0.0153
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1961/1961_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1961/1961_1.jpg
+  gen 1967: 거리 = 0.4819, 임계값 = 0.4540, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1967/1967_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1967/1967_1.jpg
+  gen 1969: 거리 = 0.4555, 임계값 = 0.4540, 차이 = 0.0015
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1969/1969_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1969/1969_1.jpg
+  gen 1974: 거리 = 0.4680, 임계값 = 0.4540, 차이 = 0.0140
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1974/1974_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1974/1974_1.jpg
+  gen 1979: 거리 = 0.4626, 임계값 = 0.4540, 차이 = 0.0086
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1979/1979_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1979/1979_1.jpg
+  gen 1980: 거리 = 0.4730, 임계값 = 0.4540, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1980/1980_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1980/1980_1.jpg
+  gen 1989: 거리 = 0.4618, 임계값 = 0.4540, 차이 = 0.0078
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/1989/1989_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/1989/1989_1.jpg
+  gen 2008: 거리 = 0.4972, 임계값 = 0.4540, 차이 = 0.0432
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2008/2008_1.jpg
+  gen 2025: 거리 = 0.4569, 임계값 = 0.4540, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2025/2025_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2025/2025_1.jpg
+  gen 2029: 거리 = 0.5059, 임계값 = 0.4540, 차이 = 0.0519
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2029/2029_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2029/2029_1.jpg
+  gen 2038: 거리 = 0.4986, 임계값 = 0.4540, 차이 = 0.0446
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2038/2038_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2038/2038_1.jpg
+  gen 2040: 거리 = 0.4593, 임계값 = 0.4540, 차이 = 0.0053
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2040/2040_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2040/2040_1.jpg
+  gen 2048: 거리 = 0.4748, 임계값 = 0.4540, 차이 = 0.0208
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2048/2048_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2048/2048_1.jpg
+  gen 2064: 거리 = 0.4778, 임계값 = 0.4540, 차이 = 0.0238
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2064/2064_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2064/2064_1.jpg
+  gen 2099: 거리 = 0.4556, 임계값 = 0.4540, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2099/2099_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2099/2099_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4550 (훈련 정확도: 0.8969)
+
+거짓 양성(False Positive) 오탐지: 27개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2117: 거리 = 0.4550, 임계값 = 0.4550, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2117/2117_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2117/2117_1.jpg
+  imp 2125: 거리 = 0.4538, 임계값 = 0.4550, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2125/2125_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2125/2125_1.jpg
+  imp 2136: 거리 = 0.4356, 임계값 = 0.4550, 차이 = 0.0194
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2136/2136_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2136/2136_1.jpg
+  imp 2182: 거리 = 0.4436, 임계값 = 0.4550, 차이 = 0.0114
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2182/2182_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2182/2182_1.jpg
+  imp 2184: 거리 = 0.4429, 임계값 = 0.4550, 차이 = 0.0121
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2184/2184_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2184/2184_1.jpg
+  imp 2186: 거리 = 0.4540, 임계값 = 0.4550, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2186/2186_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2186/2186_1.jpg
+  imp 2198: 거리 = 0.4524, 임계값 = 0.4550, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2198/2198_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2198/2198_1.jpg
+  imp 2226: 거리 = 0.4471, 임계값 = 0.4550, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2226/2226_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2226/2226_1.jpg
+  imp 2252: 거리 = 0.4283, 임계값 = 0.4550, 차이 = 0.0267
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2252/2252_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2252/2252_1.jpg
+  imp 2297: 거리 = 0.4392, 임계값 = 0.4550, 차이 = 0.0158
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2297/2297_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2297/2297_1.jpg
+  imp 2298: 거리 = 0.4548, 임계값 = 0.4550, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2298/2298_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2298/2298_1.jpg
+  imp 2299: 거리 = 0.4059, 임계값 = 0.4550, 차이 = 0.0491
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2299/2299_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2299/2299_1.jpg
+  imp 2308: 거리 = 0.4359, 임계값 = 0.4550, 차이 = 0.0191
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2308/2308_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2308/2308_1.jpg
+  imp 2318: 거리 = 0.4546, 임계값 = 0.4550, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2318/2318_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2318/2318_1.jpg
+  imp 2319: 거리 = 0.4548, 임계값 = 0.4550, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2319/2319_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2319/2319_1.jpg
+  imp 2323: 거리 = 0.4471, 임계값 = 0.4550, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2323/2323_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2323/2323_1.jpg
+  imp 2324: 거리 = 0.4534, 임계값 = 0.4550, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2324/2324_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2324/2324_1.jpg
+  imp 2326: 거리 = 0.4490, 임계값 = 0.4550, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2326/2326_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2326/2326_1.jpg
+  imp 2345: 거리 = 0.4467, 임계값 = 0.4550, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2345/2345_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2345/2345_1.jpg
+  imp 2349: 거리 = 0.4422, 임계값 = 0.4550, 차이 = 0.0128
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2349/2349_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2349/2349_1.jpg
+  imp 2353: 거리 = 0.4387, 임계값 = 0.4550, 차이 = 0.0163
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2353/2353_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2353/2353_1.jpg
+  imp 2358: 거리 = 0.4301, 임계값 = 0.4550, 차이 = 0.0249
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2358/2358_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2358/2358_1.jpg
+  imp 2364: 거리 = 0.4477, 임계값 = 0.4550, 차이 = 0.0073
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2364/2364_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2364/2364_1.jpg
+  imp 2366: 거리 = 0.4290, 임계값 = 0.4550, 차이 = 0.0260
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2366/2366_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2366/2366_1.jpg
+  imp 2368: 거리 = 0.4542, 임계값 = 0.4550, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2368/2368_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2368/2368_1.jpg
+  imp 2376: 거리 = 0.4431, 임계값 = 0.4550, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2376/2376_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2376/2376_1.jpg
+  imp 2398: 거리 = 0.4514, 임계값 = 0.4550, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2398/2398_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2398/2398_1.jpg
+
+거짓 음성(False Negative) 오탐지: 41개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2100: 거리 = 0.4739, 임계값 = 0.4550, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2100/2100_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2100/2100_1.jpg
+  gen 2102: 거리 = 0.4580, 임계값 = 0.4550, 차이 = 0.0030
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2102/2102_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2102/2102_1.jpg
+  gen 2114: 거리 = 0.4551, 임계값 = 0.4550, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2114/2114_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2114/2114_1.jpg
+  gen 2117: 거리 = 0.4617, 임계값 = 0.4550, 차이 = 0.0067
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2117/2117_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2117/2117_1.jpg
+  gen 2124: 거리 = 0.4769, 임계값 = 0.4550, 차이 = 0.0219
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2124/2124_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2124/2124_1.jpg
+  gen 2127: 거리 = 0.4556, 임계값 = 0.4550, 차이 = 0.0006
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2127/2127_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2127/2127_1.jpg
+  gen 2138: 거리 = 0.5093, 임계값 = 0.4550, 차이 = 0.0543
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2138/2138_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2138/2138_1.jpg
+  gen 2141: 거리 = 0.5155, 임계값 = 0.4550, 차이 = 0.0605
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2141/2141_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2141/2141_1.jpg
+  gen 2145: 거리 = 0.4668, 임계값 = 0.4550, 차이 = 0.0118
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2145/2145_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2145/2145_1.jpg
+  gen 2162: 거리 = 0.4581, 임계값 = 0.4550, 차이 = 0.0031
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2162/2162_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2162/2162_1.jpg
+  gen 2166: 거리 = 0.4910, 임계값 = 0.4550, 차이 = 0.0360
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2166/2166_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2166/2166_1.jpg
+  gen 2167: 거리 = 0.4976, 임계값 = 0.4550, 차이 = 0.0426
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2167/2167_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2167/2167_1.jpg
+  gen 2169: 거리 = 0.4885, 임계값 = 0.4550, 차이 = 0.0335
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2169/2169_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2169/2169_1.jpg
+  gen 2176: 거리 = 0.5054, 임계값 = 0.4550, 차이 = 0.0504
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2176/2176_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2176/2176_1.jpg
+  gen 2187: 거리 = 0.4827, 임계값 = 0.4550, 차이 = 0.0277
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2187/2187_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2187/2187_1.jpg
+  gen 2194: 거리 = 0.4721, 임계값 = 0.4550, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2194/2194_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2194/2194_1.jpg
+  gen 2195: 거리 = 0.4790, 임계값 = 0.4550, 차이 = 0.0240
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2195/2195_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2195/2195_1.jpg
+  gen 2198: 거리 = 0.4987, 임계값 = 0.4550, 차이 = 0.0437
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2198/2198_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2198/2198_1.jpg
+  gen 2202: 거리 = 0.4731, 임계값 = 0.4550, 차이 = 0.0181
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2202/2202_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2202/2202_1.jpg
+  gen 2203: 거리 = 0.4703, 임계값 = 0.4550, 차이 = 0.0153
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2203/2203_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2203/2203_1.jpg
+  gen 2211: 거리 = 0.4685, 임계값 = 0.4550, 차이 = 0.0135
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2211/2211_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2211/2211_1.jpg
+  gen 2213: 거리 = 0.4935, 임계값 = 0.4550, 차이 = 0.0385
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2213/2213_1.jpg
+  gen 2226: 거리 = 0.4983, 임계값 = 0.4550, 차이 = 0.0433
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2226/2226_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2226/2226_1.jpg
+  gen 2232: 거리 = 0.4954, 임계값 = 0.4550, 차이 = 0.0404
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2232/2232_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2232/2232_1.jpg
+  gen 2234: 거리 = 0.4554, 임계값 = 0.4550, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2234/2234_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2234/2234_1.jpg
+  gen 2235: 거리 = 0.4977, 임계값 = 0.4550, 차이 = 0.0427
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2235/2235_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2235/2235_1.jpg
+  gen 2248: 거리 = 0.5161, 임계값 = 0.4550, 차이 = 0.0611
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2248/2248_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2248/2248_1.jpg
+  gen 2267: 거리 = 0.5189, 임계값 = 0.4550, 차이 = 0.0639
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2267/2267_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2267/2267_1.jpg
+  gen 2275: 거리 = 0.4567, 임계값 = 0.4550, 차이 = 0.0017
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2275/2275_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2275/2275_1.jpg
+  gen 2283: 거리 = 0.4662, 임계값 = 0.4550, 차이 = 0.0112
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2283/2283_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2283/2283_1.jpg
+  gen 2303: 거리 = 0.4772, 임계값 = 0.4550, 차이 = 0.0222
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2303/2303_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2303/2303_1.jpg
+  gen 2319: 거리 = 0.4753, 임계값 = 0.4550, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2319/2319_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2319/2319_1.jpg
+  gen 2325: 거리 = 0.4855, 임계값 = 0.4550, 차이 = 0.0305
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2325/2325_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2325/2325_1.jpg
+  gen 2330: 거리 = 0.4577, 임계값 = 0.4550, 차이 = 0.0027
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2330/2330_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2330/2330_1.jpg
+  gen 2344: 거리 = 0.4850, 임계값 = 0.4550, 차이 = 0.0300
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2344/2344_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2344/2344_1.jpg
+  gen 2352: 거리 = 0.4807, 임계값 = 0.4550, 차이 = 0.0257
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2352/2352_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2352/2352_1.jpg
+  gen 2359: 거리 = 0.4913, 임계값 = 0.4550, 차이 = 0.0363
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2359/2359_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2359/2359_1.jpg
+  gen 2383: 거리 = 0.4674, 임계값 = 0.4550, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2383/2383_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2383/2383_1.jpg
+  gen 2385: 거리 = 0.4950, 임계값 = 0.4550, 차이 = 0.0400
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2385/2385_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2385/2385_1.jpg
+  gen 2391: 거리 = 0.4634, 임계값 = 0.4550, 차이 = 0.0084
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2391/2391_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2391/2391_1.jpg
+  gen 2395: 거리 = 0.4764, 임계값 = 0.4550, 차이 = 0.0214
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2395/2395_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2395/2395_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8974)
+
+거짓 양성(False Positive) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2465: 거리 = 0.4163, 임계값 = 0.4540, 차이 = 0.0377
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2465/2465_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2465/2465_1.jpg
+  imp 2486: 거리 = 0.4458, 임계값 = 0.4540, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2486/2486_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2486/2486_1.jpg
+  imp 2556: 거리 = 0.4199, 임계값 = 0.4540, 차이 = 0.0341
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2556/2556_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2556/2556_1.jpg
+  imp 2580: 거리 = 0.4159, 임계값 = 0.4540, 차이 = 0.0381
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2580/2580_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2580/2580_1.jpg
+  imp 2595: 거리 = 0.4472, 임계값 = 0.4540, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2595/2595_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2595/2595_1.jpg
+  imp 2600: 거리 = 0.4409, 임계값 = 0.4540, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2600/2600_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2600/2600_1.jpg
+  imp 2608: 거리 = 0.4520, 임계값 = 0.4540, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2608/2608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2608/2608_1.jpg
+  imp 2622: 거리 = 0.3752, 임계값 = 0.4540, 차이 = 0.0788
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2622/2622_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2622/2622_1.jpg
+  imp 2630: 거리 = 0.4008, 임계값 = 0.4540, 차이 = 0.0532
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2630/2630_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2630/2630_1.jpg
+  imp 2652: 거리 = 0.4272, 임계값 = 0.4540, 차이 = 0.0268
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2652/2652_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2652/2652_1.jpg
+  imp 2674: 거리 = 0.4506, 임계값 = 0.4540, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2674/2674_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2674/2674_1.jpg
+  imp 2692: 거리 = 0.4501, 임계값 = 0.4540, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2692/2692_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2692/2692_1.jpg
+  imp 2697: 거리 = 0.4364, 임계값 = 0.4540, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2697/2697_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2697/2697_1.jpg
+
+거짓 음성(False Negative) 오탐지: 56개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2403: 거리 = 0.4688, 임계값 = 0.4540, 차이 = 0.0148
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2403/2403_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2403/2403_1.jpg
+  gen 2408: 거리 = 0.4829, 임계값 = 0.4540, 차이 = 0.0289
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2408/2408_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2408/2408_1.jpg
+  gen 2409: 거리 = 0.4604, 임계값 = 0.4540, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2409/2409_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2409/2409_1.jpg
+  gen 2414: 거리 = 0.4869, 임계값 = 0.4540, 차이 = 0.0329
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2414/2414_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2414/2414_1.jpg
+  gen 2418: 거리 = 0.4596, 임계값 = 0.4540, 차이 = 0.0056
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2418/2418_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2418/2418_1.jpg
+  gen 2422: 거리 = 0.4589, 임계값 = 0.4540, 차이 = 0.0049
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2422/2422_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2422/2422_1.jpg
+  gen 2423: 거리 = 0.4865, 임계값 = 0.4540, 차이 = 0.0325
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2423/2423_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2423/2423_1.jpg
+  gen 2424: 거리 = 0.4744, 임계값 = 0.4540, 차이 = 0.0204
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2424/2424_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2424/2424_1.jpg
+  gen 2425: 거리 = 0.5176, 임계값 = 0.4540, 차이 = 0.0636
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2425/2425_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2425/2425_1.jpg
+  gen 2427: 거리 = 0.5118, 임계값 = 0.4540, 차이 = 0.0578
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2427/2427_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2427/2427_1.jpg
+  gen 2433: 거리 = 0.4648, 임계값 = 0.4540, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2433/2433_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2433/2433_1.jpg
+  gen 2435: 거리 = 0.4730, 임계값 = 0.4540, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2435/2435_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2435/2435_1.jpg
+  gen 2444: 거리 = 0.5014, 임계값 = 0.4540, 차이 = 0.0474
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2444/2444_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2444/2444_1.jpg
+  gen 2448: 거리 = 0.5028, 임계값 = 0.4540, 차이 = 0.0488
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2448/2448_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2448/2448_1.jpg
+  gen 2458: 거리 = 0.4703, 임계값 = 0.4540, 차이 = 0.0163
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2458/2458_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2458/2458_1.jpg
+  gen 2460: 거리 = 0.4827, 임계값 = 0.4540, 차이 = 0.0287
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2460/2460_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2460/2460_1.jpg
+  gen 2462: 거리 = 0.4711, 임계값 = 0.4540, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2462/2462_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2462/2462_1.jpg
+  gen 2463: 거리 = 0.4616, 임계값 = 0.4540, 차이 = 0.0076
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2463/2463_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2463/2463_1.jpg
+  gen 2470: 거리 = 0.4691, 임계값 = 0.4540, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2470/2470_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2470/2470_1.jpg
+  gen 2474: 거리 = 0.4997, 임계값 = 0.4540, 차이 = 0.0457
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2474/2474_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2474/2474_1.jpg
+  gen 2476: 거리 = 0.4716, 임계값 = 0.4540, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2476/2476_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2476/2476_1.jpg
+  gen 2486: 거리 = 0.4833, 임계값 = 0.4540, 차이 = 0.0293
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2486/2486_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2486/2486_1.jpg
+  gen 2493: 거리 = 0.4767, 임계값 = 0.4540, 차이 = 0.0227
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2493/2493_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2493/2493_1.jpg
+  gen 2497: 거리 = 0.4563, 임계값 = 0.4540, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2497/2497_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2497/2497_1.jpg
+  gen 2505: 거리 = 0.4742, 임계값 = 0.4540, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2505/2505_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2505/2505_1.jpg
+  gen 2513: 거리 = 0.5106, 임계값 = 0.4540, 차이 = 0.0566
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2513/2513_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2513/2513_1.jpg
+  gen 2519: 거리 = 0.4580, 임계값 = 0.4540, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2519/2519_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2519/2519_1.jpg
+  gen 2525: 거리 = 0.4806, 임계값 = 0.4540, 차이 = 0.0266
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2525/2525_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2525/2525_1.jpg
+  gen 2526: 거리 = 0.4802, 임계값 = 0.4540, 차이 = 0.0262
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2526/2526_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2526/2526_1.jpg
+  gen 2528: 거리 = 0.5061, 임계값 = 0.4540, 차이 = 0.0521
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2528/2528_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2528/2528_1.jpg
+  gen 2529: 거리 = 0.4671, 임계값 = 0.4540, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2529/2529_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2529/2529_1.jpg
+  gen 2535: 거리 = 0.4742, 임계값 = 0.4540, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2535/2535_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2535/2535_1.jpg
+  gen 2544: 거리 = 0.4574, 임계값 = 0.4540, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2544/2544_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2544/2544_1.jpg
+  gen 2551: 거리 = 0.4929, 임계값 = 0.4540, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2551/2551_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2551/2551_1.jpg
+  gen 2561: 거리 = 0.4660, 임계값 = 0.4540, 차이 = 0.0120
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2561/2561_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2561/2561_1.jpg
+  gen 2563: 거리 = 0.5065, 임계값 = 0.4540, 차이 = 0.0525
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2563/2563_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2563/2563_1.jpg
+  gen 2564: 거리 = 0.4644, 임계값 = 0.4540, 차이 = 0.0104
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2564/2564_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2564/2564_1.jpg
+  gen 2583: 거리 = 0.5144, 임계값 = 0.4540, 차이 = 0.0604
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2583/2583_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2583/2583_1.jpg
+  gen 2587: 거리 = 0.4732, 임계값 = 0.4540, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2587/2587_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2587/2587_1.jpg
+  gen 2588: 거리 = 0.4543, 임계값 = 0.4540, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2588/2588_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2588/2588_1.jpg
+  gen 2591: 거리 = 0.4617, 임계값 = 0.4540, 차이 = 0.0077
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2591/2591_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2591/2591_1.jpg
+  gen 2597: 거리 = 0.4765, 임계값 = 0.4540, 차이 = 0.0225
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2597/2597_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2597/2597_1.jpg
+  gen 2604: 거리 = 0.4615, 임계값 = 0.4540, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2604/2604_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2604/2604_1.jpg
+  gen 2608: 거리 = 0.5000, 임계값 = 0.4540, 차이 = 0.0460
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2608/2608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2608/2608_1.jpg
+  gen 2610: 거리 = 0.4756, 임계값 = 0.4540, 차이 = 0.0216
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2610/2610_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2610/2610_1.jpg
+  gen 2642: 거리 = 0.4586, 임계값 = 0.4540, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2642/2642_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2642/2642_1.jpg
+  gen 2643: 거리 = 0.4556, 임계값 = 0.4540, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2643/2643_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2643/2643_1.jpg
+  gen 2644: 거리 = 0.4675, 임계값 = 0.4540, 차이 = 0.0135
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2644/2644_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2644/2644_1.jpg
+  gen 2646: 거리 = 0.4906, 임계값 = 0.4540, 차이 = 0.0366
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2646/2646_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2646/2646_1.jpg
+  gen 2659: 거리 = 0.5165, 임계값 = 0.4540, 차이 = 0.0625
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2659/2659_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2659/2659_1.jpg
+  gen 2660: 거리 = 0.4618, 임계값 = 0.4540, 차이 = 0.0078
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2660/2660_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2660/2660_1.jpg
+  gen 2670: 거리 = 0.4813, 임계값 = 0.4540, 차이 = 0.0273
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2670/2670_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2670/2670_1.jpg
+  gen 2679: 거리 = 0.4820, 임계값 = 0.4540, 차이 = 0.0280
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2679/2679_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2679/2679_1.jpg
+  gen 2680: 거리 = 0.4541, 임계값 = 0.4540, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2680/2680_1.jpg
+  gen 2687: 거리 = 0.4781, 임계값 = 0.4540, 차이 = 0.0241
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2687/2687_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2687/2687_1.jpg
+  gen 2694: 거리 = 0.4659, 임계값 = 0.4540, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2694/2694_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2694/2694_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4540 (훈련 정확도: 0.8965)
+
+거짓 양성(False Positive) 오탐지: 15개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2726: 거리 = 0.4389, 임계값 = 0.4540, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2726/2726_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2726/2726_1.jpg
+  imp 2737: 거리 = 0.4499, 임계값 = 0.4540, 차이 = 0.0041
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2737/2737_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2737/2737_1.jpg
+  imp 2773: 거리 = 0.4374, 임계값 = 0.4540, 차이 = 0.0166
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2773/2773_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2773/2773_1.jpg
+  imp 2833: 거리 = 0.3995, 임계값 = 0.4540, 차이 = 0.0545
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2833/2833_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2833/2833_1.jpg
+  imp 2888: 거리 = 0.4477, 임계값 = 0.4540, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2888/2888_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2888/2888_1.jpg
+  imp 2909: 거리 = 0.4375, 임계값 = 0.4540, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2909/2909_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2909/2909_1.jpg
+  imp 2926: 거리 = 0.4458, 임계값 = 0.4540, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2926/2926_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2926/2926_1.jpg
+  imp 2950: 거리 = 0.4417, 임계값 = 0.4540, 차이 = 0.0123
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2950/2950_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2950/2950_1.jpg
+  imp 2955: 거리 = 0.4439, 임계값 = 0.4540, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2955/2955_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2955/2955_1.jpg
+  imp 2961: 거리 = 0.4525, 임계값 = 0.4540, 차이 = 0.0015
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2961/2961_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2961/2961_1.jpg
+  imp 2986: 거리 = 0.4506, 임계값 = 0.4540, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2986/2986_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2986/2986_1.jpg
+  imp 2991: 거리 = 0.4536, 임계값 = 0.4540, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2991/2991_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2991/2991_1.jpg
+  imp 2993: 거리 = 0.4282, 임계값 = 0.4540, 차이 = 0.0258
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2993/2993_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2993/2993_1.jpg
+  imp 2997: 거리 = 0.4200, 임계값 = 0.4540, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2997/2997_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2997/2997_1.jpg
+  imp 2998: 거리 = 0.4522, 임계값 = 0.4540, 차이 = 0.0018
+    경로1: work_dirs/corruptions/CALFW/frost_4/imp/2998/2998_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/imp/2998/2998_1.jpg
+
+거짓 음성(False Negative) 오탐지: 49개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2702: 거리 = 0.4991, 임계값 = 0.4540, 차이 = 0.0451
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2702/2702_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2702/2702_1.jpg
+  gen 2704: 거리 = 0.5023, 임계값 = 0.4540, 차이 = 0.0483
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2704/2704_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2704/2704_1.jpg
+  gen 2705: 거리 = 0.4819, 임계값 = 0.4540, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2705/2705_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2705/2705_1.jpg
+  gen 2710: 거리 = 0.4588, 임계값 = 0.4540, 차이 = 0.0048
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2710/2710_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2710/2710_1.jpg
+  gen 2711: 거리 = 0.4971, 임계값 = 0.4540, 차이 = 0.0431
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2711/2711_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2711/2711_1.jpg
+  gen 2713: 거리 = 0.4583, 임계값 = 0.4540, 차이 = 0.0043
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2713/2713_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2713/2713_1.jpg
+  gen 2716: 거리 = 0.4634, 임계값 = 0.4540, 차이 = 0.0094
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2716/2716_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2716/2716_1.jpg
+  gen 2727: 거리 = 0.4960, 임계값 = 0.4540, 차이 = 0.0420
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2727/2727_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2727/2727_1.jpg
+  gen 2729: 거리 = 0.5314, 임계값 = 0.4540, 차이 = 0.0774
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2729/2729_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2729/2729_1.jpg
+  gen 2730: 거리 = 0.5267, 임계값 = 0.4540, 차이 = 0.0727
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2730/2730_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2730/2730_1.jpg
+  gen 2737: 거리 = 0.4987, 임계값 = 0.4540, 차이 = 0.0447
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2737/2737_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2737/2737_1.jpg
+  gen 2738: 거리 = 0.4566, 임계값 = 0.4540, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2738/2738_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2738/2738_1.jpg
+  gen 2743: 거리 = 0.4824, 임계값 = 0.4540, 차이 = 0.0284
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2743/2743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2743/2743_1.jpg
+  gen 2747: 거리 = 0.4918, 임계값 = 0.4540, 차이 = 0.0378
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2747/2747_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2747/2747_1.jpg
+  gen 2749: 거리 = 0.5213, 임계값 = 0.4540, 차이 = 0.0673
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2749/2749_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2749/2749_1.jpg
+  gen 2750: 거리 = 0.4970, 임계값 = 0.4540, 차이 = 0.0430
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2750/2750_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2750/2750_1.jpg
+  gen 2751: 거리 = 0.5363, 임계값 = 0.4540, 차이 = 0.0823
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2751/2751_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2751/2751_1.jpg
+  gen 2758: 거리 = 0.4578, 임계값 = 0.4540, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2758/2758_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2758/2758_1.jpg
+  gen 2759: 거리 = 0.4573, 임계값 = 0.4540, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2759/2759_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2759/2759_1.jpg
+  gen 2761: 거리 = 0.5101, 임계값 = 0.4540, 차이 = 0.0561
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2761/2761_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2761/2761_1.jpg
+  gen 2767: 거리 = 0.4919, 임계값 = 0.4540, 차이 = 0.0379
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2767/2767_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2767/2767_1.jpg
+  gen 2774: 거리 = 0.4907, 임계값 = 0.4540, 차이 = 0.0367
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2774/2774_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2774/2774_1.jpg
+  gen 2781: 거리 = 0.5030, 임계값 = 0.4540, 차이 = 0.0490
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2781/2781_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2781/2781_1.jpg
+  gen 2782: 거리 = 0.4977, 임계값 = 0.4540, 차이 = 0.0437
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2782/2782_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2782/2782_1.jpg
+  gen 2786: 거리 = 0.5147, 임계값 = 0.4540, 차이 = 0.0607
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2786/2786_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2786/2786_1.jpg
+  gen 2789: 거리 = 0.4717, 임계값 = 0.4540, 차이 = 0.0177
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2789/2789_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2789/2789_1.jpg
+  gen 2808: 거리 = 0.4936, 임계값 = 0.4540, 차이 = 0.0396
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2808/2808_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2808/2808_1.jpg
+  gen 2822: 거리 = 0.4651, 임계값 = 0.4540, 차이 = 0.0111
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2822/2822_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2822/2822_1.jpg
+  gen 2827: 거리 = 0.4966, 임계값 = 0.4540, 차이 = 0.0426
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2827/2827_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2827/2827_1.jpg
+  gen 2829: 거리 = 0.4690, 임계값 = 0.4540, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2829/2829_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2829/2829_1.jpg
+  gen 2842: 거리 = 0.4755, 임계값 = 0.4540, 차이 = 0.0215
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2842/2842_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2842/2842_1.jpg
+  gen 2862: 거리 = 0.4961, 임계값 = 0.4540, 차이 = 0.0421
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2862/2862_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2862/2862_1.jpg
+  gen 2869: 거리 = 0.4737, 임계값 = 0.4540, 차이 = 0.0197
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2869/2869_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2869/2869_1.jpg
+  gen 2873: 거리 = 0.4744, 임계값 = 0.4540, 차이 = 0.0204
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2873/2873_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2873/2873_1.jpg
+  gen 2882: 거리 = 0.4623, 임계값 = 0.4540, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2882/2882_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2882/2882_1.jpg
+  gen 2889: 거리 = 0.4869, 임계값 = 0.4540, 차이 = 0.0329
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2889/2889_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2889/2889_1.jpg
+  gen 2904: 거리 = 0.5162, 임계값 = 0.4540, 차이 = 0.0622
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2904/2904_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2904/2904_1.jpg
+  gen 2915: 거리 = 0.4967, 임계값 = 0.4540, 차이 = 0.0427
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2915/2915_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2915/2915_1.jpg
+  gen 2919: 거리 = 0.5043, 임계값 = 0.4540, 차이 = 0.0503
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2919/2919_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2919/2919_1.jpg
+  gen 2922: 거리 = 0.4641, 임계값 = 0.4540, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2922/2922_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2922/2922_1.jpg
+  gen 2925: 거리 = 0.4671, 임계값 = 0.4540, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2925/2925_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2925/2925_1.jpg
+  gen 2962: 거리 = 0.4917, 임계값 = 0.4540, 차이 = 0.0377
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2962/2962_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2962/2962_1.jpg
+  gen 2964: 거리 = 0.4562, 임계값 = 0.4540, 차이 = 0.0022
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2964/2964_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2964/2964_1.jpg
+  gen 2968: 거리 = 0.4603, 임계값 = 0.4540, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2968/2968_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2968/2968_1.jpg
+  gen 2970: 거리 = 0.4684, 임계값 = 0.4540, 차이 = 0.0144
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2970/2970_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2970/2970_1.jpg
+  gen 2977: 거리 = 0.4777, 임계값 = 0.4540, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2977/2977_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2977/2977_1.jpg
+  gen 2988: 거리 = 0.4617, 임계값 = 0.4540, 차이 = 0.0077
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2988/2988_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2988/2988_1.jpg
+  gen 2990: 거리 = 0.5042, 임계값 = 0.4540, 차이 = 0.0502
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2990/2990_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2990/2990_1.jpg
+  gen 2997: 거리 = 0.4683, 임계값 = 0.4540, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CALFW/frost_4/gen/2997/2997_0.jpg
+    경로2: work_dirs/corruptions/CALFW/frost_4/gen/2997/2997_1.jpg
+Accuracy for each fold: [0.91       0.88333333 0.89666667 0.90166667 0.89       0.89666667
+ 0.91       0.88666667 0.885      0.89333333]
+Mean Accuracy: 0.8953333333333333
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.40280396
+Standard deviation for genuine pairs: 0.048962686
+Average distance for imposter pairs: 0.49298006
+Standard deviation for imposter pairs: 0.023354754

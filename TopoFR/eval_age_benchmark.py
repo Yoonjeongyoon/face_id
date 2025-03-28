@@ -88,7 +88,7 @@ def distance(embeding1, embeding2, distance_metric = 0):
         norm = norm1 * norm2 + eps  # 0 나누기를 피하기 위해 eps 추가
         cos_similarity = dot / norm
         cos_similarity = np.clip(cos_similarity, -1.0, 1.0)
-        dist = np.arccos(cos_similarity) / math.pi # 코사인 유사도 기반 각도를 0~1 사의로 정규화 = 아크코사인 사용
+        dist = 1- cos_similarity
     else:
         raise Exception("Undefined distance metirc %d" % distance_metric)
     return dist
@@ -352,13 +352,13 @@ def evaluate(embeddings, actual_issame, nrof_folds=10, distance_metric=0, subtra
       - far: 평균 허용 오인율 (false acceptance rate)
       - fp, fn: false positive와 false negative 배열
     """
-    thresholds = np.arange(0, 1, 0.001)
+    thresholds = np.arange(0, 2, 0.001)
     embeddings1 = embeddings[0::2]
     embeddings2 = embeddings[1::2]
     tpr, fpr, accuracy = calculate_roc(thresholds, embeddings1, embeddings2,
                                                np.asarray(actual_issame), nrof_folds=nrof_folds,
                                                distance_metric=distance_metric, subtract_mean=subtract_mean)
-    thresholds = np.arange(0, 1, 0.001)
+    thresholds = np.arange(0, 2, 0.001)
     val, val_std, far = calculate_val(thresholds, embeddings1, embeddings2,
                                       np.asarray(actual_issame), 1e-3, nrof_folds=nrof_folds,
                                       distance_metric=distance_metric, subtract_mean=subtract_mean)

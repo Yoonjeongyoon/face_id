@@ -1,0 +1,22 @@
+** Test Dataset: defocus_blur_1
+** Running on device: cuda:0
+** --------------------------------- **
+** Model Weight loaded: model_test/Glint360K_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch256.pt
+** Accuracy for each fold: [0.99167, 0.99833, 0.99833, 0.99167, 0.99167, 1.0, 0.995, 1.0, 1.0, 1.0]
+** Mean Accuracy: 0.996667
+** Best Accuracy threshold: [0.773, 0.772, 0.801, 0.799, 0.764, 0.753, 0.824, 0.804, 0.736, 0.776]
+** TPR@FPR: 0.99, FPR: 0.001
+** Average distance for genuine pairs: 0.43926474
+** Standard deviation for genuine pairs: 0.12255499
+** Average distance for imposter pairs: 0.98167557
+** Standard deviation for imposter pairs: 0.063065596
+** --------------------------------- **
+** Model Weight loaded: model_test/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch256.pt
+** Accuracy for each fold: [0.99167, 0.99833, 0.99833, 0.99167, 0.99167, 1.0, 0.995, 1.0, 1.0, 1.0]
+** Mean Accuracy: 0.996667
+** Best Accuracy threshold: [0.773, 0.772, 0.801, 0.799, 0.764, 0.753, 0.824, 0.804, 0.736, 0.776]
+** TPR@FPR: 0.99, FPR: 0.001
+** Average distance for genuine pairs: 0.43926474
+** Standard deviation for genuine pairs: 0.12255499
+** Average distance for imposter pairs: 0.98167557
+** Standard deviation for imposter pairs: 0.063065596

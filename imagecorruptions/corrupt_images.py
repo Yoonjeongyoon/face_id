@@ -27,6 +27,7 @@ class OutputType(Enum):
     """
     SUBDIRS = 'subdirs'
     FILENAME = 'filename'
+    FOLDERNAME = 'foldername'
 
     def __str__(self) -> str:
         return self.value
@@ -79,6 +80,11 @@ def corrupt_image(image_path: str, image_path_base: str,
                 fname, ext = os.path.splitext(os.path.basename(image_path))
                 fn = "{}_{}_{}{}".format(fname, corruption, str(severity), ext)
                 output_path = os.path.join(output_directory, output_path_stub, fn)
+            elif output_type == OutputType.FOLDERNAME:
+                # 새로운 폴더 구조
+                # 원본 폴더 구조와 파일명을 그대로 유지하면서 각 손상 유형과 심각도에 대해 별도의 출력 폴더 생성
+                output_base = os.path.join(output_directory, f"{corruption}_{severity}")
+                output_path = os.path.join(output_base, output_path_stub, os.path.basename(image_path))
 
             else:
                 raise ValueError("output_type unsupported")

@@ -1,0 +1,755 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9659)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 13: 거리 = 0.4421, 임계값 = 0.4490, 차이 = 0.0069
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0013/13_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0013/13_1.jpg
+  imp 72: 거리 = 0.4457, 임계값 = 0.4490, 차이 = 0.0033
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0072/72_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0072/72_1.jpg
+  imp 107: 거리 = 0.4434, 임계값 = 0.4490, 차이 = 0.0056
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0107/107_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0107/107_1.jpg
+  imp 194: 거리 = 0.4378, 임계값 = 0.4490, 차이 = 0.0112
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0194/194_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0194/194_1.jpg
+  imp 215: 거리 = 0.4482, 임계값 = 0.4490, 차이 = 0.0008
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0215/215_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0215/215_1.jpg
+  imp 226: 거리 = 0.4465, 임계값 = 0.4490, 차이 = 0.0025
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0226/226_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0226/226_1.jpg
+  imp 293: 거리 = 0.4297, 임계값 = 0.4490, 차이 = 0.0193
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0293/293_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0293/293_1.jpg
+
+거짓 음성(False Negative) 오탐지: 5개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 47: 거리 = 0.4536, 임계값 = 0.4490, 차이 = 0.0046
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0047/47_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0047/47_1.jpg
+  gen 219: 거리 = 0.4761, 임계값 = 0.4490, 차이 = 0.0271
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0219/219_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0219/219_1.jpg
+  gen 220: 거리 = 0.4914, 임계값 = 0.4490, 차이 = 0.0424
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0220/220_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0220/220_1.jpg
+  gen 236: 거리 = 0.4692, 임계값 = 0.4490, 차이 = 0.0202
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0236/236_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0236/236_1.jpg
+  gen 296: 거리 = 0.4575, 임계값 = 0.4490, 차이 = 0.0085
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0296/296_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0296/296_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9663)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 310: 거리 = 0.4455, 임계값 = 0.4490, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0310/310_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0310/310_1.jpg
+  imp 387: 거리 = 0.4453, 임계값 = 0.4490, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0387/387_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0387/387_1.jpg
+  imp 400: 거리 = 0.4394, 임계값 = 0.4490, 차이 = 0.0096
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0400/400_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0400/400_1.jpg
+  imp 410: 거리 = 0.4484, 임계값 = 0.4490, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0410/410_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0410/410_1.jpg
+  imp 487: 거리 = 0.4233, 임계값 = 0.4490, 차이 = 0.0257
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0487/487_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0487/487_1.jpg
+  imp 506: 거리 = 0.4388, 임계값 = 0.4490, 차이 = 0.0102
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0506/506_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0506/506_1.jpg
+  imp 545: 거리 = 0.4398, 임계값 = 0.4490, 차이 = 0.0092
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0545/545_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0545/545_1.jpg
+  imp 582: 거리 = 0.4462, 임계값 = 0.4490, 차이 = 0.0028
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0582/582_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0582/582_1.jpg
+
+거짓 음성(False Negative) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 414: 거리 = 0.4891, 임계값 = 0.4490, 차이 = 0.0401
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0414/414_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0414/414_1.jpg
+  gen 503: 거리 = 0.4502, 임계값 = 0.4490, 차이 = 0.0012
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0503/503_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0503/503_1.jpg
+  gen 522: 거리 = 0.5099, 임계값 = 0.4490, 차이 = 0.0609
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0522/522_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0522/522_1.jpg
+  gen 526: 거리 = 0.4624, 임계값 = 0.4490, 차이 = 0.0134
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0526/526_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0526/526_1.jpg
+  gen 527: 거리 = 0.4517, 임계값 = 0.4490, 차이 = 0.0027
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0527/527_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0527/527_1.jpg
+  gen 594: 거리 = 0.4600, 임계값 = 0.4490, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0594/594_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0594/594_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4480 (훈련 정확도: 0.9669)
+
+거짓 양성(False Positive) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 633: 거리 = 0.4421, 임계값 = 0.4480, 차이 = 0.0059
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0633/633_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0633/633_1.jpg
+  imp 681: 거리 = 0.4375, 임계값 = 0.4480, 차이 = 0.0105
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0681/681_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0681/681_1.jpg
+  imp 687: 거리 = 0.4412, 임계값 = 0.4480, 차이 = 0.0068
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0687/687_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0687/687_1.jpg
+  imp 694: 거리 = 0.4216, 임계값 = 0.4480, 차이 = 0.0264
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0694/694_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0694/694_1.jpg
+  imp 703: 거리 = 0.4475, 임계값 = 0.4480, 차이 = 0.0005
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0703/703_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0703/703_1.jpg
+  imp 740: 거리 = 0.4423, 임계값 = 0.4480, 차이 = 0.0057
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0740/740_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0740/740_1.jpg
+  imp 774: 거리 = 0.4456, 임계값 = 0.4480, 차이 = 0.0024
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0774/774_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0774/774_1.jpg
+  imp 778: 거리 = 0.4305, 임계값 = 0.4480, 차이 = 0.0175
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0778/778_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0778/778_1.jpg
+  imp 792: 거리 = 0.4404, 임계값 = 0.4480, 차이 = 0.0076
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0792/792_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0792/792_1.jpg
+  imp 862: 거리 = 0.4474, 임계값 = 0.4480, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0862/862_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0862/862_1.jpg
+  imp 871: 거리 = 0.4391, 임계값 = 0.4480, 차이 = 0.0089
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0871/871_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0871/871_1.jpg
+
+거짓 음성(False Negative) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 616: 거리 = 0.4567, 임계값 = 0.4480, 차이 = 0.0087
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0616/616_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0616/616_1.jpg
+  gen 617: 거리 = 0.4675, 임계값 = 0.4480, 차이 = 0.0195
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0617/617_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0617/617_1.jpg
+  gen 715: 거리 = 0.4516, 임계값 = 0.4480, 차이 = 0.0036
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0715/715_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0715/715_1.jpg
+  gen 735: 거리 = 0.4832, 임계값 = 0.4480, 차이 = 0.0352
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0735/735_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0735/735_1.jpg
+  gen 748: 거리 = 0.4541, 임계값 = 0.4480, 차이 = 0.0061
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0748/748_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0748/748_1.jpg
+  gen 750: 거리 = 0.4609, 임계값 = 0.4480, 차이 = 0.0129
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0750/750_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0750/750_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4480 (훈련 정확도: 0.9672)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 922: 거리 = 0.4250, 임계값 = 0.4480, 차이 = 0.0230
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0922/922_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0922/922_1.jpg
+  imp 927: 거리 = 0.4443, 임계값 = 0.4480, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0927/927_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/0927/927_1.jpg
+  imp 1195: 거리 = 0.4453, 임계값 = 0.4480, 차이 = 0.0027
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1195/1195_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1195/1195_1.jpg
+
+거짓 음성(False Negative) 오탐지: 16개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 904: 거리 = 0.4752, 임계값 = 0.4480, 차이 = 0.0272
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0904/904_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0904/904_1.jpg
+  gen 906: 거리 = 0.4491, 임계값 = 0.4480, 차이 = 0.0011
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0906/906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0906/906_1.jpg
+  gen 907: 거리 = 0.4550, 임계값 = 0.4480, 차이 = 0.0070
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0907/907_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0907/907_1.jpg
+  gen 936: 거리 = 0.4489, 임계값 = 0.4480, 차이 = 0.0009
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0936/936_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0936/936_1.jpg
+  gen 948: 거리 = 0.5043, 임계값 = 0.4480, 차이 = 0.0563
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0948/948_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0948/948_1.jpg
+  gen 957: 거리 = 0.4623, 임계값 = 0.4480, 차이 = 0.0143
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0957/957_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0957/957_1.jpg
+  gen 990: 거리 = 0.4953, 임계값 = 0.4480, 차이 = 0.0473
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0990/990_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0990/990_1.jpg
+  gen 991: 거리 = 0.4648, 임계값 = 0.4480, 차이 = 0.0168
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0991/991_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0991/991_1.jpg
+  gen 992: 거리 = 0.4486, 임계값 = 0.4480, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0992/992_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0992/992_1.jpg
+  gen 993: 거리 = 0.4796, 임계값 = 0.4480, 차이 = 0.0316
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0993/993_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/0993/993_1.jpg
+  gen 1024: 거리 = 0.4522, 임계값 = 0.4480, 차이 = 0.0042
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1024/1024_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1024/1024_1.jpg
+  gen 1025: 거리 = 0.4626, 임계값 = 0.4480, 차이 = 0.0146
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1025/1025_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1025/1025_1.jpg
+  gen 1085: 거리 = 0.4483, 임계값 = 0.4480, 차이 = 0.0003
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1085/1085_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1085/1085_1.jpg
+  gen 1128: 거리 = 0.4515, 임계값 = 0.4480, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1128/1128_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1128/1128_1.jpg
+  gen 1141: 거리 = 0.4648, 임계값 = 0.4480, 차이 = 0.0168
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1141/1141_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1141/1141_1.jpg
+  gen 1195: 거리 = 0.4645, 임계값 = 0.4480, 차이 = 0.0165
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1195/1195_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1195/1195_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4420 (훈련 정확도: 0.9693)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1243: 거리 = 0.4295, 임계값 = 0.4420, 차이 = 0.0125
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1243/1243_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1243/1243_1.jpg
+  imp 1257: 거리 = 0.4314, 임계값 = 0.4420, 차이 = 0.0106
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1257/1257_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1257/1257_1.jpg
+  imp 1277: 거리 = 0.4301, 임계값 = 0.4420, 차이 = 0.0119
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1277/1277_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1277/1277_1.jpg
+  imp 1342: 거리 = 0.4404, 임계값 = 0.4420, 차이 = 0.0016
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1342/1342_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1342/1342_1.jpg
+  imp 1352: 거리 = 0.4314, 임계값 = 0.4420, 차이 = 0.0106
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1352/1352_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1352/1352_1.jpg
+  imp 1458: 거리 = 0.4386, 임계값 = 0.4420, 차이 = 0.0034
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1458/1458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1458/1458_1.jpg
+  imp 1484: 거리 = 0.4288, 임계값 = 0.4420, 차이 = 0.0132
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1484/1484_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1484/1484_1.jpg
+
+거짓 음성(False Negative) 오탐지: 26개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1200: 거리 = 0.4448, 임계값 = 0.4420, 차이 = 0.0028
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1200/1200_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1200/1200_1.jpg
+  gen 1203: 거리 = 0.5415, 임계값 = 0.4420, 차이 = 0.0995
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1203/1203_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1203/1203_1.jpg
+  gen 1207: 거리 = 0.4553, 임계값 = 0.4420, 차이 = 0.0133
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1207/1207_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1207/1207_1.jpg
+  gen 1255: 거리 = 0.4907, 임계값 = 0.4420, 차이 = 0.0487
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1255/1255_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1255/1255_1.jpg
+  gen 1285: 거리 = 0.5106, 임계값 = 0.4420, 차이 = 0.0686
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1285/1285_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1285/1285_1.jpg
+  gen 1287: 거리 = 0.4538, 임계값 = 0.4420, 차이 = 0.0118
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1287/1287_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1287/1287_1.jpg
+  gen 1293: 거리 = 0.4448, 임계값 = 0.4420, 차이 = 0.0028
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1293/1293_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1293/1293_1.jpg
+  gen 1296: 거리 = 0.4430, 임계값 = 0.4420, 차이 = 0.0010
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1296/1296_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1296/1296_1.jpg
+  gen 1308: 거리 = 0.4943, 임계값 = 0.4420, 차이 = 0.0523
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1308/1308_1.jpg
+  gen 1338: 거리 = 0.4438, 임계값 = 0.4420, 차이 = 0.0018
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1338/1338_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1338/1338_1.jpg
+  gen 1362: 거리 = 0.4730, 임계값 = 0.4420, 차이 = 0.0310
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1362/1362_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1362/1362_1.jpg
+  gen 1363: 거리 = 0.4826, 임계값 = 0.4420, 차이 = 0.0406
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1363/1363_1.jpg
+  gen 1364: 거리 = 0.4577, 임계값 = 0.4420, 차이 = 0.0157
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1364/1364_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1364/1364_1.jpg
+  gen 1371: 거리 = 0.4478, 임계값 = 0.4420, 차이 = 0.0058
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1371/1371_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1371/1371_1.jpg
+  gen 1372: 거리 = 0.4901, 임계값 = 0.4420, 차이 = 0.0481
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1372/1372_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1372/1372_1.jpg
+  gen 1399: 거리 = 0.4951, 임계값 = 0.4420, 차이 = 0.0531
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1399/1399_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1399/1399_1.jpg
+  gen 1400: 거리 = 0.4948, 임계값 = 0.4420, 차이 = 0.0528
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1400/1400_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1400/1400_1.jpg
+  gen 1401: 거리 = 0.4897, 임계값 = 0.4420, 차이 = 0.0477
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1401/1401_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1401/1401_1.jpg
+  gen 1413: 거리 = 0.4445, 임계값 = 0.4420, 차이 = 0.0025
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1413/1413_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1413/1413_1.jpg
+  gen 1438: 거리 = 0.4620, 임계값 = 0.4420, 차이 = 0.0200
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1438/1438_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1438/1438_1.jpg
+  gen 1465: 거리 = 0.4622, 임계값 = 0.4420, 차이 = 0.0202
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1465/1465_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1465/1465_1.jpg
+  gen 1466: 거리 = 0.4558, 임계값 = 0.4420, 차이 = 0.0138
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1466/1466_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1466/1466_1.jpg
+  gen 1469: 거리 = 0.4423, 임계값 = 0.4420, 차이 = 0.0003
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1469/1469_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1469/1469_1.jpg
+  gen 1471: 거리 = 0.4455, 임계값 = 0.4420, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1471/1471_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1471/1471_1.jpg
+  gen 1472: 거리 = 0.4644, 임계값 = 0.4420, 차이 = 0.0224
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1472/1472_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1472/1472_1.jpg
+  gen 1496: 거리 = 0.4475, 임계값 = 0.4420, 차이 = 0.0055
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1496/1496_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1496/1496_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9661)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1580: 거리 = 0.4301, 임계값 = 0.4450, 차이 = 0.0149
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1580/1580_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1580/1580_1.jpg
+  imp 1593: 거리 = 0.4336, 임계값 = 0.4450, 차이 = 0.0114
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1593/1593_1.jpg
+  imp 1632: 거리 = 0.4248, 임계값 = 0.4450, 차이 = 0.0202
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1632/1632_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1632/1632_1.jpg
+  imp 1793: 거리 = 0.4340, 임계값 = 0.4450, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1793/1793_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1793/1793_1.jpg
+
+거짓 음성(False Negative) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1537: 거리 = 0.4614, 임계값 = 0.4450, 차이 = 0.0164
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1537/1537_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1537/1537_1.jpg
+  gen 1577: 거리 = 0.5136, 임계값 = 0.4450, 차이 = 0.0686
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1577/1577_1.jpg
+  gen 1585: 거리 = 0.4950, 임계값 = 0.4450, 차이 = 0.0500
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1585/1585_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1585/1585_1.jpg
+  gen 1597: 거리 = 0.5188, 임계값 = 0.4450, 차이 = 0.0738
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1597/1597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1597/1597_1.jpg
+  gen 1603: 거리 = 0.5348, 임계값 = 0.4450, 차이 = 0.0898
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1603/1603_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1603/1603_1.jpg
+  gen 1604: 거리 = 0.4899, 임계값 = 0.4450, 차이 = 0.0449
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1604/1604_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1604/1604_1.jpg
+  gen 1644: 거리 = 0.4487, 임계값 = 0.4450, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1644/1644_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1644/1644_1.jpg
+  gen 1688: 거리 = 0.5154, 임계값 = 0.4450, 차이 = 0.0704
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1688/1688_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1688/1688_1.jpg
+  gen 1694: 거리 = 0.4456, 임계값 = 0.4450, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1694/1694_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1694/1694_1.jpg
+  gen 1708: 거리 = 0.4848, 임계값 = 0.4450, 차이 = 0.0398
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1708/1708_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1708/1708_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9698)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1915: 거리 = 0.4173, 임계값 = 0.4450, 차이 = 0.0277
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1915/1915_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1915/1915_1.jpg
+  imp 1921: 거리 = 0.4212, 임계값 = 0.4450, 차이 = 0.0238
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1921/1921_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1921/1921_1.jpg
+  imp 1939: 거리 = 0.4246, 임계값 = 0.4450, 차이 = 0.0204
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1939/1939_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1939/1939_1.jpg
+  imp 1945: 거리 = 0.4415, 임계값 = 0.4450, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1945/1945_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1945/1945_1.jpg
+  imp 1958: 거리 = 0.4409, 임계값 = 0.4450, 차이 = 0.0041
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1958/1958_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1958/1958_1.jpg
+  imp 1977: 거리 = 0.4181, 임계값 = 0.4450, 차이 = 0.0269
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1977/1977_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/1977/1977_1.jpg
+  imp 2080: 거리 = 0.4041, 임계값 = 0.4450, 차이 = 0.0409
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2080/2080_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2080/2080_1.jpg
+
+거짓 음성(False Negative) 오탐지: 27개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1805: 거리 = 0.5069, 임계값 = 0.4450, 차이 = 0.0619
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1805/1805_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1805/1805_1.jpg
+  gen 1834: 거리 = 0.4482, 임계값 = 0.4450, 차이 = 0.0032
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1834/1834_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1834/1834_1.jpg
+  gen 1835: 거리 = 0.4606, 임계값 = 0.4450, 차이 = 0.0156
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1835/1835_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1835/1835_1.jpg
+  gen 1836: 거리 = 0.4545, 임계값 = 0.4450, 차이 = 0.0095
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1836/1836_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1836/1836_1.jpg
+  gen 1838: 거리 = 0.4622, 임계값 = 0.4450, 차이 = 0.0172
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1838/1838_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1838/1838_1.jpg
+  gen 1882: 거리 = 0.5090, 임계값 = 0.4450, 차이 = 0.0640
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1882/1882_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1882/1882_1.jpg
+  gen 1889: 거리 = 0.4683, 임계값 = 0.4450, 차이 = 0.0233
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1889/1889_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1889/1889_1.jpg
+  gen 1896: 거리 = 0.5196, 임계값 = 0.4450, 차이 = 0.0746
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1896/1896_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1896/1896_1.jpg
+  gen 1906: 거리 = 0.4666, 임계값 = 0.4450, 차이 = 0.0216
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1906/1906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1906/1906_1.jpg
+  gen 1926: 거리 = 0.4938, 임계값 = 0.4450, 차이 = 0.0488
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1926/1926_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1926/1926_1.jpg
+  gen 1928: 거리 = 0.4497, 임계값 = 0.4450, 차이 = 0.0047
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1928/1928_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1928/1928_1.jpg
+  gen 1930: 거리 = 0.4555, 임계값 = 0.4450, 차이 = 0.0105
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1930/1930_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1930/1930_1.jpg
+  gen 1931: 거리 = 0.4757, 임계값 = 0.4450, 차이 = 0.0307
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1931/1931_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1931/1931_1.jpg
+  gen 1932: 거리 = 0.4563, 임계값 = 0.4450, 차이 = 0.0113
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1932/1932_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1932/1932_1.jpg
+  gen 1933: 거리 = 0.4610, 임계값 = 0.4450, 차이 = 0.0160
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1933/1933_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1933/1933_1.jpg
+  gen 1934: 거리 = 0.4474, 임계값 = 0.4450, 차이 = 0.0024
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1934/1934_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1934/1934_1.jpg
+  gen 1935: 거리 = 0.4644, 임계값 = 0.4450, 차이 = 0.0194
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1935/1935_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1935/1935_1.jpg
+  gen 1941: 거리 = 0.4968, 임계값 = 0.4450, 차이 = 0.0518
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1941/1941_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1941/1941_1.jpg
+  gen 1943: 거리 = 0.4460, 임계값 = 0.4450, 차이 = 0.0010
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1943/1943_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1943/1943_1.jpg
+  gen 1945: 거리 = 0.4576, 임계값 = 0.4450, 차이 = 0.0126
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1945/1945_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1945/1945_1.jpg
+  gen 1946: 거리 = 0.4858, 임계값 = 0.4450, 차이 = 0.0408
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1946/1946_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1946/1946_1.jpg
+  gen 1954: 거리 = 0.4626, 임계값 = 0.4450, 차이 = 0.0176
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1954/1954_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1954/1954_1.jpg
+  gen 1973: 거리 = 0.4562, 임계값 = 0.4450, 차이 = 0.0112
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1973/1973_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1973/1973_1.jpg
+  gen 1986: 거리 = 0.4593, 임계값 = 0.4450, 차이 = 0.0143
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1986/1986_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/1986/1986_1.jpg
+  gen 2008: 거리 = 0.4947, 임계값 = 0.4450, 차이 = 0.0497
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2008/2008_1.jpg
+  gen 2044: 거리 = 0.4931, 임계값 = 0.4450, 차이 = 0.0481
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2044/2044_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2044/2044_1.jpg
+  gen 2050: 거리 = 0.5149, 임계값 = 0.4450, 차이 = 0.0699
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2050/2050_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2050/2050_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9687)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2213: 거리 = 0.4364, 임계값 = 0.4450, 차이 = 0.0086
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2213/2213_1.jpg
+  imp 2239: 거리 = 0.4275, 임계값 = 0.4450, 차이 = 0.0175
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2239/2239_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2239/2239_1.jpg
+  imp 2245: 거리 = 0.4433, 임계값 = 0.4450, 차이 = 0.0017
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2245/2245_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2245/2245_1.jpg
+  imp 2294: 거리 = 0.4397, 임계값 = 0.4450, 차이 = 0.0053
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2294/2294_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2294/2294_1.jpg
+  imp 2304: 거리 = 0.4413, 임계값 = 0.4450, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2304/2304_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2304/2304_1.jpg
+  imp 2320: 거리 = 0.4383, 임계값 = 0.4450, 차이 = 0.0067
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2320/2320_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2320/2320_1.jpg
+  imp 2354: 거리 = 0.4431, 임계값 = 0.4450, 차이 = 0.0019
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2354/2354_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2354/2354_1.jpg
+  imp 2389: 거리 = 0.4426, 임계값 = 0.4450, 차이 = 0.0024
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2389/2389_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2389/2389_1.jpg
+
+거짓 음성(False Negative) 오탐지: 20개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2115: 거리 = 0.5223, 임계값 = 0.4450, 차이 = 0.0773
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2115/2115_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2115/2115_1.jpg
+  gen 2118: 거리 = 0.5307, 임계값 = 0.4450, 차이 = 0.0857
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2118/2118_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2118/2118_1.jpg
+  gen 2153: 거리 = 0.4649, 임계값 = 0.4450, 차이 = 0.0199
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2153/2153_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2153/2153_1.jpg
+  gen 2155: 거리 = 0.4537, 임계값 = 0.4450, 차이 = 0.0087
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2155/2155_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2155/2155_1.jpg
+  gen 2158: 거리 = 0.5128, 임계값 = 0.4450, 차이 = 0.0678
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2158/2158_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2158/2158_1.jpg
+  gen 2170: 거리 = 0.4926, 임계값 = 0.4450, 차이 = 0.0476
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2170/2170_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2170/2170_1.jpg
+  gen 2208: 거리 = 0.5011, 임계값 = 0.4450, 차이 = 0.0561
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2208/2208_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2208/2208_1.jpg
+  gen 2223: 거리 = 0.4498, 임계값 = 0.4450, 차이 = 0.0048
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2223/2223_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2223/2223_1.jpg
+  gen 2233: 거리 = 0.4882, 임계값 = 0.4450, 차이 = 0.0432
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2233/2233_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2233/2233_1.jpg
+  gen 2242: 거리 = 0.4460, 임계값 = 0.4450, 차이 = 0.0010
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2242/2242_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2242/2242_1.jpg
+  gen 2247: 거리 = 0.4697, 임계값 = 0.4450, 차이 = 0.0247
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2247/2247_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2247/2247_1.jpg
+  gen 2256: 거리 = 0.4713, 임계값 = 0.4450, 차이 = 0.0263
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2256/2256_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2256/2256_1.jpg
+  gen 2257: 거리 = 0.4888, 임계값 = 0.4450, 차이 = 0.0438
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2257/2257_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2257/2257_1.jpg
+  gen 2273: 거리 = 0.4799, 임계값 = 0.4450, 차이 = 0.0349
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2273/2273_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2273/2273_1.jpg
+  gen 2274: 거리 = 0.4969, 임계값 = 0.4450, 차이 = 0.0519
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2274/2274_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2274/2274_1.jpg
+  gen 2316: 거리 = 0.4473, 임계값 = 0.4450, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2316/2316_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2316/2316_1.jpg
+  gen 2343: 거리 = 0.4477, 임계값 = 0.4450, 차이 = 0.0027
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2343/2343_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2343/2343_1.jpg
+  gen 2347: 거리 = 0.4823, 임계값 = 0.4450, 차이 = 0.0373
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2347/2347_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2347/2347_1.jpg
+  gen 2368: 거리 = 0.4764, 임계값 = 0.4450, 차이 = 0.0314
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2368/2368_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2368/2368_1.jpg
+  gen 2396: 거리 = 0.4665, 임계값 = 0.4450, 차이 = 0.0215
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2396/2396_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2396/2396_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9680)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2442: 거리 = 0.4276, 임계값 = 0.4490, 차이 = 0.0214
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2442/2442_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2442/2442_1.jpg
+  imp 2495: 거리 = 0.4490, 임계값 = 0.4490, 차이 = 0.0000
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2495/2495_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2495/2495_1.jpg
+  imp 2578: 거리 = 0.4452, 임계값 = 0.4490, 차이 = 0.0038
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2578/2578_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2578/2578_1.jpg
+  imp 2594: 거리 = 0.4347, 임계값 = 0.4490, 차이 = 0.0143
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2594/2594_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2594/2594_1.jpg
+
+거짓 음성(False Negative) 오탐지: 19개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2423: 거리 = 0.4870, 임계값 = 0.4490, 차이 = 0.0380
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2423/2423_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2423/2423_1.jpg
+  gen 2424: 거리 = 0.4958, 임계값 = 0.4490, 차이 = 0.0468
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2424/2424_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2424/2424_1.jpg
+  gen 2425: 거리 = 0.4663, 임계값 = 0.4490, 차이 = 0.0173
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2425/2425_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2425/2425_1.jpg
+  gen 2445: 거리 = 0.4885, 임계값 = 0.4490, 차이 = 0.0395
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2445/2445_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2445/2445_1.jpg
+  gen 2457: 거리 = 0.4781, 임계값 = 0.4490, 차이 = 0.0291
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2457/2457_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2457/2457_1.jpg
+  gen 2458: 거리 = 0.5155, 임계값 = 0.4490, 차이 = 0.0665
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2458/2458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2458/2458_1.jpg
+  gen 2474: 거리 = 0.4771, 임계값 = 0.4490, 차이 = 0.0281
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2474/2474_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2474/2474_1.jpg
+  gen 2491: 거리 = 0.4606, 임계값 = 0.4490, 차이 = 0.0116
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2491/2491_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2491/2491_1.jpg
+  gen 2498: 거리 = 0.5111, 임계값 = 0.4490, 차이 = 0.0621
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2498/2498_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2498/2498_1.jpg
+  gen 2512: 거리 = 0.4659, 임계값 = 0.4490, 차이 = 0.0169
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2512/2512_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2512/2512_1.jpg
+  gen 2524: 거리 = 0.4550, 임계값 = 0.4490, 차이 = 0.0060
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2524/2524_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2524/2524_1.jpg
+  gen 2546: 거리 = 0.4750, 임계값 = 0.4490, 차이 = 0.0260
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2546/2546_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2546/2546_1.jpg
+  gen 2559: 거리 = 0.4501, 임계값 = 0.4490, 차이 = 0.0011
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2559/2559_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2559/2559_1.jpg
+  gen 2560: 거리 = 0.4879, 임계값 = 0.4490, 차이 = 0.0389
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2560/2560_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2560/2560_1.jpg
+  gen 2566: 거리 = 0.4650, 임계값 = 0.4490, 차이 = 0.0160
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2566/2566_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2566/2566_1.jpg
+  gen 2591: 거리 = 0.4616, 임계값 = 0.4490, 차이 = 0.0126
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2591/2591_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2591/2591_1.jpg
+  gen 2680: 거리 = 0.4786, 임계값 = 0.4490, 차이 = 0.0296
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2680/2680_1.jpg
+  gen 2681: 거리 = 0.4712, 임계값 = 0.4490, 차이 = 0.0222
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2681/2681_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2681/2681_1.jpg
+  gen 2682: 거리 = 0.4600, 임계값 = 0.4490, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2682/2682_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2682/2682_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9670)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2740: 거리 = 0.4274, 임계값 = 0.4490, 차이 = 0.0216
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2740/2740_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2740/2740_1.jpg
+  imp 2776: 거리 = 0.4371, 임계값 = 0.4490, 차이 = 0.0119
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2776/2776_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2776/2776_1.jpg
+  imp 2860: 거리 = 0.4441, 임계값 = 0.4490, 차이 = 0.0049
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2860/2860_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2860/2860_1.jpg
+  imp 2892: 거리 = 0.4483, 임계값 = 0.4490, 차이 = 0.0007
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2892/2892_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2892/2892_1.jpg
+  imp 2973: 거리 = 0.4467, 임계값 = 0.4490, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2973/2973_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2973/2973_1.jpg
+  imp 2976: 거리 = 0.4353, 임계값 = 0.4490, 차이 = 0.0137
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2976/2976_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/imp/2976/2976_1.jpg
+
+거짓 음성(False Negative) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2726: 거리 = 0.4970, 임계값 = 0.4490, 차이 = 0.0480
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2726/2726_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2726/2726_1.jpg
+  gen 2811: 거리 = 0.4519, 임계값 = 0.4490, 차이 = 0.0029
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2811/2811_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2811/2811_1.jpg
+  gen 2818: 거리 = 0.4716, 임계값 = 0.4490, 차이 = 0.0226
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2818/2818_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2818/2818_1.jpg
+  gen 2848: 거리 = 0.4555, 임계값 = 0.4490, 차이 = 0.0065
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2848/2848_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2848/2848_1.jpg
+  gen 2853: 거리 = 0.4667, 임계값 = 0.4490, 차이 = 0.0177
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2853/2853_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2853/2853_1.jpg
+  gen 2854: 거리 = 0.4942, 임계값 = 0.4490, 차이 = 0.0452
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2854/2854_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2854/2854_1.jpg
+  gen 2935: 거리 = 0.4701, 임계값 = 0.4490, 차이 = 0.0211
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2935/2935_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2935/2935_1.jpg
+  gen 2946: 거리 = 0.4546, 임계값 = 0.4490, 차이 = 0.0056
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2946/2946_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2946/2946_1.jpg
+  gen 2962: 거리 = 0.4974, 임계값 = 0.4490, 차이 = 0.0484
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2962/2962_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2962/2962_1.jpg
+  gen 2968: 거리 = 0.4494, 임계값 = 0.4490, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2968/2968_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2968/2968_1.jpg
+  gen 2979: 거리 = 0.4573, 임계값 = 0.4490, 차이 = 0.0083
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2979/2979_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2979/2979_1.jpg
+  gen 2980: 거리 = 0.5138, 임계값 = 0.4490, 차이 = 0.0648
+    경로1: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2980/2980_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/speckle_noise_1/gen/2980/2980_1.jpg
+Accuracy for each fold: [0.98       0.97666667 0.97166667 0.96833333 0.945      0.97666667
+ 0.94333333 0.95333333 0.96166667 0.97      ]
+Mean Accuracy: 0.9646666666666667
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.36703226
+Standard deviation for genuine pairs: 0.043508705
+Average distance for imposter pairs: 0.49640125
+Standard deviation for imposter pairs: 0.022165146

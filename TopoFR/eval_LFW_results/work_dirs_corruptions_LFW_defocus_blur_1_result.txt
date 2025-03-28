@@ -1,0 +1,174 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9969)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 44: 거리 = 0.4240, 임계값 = 0.4410, 차이 = 0.0170
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/0044/44_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/0044/44_1.jpg
+  imp 137: 거리 = 0.4349, 임계값 = 0.4410, 차이 = 0.0061
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/0137/137_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/0137/137_1.jpg
+  imp 176: 거리 = 0.4287, 임계값 = 0.4410, 차이 = 0.0123
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/0176/176_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/0176/176_1.jpg
+
+거짓 음성(False Negative) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 68: 거리 = 0.4786, 임계값 = 0.4410, 차이 = 0.0376
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0068/68_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0068/68_1.jpg
+  gen 69: 거리 = 0.4725, 임계값 = 0.4410, 차이 = 0.0315
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0069/69_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0069/69_1.jpg
+  gen 112: 거리 = 0.4675, 임계값 = 0.4410, 차이 = 0.0265
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0112/112_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0112/112_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4340 (훈련 정확도: 0.9959)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 418: 거리 = 0.4336, 임계값 = 0.4340, 차이 = 0.0004
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/0418/418_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/0418/418_1.jpg
+
+거짓 음성(False Negative) 오탐지: 2개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 541: 거리 = 0.4407, 임계값 = 0.4340, 차이 = 0.0067
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0541/541_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0541/541_1.jpg
+  gen 544: 거리 = 0.4387, 임계값 = 0.4340, 차이 = 0.0047
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0544/544_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0544/544_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9961)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 796: 거리 = 0.4228, 임계값 = 0.4410, 차이 = 0.0182
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/0796/796_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/0796/796_1.jpg
+
+거짓 음성(False Negative) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 629: 거리 = 0.4461, 임계값 = 0.4410, 차이 = 0.0051
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0629/629_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0629/629_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9961)
+
+거짓 음성(False Negative) 오탐지: 2개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 943: 거리 = 0.4413, 임계값 = 0.4410, 차이 = 0.0003
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0943/943_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0943/943_1.jpg
+  gen 961: 거리 = 0.4798, 임계값 = 0.4410, 차이 = 0.0388
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/0961/961_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/0961/961_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9967)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1463: 거리 = 0.4340, 임계값 = 0.4410, 차이 = 0.0070
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/1463/1463_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/1463/1463_1.jpg
+
+거짓 음성(False Negative) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1298: 거리 = 0.4939, 임계값 = 0.4410, 차이 = 0.0529
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/1298/1298_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/1298/1298_1.jpg
+  gen 1321: 거리 = 0.4478, 임계값 = 0.4410, 차이 = 0.0068
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/1321/1321_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/1321/1321_1.jpg
+  gen 1350: 거리 = 0.5161, 임계값 = 0.4410, 차이 = 0.0751
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/1350/1350_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/1350/1350_1.jpg
+  gen 1351: 거리 = 0.4920, 임계값 = 0.4410, 차이 = 0.0510
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/1351/1351_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/1351/1351_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9963)
+
+거짓 양성(False Positive) 오탐지: 2개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1534: 거리 = 0.4251, 임계값 = 0.4410, 차이 = 0.0159
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/1534/1534_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/1534/1534_1.jpg
+  imp 1702: 거리 = 0.4126, 임계값 = 0.4410, 차이 = 0.0284
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/1702/1702_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/1702/1702_1.jpg
+
+거짓 음성(False Negative) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1660: 거리 = 0.4460, 임계값 = 0.4410, 차이 = 0.0050
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/1660/1660_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/1660/1660_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9961)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2084: 거리 = 0.4360, 임계값 = 0.4410, 차이 = 0.0050
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/2084/2084_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/2084/2084_1.jpg
+
+거짓 음성(False Negative) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2072: 거리 = 0.4476, 임계값 = 0.4410, 차이 = 0.0066
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/gen/2072/2072_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/gen/2072/2072_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9959)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2184: 거리 = 0.4221, 임계값 = 0.4410, 차이 = 0.0189
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/2184/2184_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/2184/2184_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9957)
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4410 (훈련 정확도: 0.9959)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2819: 거리 = 0.4286, 임계값 = 0.4410, 차이 = 0.0124
+    경로1: work_dirs/corruptions/LFW/defocus_blur_1/imp/2819/2819_0.jpg
+    경로2: work_dirs/corruptions/LFW/defocus_blur_1/imp/2819/2819_1.jpg
+Accuracy for each fold: [0.99       0.995      0.99666667 0.99666667 0.99166667 0.995
+ 0.99666667 0.99833333 1.         0.99833333]
+Mean Accuracy: 0.9958333333333333
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.28652027
+Standard deviation for genuine pairs: 0.05162079
+Average distance for imposter pairs: 0.49769703
+Standard deviation for imposter pairs: 0.02042958

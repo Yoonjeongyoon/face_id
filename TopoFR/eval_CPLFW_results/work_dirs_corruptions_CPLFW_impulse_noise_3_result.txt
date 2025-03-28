@@ -1,0 +1,2675 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8589)
+
+거짓 양성(False Positive) 오탐지: 35개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 23: 거리 = 0.4404, 임계값 = 0.4460, 차이 = 0.0056
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0023/23_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0023/23_1.jpg
+  imp 49: 거리 = 0.4457, 임계값 = 0.4460, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0049/49_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0049/49_1.jpg
+  imp 57: 거리 = 0.4255, 임계값 = 0.4460, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0057/57_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0057/57_1.jpg
+  imp 66: 거리 = 0.4439, 임계값 = 0.4460, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0066/66_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0066/66_1.jpg
+  imp 73: 거리 = 0.4224, 임계값 = 0.4460, 차이 = 0.0236
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0073/73_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0073/73_1.jpg
+  imp 95: 거리 = 0.4090, 임계값 = 0.4460, 차이 = 0.0370
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0095/95_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0095/95_1.jpg
+  imp 96: 거리 = 0.4197, 임계값 = 0.4460, 차이 = 0.0263
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0096/96_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0096/96_1.jpg
+  imp 100: 거리 = 0.3945, 임계값 = 0.4460, 차이 = 0.0515
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0100/100_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0100/100_1.jpg
+  imp 109: 거리 = 0.4438, 임계값 = 0.4460, 차이 = 0.0022
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0109/109_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0109/109_1.jpg
+  imp 115: 거리 = 0.4032, 임계값 = 0.4460, 차이 = 0.0428
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0115/115_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0115/115_1.jpg
+  imp 119: 거리 = 0.4329, 임계값 = 0.4460, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0119/119_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0119/119_1.jpg
+  imp 127: 거리 = 0.4222, 임계값 = 0.4460, 차이 = 0.0238
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0127/127_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0127/127_1.jpg
+  imp 143: 거리 = 0.4213, 임계값 = 0.4460, 차이 = 0.0247
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0143/143_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0143/143_1.jpg
+  imp 148: 거리 = 0.4400, 임계값 = 0.4460, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0148/148_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0148/148_1.jpg
+  imp 150: 거리 = 0.4363, 임계값 = 0.4460, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0150/150_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0150/150_1.jpg
+  imp 175: 거리 = 0.4422, 임계값 = 0.4460, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0175/175_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0175/175_1.jpg
+  imp 178: 거리 = 0.4447, 임계값 = 0.4460, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0178/178_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0178/178_1.jpg
+  imp 182: 거리 = 0.3728, 임계값 = 0.4460, 차이 = 0.0732
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0182/182_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0182/182_1.jpg
+  imp 196: 거리 = 0.4398, 임계값 = 0.4460, 차이 = 0.0062
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0196/196_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0196/196_1.jpg
+  imp 205: 거리 = 0.3544, 임계값 = 0.4460, 차이 = 0.0916
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0205/205_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0205/205_1.jpg
+  imp 210: 거리 = 0.4320, 임계값 = 0.4460, 차이 = 0.0140
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0210/210_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0210/210_1.jpg
+  imp 216: 거리 = 0.3878, 임계값 = 0.4460, 차이 = 0.0582
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0216/216_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0216/216_1.jpg
+  imp 226: 거리 = 0.4352, 임계값 = 0.4460, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0226/226_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0226/226_1.jpg
+  imp 230: 거리 = 0.4418, 임계값 = 0.4460, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0230/230_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0230/230_1.jpg
+  imp 236: 거리 = 0.3936, 임계값 = 0.4460, 차이 = 0.0524
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0236/236_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0236/236_1.jpg
+  imp 238: 거리 = 0.4197, 임계값 = 0.4460, 차이 = 0.0263
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0238/238_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0238/238_1.jpg
+  imp 256: 거리 = 0.4128, 임계값 = 0.4460, 차이 = 0.0332
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0256/256_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0256/256_1.jpg
+  imp 273: 거리 = 0.4345, 임계값 = 0.4460, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0273/273_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0273/273_1.jpg
+  imp 275: 거리 = 0.4244, 임계값 = 0.4460, 차이 = 0.0216
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0275/275_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0275/275_1.jpg
+  imp 276: 거리 = 0.4455, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0276/276_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0276/276_1.jpg
+  imp 279: 거리 = 0.4270, 임계값 = 0.4460, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0279/279_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0279/279_1.jpg
+  imp 281: 거리 = 0.4314, 임계값 = 0.4460, 차이 = 0.0146
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0281/281_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0281/281_1.jpg
+  imp 284: 거리 = 0.4327, 임계값 = 0.4460, 차이 = 0.0133
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0284/284_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0284/284_1.jpg
+  imp 285: 거리 = 0.4432, 임계값 = 0.4460, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0285/285_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0285/285_1.jpg
+  imp 288: 거리 = 0.4078, 임계값 = 0.4460, 차이 = 0.0382
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0288/288_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0288/288_1.jpg
+
+거짓 음성(False Negative) 오탐지: 51개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 5: 거리 = 0.4507, 임계값 = 0.4460, 차이 = 0.0047
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0005/5_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0005/5_1.jpg
+  gen 13: 거리 = 0.5092, 임계값 = 0.4460, 차이 = 0.0632
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0013/13_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0013/13_1.jpg
+  gen 14: 거리 = 0.4525, 임계값 = 0.4460, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0014/14_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0014/14_1.jpg
+  gen 25: 거리 = 0.4673, 임계값 = 0.4460, 차이 = 0.0213
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0025/25_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0025/25_1.jpg
+  gen 26: 거리 = 0.4638, 임계값 = 0.4460, 차이 = 0.0178
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0026/26_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0026/26_1.jpg
+  gen 32: 거리 = 0.4712, 임계값 = 0.4460, 차이 = 0.0252
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0032/32_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0032/32_1.jpg
+  gen 34: 거리 = 0.4784, 임계값 = 0.4460, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0034/34_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0034/34_1.jpg
+  gen 37: 거리 = 0.4731, 임계값 = 0.4460, 차이 = 0.0271
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0037/37_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0037/37_1.jpg
+  gen 38: 거리 = 0.4832, 임계값 = 0.4460, 차이 = 0.0372
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0038/38_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0038/38_1.jpg
+  gen 41: 거리 = 0.4522, 임계값 = 0.4460, 차이 = 0.0062
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0041/41_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0041/41_1.jpg
+  gen 42: 거리 = 0.4530, 임계값 = 0.4460, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0042/42_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0042/42_1.jpg
+  gen 49: 거리 = 0.4765, 임계값 = 0.4460, 차이 = 0.0305
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0049/49_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0049/49_1.jpg
+  gen 56: 거리 = 0.4691, 임계값 = 0.4460, 차이 = 0.0231
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0056/56_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0056/56_1.jpg
+  gen 59: 거리 = 0.4746, 임계값 = 0.4460, 차이 = 0.0286
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0059/59_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0059/59_1.jpg
+  gen 64: 거리 = 0.4552, 임계값 = 0.4460, 차이 = 0.0092
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0064/64_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0064/64_1.jpg
+  gen 65: 거리 = 0.5032, 임계값 = 0.4460, 차이 = 0.0572
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0065/65_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0065/65_1.jpg
+  gen 68: 거리 = 0.4515, 임계값 = 0.4460, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0068/68_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0068/68_1.jpg
+  gen 76: 거리 = 0.4550, 임계값 = 0.4460, 차이 = 0.0090
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0076/76_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0076/76_1.jpg
+  gen 80: 거리 = 0.4465, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0080/80_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0080/80_1.jpg
+  gen 82: 거리 = 0.4669, 임계값 = 0.4460, 차이 = 0.0209
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0082/82_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0082/82_1.jpg
+  gen 120: 거리 = 0.4721, 임계값 = 0.4460, 차이 = 0.0261
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0120/120_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0120/120_1.jpg
+  gen 127: 거리 = 0.4562, 임계값 = 0.4460, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0127/127_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0127/127_1.jpg
+  gen 128: 거리 = 0.5039, 임계값 = 0.4460, 차이 = 0.0579
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0128/128_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0128/128_1.jpg
+  gen 132: 거리 = 0.4839, 임계값 = 0.4460, 차이 = 0.0379
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0132/132_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0132/132_1.jpg
+  gen 135: 거리 = 0.4821, 임계값 = 0.4460, 차이 = 0.0361
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0135/135_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0135/135_1.jpg
+  gen 139: 거리 = 0.4621, 임계값 = 0.4460, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0139/139_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0139/139_1.jpg
+  gen 146: 거리 = 0.4810, 임계값 = 0.4460, 차이 = 0.0350
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0146/146_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0146/146_1.jpg
+  gen 149: 거리 = 0.4590, 임계값 = 0.4460, 차이 = 0.0130
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0149/149_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0149/149_1.jpg
+  gen 154: 거리 = 0.4602, 임계값 = 0.4460, 차이 = 0.0142
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0154/154_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0154/154_1.jpg
+  gen 164: 거리 = 0.5030, 임계값 = 0.4460, 차이 = 0.0570
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0164/164_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0164/164_1.jpg
+  gen 177: 거리 = 0.4822, 임계값 = 0.4460, 차이 = 0.0362
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0177/177_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0177/177_1.jpg
+  gen 178: 거리 = 0.5087, 임계값 = 0.4460, 차이 = 0.0627
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0178/178_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0178/178_1.jpg
+  gen 186: 거리 = 0.4549, 임계값 = 0.4460, 차이 = 0.0089
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0186/186_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0186/186_1.jpg
+  gen 189: 거리 = 0.4640, 임계값 = 0.4460, 차이 = 0.0180
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0189/189_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0189/189_1.jpg
+  gen 190: 거리 = 0.4625, 임계값 = 0.4460, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0190/190_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0190/190_1.jpg
+  gen 198: 거리 = 0.5049, 임계값 = 0.4460, 차이 = 0.0589
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0198/198_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0198/198_1.jpg
+  gen 203: 거리 = 0.4803, 임계값 = 0.4460, 차이 = 0.0343
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0203/203_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0203/203_1.jpg
+  gen 211: 거리 = 0.4553, 임계값 = 0.4460, 차이 = 0.0093
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0211/211_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0211/211_1.jpg
+  gen 212: 거리 = 0.4688, 임계값 = 0.4460, 차이 = 0.0228
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0212/212_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0212/212_1.jpg
+  gen 213: 거리 = 0.4784, 임계값 = 0.4460, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0213/213_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0213/213_1.jpg
+  gen 225: 거리 = 0.4658, 임계값 = 0.4460, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0225/225_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0225/225_1.jpg
+  gen 229: 거리 = 0.4483, 임계값 = 0.4460, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0229/229_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0229/229_1.jpg
+  gen 238: 거리 = 0.4677, 임계값 = 0.4460, 차이 = 0.0217
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0238/238_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0238/238_1.jpg
+  gen 241: 거리 = 0.4908, 임계값 = 0.4460, 차이 = 0.0448
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0241/241_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0241/241_1.jpg
+  gen 250: 거리 = 0.4465, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0250/250_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0250/250_1.jpg
+  gen 257: 거리 = 0.5142, 임계값 = 0.4460, 차이 = 0.0682
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0257/257_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0257/257_1.jpg
+  gen 260: 거리 = 0.4584, 임계값 = 0.4460, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0260/260_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0260/260_1.jpg
+  gen 265: 거리 = 0.4713, 임계값 = 0.4460, 차이 = 0.0253
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0265/265_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0265/265_1.jpg
+  gen 278: 거리 = 0.4919, 임계값 = 0.4460, 차이 = 0.0459
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0278/278_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0278/278_1.jpg
+  gen 281: 거리 = 0.4521, 임계값 = 0.4460, 차이 = 0.0061
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0281/281_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0281/281_1.jpg
+  gen 292: 거리 = 0.4812, 임계값 = 0.4460, 차이 = 0.0352
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0292/292_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0292/292_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8570)
+
+거짓 양성(False Positive) 오탐지: 27개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 320: 거리 = 0.4373, 임계값 = 0.4460, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0320/320_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0320/320_1.jpg
+  imp 330: 거리 = 0.4414, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0330/330_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0330/330_1.jpg
+  imp 362: 거리 = 0.4412, 임계값 = 0.4460, 차이 = 0.0048
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0362/362_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0362/362_1.jpg
+  imp 365: 거리 = 0.4290, 임계값 = 0.4460, 차이 = 0.0170
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0365/365_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0365/365_1.jpg
+  imp 378: 거리 = 0.3601, 임계값 = 0.4460, 차이 = 0.0859
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0378/378_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0378/378_1.jpg
+  imp 379: 거리 = 0.4268, 임계값 = 0.4460, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0379/379_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0379/379_1.jpg
+  imp 390: 거리 = 0.4435, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0390/390_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0390/390_1.jpg
+  imp 391: 거리 = 0.4303, 임계값 = 0.4460, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0391/391_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0391/391_1.jpg
+  imp 398: 거리 = 0.4076, 임계값 = 0.4460, 차이 = 0.0384
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0398/398_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0398/398_1.jpg
+  imp 400: 거리 = 0.4273, 임계값 = 0.4460, 차이 = 0.0187
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0400/400_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0400/400_1.jpg
+  imp 404: 거리 = 0.4042, 임계값 = 0.4460, 차이 = 0.0418
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0404/404_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0404/404_1.jpg
+  imp 412: 거리 = 0.4393, 임계값 = 0.4460, 차이 = 0.0067
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0412/412_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0412/412_1.jpg
+  imp 422: 거리 = 0.4072, 임계값 = 0.4460, 차이 = 0.0388
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0422/422_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0422/422_1.jpg
+  imp 432: 거리 = 0.4257, 임계값 = 0.4460, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0432/432_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0432/432_1.jpg
+  imp 447: 거리 = 0.4280, 임계값 = 0.4460, 차이 = 0.0180
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0447/447_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0447/447_1.jpg
+  imp 454: 거리 = 0.4427, 임계값 = 0.4460, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0454/454_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0454/454_1.jpg
+  imp 463: 거리 = 0.4437, 임계값 = 0.4460, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0463/463_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0463/463_1.jpg
+  imp 491: 거리 = 0.4377, 임계값 = 0.4460, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0491/491_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0491/491_1.jpg
+  imp 513: 거리 = 0.4431, 임계값 = 0.4460, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0513/513_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0513/513_1.jpg
+  imp 520: 거리 = 0.4133, 임계값 = 0.4460, 차이 = 0.0327
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0520/520_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0520/520_1.jpg
+  imp 521: 거리 = 0.4355, 임계값 = 0.4460, 차이 = 0.0105
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0521/521_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0521/521_1.jpg
+  imp 551: 거리 = 0.4261, 임계값 = 0.4460, 차이 = 0.0199
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0551/551_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0551/551_1.jpg
+  imp 571: 거리 = 0.4009, 임계값 = 0.4460, 차이 = 0.0451
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0571/571_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0571/571_1.jpg
+  imp 573: 거리 = 0.4144, 임계값 = 0.4460, 차이 = 0.0316
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0573/573_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0573/573_1.jpg
+  imp 589: 거리 = 0.4177, 임계값 = 0.4460, 차이 = 0.0283
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0589/589_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0589/589_1.jpg
+  imp 597: 거리 = 0.4234, 임계값 = 0.4460, 차이 = 0.0226
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0597/597_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0597/597_1.jpg
+  imp 598: 거리 = 0.4129, 임계값 = 0.4460, 차이 = 0.0331
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0598/598_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0598/598_1.jpg
+
+거짓 음성(False Negative) 오탐지: 49개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 300: 거리 = 0.4486, 임계값 = 0.4460, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0300/300_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0300/300_1.jpg
+  gen 305: 거리 = 0.4558, 임계값 = 0.4460, 차이 = 0.0098
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0305/305_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0305/305_1.jpg
+  gen 309: 거리 = 0.4608, 임계값 = 0.4460, 차이 = 0.0148
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0309/309_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0309/309_1.jpg
+  gen 310: 거리 = 0.4534, 임계값 = 0.4460, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0310/310_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0310/310_1.jpg
+  gen 316: 거리 = 0.4944, 임계값 = 0.4460, 차이 = 0.0484
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0316/316_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0316/316_1.jpg
+  gen 333: 거리 = 0.4624, 임계값 = 0.4460, 차이 = 0.0164
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0333/333_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0333/333_1.jpg
+  gen 335: 거리 = 0.5043, 임계값 = 0.4460, 차이 = 0.0583
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0335/335_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0335/335_1.jpg
+  gen 337: 거리 = 0.4649, 임계값 = 0.4460, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0337/337_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0337/337_1.jpg
+  gen 339: 거리 = 0.4485, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0339/339_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0339/339_1.jpg
+  gen 342: 거리 = 0.4662, 임계값 = 0.4460, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0342/342_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0342/342_1.jpg
+  gen 343: 거리 = 0.4689, 임계값 = 0.4460, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0343/343_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0343/343_1.jpg
+  gen 353: 거리 = 0.4868, 임계값 = 0.4460, 차이 = 0.0408
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0353/353_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0353/353_1.jpg
+  gen 358: 거리 = 0.4837, 임계값 = 0.4460, 차이 = 0.0377
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0358/358_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0358/358_1.jpg
+  gen 361: 거리 = 0.4670, 임계값 = 0.4460, 차이 = 0.0210
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0361/361_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0361/361_1.jpg
+  gen 373: 거리 = 0.4567, 임계값 = 0.4460, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0373/373_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0373/373_1.jpg
+  gen 374: 거리 = 0.4467, 임계값 = 0.4460, 차이 = 0.0007
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0374/374_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0374/374_1.jpg
+  gen 389: 거리 = 0.4701, 임계값 = 0.4460, 차이 = 0.0241
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0389/389_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0389/389_1.jpg
+  gen 394: 거리 = 0.4569, 임계값 = 0.4460, 차이 = 0.0109
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0394/394_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0394/394_1.jpg
+  gen 395: 거리 = 0.4620, 임계값 = 0.4460, 차이 = 0.0160
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0395/395_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0395/395_1.jpg
+  gen 405: 거리 = 0.5128, 임계값 = 0.4460, 차이 = 0.0668
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0405/405_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0405/405_1.jpg
+  gen 406: 거리 = 0.4483, 임계값 = 0.4460, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0406/406_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0406/406_1.jpg
+  gen 417: 거리 = 0.4884, 임계값 = 0.4460, 차이 = 0.0424
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0417/417_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0417/417_1.jpg
+  gen 431: 거리 = 0.4855, 임계값 = 0.4460, 차이 = 0.0395
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0431/431_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0431/431_1.jpg
+  gen 432: 거리 = 0.4902, 임계값 = 0.4460, 차이 = 0.0442
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0432/432_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0432/432_1.jpg
+  gen 434: 거리 = 0.4797, 임계값 = 0.4460, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0434/434_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0434/434_1.jpg
+  gen 440: 거리 = 0.4591, 임계값 = 0.4460, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0440/440_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0440/440_1.jpg
+  gen 442: 거리 = 0.4662, 임계값 = 0.4460, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0442/442_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0442/442_1.jpg
+  gen 444: 거리 = 0.4623, 임계값 = 0.4460, 차이 = 0.0163
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0444/444_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0444/444_1.jpg
+  gen 460: 거리 = 0.4610, 임계값 = 0.4460, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0460/460_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0460/460_1.jpg
+  gen 489: 거리 = 0.4641, 임계값 = 0.4460, 차이 = 0.0181
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0489/489_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0489/489_1.jpg
+  gen 490: 거리 = 0.4964, 임계값 = 0.4460, 차이 = 0.0504
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0490/490_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0490/490_1.jpg
+  gen 497: 거리 = 0.4862, 임계값 = 0.4460, 차이 = 0.0402
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0497/497_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0497/497_1.jpg
+  gen 503: 거리 = 0.4711, 임계값 = 0.4460, 차이 = 0.0251
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0503/503_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0503/503_1.jpg
+  gen 505: 거리 = 0.4536, 임계값 = 0.4460, 차이 = 0.0076
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0505/505_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0505/505_1.jpg
+  gen 509: 거리 = 0.4750, 임계값 = 0.4460, 차이 = 0.0290
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0509/509_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0509/509_1.jpg
+  gen 525: 거리 = 0.4753, 임계값 = 0.4460, 차이 = 0.0293
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0525/525_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0525/525_1.jpg
+  gen 527: 거리 = 0.4547, 임계값 = 0.4460, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0527/527_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0527/527_1.jpg
+  gen 530: 거리 = 0.4484, 임계값 = 0.4460, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0530/530_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0530/530_1.jpg
+  gen 532: 거리 = 0.5043, 임계값 = 0.4460, 차이 = 0.0583
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0532/532_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0532/532_1.jpg
+  gen 536: 거리 = 0.4515, 임계값 = 0.4460, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0536/536_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0536/536_1.jpg
+  gen 538: 거리 = 0.4581, 임계값 = 0.4460, 차이 = 0.0121
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0538/538_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0538/538_1.jpg
+  gen 549: 거리 = 0.4500, 임계값 = 0.4460, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0549/549_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0549/549_1.jpg
+  gen 555: 거리 = 0.4679, 임계값 = 0.4460, 차이 = 0.0219
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0555/555_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0555/555_1.jpg
+  gen 556: 거리 = 0.4517, 임계값 = 0.4460, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0556/556_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0556/556_1.jpg
+  gen 558: 거리 = 0.4678, 임계값 = 0.4460, 차이 = 0.0218
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0558/558_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0558/558_1.jpg
+  gen 565: 거리 = 0.4562, 임계값 = 0.4460, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0565/565_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0565/565_1.jpg
+  gen 571: 거리 = 0.4678, 임계값 = 0.4460, 차이 = 0.0218
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0571/571_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0571/571_1.jpg
+  gen 573: 거리 = 0.4946, 임계값 = 0.4460, 차이 = 0.0486
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0573/573_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0573/573_1.jpg
+  gen 599: 거리 = 0.4891, 임계값 = 0.4460, 차이 = 0.0431
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0599/599_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0599/599_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8591)
+
+거짓 양성(False Positive) 오탐지: 33개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 601: 거리 = 0.4223, 임계값 = 0.4460, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0601/601_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0601/601_1.jpg
+  imp 622: 거리 = 0.4409, 임계값 = 0.4460, 차이 = 0.0051
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0622/622_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0622/622_1.jpg
+  imp 639: 거리 = 0.4434, 임계값 = 0.4460, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0639/639_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0639/639_1.jpg
+  imp 642: 거리 = 0.4444, 임계값 = 0.4460, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0642/642_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0642/642_1.jpg
+  imp 687: 거리 = 0.4370, 임계값 = 0.4460, 차이 = 0.0090
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0687/687_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0687/687_1.jpg
+  imp 695: 거리 = 0.4409, 임계값 = 0.4460, 차이 = 0.0051
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0695/695_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0695/695_1.jpg
+  imp 699: 거리 = 0.4448, 임계값 = 0.4460, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0699/699_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0699/699_1.jpg
+  imp 712: 거리 = 0.4392, 임계값 = 0.4460, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0712/712_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0712/712_1.jpg
+  imp 723: 거리 = 0.3953, 임계값 = 0.4460, 차이 = 0.0507
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0723/723_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0723/723_1.jpg
+  imp 724: 거리 = 0.4411, 임계값 = 0.4460, 차이 = 0.0049
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0724/724_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0724/724_1.jpg
+  imp 745: 거리 = 0.4311, 임계값 = 0.4460, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0745/745_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0745/745_1.jpg
+  imp 756: 거리 = 0.4451, 임계값 = 0.4460, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0756/756_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0756/756_1.jpg
+  imp 766: 거리 = 0.4432, 임계값 = 0.4460, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0766/766_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0766/766_1.jpg
+  imp 770: 거리 = 0.4068, 임계값 = 0.4460, 차이 = 0.0392
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0770/770_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0770/770_1.jpg
+  imp 801: 거리 = 0.4238, 임계값 = 0.4460, 차이 = 0.0222
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0801/801_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0801/801_1.jpg
+  imp 806: 거리 = 0.4165, 임계값 = 0.4460, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0806/806_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0806/806_1.jpg
+  imp 807: 거리 = 0.3894, 임계값 = 0.4460, 차이 = 0.0566
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0807/807_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0807/807_1.jpg
+  imp 809: 거리 = 0.4358, 임계값 = 0.4460, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0809/809_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0809/809_1.jpg
+  imp 811: 거리 = 0.4212, 임계값 = 0.4460, 차이 = 0.0248
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0811/811_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0811/811_1.jpg
+  imp 814: 거리 = 0.3996, 임계값 = 0.4460, 차이 = 0.0464
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0814/814_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0814/814_1.jpg
+  imp 818: 거리 = 0.4258, 임계값 = 0.4460, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0818/818_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0818/818_1.jpg
+  imp 821: 거리 = 0.4325, 임계값 = 0.4460, 차이 = 0.0135
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0821/821_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0821/821_1.jpg
+  imp 826: 거리 = 0.4274, 임계값 = 0.4460, 차이 = 0.0186
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0826/826_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0826/826_1.jpg
+  imp 833: 거리 = 0.4272, 임계값 = 0.4460, 차이 = 0.0188
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0833/833_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0833/833_1.jpg
+  imp 852: 거리 = 0.4424, 임계값 = 0.4460, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0852/852_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0852/852_1.jpg
+  imp 858: 거리 = 0.4428, 임계값 = 0.4460, 차이 = 0.0032
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0858/858_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0858/858_1.jpg
+  imp 862: 거리 = 0.3982, 임계값 = 0.4460, 차이 = 0.0478
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0862/862_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0862/862_1.jpg
+  imp 866: 거리 = 0.1546, 임계값 = 0.4460, 차이 = 0.2914
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0866/866_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0866/866_1.jpg
+  imp 886: 거리 = 0.4395, 임계값 = 0.4460, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0886/886_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0886/886_1.jpg
+  imp 890: 거리 = 0.3918, 임계값 = 0.4460, 차이 = 0.0542
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0890/890_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0890/890_1.jpg
+  imp 891: 거리 = 0.4402, 임계값 = 0.4460, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0891/891_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0891/891_1.jpg
+  imp 896: 거리 = 0.4357, 임계값 = 0.4460, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0896/896_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0896/896_1.jpg
+  imp 899: 거리 = 0.4380, 임계값 = 0.4460, 차이 = 0.0080
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0899/899_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0899/899_1.jpg
+
+거짓 음성(False Negative) 오탐지: 54개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 611: 거리 = 0.4651, 임계값 = 0.4460, 차이 = 0.0191
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0611/611_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0611/611_1.jpg
+  gen 612: 거리 = 0.4919, 임계값 = 0.4460, 차이 = 0.0459
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0612/612_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0612/612_1.jpg
+  gen 621: 거리 = 0.4551, 임계값 = 0.4460, 차이 = 0.0091
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0621/621_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0621/621_1.jpg
+  gen 622: 거리 = 0.4496, 임계값 = 0.4460, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0622/622_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0622/622_1.jpg
+  gen 624: 거리 = 0.4862, 임계값 = 0.4460, 차이 = 0.0402
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0624/624_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0624/624_1.jpg
+  gen 628: 거리 = 0.4756, 임계값 = 0.4460, 차이 = 0.0296
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0628/628_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0628/628_1.jpg
+  gen 630: 거리 = 0.4769, 임계값 = 0.4460, 차이 = 0.0309
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0630/630_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0630/630_1.jpg
+  gen 633: 거리 = 0.4734, 임계값 = 0.4460, 차이 = 0.0274
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0633/633_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0633/633_1.jpg
+  gen 636: 거리 = 0.4716, 임계값 = 0.4460, 차이 = 0.0256
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0636/636_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0636/636_1.jpg
+  gen 639: 거리 = 0.4755, 임계값 = 0.4460, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0639/639_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0639/639_1.jpg
+  gen 646: 거리 = 0.4466, 임계값 = 0.4460, 차이 = 0.0006
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0646/646_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0646/646_1.jpg
+  gen 654: 거리 = 0.4570, 임계값 = 0.4460, 차이 = 0.0110
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0654/654_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0654/654_1.jpg
+  gen 656: 거리 = 0.4808, 임계값 = 0.4460, 차이 = 0.0348
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0656/656_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0656/656_1.jpg
+  gen 668: 거리 = 0.4584, 임계값 = 0.4460, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0668/668_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0668/668_1.jpg
+  gen 669: 거리 = 0.4846, 임계값 = 0.4460, 차이 = 0.0386
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0669/669_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0669/669_1.jpg
+  gen 671: 거리 = 0.5185, 임계값 = 0.4460, 차이 = 0.0725
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0671/671_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0671/671_1.jpg
+  gen 674: 거리 = 0.4473, 임계값 = 0.4460, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0674/674_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0674/674_1.jpg
+  gen 676: 거리 = 0.4803, 임계값 = 0.4460, 차이 = 0.0343
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0676/676_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0676/676_1.jpg
+  gen 679: 거리 = 0.4647, 임계값 = 0.4460, 차이 = 0.0187
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0679/679_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0679/679_1.jpg
+  gen 681: 거리 = 0.4462, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0681/681_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0681/681_1.jpg
+  gen 691: 거리 = 0.4813, 임계값 = 0.4460, 차이 = 0.0353
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0691/691_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0691/691_1.jpg
+  gen 699: 거리 = 0.4775, 임계값 = 0.4460, 차이 = 0.0315
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0699/699_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0699/699_1.jpg
+  gen 718: 거리 = 0.4984, 임계값 = 0.4460, 차이 = 0.0524
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0718/718_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0718/718_1.jpg
+  gen 722: 거리 = 0.4792, 임계값 = 0.4460, 차이 = 0.0332
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0722/722_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0722/722_1.jpg
+  gen 724: 거리 = 0.4729, 임계값 = 0.4460, 차이 = 0.0269
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0724/724_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0724/724_1.jpg
+  gen 729: 거리 = 0.4570, 임계값 = 0.4460, 차이 = 0.0110
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0729/729_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0729/729_1.jpg
+  gen 730: 거리 = 0.4684, 임계값 = 0.4460, 차이 = 0.0224
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0730/730_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0730/730_1.jpg
+  gen 742: 거리 = 0.4477, 임계값 = 0.4460, 차이 = 0.0017
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0742/742_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0742/742_1.jpg
+  gen 751: 거리 = 0.5435, 임계값 = 0.4460, 차이 = 0.0975
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0751/751_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0751/751_1.jpg
+  gen 756: 거리 = 0.4645, 임계값 = 0.4460, 차이 = 0.0185
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0756/756_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0756/756_1.jpg
+  gen 768: 거리 = 0.5049, 임계값 = 0.4460, 차이 = 0.0589
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0768/768_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0768/768_1.jpg
+  gen 769: 거리 = 0.4956, 임계값 = 0.4460, 차이 = 0.0496
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0769/769_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0769/769_1.jpg
+  gen 777: 거리 = 0.4772, 임계값 = 0.4460, 차이 = 0.0312
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0777/777_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0777/777_1.jpg
+  gen 778: 거리 = 0.4772, 임계값 = 0.4460, 차이 = 0.0312
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0778/778_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0778/778_1.jpg
+  gen 784: 거리 = 0.4515, 임계값 = 0.4460, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0784/784_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0784/784_1.jpg
+  gen 792: 거리 = 0.4739, 임계값 = 0.4460, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0792/792_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0792/792_1.jpg
+  gen 797: 거리 = 0.4556, 임계값 = 0.4460, 차이 = 0.0096
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0797/797_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0797/797_1.jpg
+  gen 801: 거리 = 0.4719, 임계값 = 0.4460, 차이 = 0.0259
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0801/801_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0801/801_1.jpg
+  gen 805: 거리 = 0.4465, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0805/805_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0805/805_1.jpg
+  gen 817: 거리 = 0.4759, 임계값 = 0.4460, 차이 = 0.0299
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0817/817_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0817/817_1.jpg
+  gen 827: 거리 = 0.4465, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0827/827_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0827/827_1.jpg
+  gen 831: 거리 = 0.4734, 임계값 = 0.4460, 차이 = 0.0274
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0831/831_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0831/831_1.jpg
+  gen 832: 거리 = 0.4980, 임계값 = 0.4460, 차이 = 0.0520
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0832/832_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0832/832_1.jpg
+  gen 837: 거리 = 0.4697, 임계값 = 0.4460, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0837/837_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0837/837_1.jpg
+  gen 842: 거리 = 0.4643, 임계값 = 0.4460, 차이 = 0.0183
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0842/842_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0842/842_1.jpg
+  gen 845: 거리 = 0.4799, 임계값 = 0.4460, 차이 = 0.0339
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0845/845_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0845/845_1.jpg
+  gen 849: 거리 = 0.4718, 임계값 = 0.4460, 차이 = 0.0258
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0849/849_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0849/849_1.jpg
+  gen 862: 거리 = 0.4580, 임계값 = 0.4460, 차이 = 0.0120
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0862/862_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0862/862_1.jpg
+  gen 863: 거리 = 0.5226, 임계값 = 0.4460, 차이 = 0.0766
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0863/863_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0863/863_1.jpg
+  gen 876: 거리 = 0.4560, 임계값 = 0.4460, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0876/876_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0876/876_1.jpg
+  gen 877: 거리 = 0.5119, 임계값 = 0.4460, 차이 = 0.0659
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0877/877_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0877/877_1.jpg
+  gen 887: 거리 = 0.4971, 임계값 = 0.4460, 차이 = 0.0511
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0887/887_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0887/887_1.jpg
+  gen 894: 거리 = 0.4630, 임계값 = 0.4460, 차이 = 0.0170
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0894/894_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0894/894_1.jpg
+  gen 897: 거리 = 0.4770, 임계값 = 0.4460, 차이 = 0.0310
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0897/897_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0897/897_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8591)
+
+거짓 양성(False Positive) 오탐지: 29개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 909: 거리 = 0.4455, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0909/909_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0909/909_1.jpg
+  imp 920: 거리 = 0.4268, 임계값 = 0.4460, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0920/920_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0920/920_1.jpg
+  imp 930: 거리 = 0.4318, 임계값 = 0.4460, 차이 = 0.0142
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0930/930_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0930/930_1.jpg
+  imp 939: 거리 = 0.4386, 임계값 = 0.4460, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0939/939_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0939/939_1.jpg
+  imp 944: 거리 = 0.4358, 임계값 = 0.4460, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0944/944_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0944/944_1.jpg
+  imp 959: 거리 = 0.3825, 임계값 = 0.4460, 차이 = 0.0635
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0959/959_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0959/959_1.jpg
+  imp 973: 거리 = 0.4138, 임계값 = 0.4460, 차이 = 0.0322
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0973/973_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0973/973_1.jpg
+  imp 977: 거리 = 0.3833, 임계값 = 0.4460, 차이 = 0.0627
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0977/977_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/0977/977_1.jpg
+  imp 1015: 거리 = 0.3569, 임계값 = 0.4460, 차이 = 0.0891
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1015/1015_1.jpg
+  imp 1017: 거리 = 0.4441, 임계값 = 0.4460, 차이 = 0.0019
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1017/1017_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1017/1017_1.jpg
+  imp 1018: 거리 = 0.4271, 임계값 = 0.4460, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1018/1018_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1018/1018_1.jpg
+  imp 1022: 거리 = 0.4414, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1022/1022_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1022/1022_1.jpg
+  imp 1038: 거리 = 0.4179, 임계값 = 0.4460, 차이 = 0.0281
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1038/1038_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1038/1038_1.jpg
+  imp 1051: 거리 = 0.4155, 임계값 = 0.4460, 차이 = 0.0305
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1051/1051_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1051/1051_1.jpg
+  imp 1056: 거리 = 0.4388, 임계값 = 0.4460, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1056/1056_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1056/1056_1.jpg
+  imp 1078: 거리 = 0.4400, 임계값 = 0.4460, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1078/1078_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1078/1078_1.jpg
+  imp 1114: 거리 = 0.4419, 임계값 = 0.4460, 차이 = 0.0041
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1114/1114_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1114/1114_1.jpg
+  imp 1121: 거리 = 0.4131, 임계값 = 0.4460, 차이 = 0.0329
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1121/1121_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1121/1121_1.jpg
+  imp 1126: 거리 = 0.4426, 임계값 = 0.4460, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1126/1126_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1126/1126_1.jpg
+  imp 1129: 거리 = 0.3912, 임계값 = 0.4460, 차이 = 0.0548
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1129/1129_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1129/1129_1.jpg
+  imp 1130: 거리 = 0.4340, 임계값 = 0.4460, 차이 = 0.0120
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1130/1130_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1130/1130_1.jpg
+  imp 1132: 거리 = 0.4146, 임계값 = 0.4460, 차이 = 0.0314
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1132/1132_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1132/1132_1.jpg
+  imp 1136: 거리 = 0.3686, 임계값 = 0.4460, 차이 = 0.0774
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1136/1136_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1136/1136_1.jpg
+  imp 1138: 거리 = 0.3889, 임계값 = 0.4460, 차이 = 0.0571
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1138/1138_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1138/1138_1.jpg
+  imp 1142: 거리 = 0.4050, 임계값 = 0.4460, 차이 = 0.0410
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1142/1142_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1142/1142_1.jpg
+  imp 1148: 거리 = 0.4116, 임계값 = 0.4460, 차이 = 0.0344
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1148/1148_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1148/1148_1.jpg
+  imp 1154: 거리 = 0.4165, 임계값 = 0.4460, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1154/1154_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1154/1154_1.jpg
+  imp 1172: 거리 = 0.4207, 임계값 = 0.4460, 차이 = 0.0253
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1172/1172_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1172/1172_1.jpg
+  imp 1176: 거리 = 0.4222, 임계값 = 0.4460, 차이 = 0.0238
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1176/1176_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1176/1176_1.jpg
+
+거짓 음성(False Negative) 오탐지: 58개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 900: 거리 = 0.4462, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0900/900_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0900/900_1.jpg
+  gen 903: 거리 = 0.4679, 임계값 = 0.4460, 차이 = 0.0219
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0903/903_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0903/903_1.jpg
+  gen 907: 거리 = 0.4615, 임계값 = 0.4460, 차이 = 0.0155
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0907/907_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0907/907_1.jpg
+  gen 908: 거리 = 0.5034, 임계값 = 0.4460, 차이 = 0.0574
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0908/908_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0908/908_1.jpg
+  gen 910: 거리 = 0.4573, 임계값 = 0.4460, 차이 = 0.0113
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0910/910_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0910/910_1.jpg
+  gen 919: 거리 = 0.4569, 임계값 = 0.4460, 차이 = 0.0109
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0919/919_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0919/919_1.jpg
+  gen 924: 거리 = 0.4612, 임계값 = 0.4460, 차이 = 0.0152
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0924/924_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0924/924_1.jpg
+  gen 938: 거리 = 0.4796, 임계값 = 0.4460, 차이 = 0.0336
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0938/938_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0938/938_1.jpg
+  gen 950: 거리 = 0.4788, 임계값 = 0.4460, 차이 = 0.0328
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0950/950_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0950/950_1.jpg
+  gen 953: 거리 = 0.4945, 임계값 = 0.4460, 차이 = 0.0485
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0953/953_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0953/953_1.jpg
+  gen 956: 거리 = 0.4751, 임계값 = 0.4460, 차이 = 0.0291
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0956/956_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0956/956_1.jpg
+  gen 958: 거리 = 0.5030, 임계값 = 0.4460, 차이 = 0.0570
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0958/958_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0958/958_1.jpg
+  gen 960: 거리 = 0.4794, 임계값 = 0.4460, 차이 = 0.0334
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0960/960_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0960/960_1.jpg
+  gen 980: 거리 = 0.5096, 임계값 = 0.4460, 차이 = 0.0636
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0980/980_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0980/980_1.jpg
+  gen 988: 거리 = 0.4920, 임계값 = 0.4460, 차이 = 0.0460
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0988/988_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0988/988_1.jpg
+  gen 991: 거리 = 0.5271, 임계값 = 0.4460, 차이 = 0.0811
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0991/991_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0991/991_1.jpg
+  gen 992: 거리 = 0.4629, 임계값 = 0.4460, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0992/992_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0992/992_1.jpg
+  gen 994: 거리 = 0.4958, 임계값 = 0.4460, 차이 = 0.0498
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0994/994_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/0994/994_1.jpg
+  gen 1002: 거리 = 0.4495, 임계값 = 0.4460, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1002/1002_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1002/1002_1.jpg
+  gen 1005: 거리 = 0.4678, 임계값 = 0.4460, 차이 = 0.0218
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1005/1005_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1005/1005_1.jpg
+  gen 1019: 거리 = 0.4548, 임계값 = 0.4460, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1019/1019_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1019/1019_1.jpg
+  gen 1022: 거리 = 0.4847, 임계값 = 0.4460, 차이 = 0.0387
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1022/1022_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1022/1022_1.jpg
+  gen 1024: 거리 = 0.4605, 임계값 = 0.4460, 차이 = 0.0145
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1024/1024_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1024/1024_1.jpg
+  gen 1027: 거리 = 0.4707, 임계값 = 0.4460, 차이 = 0.0247
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1027/1027_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1027/1027_1.jpg
+  gen 1029: 거리 = 0.4477, 임계값 = 0.4460, 차이 = 0.0017
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1029/1029_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1029/1029_1.jpg
+  gen 1033: 거리 = 0.4825, 임계값 = 0.4460, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1033/1033_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1033/1033_1.jpg
+  gen 1044: 거리 = 0.4796, 임계값 = 0.4460, 차이 = 0.0336
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1044/1044_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1044/1044_1.jpg
+  gen 1056: 거리 = 0.4786, 임계값 = 0.4460, 차이 = 0.0326
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1056/1056_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1056/1056_1.jpg
+  gen 1059: 거리 = 0.4650, 임계값 = 0.4460, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1059/1059_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1059/1059_1.jpg
+  gen 1060: 거리 = 0.5188, 임계값 = 0.4460, 차이 = 0.0728
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1060/1060_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1060/1060_1.jpg
+  gen 1071: 거리 = 0.4595, 임계값 = 0.4460, 차이 = 0.0135
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1071/1071_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1071/1071_1.jpg
+  gen 1076: 거리 = 0.4705, 임계값 = 0.4460, 차이 = 0.0245
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1076/1076_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1076/1076_1.jpg
+  gen 1079: 거리 = 0.4609, 임계값 = 0.4460, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1079/1079_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1079/1079_1.jpg
+  gen 1082: 거리 = 0.4753, 임계값 = 0.4460, 차이 = 0.0293
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1082/1082_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1082/1082_1.jpg
+  gen 1083: 거리 = 0.4742, 임계값 = 0.4460, 차이 = 0.0282
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1083/1083_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1083/1083_1.jpg
+  gen 1089: 거리 = 0.4676, 임계값 = 0.4460, 차이 = 0.0216
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1089/1089_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1089/1089_1.jpg
+  gen 1096: 거리 = 0.4888, 임계값 = 0.4460, 차이 = 0.0428
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1096/1096_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1096/1096_1.jpg
+  gen 1115: 거리 = 0.4481, 임계값 = 0.4460, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1115/1115_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1115/1115_1.jpg
+  gen 1120: 거리 = 0.4660, 임계값 = 0.4460, 차이 = 0.0200
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1120/1120_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1120/1120_1.jpg
+  gen 1122: 거리 = 0.4890, 임계값 = 0.4460, 차이 = 0.0430
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1122/1122_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1122/1122_1.jpg
+  gen 1132: 거리 = 0.4747, 임계값 = 0.4460, 차이 = 0.0287
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1132/1132_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1132/1132_1.jpg
+  gen 1135: 거리 = 0.4497, 임계값 = 0.4460, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1135/1135_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1135/1135_1.jpg
+  gen 1136: 거리 = 0.4488, 임계값 = 0.4460, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1136/1136_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1136/1136_1.jpg
+  gen 1137: 거리 = 0.4995, 임계값 = 0.4460, 차이 = 0.0535
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1137/1137_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1137/1137_1.jpg
+  gen 1140: 거리 = 0.4892, 임계값 = 0.4460, 차이 = 0.0432
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1140/1140_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1140/1140_1.jpg
+  gen 1141: 거리 = 0.5203, 임계값 = 0.4460, 차이 = 0.0743
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1141/1141_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1141/1141_1.jpg
+  gen 1148: 거리 = 0.4854, 임계값 = 0.4460, 차이 = 0.0394
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1148/1148_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1148/1148_1.jpg
+  gen 1151: 거리 = 0.4518, 임계값 = 0.4460, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1151/1151_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1151/1151_1.jpg
+  gen 1153: 거리 = 0.4601, 임계값 = 0.4460, 차이 = 0.0141
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1153/1153_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1153/1153_1.jpg
+  gen 1156: 거리 = 0.4759, 임계값 = 0.4460, 차이 = 0.0299
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1156/1156_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1156/1156_1.jpg
+  gen 1172: 거리 = 0.4494, 임계값 = 0.4460, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1172/1172_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1172/1172_1.jpg
+  gen 1173: 거리 = 0.4760, 임계값 = 0.4460, 차이 = 0.0300
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1173/1173_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1173/1173_1.jpg
+  gen 1174: 거리 = 0.4725, 임계값 = 0.4460, 차이 = 0.0265
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1174/1174_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1174/1174_1.jpg
+  gen 1175: 거리 = 0.4746, 임계값 = 0.4460, 차이 = 0.0286
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1175/1175_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1175/1175_1.jpg
+  gen 1183: 거리 = 0.4515, 임계값 = 0.4460, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1183/1183_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1183/1183_1.jpg
+  gen 1191: 거리 = 0.4558, 임계값 = 0.4460, 차이 = 0.0098
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1191/1191_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1191/1191_1.jpg
+  gen 1197: 거리 = 0.5067, 임계값 = 0.4460, 차이 = 0.0607
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1197/1197_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1197/1197_1.jpg
+  gen 1199: 거리 = 0.4726, 임계값 = 0.4460, 차이 = 0.0266
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1199/1199_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1199/1199_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8598)
+
+거짓 양성(False Positive) 오탐지: 32개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1209: 거리 = 0.4186, 임계값 = 0.4460, 차이 = 0.0274
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1209/1209_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1209/1209_1.jpg
+  imp 1226: 거리 = 0.3512, 임계값 = 0.4460, 차이 = 0.0948
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1226/1226_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1226/1226_1.jpg
+  imp 1228: 거리 = 0.4345, 임계값 = 0.4460, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1228/1228_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1228/1228_1.jpg
+  imp 1237: 거리 = 0.4288, 임계값 = 0.4460, 차이 = 0.0172
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1237/1237_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1237/1237_1.jpg
+  imp 1239: 거리 = 0.4421, 임계값 = 0.4460, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1239/1239_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1239/1239_1.jpg
+  imp 1254: 거리 = 0.3945, 임계값 = 0.4460, 차이 = 0.0515
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1254/1254_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1254/1254_1.jpg
+  imp 1274: 거리 = 0.4393, 임계값 = 0.4460, 차이 = 0.0067
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1274/1274_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1274/1274_1.jpg
+  imp 1276: 거리 = 0.4338, 임계값 = 0.4460, 차이 = 0.0122
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1276/1276_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1276/1276_1.jpg
+  imp 1298: 거리 = 0.4114, 임계값 = 0.4460, 차이 = 0.0346
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1298/1298_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1298/1298_1.jpg
+  imp 1317: 거리 = 0.4096, 임계값 = 0.4460, 차이 = 0.0364
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1317/1317_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1317/1317_1.jpg
+  imp 1319: 거리 = 0.4126, 임계값 = 0.4460, 차이 = 0.0334
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1319/1319_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1319/1319_1.jpg
+  imp 1326: 거리 = 0.4109, 임계값 = 0.4460, 차이 = 0.0351
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1326/1326_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1326/1326_1.jpg
+  imp 1327: 거리 = 0.4262, 임계값 = 0.4460, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1327/1327_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1327/1327_1.jpg
+  imp 1344: 거리 = 0.3891, 임계값 = 0.4460, 차이 = 0.0569
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1344/1344_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1344/1344_1.jpg
+  imp 1347: 거리 = 0.4281, 임계값 = 0.4460, 차이 = 0.0179
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1347/1347_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1347/1347_1.jpg
+  imp 1364: 거리 = 0.4206, 임계값 = 0.4460, 차이 = 0.0254
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1364/1364_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1364/1364_1.jpg
+  imp 1366: 거리 = 0.4305, 임계값 = 0.4460, 차이 = 0.0155
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1366/1366_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1366/1366_1.jpg
+  imp 1382: 거리 = 0.4278, 임계값 = 0.4460, 차이 = 0.0182
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1382/1382_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1382/1382_1.jpg
+  imp 1393: 거리 = 0.4256, 임계값 = 0.4460, 차이 = 0.0204
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1393/1393_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1393/1393_1.jpg
+  imp 1422: 거리 = 0.3820, 임계값 = 0.4460, 차이 = 0.0640
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1422/1422_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1422/1422_1.jpg
+  imp 1424: 거리 = 0.4450, 임계값 = 0.4460, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1424/1424_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1424/1424_1.jpg
+  imp 1428: 거리 = 0.4079, 임계값 = 0.4460, 차이 = 0.0381
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1428/1428_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1428/1428_1.jpg
+  imp 1432: 거리 = 0.4261, 임계값 = 0.4460, 차이 = 0.0199
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1432/1432_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1432/1432_1.jpg
+  imp 1438: 거리 = 0.4179, 임계값 = 0.4460, 차이 = 0.0281
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1438/1438_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1438/1438_1.jpg
+  imp 1442: 거리 = 0.4293, 임계값 = 0.4460, 차이 = 0.0167
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1442/1442_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1442/1442_1.jpg
+  imp 1443: 거리 = 0.4279, 임계값 = 0.4460, 차이 = 0.0181
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1443/1443_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1443/1443_1.jpg
+  imp 1456: 거리 = 0.4408, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1456/1456_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1456/1456_1.jpg
+  imp 1457: 거리 = 0.4400, 임계값 = 0.4460, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1457/1457_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1457/1457_1.jpg
+  imp 1463: 거리 = 0.4062, 임계값 = 0.4460, 차이 = 0.0398
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1463/1463_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1463/1463_1.jpg
+  imp 1485: 거리 = 0.4454, 임계값 = 0.4460, 차이 = 0.0006
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1485/1485_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1485/1485_1.jpg
+  imp 1491: 거리 = 0.4443, 임계값 = 0.4460, 차이 = 0.0017
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1491/1491_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1491/1491_1.jpg
+  imp 1495: 거리 = 0.4345, 임계값 = 0.4460, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1495/1495_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1495/1495_1.jpg
+
+거짓 음성(False Negative) 오탐지: 59개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1202: 거리 = 0.4906, 임계값 = 0.4460, 차이 = 0.0446
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1202/1202_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1202/1202_1.jpg
+  gen 1206: 거리 = 0.4737, 임계값 = 0.4460, 차이 = 0.0277
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1206/1206_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1206/1206_1.jpg
+  gen 1209: 거리 = 0.4649, 임계값 = 0.4460, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1209/1209_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1209/1209_1.jpg
+  gen 1211: 거리 = 0.4681, 임계값 = 0.4460, 차이 = 0.0221
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1211/1211_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1211/1211_1.jpg
+  gen 1217: 거리 = 0.4534, 임계값 = 0.4460, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1217/1217_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1217/1217_1.jpg
+  gen 1224: 거리 = 0.4699, 임계값 = 0.4460, 차이 = 0.0239
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1224/1224_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1224/1224_1.jpg
+  gen 1225: 거리 = 0.4831, 임계값 = 0.4460, 차이 = 0.0371
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1225/1225_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1225/1225_1.jpg
+  gen 1231: 거리 = 0.4629, 임계값 = 0.4460, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1231/1231_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1231/1231_1.jpg
+  gen 1242: 거리 = 0.4800, 임계값 = 0.4460, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1242/1242_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1242/1242_1.jpg
+  gen 1248: 거리 = 0.4499, 임계값 = 0.4460, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1248/1248_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1248/1248_1.jpg
+  gen 1254: 거리 = 0.4946, 임계값 = 0.4460, 차이 = 0.0486
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1254/1254_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1254/1254_1.jpg
+  gen 1258: 거리 = 0.4904, 임계값 = 0.4460, 차이 = 0.0444
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1258/1258_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1258/1258_1.jpg
+  gen 1262: 거리 = 0.4512, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1262/1262_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1262/1262_1.jpg
+  gen 1268: 거리 = 0.4723, 임계값 = 0.4460, 차이 = 0.0263
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1268/1268_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1268/1268_1.jpg
+  gen 1269: 거리 = 0.4461, 임계값 = 0.4460, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1269/1269_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1269/1269_1.jpg
+  gen 1272: 거리 = 0.4682, 임계값 = 0.4460, 차이 = 0.0222
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1272/1272_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1272/1272_1.jpg
+  gen 1278: 거리 = 0.4807, 임계값 = 0.4460, 차이 = 0.0347
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1278/1278_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1278/1278_1.jpg
+  gen 1287: 거리 = 0.4775, 임계값 = 0.4460, 차이 = 0.0315
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1287/1287_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1287/1287_1.jpg
+  gen 1289: 거리 = 0.4706, 임계값 = 0.4460, 차이 = 0.0246
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1289/1289_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1289/1289_1.jpg
+  gen 1290: 거리 = 0.5160, 임계값 = 0.4460, 차이 = 0.0700
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1290/1290_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1290/1290_1.jpg
+  gen 1302: 거리 = 0.4462, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1302/1302_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1302/1302_1.jpg
+  gen 1314: 거리 = 0.4605, 임계값 = 0.4460, 차이 = 0.0145
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1314/1314_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1314/1314_1.jpg
+  gen 1318: 거리 = 0.4847, 임계값 = 0.4460, 차이 = 0.0387
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1318/1318_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1318/1318_1.jpg
+  gen 1328: 거리 = 0.4522, 임계값 = 0.4460, 차이 = 0.0062
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1328/1328_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1328/1328_1.jpg
+  gen 1339: 거리 = 0.4744, 임계값 = 0.4460, 차이 = 0.0284
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1339/1339_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1339/1339_1.jpg
+  gen 1349: 거리 = 0.4567, 임계값 = 0.4460, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1349/1349_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1349/1349_1.jpg
+  gen 1352: 거리 = 0.4686, 임계값 = 0.4460, 차이 = 0.0226
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1352/1352_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1352/1352_1.jpg
+  gen 1353: 거리 = 0.4905, 임계값 = 0.4460, 차이 = 0.0445
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1353/1353_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1353/1353_1.jpg
+  gen 1357: 거리 = 0.4804, 임계값 = 0.4460, 차이 = 0.0344
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1357/1357_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1357/1357_1.jpg
+  gen 1362: 거리 = 0.4811, 임계값 = 0.4460, 차이 = 0.0351
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1362/1362_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1362/1362_1.jpg
+  gen 1374: 거리 = 0.4659, 임계값 = 0.4460, 차이 = 0.0199
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1374/1374_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1374/1374_1.jpg
+  gen 1378: 거리 = 0.4689, 임계값 = 0.4460, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1378/1378_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1378/1378_1.jpg
+  gen 1379: 거리 = 0.4932, 임계값 = 0.4460, 차이 = 0.0472
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1379/1379_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1379/1379_1.jpg
+  gen 1386: 거리 = 0.4708, 임계값 = 0.4460, 차이 = 0.0248
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1386/1386_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1386/1386_1.jpg
+  gen 1388: 거리 = 0.4620, 임계값 = 0.4460, 차이 = 0.0160
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1388/1388_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1388/1388_1.jpg
+  gen 1389: 거리 = 0.4645, 임계값 = 0.4460, 차이 = 0.0185
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1389/1389_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1389/1389_1.jpg
+  gen 1398: 거리 = 0.4564, 임계값 = 0.4460, 차이 = 0.0104
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1398/1398_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1398/1398_1.jpg
+  gen 1404: 거리 = 0.4483, 임계값 = 0.4460, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1404/1404_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1404/1404_1.jpg
+  gen 1426: 거리 = 0.4573, 임계값 = 0.4460, 차이 = 0.0113
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1426/1426_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1426/1426_1.jpg
+  gen 1433: 거리 = 0.4697, 임계값 = 0.4460, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1433/1433_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1433/1433_1.jpg
+  gen 1435: 거리 = 0.4568, 임계값 = 0.4460, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1435/1435_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1435/1435_1.jpg
+  gen 1436: 거리 = 0.4941, 임계값 = 0.4460, 차이 = 0.0481
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1436/1436_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1436/1436_1.jpg
+  gen 1441: 거리 = 0.4709, 임계값 = 0.4460, 차이 = 0.0249
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1441/1441_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1441/1441_1.jpg
+  gen 1448: 거리 = 0.5061, 임계값 = 0.4460, 차이 = 0.0601
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1448/1448_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1448/1448_1.jpg
+  gen 1450: 거리 = 0.4916, 임계값 = 0.4460, 차이 = 0.0456
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1450/1450_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1450/1450_1.jpg
+  gen 1454: 거리 = 0.4740, 임계값 = 0.4460, 차이 = 0.0280
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1454/1454_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1454/1454_1.jpg
+  gen 1456: 거리 = 0.4462, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1456/1456_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1456/1456_1.jpg
+  gen 1457: 거리 = 0.4799, 임계값 = 0.4460, 차이 = 0.0339
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1457/1457_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1457/1457_1.jpg
+  gen 1463: 거리 = 0.4849, 임계값 = 0.4460, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1463/1463_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1463/1463_1.jpg
+  gen 1469: 거리 = 0.4663, 임계값 = 0.4460, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1469/1469_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1469/1469_1.jpg
+  gen 1476: 거리 = 0.4613, 임계값 = 0.4460, 차이 = 0.0153
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1476/1476_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1476/1476_1.jpg
+  gen 1479: 거리 = 0.4476, 임계값 = 0.4460, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1479/1479_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1479/1479_1.jpg
+  gen 1480: 거리 = 0.4918, 임계값 = 0.4460, 차이 = 0.0458
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1480/1480_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1480/1480_1.jpg
+  gen 1484: 거리 = 0.4684, 임계값 = 0.4460, 차이 = 0.0224
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1484/1484_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1484/1484_1.jpg
+  gen 1489: 거리 = 0.4610, 임계값 = 0.4460, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1489/1489_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1489/1489_1.jpg
+  gen 1491: 거리 = 0.4821, 임계값 = 0.4460, 차이 = 0.0361
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1491/1491_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1491/1491_1.jpg
+  gen 1493: 거리 = 0.4978, 임계값 = 0.4460, 차이 = 0.0518
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1493/1493_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1493/1493_1.jpg
+  gen 1497: 거리 = 0.4815, 임계값 = 0.4460, 차이 = 0.0355
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1497/1497_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1497/1497_1.jpg
+  gen 1498: 거리 = 0.4506, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1498/1498_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1498/1498_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8576)
+
+거짓 양성(False Positive) 오탐지: 25개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1527: 거리 = 0.4360, 임계값 = 0.4460, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1527/1527_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1527/1527_1.jpg
+  imp 1562: 거리 = 0.4228, 임계값 = 0.4460, 차이 = 0.0232
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1562/1562_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1562/1562_1.jpg
+  imp 1566: 거리 = 0.4377, 임계값 = 0.4460, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1566/1566_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1566/1566_1.jpg
+  imp 1577: 거리 = 0.4295, 임계값 = 0.4460, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1577/1577_1.jpg
+  imp 1578: 거리 = 0.4452, 임계값 = 0.4460, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1578/1578_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1578/1578_1.jpg
+  imp 1585: 거리 = 0.3532, 임계값 = 0.4460, 차이 = 0.0928
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1585/1585_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1585/1585_1.jpg
+  imp 1590: 거리 = 0.4365, 임계값 = 0.4460, 차이 = 0.0095
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1590/1590_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1590/1590_1.jpg
+  imp 1619: 거리 = 0.4421, 임계값 = 0.4460, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1619/1619_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1619/1619_1.jpg
+  imp 1629: 거리 = 0.3877, 임계값 = 0.4460, 차이 = 0.0583
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1629/1629_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1629/1629_1.jpg
+  imp 1635: 거리 = 0.4118, 임계값 = 0.4460, 차이 = 0.0342
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1635/1635_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1635/1635_1.jpg
+  imp 1640: 거리 = 0.4341, 임계값 = 0.4460, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1640/1640_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1640/1640_1.jpg
+  imp 1647: 거리 = 0.4169, 임계값 = 0.4460, 차이 = 0.0291
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1647/1647_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1647/1647_1.jpg
+  imp 1655: 거리 = 0.3839, 임계값 = 0.4460, 차이 = 0.0621
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1655/1655_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1655/1655_1.jpg
+  imp 1660: 거리 = 0.4271, 임계값 = 0.4460, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1660/1660_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1660/1660_1.jpg
+  imp 1669: 거리 = 0.4173, 임계값 = 0.4460, 차이 = 0.0287
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1669/1669_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1669/1669_1.jpg
+  imp 1690: 거리 = 0.4322, 임계값 = 0.4460, 차이 = 0.0138
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1690/1690_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1690/1690_1.jpg
+  imp 1701: 거리 = 0.4187, 임계값 = 0.4460, 차이 = 0.0273
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1701/1701_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1701/1701_1.jpg
+  imp 1705: 거리 = 0.4036, 임계값 = 0.4460, 차이 = 0.0424
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1705/1705_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1705/1705_1.jpg
+  imp 1719: 거리 = 0.4367, 임계값 = 0.4460, 차이 = 0.0093
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1719/1719_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1719/1719_1.jpg
+  imp 1734: 거리 = 0.4433, 임계값 = 0.4460, 차이 = 0.0027
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1734/1734_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1734/1734_1.jpg
+  imp 1773: 거리 = 0.4447, 임계값 = 0.4460, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1773/1773_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1773/1773_1.jpg
+  imp 1784: 거리 = 0.3571, 임계값 = 0.4460, 차이 = 0.0889
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1784/1784_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1784/1784_1.jpg
+  imp 1790: 거리 = 0.3987, 임계값 = 0.4460, 차이 = 0.0473
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1790/1790_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1790/1790_1.jpg
+  imp 1793: 거리 = 0.4460, 임계값 = 0.4460, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1793/1793_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1793/1793_1.jpg
+  imp 1798: 거리 = 0.4408, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1798/1798_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1798/1798_1.jpg
+
+거짓 음성(False Negative) 오탐지: 54개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1503: 거리 = 0.4515, 임계값 = 0.4460, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1503/1503_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1503/1503_1.jpg
+  gen 1505: 거리 = 0.4808, 임계값 = 0.4460, 차이 = 0.0348
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1505/1505_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1505/1505_1.jpg
+  gen 1519: 거리 = 0.4990, 임계값 = 0.4460, 차이 = 0.0530
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1519/1519_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1519/1519_1.jpg
+  gen 1523: 거리 = 0.4663, 임계값 = 0.4460, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1523/1523_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1523/1523_1.jpg
+  gen 1525: 거리 = 0.4489, 임계값 = 0.4460, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1525/1525_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1525/1525_1.jpg
+  gen 1535: 거리 = 0.4650, 임계값 = 0.4460, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1535/1535_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1535/1535_1.jpg
+  gen 1540: 거리 = 0.4914, 임계값 = 0.4460, 차이 = 0.0454
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1540/1540_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1540/1540_1.jpg
+  gen 1544: 거리 = 0.4784, 임계값 = 0.4460, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1544/1544_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1544/1544_1.jpg
+  gen 1547: 거리 = 0.4601, 임계값 = 0.4460, 차이 = 0.0141
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1547/1547_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1547/1547_1.jpg
+  gen 1561: 거리 = 0.4857, 임계값 = 0.4460, 차이 = 0.0397
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1561/1561_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1561/1561_1.jpg
+  gen 1565: 거리 = 0.4498, 임계값 = 0.4460, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1565/1565_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1565/1565_1.jpg
+  gen 1568: 거리 = 0.4565, 임계값 = 0.4460, 차이 = 0.0105
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1568/1568_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1568/1568_1.jpg
+  gen 1577: 거리 = 0.4898, 임계값 = 0.4460, 차이 = 0.0438
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1577/1577_1.jpg
+  gen 1586: 거리 = 0.4552, 임계값 = 0.4460, 차이 = 0.0092
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1586/1586_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1586/1586_1.jpg
+  gen 1591: 거리 = 0.4603, 임계값 = 0.4460, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1591/1591_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1591/1591_1.jpg
+  gen 1596: 거리 = 0.4545, 임계값 = 0.4460, 차이 = 0.0085
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1596/1596_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1596/1596_1.jpg
+  gen 1598: 거리 = 0.4512, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1598/1598_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1598/1598_1.jpg
+  gen 1608: 거리 = 0.4603, 임계값 = 0.4460, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1608/1608_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1608/1608_1.jpg
+  gen 1621: 거리 = 0.4515, 임계값 = 0.4460, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1621/1621_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1621/1621_1.jpg
+  gen 1631: 거리 = 0.4849, 임계값 = 0.4460, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1631/1631_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1631/1631_1.jpg
+  gen 1647: 거리 = 0.4702, 임계값 = 0.4460, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1647/1647_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1647/1647_1.jpg
+  gen 1660: 거리 = 0.4697, 임계값 = 0.4460, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1660/1660_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1660/1660_1.jpg
+  gen 1665: 거리 = 0.4861, 임계값 = 0.4460, 차이 = 0.0401
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1665/1665_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1665/1665_1.jpg
+  gen 1667: 거리 = 0.4462, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1667/1667_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1667/1667_1.jpg
+  gen 1669: 거리 = 0.4916, 임계값 = 0.4460, 차이 = 0.0456
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1669/1669_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1669/1669_1.jpg
+  gen 1670: 거리 = 0.4587, 임계값 = 0.4460, 차이 = 0.0127
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1670/1670_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1670/1670_1.jpg
+  gen 1681: 거리 = 0.4598, 임계값 = 0.4460, 차이 = 0.0138
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1681/1681_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1681/1681_1.jpg
+  gen 1683: 거리 = 0.4999, 임계값 = 0.4460, 차이 = 0.0539
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1683/1683_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1683/1683_1.jpg
+  gen 1685: 거리 = 0.4599, 임계값 = 0.4460, 차이 = 0.0139
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1685/1685_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1685/1685_1.jpg
+  gen 1688: 거리 = 0.4573, 임계값 = 0.4460, 차이 = 0.0113
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1688/1688_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1688/1688_1.jpg
+  gen 1689: 거리 = 0.4523, 임계값 = 0.4460, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1689/1689_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1689/1689_1.jpg
+  gen 1690: 거리 = 0.4793, 임계값 = 0.4460, 차이 = 0.0333
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1690/1690_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1690/1690_1.jpg
+  gen 1697: 거리 = 0.4522, 임계값 = 0.4460, 차이 = 0.0062
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1697/1697_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1697/1697_1.jpg
+  gen 1703: 거리 = 0.4974, 임계값 = 0.4460, 차이 = 0.0514
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1703/1703_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1703/1703_1.jpg
+  gen 1707: 거리 = 0.4475, 임계값 = 0.4460, 차이 = 0.0015
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1707/1707_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1707/1707_1.jpg
+  gen 1709: 거리 = 0.4742, 임계값 = 0.4460, 차이 = 0.0282
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1709/1709_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1709/1709_1.jpg
+  gen 1711: 거리 = 0.4539, 임계값 = 0.4460, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1711/1711_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1711/1711_1.jpg
+  gen 1721: 거리 = 0.4775, 임계값 = 0.4460, 차이 = 0.0315
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1721/1721_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1721/1721_1.jpg
+  gen 1725: 거리 = 0.4792, 임계값 = 0.4460, 차이 = 0.0332
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1725/1725_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1725/1725_1.jpg
+  gen 1728: 거리 = 0.4732, 임계값 = 0.4460, 차이 = 0.0272
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1728/1728_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1728/1728_1.jpg
+  gen 1734: 거리 = 0.4665, 임계값 = 0.4460, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1734/1734_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1734/1734_1.jpg
+  gen 1735: 거리 = 0.4715, 임계값 = 0.4460, 차이 = 0.0255
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1735/1735_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1735/1735_1.jpg
+  gen 1739: 거리 = 0.4470, 임계값 = 0.4460, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1739/1739_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1739/1739_1.jpg
+  gen 1741: 거리 = 0.4563, 임계값 = 0.4460, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1741/1741_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1741/1741_1.jpg
+  gen 1743: 거리 = 0.4554, 임계값 = 0.4460, 차이 = 0.0094
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1743/1743_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1743/1743_1.jpg
+  gen 1748: 거리 = 0.5207, 임계값 = 0.4460, 차이 = 0.0747
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1748/1748_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1748/1748_1.jpg
+  gen 1755: 거리 = 0.4616, 임계값 = 0.4460, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1755/1755_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1755/1755_1.jpg
+  gen 1758: 거리 = 0.4552, 임계값 = 0.4460, 차이 = 0.0092
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1758/1758_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1758/1758_1.jpg
+  gen 1762: 거리 = 0.4679, 임계값 = 0.4460, 차이 = 0.0219
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1762/1762_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1762/1762_1.jpg
+  gen 1767: 거리 = 0.4788, 임계값 = 0.4460, 차이 = 0.0328
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1767/1767_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1767/1767_1.jpg
+  gen 1772: 거리 = 0.4871, 임계값 = 0.4460, 차이 = 0.0411
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1772/1772_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1772/1772_1.jpg
+  gen 1774: 거리 = 0.4547, 임계값 = 0.4460, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1774/1774_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1774/1774_1.jpg
+  gen 1775: 거리 = 0.4680, 임계값 = 0.4460, 차이 = 0.0220
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1775/1775_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1775/1775_1.jpg
+  gen 1797: 거리 = 0.4798, 임계값 = 0.4460, 차이 = 0.0338
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1797/1797_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1797/1797_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4470 (훈련 정확도: 0.8567)
+
+거짓 양성(False Positive) 오탐지: 31개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1800: 거리 = 0.4224, 임계값 = 0.4470, 차이 = 0.0246
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1800/1800_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1800/1800_1.jpg
+  imp 1806: 거리 = 0.4262, 임계값 = 0.4470, 차이 = 0.0208
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1806/1806_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1806/1806_1.jpg
+  imp 1814: 거리 = 0.4253, 임계값 = 0.4470, 차이 = 0.0217
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1814/1814_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1814/1814_1.jpg
+  imp 1820: 거리 = 0.4442, 임계값 = 0.4470, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1820/1820_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1820/1820_1.jpg
+  imp 1821: 거리 = 0.3685, 임계값 = 0.4470, 차이 = 0.0785
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1821/1821_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1821/1821_1.jpg
+  imp 1823: 거리 = 0.4463, 임계값 = 0.4470, 차이 = 0.0007
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1823/1823_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1823/1823_1.jpg
+  imp 1831: 거리 = 0.4366, 임계값 = 0.4470, 차이 = 0.0104
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1831/1831_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1831/1831_1.jpg
+  imp 1839: 거리 = 0.4102, 임계값 = 0.4470, 차이 = 0.0368
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1839/1839_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1839/1839_1.jpg
+  imp 1841: 거리 = 0.4423, 임계값 = 0.4470, 차이 = 0.0047
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1841/1841_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1841/1841_1.jpg
+  imp 1865: 거리 = 0.4467, 임계값 = 0.4470, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1865/1865_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1865/1865_1.jpg
+  imp 1868: 거리 = 0.4047, 임계값 = 0.4470, 차이 = 0.0423
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1868/1868_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1868/1868_1.jpg
+  imp 1879: 거리 = 0.4198, 임계값 = 0.4470, 차이 = 0.0272
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1879/1879_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1879/1879_1.jpg
+  imp 1891: 거리 = 0.4321, 임계값 = 0.4470, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1891/1891_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1891/1891_1.jpg
+  imp 1895: 거리 = 0.3861, 임계값 = 0.4470, 차이 = 0.0609
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1895/1895_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1895/1895_1.jpg
+  imp 1938: 거리 = 0.4174, 임계값 = 0.4470, 차이 = 0.0296
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1938/1938_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1938/1938_1.jpg
+  imp 1942: 거리 = 0.4210, 임계값 = 0.4470, 차이 = 0.0260
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1942/1942_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1942/1942_1.jpg
+  imp 1943: 거리 = 0.4351, 임계값 = 0.4470, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1943/1943_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1943/1943_1.jpg
+  imp 1949: 거리 = 0.4454, 임계값 = 0.4470, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1949/1949_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1949/1949_1.jpg
+  imp 1951: 거리 = 0.3518, 임계값 = 0.4470, 차이 = 0.0952
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1951/1951_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1951/1951_1.jpg
+  imp 1955: 거리 = 0.4174, 임계값 = 0.4470, 차이 = 0.0296
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1955/1955_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/1955/1955_1.jpg
+  imp 2000: 거리 = 0.4464, 임계값 = 0.4470, 차이 = 0.0006
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2000/2000_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2000/2000_1.jpg
+  imp 2015: 거리 = 0.4221, 임계값 = 0.4470, 차이 = 0.0249
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2015/2015_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2015/2015_1.jpg
+  imp 2020: 거리 = 0.4413, 임계값 = 0.4470, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2020/2020_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2020/2020_1.jpg
+  imp 2023: 거리 = 0.4038, 임계값 = 0.4470, 차이 = 0.0432
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2023/2023_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2023/2023_1.jpg
+  imp 2025: 거리 = 0.3927, 임계값 = 0.4470, 차이 = 0.0543
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2025/2025_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2025/2025_1.jpg
+  imp 2031: 거리 = 0.4461, 임계값 = 0.4470, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2031/2031_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2031/2031_1.jpg
+  imp 2036: 거리 = 0.4469, 임계값 = 0.4470, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2036/2036_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2036/2036_1.jpg
+  imp 2047: 거리 = 0.4345, 임계값 = 0.4470, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2047/2047_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2047/2047_1.jpg
+  imp 2048: 거리 = 0.4387, 임계값 = 0.4470, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2048/2048_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2048/2048_1.jpg
+  imp 2050: 거리 = 0.4302, 임계값 = 0.4470, 차이 = 0.0168
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2050/2050_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2050/2050_1.jpg
+  imp 2085: 거리 = 0.4344, 임계값 = 0.4470, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2085/2085_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2085/2085_1.jpg
+
+거짓 음성(False Negative) 오탐지: 45개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1802: 거리 = 0.4878, 임계값 = 0.4470, 차이 = 0.0408
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1802/1802_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1802/1802_1.jpg
+  gen 1809: 거리 = 0.4567, 임계값 = 0.4470, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1809/1809_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1809/1809_1.jpg
+  gen 1810: 거리 = 0.4719, 임계값 = 0.4470, 차이 = 0.0249
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1810/1810_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1810/1810_1.jpg
+  gen 1811: 거리 = 0.4685, 임계값 = 0.4470, 차이 = 0.0215
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1811/1811_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1811/1811_1.jpg
+  gen 1812: 거리 = 0.4619, 임계값 = 0.4470, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1812/1812_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1812/1812_1.jpg
+  gen 1813: 거리 = 0.4613, 임계값 = 0.4470, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1813/1813_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1813/1813_1.jpg
+  gen 1830: 거리 = 0.4638, 임계값 = 0.4470, 차이 = 0.0168
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1830/1830_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1830/1830_1.jpg
+  gen 1837: 거리 = 0.5077, 임계값 = 0.4470, 차이 = 0.0607
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1837/1837_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1837/1837_1.jpg
+  gen 1846: 거리 = 0.4992, 임계값 = 0.4470, 차이 = 0.0522
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1846/1846_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1846/1846_1.jpg
+  gen 1869: 거리 = 0.4497, 임계값 = 0.4470, 차이 = 0.0027
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1869/1869_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1869/1869_1.jpg
+  gen 1872: 거리 = 0.4609, 임계값 = 0.4470, 차이 = 0.0139
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1872/1872_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1872/1872_1.jpg
+  gen 1889: 거리 = 0.4553, 임계값 = 0.4470, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1889/1889_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1889/1889_1.jpg
+  gen 1913: 거리 = 0.4955, 임계값 = 0.4470, 차이 = 0.0485
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1913/1913_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1913/1913_1.jpg
+  gen 1915: 거리 = 0.4516, 임계값 = 0.4470, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1915/1915_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1915/1915_1.jpg
+  gen 1919: 거리 = 0.4780, 임계값 = 0.4470, 차이 = 0.0310
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1919/1919_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1919/1919_1.jpg
+  gen 1923: 거리 = 0.4503, 임계값 = 0.4470, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1923/1923_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1923/1923_1.jpg
+  gen 1925: 거리 = 0.4565, 임계값 = 0.4470, 차이 = 0.0095
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1925/1925_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1925/1925_1.jpg
+  gen 1928: 거리 = 0.4639, 임계값 = 0.4470, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1928/1928_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1928/1928_1.jpg
+  gen 1958: 거리 = 0.4509, 임계값 = 0.4470, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1958/1958_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1958/1958_1.jpg
+  gen 1959: 거리 = 0.4907, 임계값 = 0.4470, 차이 = 0.0437
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1959/1959_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1959/1959_1.jpg
+  gen 1961: 거리 = 0.4519, 임계값 = 0.4470, 차이 = 0.0049
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1961/1961_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1961/1961_1.jpg
+  gen 1962: 거리 = 0.4886, 임계값 = 0.4470, 차이 = 0.0416
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1962/1962_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1962/1962_1.jpg
+  gen 1971: 거리 = 0.4493, 임계값 = 0.4470, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1971/1971_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1971/1971_1.jpg
+  gen 1976: 거리 = 0.4834, 임계값 = 0.4470, 차이 = 0.0364
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1976/1976_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1976/1976_1.jpg
+  gen 1983: 거리 = 0.4621, 임계값 = 0.4470, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1983/1983_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1983/1983_1.jpg
+  gen 1987: 거리 = 0.4817, 임계값 = 0.4470, 차이 = 0.0347
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1987/1987_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1987/1987_1.jpg
+  gen 1988: 거리 = 0.4522, 임계값 = 0.4470, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1988/1988_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1988/1988_1.jpg
+  gen 1989: 거리 = 0.4660, 임계값 = 0.4470, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1989/1989_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1989/1989_1.jpg
+  gen 1990: 거리 = 0.4774, 임계값 = 0.4470, 차이 = 0.0304
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1990/1990_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/1990/1990_1.jpg
+  gen 2001: 거리 = 0.4693, 임계값 = 0.4470, 차이 = 0.0223
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2001/2001_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2001/2001_1.jpg
+  gen 2019: 거리 = 0.4625, 임계값 = 0.4470, 차이 = 0.0155
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2019/2019_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2019/2019_1.jpg
+  gen 2025: 거리 = 0.5082, 임계값 = 0.4470, 차이 = 0.0612
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2025/2025_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2025/2025_1.jpg
+  gen 2029: 거리 = 0.4595, 임계값 = 0.4470, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2029/2029_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2029/2029_1.jpg
+  gen 2034: 거리 = 0.4708, 임계값 = 0.4470, 차이 = 0.0238
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2034/2034_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2034/2034_1.jpg
+  gen 2036: 거리 = 0.4542, 임계값 = 0.4470, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2036/2036_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2036/2036_1.jpg
+  gen 2044: 거리 = 0.4578, 임계값 = 0.4470, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2044/2044_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2044/2044_1.jpg
+  gen 2056: 거리 = 0.4661, 임계값 = 0.4470, 차이 = 0.0191
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2056/2056_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2056/2056_1.jpg
+  gen 2059: 거리 = 0.4567, 임계값 = 0.4470, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2059/2059_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2059/2059_1.jpg
+  gen 2062: 거리 = 0.4643, 임계값 = 0.4470, 차이 = 0.0173
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2062/2062_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2062/2062_1.jpg
+  gen 2071: 거리 = 0.4609, 임계값 = 0.4470, 차이 = 0.0139
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2071/2071_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2071/2071_1.jpg
+  gen 2072: 거리 = 0.4728, 임계값 = 0.4470, 차이 = 0.0258
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2072/2072_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2072/2072_1.jpg
+  gen 2075: 거리 = 0.4886, 임계값 = 0.4470, 차이 = 0.0416
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2075/2075_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2075/2075_1.jpg
+  gen 2076: 거리 = 0.4619, 임계값 = 0.4470, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2076/2076_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2076/2076_1.jpg
+  gen 2077: 거리 = 0.4767, 임계값 = 0.4470, 차이 = 0.0297
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2077/2077_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2077/2077_1.jpg
+  gen 2092: 거리 = 0.4756, 임계값 = 0.4470, 차이 = 0.0286
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2092/2092_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2092/2092_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8580)
+
+거짓 양성(False Positive) 오탐지: 30개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2134: 거리 = 0.3447, 임계값 = 0.4460, 차이 = 0.1013
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2134/2134_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2134/2134_1.jpg
+  imp 2150: 거리 = 0.4180, 임계값 = 0.4460, 차이 = 0.0280
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2150/2150_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2150/2150_1.jpg
+  imp 2156: 거리 = 0.4450, 임계값 = 0.4460, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2156/2156_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2156/2156_1.jpg
+  imp 2174: 거리 = 0.4455, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2174/2174_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2174/2174_1.jpg
+  imp 2177: 거리 = 0.4043, 임계값 = 0.4460, 차이 = 0.0417
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2177/2177_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2177/2177_1.jpg
+  imp 2178: 거리 = 0.4431, 임계값 = 0.4460, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2178/2178_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2178/2178_1.jpg
+  imp 2187: 거리 = 0.4275, 임계값 = 0.4460, 차이 = 0.0185
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2187/2187_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2187/2187_1.jpg
+  imp 2223: 거리 = 0.4446, 임계값 = 0.4460, 차이 = 0.0014
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2223/2223_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2223/2223_1.jpg
+  imp 2231: 거리 = 0.4460, 임계값 = 0.4460, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2231/2231_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2231/2231_1.jpg
+  imp 2237: 거리 = 0.4137, 임계값 = 0.4460, 차이 = 0.0323
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2237/2237_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2237/2237_1.jpg
+  imp 2240: 거리 = 0.4235, 임계값 = 0.4460, 차이 = 0.0225
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2240/2240_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2240/2240_1.jpg
+  imp 2259: 거리 = 0.4230, 임계값 = 0.4460, 차이 = 0.0230
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2259/2259_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2259/2259_1.jpg
+  imp 2271: 거리 = 0.4435, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2271/2271_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2271/2271_1.jpg
+  imp 2284: 거리 = 0.4350, 임계값 = 0.4460, 차이 = 0.0110
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2284/2284_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2284/2284_1.jpg
+  imp 2293: 거리 = 0.4355, 임계값 = 0.4460, 차이 = 0.0105
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2293/2293_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2293/2293_1.jpg
+  imp 2295: 거리 = 0.3975, 임계값 = 0.4460, 차이 = 0.0485
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2295/2295_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2295/2295_1.jpg
+  imp 2303: 거리 = 0.4365, 임계값 = 0.4460, 차이 = 0.0095
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2303/2303_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2303/2303_1.jpg
+  imp 2309: 거리 = 0.4117, 임계값 = 0.4460, 차이 = 0.0343
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2309/2309_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2309/2309_1.jpg
+  imp 2337: 거리 = 0.4102, 임계값 = 0.4460, 차이 = 0.0358
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2337/2337_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2337/2337_1.jpg
+  imp 2345: 거리 = 0.4394, 임계값 = 0.4460, 차이 = 0.0066
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2345/2345_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2345/2345_1.jpg
+  imp 2346: 거리 = 0.4304, 임계값 = 0.4460, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2346/2346_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2346/2346_1.jpg
+  imp 2347: 거리 = 0.4431, 임계값 = 0.4460, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2347/2347_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2347/2347_1.jpg
+  imp 2352: 거리 = 0.4258, 임계값 = 0.4460, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2352/2352_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2352/2352_1.jpg
+  imp 2369: 거리 = 0.4366, 임계값 = 0.4460, 차이 = 0.0094
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2369/2369_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2369/2369_1.jpg
+  imp 2370: 거리 = 0.3853, 임계값 = 0.4460, 차이 = 0.0607
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2370/2370_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2370/2370_1.jpg
+  imp 2375: 거리 = 0.4284, 임계값 = 0.4460, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2375/2375_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2375/2375_1.jpg
+  imp 2389: 거리 = 0.4393, 임계값 = 0.4460, 차이 = 0.0067
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2389/2389_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2389/2389_1.jpg
+  imp 2393: 거리 = 0.4294, 임계값 = 0.4460, 차이 = 0.0166
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2393/2393_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2393/2393_1.jpg
+  imp 2395: 거리 = 0.4435, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2395/2395_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2395/2395_1.jpg
+  imp 2397: 거리 = 0.4317, 임계값 = 0.4460, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2397/2397_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2397/2397_1.jpg
+
+거짓 음성(False Negative) 오탐지: 51개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2100: 거리 = 0.4562, 임계값 = 0.4460, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2100/2100_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2100/2100_1.jpg
+  gen 2101: 거리 = 0.5210, 임계값 = 0.4460, 차이 = 0.0750
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2101/2101_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2101/2101_1.jpg
+  gen 2102: 거리 = 0.4843, 임계값 = 0.4460, 차이 = 0.0383
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2102/2102_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2102/2102_1.jpg
+  gen 2110: 거리 = 0.4927, 임계값 = 0.4460, 차이 = 0.0467
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2110/2110_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2110/2110_1.jpg
+  gen 2117: 거리 = 0.4578, 임계값 = 0.4460, 차이 = 0.0118
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2117/2117_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2117/2117_1.jpg
+  gen 2118: 거리 = 0.5339, 임계값 = 0.4460, 차이 = 0.0879
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2118/2118_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2118/2118_1.jpg
+  gen 2120: 거리 = 0.4996, 임계값 = 0.4460, 차이 = 0.0536
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2120/2120_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2120/2120_1.jpg
+  gen 2127: 거리 = 0.4547, 임계값 = 0.4460, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2127/2127_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2127/2127_1.jpg
+  gen 2136: 거리 = 0.4788, 임계값 = 0.4460, 차이 = 0.0328
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2136/2136_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2136/2136_1.jpg
+  gen 2150: 거리 = 0.4887, 임계값 = 0.4460, 차이 = 0.0427
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2150/2150_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2150/2150_1.jpg
+  gen 2153: 거리 = 0.4861, 임계값 = 0.4460, 차이 = 0.0401
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2153/2153_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2153/2153_1.jpg
+  gen 2156: 거리 = 0.4517, 임계값 = 0.4460, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2156/2156_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2156/2156_1.jpg
+  gen 2175: 거리 = 0.5125, 임계값 = 0.4460, 차이 = 0.0665
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2175/2175_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2175/2175_1.jpg
+  gen 2181: 거리 = 0.5152, 임계값 = 0.4460, 차이 = 0.0692
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2181/2181_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2181/2181_1.jpg
+  gen 2184: 거리 = 0.4532, 임계값 = 0.4460, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2184/2184_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2184/2184_1.jpg
+  gen 2192: 거리 = 0.4669, 임계값 = 0.4460, 차이 = 0.0209
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2192/2192_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2192/2192_1.jpg
+  gen 2203: 거리 = 0.4566, 임계값 = 0.4460, 차이 = 0.0106
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2203/2203_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2203/2203_1.jpg
+  gen 2208: 거리 = 0.4627, 임계값 = 0.4460, 차이 = 0.0167
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2208/2208_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2208/2208_1.jpg
+  gen 2213: 거리 = 0.4487, 임계값 = 0.4460, 차이 = 0.0027
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2213/2213_1.jpg
+  gen 2214: 거리 = 0.4769, 임계값 = 0.4460, 차이 = 0.0309
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2214/2214_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2214/2214_1.jpg
+  gen 2220: 거리 = 0.4783, 임계값 = 0.4460, 차이 = 0.0323
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2220/2220_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2220/2220_1.jpg
+  gen 2224: 거리 = 0.4506, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2224/2224_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2224/2224_1.jpg
+  gen 2233: 거리 = 0.4503, 임계값 = 0.4460, 차이 = 0.0043
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2233/2233_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2233/2233_1.jpg
+  gen 2245: 거리 = 0.5054, 임계값 = 0.4460, 차이 = 0.0594
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2245/2245_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2245/2245_1.jpg
+  gen 2250: 거리 = 0.4580, 임계값 = 0.4460, 차이 = 0.0120
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2250/2250_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2250/2250_1.jpg
+  gen 2252: 거리 = 0.4790, 임계값 = 0.4460, 차이 = 0.0330
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2252/2252_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2252/2252_1.jpg
+  gen 2254: 거리 = 0.4596, 임계값 = 0.4460, 차이 = 0.0136
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2254/2254_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2254/2254_1.jpg
+  gen 2256: 거리 = 0.4985, 임계값 = 0.4460, 차이 = 0.0525
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2256/2256_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2256/2256_1.jpg
+  gen 2271: 거리 = 0.4590, 임계값 = 0.4460, 차이 = 0.0130
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2271/2271_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2271/2271_1.jpg
+  gen 2276: 거리 = 0.4943, 임계값 = 0.4460, 차이 = 0.0483
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2276/2276_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2276/2276_1.jpg
+  gen 2279: 거리 = 0.4813, 임계값 = 0.4460, 차이 = 0.0353
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2279/2279_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2279/2279_1.jpg
+  gen 2280: 거리 = 0.4714, 임계값 = 0.4460, 차이 = 0.0254
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2280/2280_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2280/2280_1.jpg
+  gen 2284: 거리 = 0.4758, 임계값 = 0.4460, 차이 = 0.0298
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2284/2284_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2284/2284_1.jpg
+  gen 2298: 거리 = 0.4473, 임계값 = 0.4460, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2298/2298_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2298/2298_1.jpg
+  gen 2299: 거리 = 0.4851, 임계값 = 0.4460, 차이 = 0.0391
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2299/2299_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2299/2299_1.jpg
+  gen 2316: 거리 = 0.4949, 임계값 = 0.4460, 차이 = 0.0489
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2316/2316_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2316/2316_1.jpg
+  gen 2318: 거리 = 0.4589, 임계값 = 0.4460, 차이 = 0.0129
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2318/2318_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2318/2318_1.jpg
+  gen 2322: 거리 = 0.4650, 임계값 = 0.4460, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2322/2322_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2322/2322_1.jpg
+  gen 2334: 거리 = 0.4689, 임계값 = 0.4460, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2334/2334_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2334/2334_1.jpg
+  gen 2335: 거리 = 0.4596, 임계값 = 0.4460, 차이 = 0.0136
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2335/2335_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2335/2335_1.jpg
+  gen 2340: 거리 = 0.4556, 임계값 = 0.4460, 차이 = 0.0096
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2340/2340_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2340/2340_1.jpg
+  gen 2342: 거리 = 0.4654, 임계값 = 0.4460, 차이 = 0.0194
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2342/2342_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2342/2342_1.jpg
+  gen 2345: 거리 = 0.4703, 임계값 = 0.4460, 차이 = 0.0243
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2345/2345_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2345/2345_1.jpg
+  gen 2362: 거리 = 0.4557, 임계값 = 0.4460, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2362/2362_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2362/2362_1.jpg
+  gen 2368: 거리 = 0.4601, 임계값 = 0.4460, 차이 = 0.0141
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2368/2368_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2368/2368_1.jpg
+  gen 2378: 거리 = 0.4757, 임계값 = 0.4460, 차이 = 0.0297
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2378/2378_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2378/2378_1.jpg
+  gen 2382: 거리 = 0.4515, 임계값 = 0.4460, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2382/2382_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2382/2382_1.jpg
+  gen 2383: 거리 = 0.5131, 임계값 = 0.4460, 차이 = 0.0671
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2383/2383_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2383/2383_1.jpg
+  gen 2389: 거리 = 0.4857, 임계값 = 0.4460, 차이 = 0.0397
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2389/2389_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2389/2389_1.jpg
+  gen 2395: 거리 = 0.4596, 임계값 = 0.4460, 차이 = 0.0136
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2395/2395_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2395/2395_1.jpg
+  gen 2399: 거리 = 0.4930, 임계값 = 0.4460, 차이 = 0.0470
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2399/2399_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2399/2399_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8613)
+
+거짓 양성(False Positive) 오탐지: 39개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2405: 거리 = 0.4102, 임계값 = 0.4460, 차이 = 0.0358
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2405/2405_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2405/2405_1.jpg
+  imp 2418: 거리 = 0.4361, 임계값 = 0.4460, 차이 = 0.0099
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2418/2418_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2418/2418_1.jpg
+  imp 2427: 거리 = 0.4301, 임계값 = 0.4460, 차이 = 0.0159
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2427/2427_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2427/2427_1.jpg
+  imp 2440: 거리 = 0.4396, 임계값 = 0.4460, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2440/2440_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2440/2440_1.jpg
+  imp 2455: 거리 = 0.4061, 임계값 = 0.4460, 차이 = 0.0399
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2455/2455_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2455/2455_1.jpg
+  imp 2468: 거리 = 0.4435, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2468/2468_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2468/2468_1.jpg
+  imp 2485: 거리 = 0.4373, 임계값 = 0.4460, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2485/2485_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2485/2485_1.jpg
+  imp 2496: 거리 = 0.4320, 임계값 = 0.4460, 차이 = 0.0140
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2496/2496_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2496/2496_1.jpg
+  imp 2500: 거리 = 0.4345, 임계값 = 0.4460, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2500/2500_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2500/2500_1.jpg
+  imp 2509: 거리 = 0.4442, 임계값 = 0.4460, 차이 = 0.0018
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2509/2509_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2509/2509_1.jpg
+  imp 2511: 거리 = 0.4402, 임계값 = 0.4460, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2511/2511_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2511/2511_1.jpg
+  imp 2520: 거리 = 0.4292, 임계값 = 0.4460, 차이 = 0.0168
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2520/2520_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2520/2520_1.jpg
+  imp 2526: 거리 = 0.4041, 임계값 = 0.4460, 차이 = 0.0419
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2526/2526_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2526/2526_1.jpg
+  imp 2534: 거리 = 0.4155, 임계값 = 0.4460, 차이 = 0.0305
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2534/2534_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2534/2534_1.jpg
+  imp 2564: 거리 = 0.4427, 임계값 = 0.4460, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2564/2564_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2564/2564_1.jpg
+  imp 2575: 거리 = 0.3322, 임계값 = 0.4460, 차이 = 0.1138
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2575/2575_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2575/2575_1.jpg
+  imp 2580: 거리 = 0.4349, 임계값 = 0.4460, 차이 = 0.0111
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2580/2580_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2580/2580_1.jpg
+  imp 2584: 거리 = 0.4309, 임계값 = 0.4460, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2584/2584_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2584/2584_1.jpg
+  imp 2599: 거리 = 0.4451, 임계값 = 0.4460, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2599/2599_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2599/2599_1.jpg
+  imp 2600: 거리 = 0.4117, 임계값 = 0.4460, 차이 = 0.0343
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2600/2600_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2600/2600_1.jpg
+  imp 2607: 거리 = 0.4032, 임계값 = 0.4460, 차이 = 0.0428
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2607/2607_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2607/2607_1.jpg
+  imp 2611: 거리 = 0.4382, 임계값 = 0.4460, 차이 = 0.0078
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2611/2611_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2611/2611_1.jpg
+  imp 2618: 거리 = 0.4391, 임계값 = 0.4460, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2618/2618_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2618/2618_1.jpg
+  imp 2626: 거리 = 0.4306, 임계값 = 0.4460, 차이 = 0.0154
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2626/2626_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2626/2626_1.jpg
+  imp 2633: 거리 = 0.3895, 임계값 = 0.4460, 차이 = 0.0565
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2633/2633_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2633/2633_1.jpg
+  imp 2644: 거리 = 0.3585, 임계값 = 0.4460, 차이 = 0.0875
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2644/2644_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2644/2644_1.jpg
+  imp 2648: 거리 = 0.3952, 임계값 = 0.4460, 차이 = 0.0508
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2648/2648_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2648/2648_1.jpg
+  imp 2650: 거리 = 0.4057, 임계값 = 0.4460, 차이 = 0.0403
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2650/2650_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2650/2650_1.jpg
+  imp 2658: 거리 = 0.4217, 임계값 = 0.4460, 차이 = 0.0243
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2658/2658_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2658/2658_1.jpg
+  imp 2659: 거리 = 0.4009, 임계값 = 0.4460, 차이 = 0.0451
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2659/2659_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2659/2659_1.jpg
+  imp 2660: 거리 = 0.4359, 임계값 = 0.4460, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2660/2660_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2660/2660_1.jpg
+  imp 2661: 거리 = 0.4414, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2661/2661_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2661/2661_1.jpg
+  imp 2664: 거리 = 0.4318, 임계값 = 0.4460, 차이 = 0.0142
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2664/2664_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2664/2664_1.jpg
+  imp 2671: 거리 = 0.4254, 임계값 = 0.4460, 차이 = 0.0206
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2671/2671_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2671/2671_1.jpg
+  imp 2673: 거리 = 0.4214, 임계값 = 0.4460, 차이 = 0.0246
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2673/2673_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2673/2673_1.jpg
+  imp 2681: 거리 = 0.4185, 임계값 = 0.4460, 차이 = 0.0275
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2681/2681_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2681/2681_1.jpg
+  imp 2689: 거리 = 0.4440, 임계값 = 0.4460, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2689/2689_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2689/2689_1.jpg
+  imp 2693: 거리 = 0.4109, 임계값 = 0.4460, 차이 = 0.0351
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2693/2693_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2693/2693_1.jpg
+  imp 2695: 거리 = 0.4271, 임계값 = 0.4460, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2695/2695_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2695/2695_1.jpg
+
+거짓 음성(False Negative) 오탐지: 60개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2402: 거리 = 0.4866, 임계값 = 0.4460, 차이 = 0.0406
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2402/2402_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2402/2402_1.jpg
+  gen 2404: 거리 = 0.4763, 임계값 = 0.4460, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2404/2404_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2404/2404_1.jpg
+  gen 2413: 거리 = 0.4799, 임계값 = 0.4460, 차이 = 0.0339
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2413/2413_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2413/2413_1.jpg
+  gen 2414: 거리 = 0.4828, 임계값 = 0.4460, 차이 = 0.0368
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2414/2414_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2414/2414_1.jpg
+  gen 2416: 거리 = 0.4581, 임계값 = 0.4460, 차이 = 0.0121
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2416/2416_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2416/2416_1.jpg
+  gen 2420: 거리 = 0.4766, 임계값 = 0.4460, 차이 = 0.0306
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2420/2420_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2420/2420_1.jpg
+  gen 2422: 거리 = 0.5088, 임계값 = 0.4460, 차이 = 0.0628
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2422/2422_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2422/2422_1.jpg
+  gen 2438: 거리 = 0.4900, 임계값 = 0.4460, 차이 = 0.0440
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2438/2438_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2438/2438_1.jpg
+  gen 2440: 거리 = 0.4926, 임계값 = 0.4460, 차이 = 0.0466
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2440/2440_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2440/2440_1.jpg
+  gen 2444: 거리 = 0.4594, 임계값 = 0.4460, 차이 = 0.0134
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2444/2444_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2444/2444_1.jpg
+  gen 2447: 거리 = 0.4675, 임계값 = 0.4460, 차이 = 0.0215
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2447/2447_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2447/2447_1.jpg
+  gen 2455: 거리 = 0.4714, 임계값 = 0.4460, 차이 = 0.0254
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2455/2455_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2455/2455_1.jpg
+  gen 2457: 거리 = 0.4790, 임계값 = 0.4460, 차이 = 0.0330
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2457/2457_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2457/2457_1.jpg
+  gen 2465: 거리 = 0.4622, 임계값 = 0.4460, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2465/2465_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2465/2465_1.jpg
+  gen 2487: 거리 = 0.4763, 임계값 = 0.4460, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2487/2487_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2487/2487_1.jpg
+  gen 2493: 거리 = 0.4628, 임계값 = 0.4460, 차이 = 0.0168
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2493/2493_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2493/2493_1.jpg
+  gen 2496: 거리 = 0.4469, 임계값 = 0.4460, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2496/2496_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2496/2496_1.jpg
+  gen 2502: 거리 = 0.4760, 임계값 = 0.4460, 차이 = 0.0300
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2502/2502_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2502/2502_1.jpg
+  gen 2506: 거리 = 0.4672, 임계값 = 0.4460, 차이 = 0.0212
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2506/2506_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2506/2506_1.jpg
+  gen 2507: 거리 = 0.4675, 임계값 = 0.4460, 차이 = 0.0215
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2507/2507_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2507/2507_1.jpg
+  gen 2508: 거리 = 0.4586, 임계값 = 0.4460, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2508/2508_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2508/2508_1.jpg
+  gen 2510: 거리 = 0.5097, 임계값 = 0.4460, 차이 = 0.0637
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2510/2510_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2510/2510_1.jpg
+  gen 2521: 거리 = 0.4629, 임계값 = 0.4460, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2521/2521_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2521/2521_1.jpg
+  gen 2523: 거리 = 0.4586, 임계값 = 0.4460, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2523/2523_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2523/2523_1.jpg
+  gen 2524: 거리 = 0.4621, 임계값 = 0.4460, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2524/2524_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2524/2524_1.jpg
+  gen 2538: 거리 = 0.4749, 임계값 = 0.4460, 차이 = 0.0289
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2538/2538_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2538/2538_1.jpg
+  gen 2543: 거리 = 0.4757, 임계값 = 0.4460, 차이 = 0.0297
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2543/2543_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2543/2543_1.jpg
+  gen 2544: 거리 = 0.4731, 임계값 = 0.4460, 차이 = 0.0271
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2544/2544_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2544/2544_1.jpg
+  gen 2546: 거리 = 0.4630, 임계값 = 0.4460, 차이 = 0.0170
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2546/2546_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2546/2546_1.jpg
+  gen 2547: 거리 = 0.4684, 임계값 = 0.4460, 차이 = 0.0224
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2547/2547_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2547/2547_1.jpg
+  gen 2548: 거리 = 0.5060, 임계값 = 0.4460, 차이 = 0.0600
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2548/2548_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2548/2548_1.jpg
+  gen 2549: 거리 = 0.5152, 임계값 = 0.4460, 차이 = 0.0692
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2549/2549_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2549/2549_1.jpg
+  gen 2550: 거리 = 0.4658, 임계값 = 0.4460, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2550/2550_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2550/2550_1.jpg
+  gen 2553: 거리 = 0.4497, 임계값 = 0.4460, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2553/2553_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2553/2553_1.jpg
+  gen 2556: 거리 = 0.4517, 임계값 = 0.4460, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2556/2556_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2556/2556_1.jpg
+  gen 2557: 거리 = 0.4774, 임계값 = 0.4460, 차이 = 0.0314
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2557/2557_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2557/2557_1.jpg
+  gen 2564: 거리 = 0.4601, 임계값 = 0.4460, 차이 = 0.0141
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2564/2564_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2564/2564_1.jpg
+  gen 2567: 거리 = 0.4831, 임계값 = 0.4460, 차이 = 0.0371
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2567/2567_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2567/2567_1.jpg
+  gen 2572: 거리 = 0.4841, 임계값 = 0.4460, 차이 = 0.0381
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2572/2572_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2572/2572_1.jpg
+  gen 2573: 거리 = 0.4979, 임계값 = 0.4460, 차이 = 0.0519
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2573/2573_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2573/2573_1.jpg
+  gen 2577: 거리 = 0.5084, 임계값 = 0.4460, 차이 = 0.0624
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2577/2577_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2577/2577_1.jpg
+  gen 2579: 거리 = 0.4631, 임계값 = 0.4460, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2579/2579_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2579/2579_1.jpg
+  gen 2586: 거리 = 0.4833, 임계값 = 0.4460, 차이 = 0.0373
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2586/2586_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2586/2586_1.jpg
+  gen 2588: 거리 = 0.4471, 임계값 = 0.4460, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2588/2588_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2588/2588_1.jpg
+  gen 2590: 거리 = 0.4668, 임계값 = 0.4460, 차이 = 0.0208
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2590/2590_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2590/2590_1.jpg
+  gen 2599: 거리 = 0.4845, 임계값 = 0.4460, 차이 = 0.0385
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2599/2599_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2599/2599_1.jpg
+  gen 2603: 거리 = 0.4763, 임계값 = 0.4460, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2603/2603_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2603/2603_1.jpg
+  gen 2605: 거리 = 0.4902, 임계값 = 0.4460, 차이 = 0.0442
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2605/2605_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2605/2605_1.jpg
+  gen 2613: 거리 = 0.4651, 임계값 = 0.4460, 차이 = 0.0191
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2613/2613_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2613/2613_1.jpg
+  gen 2615: 거리 = 0.4908, 임계값 = 0.4460, 차이 = 0.0448
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2615/2615_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2615/2615_1.jpg
+  gen 2619: 거리 = 0.4917, 임계값 = 0.4460, 차이 = 0.0457
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2619/2619_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2619/2619_1.jpg
+  gen 2622: 거리 = 0.4531, 임계값 = 0.4460, 차이 = 0.0071
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2622/2622_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2622/2622_1.jpg
+  gen 2628: 거리 = 0.4666, 임계값 = 0.4460, 차이 = 0.0206
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2628/2628_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2628/2628_1.jpg
+  gen 2648: 거리 = 0.4780, 임계값 = 0.4460, 차이 = 0.0320
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2648/2648_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2648/2648_1.jpg
+  gen 2652: 거리 = 0.4771, 임계값 = 0.4460, 차이 = 0.0311
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2652/2652_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2652/2652_1.jpg
+  gen 2681: 거리 = 0.4468, 임계값 = 0.4460, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2681/2681_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2681/2681_1.jpg
+  gen 2682: 거리 = 0.4599, 임계값 = 0.4460, 차이 = 0.0139
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2682/2682_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2682/2682_1.jpg
+  gen 2689: 거리 = 0.4548, 임계값 = 0.4460, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2689/2689_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2689/2689_1.jpg
+  gen 2690: 거리 = 0.4474, 임계값 = 0.4460, 차이 = 0.0014
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2690/2690_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2690/2690_1.jpg
+  gen 2695: 거리 = 0.4636, 임계값 = 0.4460, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2695/2695_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2695/2695_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8596)
+
+거짓 양성(False Positive) 오탐지: 27개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2732: 거리 = 0.4234, 임계값 = 0.4460, 차이 = 0.0226
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2732/2732_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2732/2732_1.jpg
+  imp 2752: 거리 = 0.4330, 임계값 = 0.4460, 차이 = 0.0130
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2752/2752_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2752/2752_1.jpg
+  imp 2755: 거리 = 0.4283, 임계값 = 0.4460, 차이 = 0.0177
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2755/2755_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2755/2755_1.jpg
+  imp 2757: 거리 = 0.3828, 임계값 = 0.4460, 차이 = 0.0632
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2757/2757_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2757/2757_1.jpg
+  imp 2759: 거리 = 0.4358, 임계값 = 0.4460, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2759/2759_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2759/2759_1.jpg
+  imp 2766: 거리 = 0.4341, 임계값 = 0.4460, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2766/2766_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2766/2766_1.jpg
+  imp 2789: 거리 = 0.4291, 임계값 = 0.4460, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2789/2789_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2789/2789_1.jpg
+  imp 2794: 거리 = 0.4303, 임계값 = 0.4460, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2794/2794_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2794/2794_1.jpg
+  imp 2804: 거리 = 0.4285, 임계값 = 0.4460, 차이 = 0.0175
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2804/2804_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2804/2804_1.jpg
+  imp 2828: 거리 = 0.4305, 임계값 = 0.4460, 차이 = 0.0155
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2828/2828_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2828/2828_1.jpg
+  imp 2843: 거리 = 0.4436, 임계값 = 0.4460, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2843/2843_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2843/2843_1.jpg
+  imp 2851: 거리 = 0.4100, 임계값 = 0.4460, 차이 = 0.0360
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2851/2851_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2851/2851_1.jpg
+  imp 2863: 거리 = 0.4006, 임계값 = 0.4460, 차이 = 0.0454
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2863/2863_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2863/2863_1.jpg
+  imp 2901: 거리 = 0.4345, 임계값 = 0.4460, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2901/2901_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2901/2901_1.jpg
+  imp 2915: 거리 = 0.4357, 임계값 = 0.4460, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2915/2915_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2915/2915_1.jpg
+  imp 2929: 거리 = 0.4390, 임계값 = 0.4460, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2929/2929_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2929/2929_1.jpg
+  imp 2930: 거리 = 0.4292, 임계값 = 0.4460, 차이 = 0.0168
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2930/2930_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2930/2930_1.jpg
+  imp 2933: 거리 = 0.4036, 임계값 = 0.4460, 차이 = 0.0424
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2933/2933_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2933/2933_1.jpg
+  imp 2936: 거리 = 0.4334, 임계값 = 0.4460, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2936/2936_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2936/2936_1.jpg
+  imp 2953: 거리 = 0.4401, 임계값 = 0.4460, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2953/2953_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2953/2953_1.jpg
+  imp 2960: 거리 = 0.4359, 임계값 = 0.4460, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2960/2960_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2960/2960_1.jpg
+  imp 2972: 거리 = 0.4408, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2972/2972_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2972/2972_1.jpg
+  imp 2981: 거리 = 0.3523, 임계값 = 0.4460, 차이 = 0.0937
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2981/2981_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2981/2981_1.jpg
+  imp 2990: 거리 = 0.4335, 임계값 = 0.4460, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2990/2990_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2990/2990_1.jpg
+  imp 2992: 거리 = 0.4124, 임계값 = 0.4460, 차이 = 0.0336
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2992/2992_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2992/2992_1.jpg
+  imp 2998: 거리 = 0.4219, 임계값 = 0.4460, 차이 = 0.0241
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2998/2998_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2998/2998_1.jpg
+  imp 2999: 거리 = 0.4451, 임계값 = 0.4460, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2999/2999_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/imp/2999/2999_1.jpg
+
+거짓 음성(False Negative) 오탐지: 63개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2703: 거리 = 0.4792, 임계값 = 0.4460, 차이 = 0.0332
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2703/2703_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2703/2703_1.jpg
+  gen 2709: 거리 = 0.4514, 임계값 = 0.4460, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2709/2709_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2709/2709_1.jpg
+  gen 2711: 거리 = 0.4732, 임계값 = 0.4460, 차이 = 0.0272
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2711/2711_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2711/2711_1.jpg
+  gen 2716: 거리 = 0.4793, 임계값 = 0.4460, 차이 = 0.0333
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2716/2716_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2716/2716_1.jpg
+  gen 2719: 거리 = 0.4774, 임계값 = 0.4460, 차이 = 0.0314
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2719/2719_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2719/2719_1.jpg
+  gen 2721: 거리 = 0.5032, 임계값 = 0.4460, 차이 = 0.0572
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2721/2721_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2721/2721_1.jpg
+  gen 2744: 거리 = 0.4486, 임계값 = 0.4460, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2744/2744_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2744/2744_1.jpg
+  gen 2747: 거리 = 0.4953, 임계값 = 0.4460, 차이 = 0.0493
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2747/2747_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2747/2747_1.jpg
+  gen 2750: 거리 = 0.4522, 임계값 = 0.4460, 차이 = 0.0062
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2750/2750_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2750/2750_1.jpg
+  gen 2759: 거리 = 0.4736, 임계값 = 0.4460, 차이 = 0.0276
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2759/2759_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2759/2759_1.jpg
+  gen 2775: 거리 = 0.4532, 임계값 = 0.4460, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2775/2775_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2775/2775_1.jpg
+  gen 2780: 거리 = 0.4489, 임계값 = 0.4460, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2780/2780_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2780/2780_1.jpg
+  gen 2783: 거리 = 0.4593, 임계값 = 0.4460, 차이 = 0.0133
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2783/2783_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2783/2783_1.jpg
+  gen 2784: 거리 = 0.4621, 임계값 = 0.4460, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2784/2784_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2784/2784_1.jpg
+  gen 2787: 거리 = 0.4679, 임계값 = 0.4460, 차이 = 0.0219
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2787/2787_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2787/2787_1.jpg
+  gen 2790: 거리 = 0.4732, 임계값 = 0.4460, 차이 = 0.0272
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2790/2790_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2790/2790_1.jpg
+  gen 2794: 거리 = 0.4512, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2794/2794_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2794/2794_1.jpg
+  gen 2800: 거리 = 0.4506, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2800/2800_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2800/2800_1.jpg
+  gen 2805: 거리 = 0.5093, 임계값 = 0.4460, 차이 = 0.0633
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2805/2805_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2805/2805_1.jpg
+  gen 2812: 거리 = 0.4750, 임계값 = 0.4460, 차이 = 0.0290
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2812/2812_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2812/2812_1.jpg
+  gen 2814: 거리 = 0.4596, 임계값 = 0.4460, 차이 = 0.0136
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2814/2814_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2814/2814_1.jpg
+  gen 2816: 거리 = 0.4492, 임계값 = 0.4460, 차이 = 0.0032
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2816/2816_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2816/2816_1.jpg
+  gen 2817: 거리 = 0.4577, 임계값 = 0.4460, 차이 = 0.0117
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2817/2817_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2817/2817_1.jpg
+  gen 2818: 거리 = 0.4725, 임계값 = 0.4460, 차이 = 0.0265
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2818/2818_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2818/2818_1.jpg
+  gen 2819: 거리 = 0.4696, 임계값 = 0.4460, 차이 = 0.0236
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2819/2819_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2819/2819_1.jpg
+  gen 2820: 거리 = 0.4661, 임계값 = 0.4460, 차이 = 0.0201
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2820/2820_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2820/2820_1.jpg
+  gen 2828: 거리 = 0.4997, 임계값 = 0.4460, 차이 = 0.0537
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2828/2828_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2828/2828_1.jpg
+  gen 2831: 거리 = 0.4471, 임계값 = 0.4460, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2831/2831_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2831/2831_1.jpg
+  gen 2838: 거리 = 0.5010, 임계값 = 0.4460, 차이 = 0.0550
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2838/2838_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2838/2838_1.jpg
+  gen 2840: 거리 = 0.4860, 임계값 = 0.4460, 차이 = 0.0400
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2840/2840_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2840/2840_1.jpg
+  gen 2842: 거리 = 0.4605, 임계값 = 0.4460, 차이 = 0.0145
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2842/2842_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2842/2842_1.jpg
+  gen 2844: 거리 = 0.4708, 임계값 = 0.4460, 차이 = 0.0248
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2844/2844_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2844/2844_1.jpg
+  gen 2851: 거리 = 0.4531, 임계값 = 0.4460, 차이 = 0.0071
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2851/2851_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2851/2851_1.jpg
+  gen 2852: 거리 = 0.4718, 임계값 = 0.4460, 차이 = 0.0258
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2852/2852_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2852/2852_1.jpg
+  gen 2855: 거리 = 0.4568, 임계값 = 0.4460, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2855/2855_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2855/2855_1.jpg
+  gen 2860: 거리 = 0.4854, 임계값 = 0.4460, 차이 = 0.0394
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2860/2860_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2860/2860_1.jpg
+  gen 2861: 거리 = 0.4617, 임계값 = 0.4460, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2861/2861_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2861/2861_1.jpg
+  gen 2866: 거리 = 0.4528, 임계값 = 0.4460, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2866/2866_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2866/2866_1.jpg
+  gen 2870: 거리 = 0.4483, 임계값 = 0.4460, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2870/2870_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2870/2870_1.jpg
+  gen 2871: 거리 = 0.4911, 임계값 = 0.4460, 차이 = 0.0451
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2871/2871_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2871/2871_1.jpg
+  gen 2873: 거리 = 0.4621, 임계값 = 0.4460, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2873/2873_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2873/2873_1.jpg
+  gen 2874: 거리 = 0.5010, 임계값 = 0.4460, 차이 = 0.0550
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2874/2874_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2874/2874_1.jpg
+  gen 2878: 거리 = 0.4516, 임계값 = 0.4460, 차이 = 0.0056
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2878/2878_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2878/2878_1.jpg
+  gen 2883: 거리 = 0.4585, 임계값 = 0.4460, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2883/2883_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2883/2883_1.jpg
+  gen 2885: 거리 = 0.4748, 임계값 = 0.4460, 차이 = 0.0288
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2885/2885_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2885/2885_1.jpg
+  gen 2894: 거리 = 0.4617, 임계값 = 0.4460, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2894/2894_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2894/2894_1.jpg
+  gen 2897: 거리 = 0.5171, 임계값 = 0.4460, 차이 = 0.0711
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2897/2897_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2897/2897_1.jpg
+  gen 2898: 거리 = 0.4633, 임계값 = 0.4460, 차이 = 0.0173
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2898/2898_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2898/2898_1.jpg
+  gen 2900: 거리 = 0.4568, 임계값 = 0.4460, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2900/2900_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2900/2900_1.jpg
+  gen 2903: 거리 = 0.5376, 임계값 = 0.4460, 차이 = 0.0916
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2903/2903_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2903/2903_1.jpg
+  gen 2911: 거리 = 0.4485, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2911/2911_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2911/2911_1.jpg
+  gen 2916: 거리 = 0.4780, 임계값 = 0.4460, 차이 = 0.0320
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2916/2916_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2916/2916_1.jpg
+  gen 2931: 거리 = 0.4669, 임계값 = 0.4460, 차이 = 0.0209
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2931/2931_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2931/2931_1.jpg
+  gen 2939: 거리 = 0.4810, 임계값 = 0.4460, 차이 = 0.0350
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2939/2939_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2939/2939_1.jpg
+  gen 2949: 거리 = 0.4805, 임계값 = 0.4460, 차이 = 0.0345
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2949/2949_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2949/2949_1.jpg
+  gen 2954: 거리 = 0.4801, 임계값 = 0.4460, 차이 = 0.0341
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2954/2954_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2954/2954_1.jpg
+  gen 2965: 거리 = 0.4979, 임계값 = 0.4460, 차이 = 0.0519
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2965/2965_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2965/2965_1.jpg
+  gen 2975: 거리 = 0.4981, 임계값 = 0.4460, 차이 = 0.0521
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2975/2975_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2975/2975_1.jpg
+  gen 2980: 거리 = 0.4566, 임계값 = 0.4460, 차이 = 0.0106
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2980/2980_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2980/2980_1.jpg
+  gen 2986: 거리 = 0.4584, 임계값 = 0.4460, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2986/2986_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2986/2986_1.jpg
+  gen 2987: 거리 = 0.4591, 임계값 = 0.4460, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2987/2987_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2987/2987_1.jpg
+  gen 2994: 거리 = 0.4506, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2994/2994_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2994/2994_1.jpg
+  gen 2999: 거리 = 0.4487, 임계값 = 0.4460, 차이 = 0.0027
+    경로1: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2999/2999_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/impulse_noise_3/gen/2999/2999_1.jpg
+Accuracy for each fold: [0.85666667 0.87333333 0.855      0.855      0.84833333 0.86833333
+ 0.87333333 0.865      0.835      0.85      ]
+Mean Accuracy: 0.858
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.40094596
+Standard deviation for genuine pairs: 0.048022076
+Average distance for imposter pairs: 0.4807768
+Standard deviation for imposter pairs: 0.029633438

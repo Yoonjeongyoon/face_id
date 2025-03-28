@@ -1,0 +1,135 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4160 (훈련 정확도: 0.9974)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 12: 거리 = 0.4146, 임계값 = 0.4160, 차이 = 0.0014
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/imp/0012/12_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/imp/0012/12_1.jpg
+
+거짓 음성(False Negative) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 68: 거리 = 0.4580, 임계값 = 0.4160, 차이 = 0.0420
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/0068/68_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/0068/68_1.jpg
+  gen 69: 거리 = 0.4640, 임계값 = 0.4160, 차이 = 0.0480
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/0069/69_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/0069/69_1.jpg
+  gen 112: 거리 = 0.4706, 임계값 = 0.4160, 차이 = 0.0546
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/0112/112_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/0112/112_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9967)
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9969)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 853: 거리 = 0.4117, 임계값 = 0.4140, 차이 = 0.0023
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/imp/0853/853_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/imp/0853/853_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9978)
+
+거짓 음성(False Negative) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 912: 거리 = 0.4286, 임계값 = 0.4140, 차이 = 0.0146
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/0912/912_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/0912/912_1.jpg
+  gen 961: 거리 = 0.4812, 임계값 = 0.4140, 차이 = 0.0672
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/0961/961_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/0961/961_1.jpg
+  gen 1031: 거리 = 0.4429, 임계값 = 0.4140, 차이 = 0.0289
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1031/1031_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1031/1031_1.jpg
+  gen 1106: 거리 = 0.4160, 임계값 = 0.4140, 차이 = 0.0020
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1106/1106_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1106/1106_1.jpg
+  gen 1107: 거리 = 0.4207, 임계값 = 0.4140, 차이 = 0.0067
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1107/1107_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1107/1107_1.jpg
+  gen 1109: 거리 = 0.4551, 임계값 = 0.4140, 차이 = 0.0411
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1109/1109_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1109/1109_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9972)
+
+거짓 음성(False Negative) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1298: 거리 = 0.4885, 임계값 = 0.4140, 차이 = 0.0745
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1298/1298_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1298/1298_1.jpg
+  gen 1350: 거리 = 0.5237, 임계값 = 0.4140, 차이 = 0.1097
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1350/1350_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1350/1350_1.jpg
+  gen 1351: 거리 = 0.5039, 임계값 = 0.4140, 차이 = 0.0899
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1351/1351_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1351/1351_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9969)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1534: 거리 = 0.3947, 임계값 = 0.4140, 차이 = 0.0193
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/imp/1534/1534_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/imp/1534/1534_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4210 (훈련 정확도: 0.9974)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2084: 거리 = 0.4163, 임계값 = 0.4210, 차이 = 0.0047
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/imp/2084/2084_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/imp/2084/2084_1.jpg
+
+거짓 음성(False Negative) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1851: 거리 = 0.4473, 임계값 = 0.4210, 차이 = 0.0263
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/1851/1851_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/1851/1851_1.jpg
+  gen 2072: 거리 = 0.4443, 임계값 = 0.4210, 차이 = 0.0233
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/2072/2072_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/2072/2072_1.jpg
+  gen 2092: 거리 = 0.4319, 임계값 = 0.4210, 차이 = 0.0109
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/gen/2092/2092_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/gen/2092/2092_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9969)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2184: 거리 = 0.4055, 임계값 = 0.4140, 차이 = 0.0085
+    경로1: work_dirs/corruptions/LFW/zoom_blur_2/imp/2184/2184_0.jpg
+    경로2: work_dirs/corruptions/LFW/zoom_blur_2/imp/2184/2184_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9967)
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4140 (훈련 정확도: 0.9967)
+Accuracy for each fold: [0.99333333 1.         0.99833333 0.99       0.995      0.99833333
+ 0.99333333 0.99833333 1.         1.        ]
+Mean Accuracy: 0.9966666666666667
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.27405688
+Standard deviation for genuine pairs: 0.049180828
+Average distance for imposter pairs: 0.49086425
+Standard deviation for imposter pairs: 0.020934962

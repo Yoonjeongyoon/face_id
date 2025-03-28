@@ -1,0 +1,803 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9620)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 147: 거리 = 0.4432, 임계값 = 0.4490, 차이 = 0.0058
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0147/147_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0147/147_1.jpg
+  imp 171: 거리 = 0.4454, 임계값 = 0.4490, 차이 = 0.0036
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0171/171_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0171/171_1.jpg
+  imp 231: 거리 = 0.4355, 임계값 = 0.4490, 차이 = 0.0135
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0231/231_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0231/231_1.jpg
+  imp 258: 거리 = 0.4432, 임계값 = 0.4490, 차이 = 0.0058
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0258/258_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0258/258_1.jpg
+  imp 264: 거리 = 0.4371, 임계값 = 0.4490, 차이 = 0.0119
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0264/264_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0264/264_1.jpg
+  imp 286: 거리 = 0.4173, 임계값 = 0.4490, 차이 = 0.0317
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0286/286_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0286/286_1.jpg
+  imp 298: 거리 = 0.4173, 임계값 = 0.4490, 차이 = 0.0317
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0298/298_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0298/298_1.jpg
+
+거짓 음성(False Negative) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 47: 거리 = 0.4740, 임계값 = 0.4490, 차이 = 0.0250
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0047/47_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0047/47_1.jpg
+  gen 117: 거리 = 0.4497, 임계값 = 0.4490, 차이 = 0.0007
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0117/117_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0117/117_1.jpg
+  gen 121: 거리 = 0.4929, 임계값 = 0.4490, 차이 = 0.0439
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0121/121_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0121/121_1.jpg
+  gen 164: 거리 = 0.4550, 임계값 = 0.4490, 차이 = 0.0060
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0164/164_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0164/164_1.jpg
+  gen 168: 거리 = 0.4519, 임계값 = 0.4490, 차이 = 0.0029
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0168/168_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0168/168_1.jpg
+  gen 187: 거리 = 0.4635, 임계값 = 0.4490, 차이 = 0.0145
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0187/187_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0187/187_1.jpg
+  gen 219: 거리 = 0.4823, 임계값 = 0.4490, 차이 = 0.0333
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0219/219_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0219/219_1.jpg
+  gen 220: 거리 = 0.4752, 임계값 = 0.4490, 차이 = 0.0262
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0220/220_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0220/220_1.jpg
+  gen 225: 거리 = 0.4551, 임계값 = 0.4490, 차이 = 0.0061
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0225/225_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0225/225_1.jpg
+  gen 236: 거리 = 0.4739, 임계값 = 0.4490, 차이 = 0.0249
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0236/236_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0236/236_1.jpg
+  gen 296: 거리 = 0.4646, 임계값 = 0.4490, 차이 = 0.0156
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0296/296_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0296/296_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9622)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 303: 거리 = 0.4413, 임계값 = 0.4490, 차이 = 0.0077
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0303/303_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0303/303_1.jpg
+  imp 310: 거리 = 0.4207, 임계값 = 0.4490, 차이 = 0.0283
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0310/310_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0310/310_1.jpg
+  imp 357: 거리 = 0.4402, 임계값 = 0.4490, 차이 = 0.0088
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0357/357_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0357/357_1.jpg
+  imp 400: 거리 = 0.4392, 임계값 = 0.4490, 차이 = 0.0098
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0400/400_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0400/400_1.jpg
+  imp 487: 거리 = 0.4425, 임계값 = 0.4490, 차이 = 0.0065
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0487/487_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0487/487_1.jpg
+  imp 506: 거리 = 0.4425, 임계값 = 0.4490, 차이 = 0.0065
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0506/506_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0506/506_1.jpg
+
+거짓 음성(False Negative) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 304: 거리 = 0.4494, 임계값 = 0.4490, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0304/304_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0304/304_1.jpg
+  gen 366: 거리 = 0.4659, 임계값 = 0.4490, 차이 = 0.0169
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0366/366_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0366/366_1.jpg
+  gen 414: 거리 = 0.4962, 임계값 = 0.4490, 차이 = 0.0472
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0414/414_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0414/414_1.jpg
+  gen 446: 거리 = 0.4569, 임계값 = 0.4490, 차이 = 0.0079
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0446/446_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0446/446_1.jpg
+  gen 447: 거리 = 0.4518, 임계값 = 0.4490, 차이 = 0.0028
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0447/447_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0447/447_1.jpg
+  gen 453: 거리 = 0.4726, 임계값 = 0.4490, 차이 = 0.0236
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0453/453_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0453/453_1.jpg
+  gen 458: 거리 = 0.4597, 임계값 = 0.4490, 차이 = 0.0107
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0458/458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0458/458_1.jpg
+  gen 496: 거리 = 0.4724, 임계값 = 0.4490, 차이 = 0.0234
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0496/496_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0496/496_1.jpg
+  gen 522: 거리 = 0.5209, 임계값 = 0.4490, 차이 = 0.0719
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0522/522_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0522/522_1.jpg
+  gen 526: 거리 = 0.4606, 임계값 = 0.4490, 차이 = 0.0116
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0526/526_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0526/526_1.jpg
+  gen 594: 거리 = 0.4930, 임계값 = 0.4490, 차이 = 0.0440
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0594/594_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0594/594_1.jpg
+  gen 595: 거리 = 0.4645, 임계값 = 0.4490, 차이 = 0.0155
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0595/595_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0595/595_1.jpg
+  gen 597: 거리 = 0.4947, 임계값 = 0.4490, 차이 = 0.0457
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0597/597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0597/597_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9630)
+
+거짓 양성(False Positive) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 643: 거리 = 0.4230, 임계값 = 0.4490, 차이 = 0.0260
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0643/643_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0643/643_1.jpg
+  imp 691: 거리 = 0.4486, 임계값 = 0.4490, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0691/691_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0691/691_1.jpg
+  imp 694: 거리 = 0.4239, 임계값 = 0.4490, 차이 = 0.0251
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0694/694_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0694/694_1.jpg
+  imp 697: 거리 = 0.4426, 임계값 = 0.4490, 차이 = 0.0064
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0697/697_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0697/697_1.jpg
+  imp 774: 거리 = 0.4423, 임계값 = 0.4490, 차이 = 0.0067
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0774/774_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0774/774_1.jpg
+  imp 778: 거리 = 0.4423, 임계값 = 0.4490, 차이 = 0.0067
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0778/778_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0778/778_1.jpg
+  imp 807: 거리 = 0.4474, 임계값 = 0.4490, 차이 = 0.0016
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0807/807_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0807/807_1.jpg
+  imp 851: 거리 = 0.4289, 임계값 = 0.4490, 차이 = 0.0201
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0851/851_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0851/851_1.jpg
+  imp 862: 거리 = 0.4390, 임계값 = 0.4490, 차이 = 0.0100
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0862/862_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0862/862_1.jpg
+  imp 866: 거리 = 0.4490, 임계값 = 0.4490, 차이 = 0.0000
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0866/866_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0866/866_1.jpg
+  imp 872: 거리 = 0.4319, 임계값 = 0.4490, 차이 = 0.0171
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0872/872_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0872/872_1.jpg
+
+거짓 음성(False Negative) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 615: 거리 = 0.4537, 임계값 = 0.4490, 차이 = 0.0047
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0615/615_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0615/615_1.jpg
+  gen 616: 거리 = 0.4556, 임계값 = 0.4490, 차이 = 0.0066
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0616/616_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0616/616_1.jpg
+  gen 618: 거리 = 0.4596, 임계값 = 0.4490, 차이 = 0.0106
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0618/618_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0618/618_1.jpg
+  gen 652: 거리 = 0.4665, 임계값 = 0.4490, 차이 = 0.0175
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0652/652_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0652/652_1.jpg
+  gen 704: 거리 = 0.4662, 임계값 = 0.4490, 차이 = 0.0172
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0704/704_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0704/704_1.jpg
+  gen 708: 거리 = 0.4692, 임계값 = 0.4490, 차이 = 0.0202
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0708/708_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0708/708_1.jpg
+  gen 720: 거리 = 0.4533, 임계값 = 0.4490, 차이 = 0.0043
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0720/720_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0720/720_1.jpg
+  gen 735: 거리 = 0.4985, 임계값 = 0.4490, 차이 = 0.0495
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0735/735_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0735/735_1.jpg
+  gen 739: 거리 = 0.4523, 임계값 = 0.4490, 차이 = 0.0033
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0739/739_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0739/739_1.jpg
+  gen 745: 거리 = 0.4492, 임계값 = 0.4490, 차이 = 0.0002
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0745/745_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0745/745_1.jpg
+  gen 748: 거리 = 0.4517, 임계값 = 0.4490, 차이 = 0.0027
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0748/748_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0748/748_1.jpg
+  gen 853: 거리 = 0.4560, 임계값 = 0.4490, 차이 = 0.0070
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0853/853_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0853/853_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9630)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 922: 거리 = 0.4238, 임계값 = 0.4500, 차이 = 0.0262
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0922/922_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/0922/922_1.jpg
+  imp 1045: 거리 = 0.4497, 임계값 = 0.4500, 차이 = 0.0003
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1045/1045_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1045/1045_1.jpg
+  imp 1047: 거리 = 0.4425, 임계값 = 0.4500, 차이 = 0.0075
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1047/1047_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1047/1047_1.jpg
+  imp 1086: 거리 = 0.4485, 임계값 = 0.4500, 차이 = 0.0015
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1086/1086_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1086/1086_1.jpg
+  imp 1111: 거리 = 0.4408, 임계값 = 0.4500, 차이 = 0.0092
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1111/1111_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1111/1111_1.jpg
+  imp 1113: 거리 = 0.4452, 임계값 = 0.4500, 차이 = 0.0048
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1113/1113_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1113/1113_1.jpg
+  imp 1121: 거리 = 0.4236, 임계값 = 0.4500, 차이 = 0.0264
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1121/1121_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1121/1121_1.jpg
+
+거짓 음성(False Negative) 오탐지: 16개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 906: 거리 = 0.4861, 임계값 = 0.4500, 차이 = 0.0361
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0906/906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0906/906_1.jpg
+  gen 907: 거리 = 0.4618, 임계값 = 0.4500, 차이 = 0.0118
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0907/907_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0907/907_1.jpg
+  gen 910: 거리 = 0.4545, 임계값 = 0.4500, 차이 = 0.0045
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0910/910_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0910/910_1.jpg
+  gen 917: 거리 = 0.4533, 임계값 = 0.4500, 차이 = 0.0033
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0917/917_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0917/917_1.jpg
+  gen 921: 거리 = 0.4530, 임계값 = 0.4500, 차이 = 0.0030
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0921/921_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0921/921_1.jpg
+  gen 948: 거리 = 0.5025, 임계값 = 0.4500, 차이 = 0.0525
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0948/948_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0948/948_1.jpg
+  gen 990: 거리 = 0.4658, 임계값 = 0.4500, 차이 = 0.0158
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0990/990_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0990/990_1.jpg
+  gen 991: 거리 = 0.4798, 임계값 = 0.4500, 차이 = 0.0298
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0991/991_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0991/991_1.jpg
+  gen 993: 거리 = 0.4746, 임계값 = 0.4500, 차이 = 0.0246
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0993/993_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/0993/993_1.jpg
+  gen 1070: 거리 = 0.4512, 임계값 = 0.4500, 차이 = 0.0012
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1070/1070_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1070/1070_1.jpg
+  gen 1107: 거리 = 0.4516, 임계값 = 0.4500, 차이 = 0.0016
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1107/1107_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1107/1107_1.jpg
+  gen 1111: 거리 = 0.4509, 임계값 = 0.4500, 차이 = 0.0009
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1111/1111_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1111/1111_1.jpg
+  gen 1128: 거리 = 0.4697, 임계값 = 0.4500, 차이 = 0.0197
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1128/1128_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1128/1128_1.jpg
+  gen 1141: 거리 = 0.4679, 임계값 = 0.4500, 차이 = 0.0179
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1141/1141_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1141/1141_1.jpg
+  gen 1187: 거리 = 0.4608, 임계값 = 0.4500, 차이 = 0.0108
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1187/1187_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1187/1187_1.jpg
+  gen 1195: 거리 = 0.4742, 임계값 = 0.4500, 차이 = 0.0242
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1195/1195_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1195/1195_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9641)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1243: 거리 = 0.4324, 임계값 = 0.4490, 차이 = 0.0166
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1243/1243_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1243/1243_1.jpg
+  imp 1249: 거리 = 0.4387, 임계값 = 0.4490, 차이 = 0.0103
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1249/1249_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1249/1249_1.jpg
+  imp 1277: 거리 = 0.4271, 임계값 = 0.4490, 차이 = 0.0219
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1277/1277_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1277/1277_1.jpg
+  imp 1343: 거리 = 0.4452, 임계값 = 0.4490, 차이 = 0.0038
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1343/1343_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1343/1343_1.jpg
+  imp 1352: 거리 = 0.4473, 임계값 = 0.4490, 차이 = 0.0017
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1352/1352_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1352/1352_1.jpg
+  imp 1426: 거리 = 0.4470, 임계값 = 0.4490, 차이 = 0.0020
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1426/1426_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1426/1426_1.jpg
+
+거짓 음성(False Negative) 오탐지: 23개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1203: 거리 = 0.5363, 임계값 = 0.4490, 차이 = 0.0873
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1203/1203_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1203/1203_1.jpg
+  gen 1207: 거리 = 0.4594, 임계값 = 0.4490, 차이 = 0.0104
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1207/1207_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1207/1207_1.jpg
+  gen 1254: 거리 = 0.4508, 임계값 = 0.4490, 차이 = 0.0018
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1254/1254_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1254/1254_1.jpg
+  gen 1255: 거리 = 0.4523, 임계값 = 0.4490, 차이 = 0.0033
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1255/1255_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1255/1255_1.jpg
+  gen 1256: 거리 = 0.4526, 임계값 = 0.4490, 차이 = 0.0036
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1256/1256_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1256/1256_1.jpg
+  gen 1262: 거리 = 0.4637, 임계값 = 0.4490, 차이 = 0.0147
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1262/1262_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1262/1262_1.jpg
+  gen 1285: 거리 = 0.4951, 임계값 = 0.4490, 차이 = 0.0461
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1285/1285_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1285/1285_1.jpg
+  gen 1287: 거리 = 0.4578, 임계값 = 0.4490, 차이 = 0.0088
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1287/1287_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1287/1287_1.jpg
+  gen 1308: 거리 = 0.4919, 임계값 = 0.4490, 차이 = 0.0429
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1308/1308_1.jpg
+  gen 1338: 거리 = 0.4542, 임계값 = 0.4490, 차이 = 0.0052
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1338/1338_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1338/1338_1.jpg
+  gen 1362: 거리 = 0.4614, 임계값 = 0.4490, 차이 = 0.0124
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1362/1362_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1362/1362_1.jpg
+  gen 1363: 거리 = 0.4642, 임계값 = 0.4490, 차이 = 0.0152
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1363/1363_1.jpg
+  gen 1364: 거리 = 0.4625, 임계값 = 0.4490, 차이 = 0.0135
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1364/1364_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1364/1364_1.jpg
+  gen 1399: 거리 = 0.4705, 임계값 = 0.4490, 차이 = 0.0215
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1399/1399_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1399/1399_1.jpg
+  gen 1400: 거리 = 0.4560, 임계값 = 0.4490, 차이 = 0.0070
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1400/1400_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1400/1400_1.jpg
+  gen 1401: 거리 = 0.4651, 임계값 = 0.4490, 차이 = 0.0161
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1401/1401_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1401/1401_1.jpg
+  gen 1409: 거리 = 0.4792, 임계값 = 0.4490, 차이 = 0.0302
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1409/1409_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1409/1409_1.jpg
+  gen 1413: 거리 = 0.4516, 임계값 = 0.4490, 차이 = 0.0026
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1413/1413_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1413/1413_1.jpg
+  gen 1438: 거리 = 0.4660, 임계값 = 0.4490, 차이 = 0.0170
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1438/1438_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1438/1438_1.jpg
+  gen 1465: 거리 = 0.4789, 임계값 = 0.4490, 차이 = 0.0299
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1465/1465_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1465/1465_1.jpg
+  gen 1472: 거리 = 0.4530, 임계값 = 0.4490, 차이 = 0.0040
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1472/1472_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1472/1472_1.jpg
+  gen 1474: 거리 = 0.4665, 임계값 = 0.4490, 차이 = 0.0175
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1474/1474_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1474/1474_1.jpg
+  gen 1495: 거리 = 0.4652, 임계값 = 0.4490, 차이 = 0.0162
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1495/1495_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1495/1495_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9628)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1568: 거리 = 0.4366, 임계값 = 0.4490, 차이 = 0.0124
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1568/1568_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1568/1568_1.jpg
+  imp 1580: 거리 = 0.4312, 임계값 = 0.4490, 차이 = 0.0178
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1580/1580_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1580/1580_1.jpg
+  imp 1593: 거리 = 0.4460, 임계값 = 0.4490, 차이 = 0.0030
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1593/1593_1.jpg
+  imp 1632: 거리 = 0.4107, 임계값 = 0.4490, 차이 = 0.0383
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1632/1632_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1632/1632_1.jpg
+  imp 1643: 거리 = 0.4434, 임계값 = 0.4490, 차이 = 0.0056
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1643/1643_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1643/1643_1.jpg
+  imp 1662: 거리 = 0.4318, 임계값 = 0.4490, 차이 = 0.0172
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1662/1662_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1662/1662_1.jpg
+  imp 1666: 거리 = 0.4299, 임계값 = 0.4490, 차이 = 0.0191
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1666/1666_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1666/1666_1.jpg
+  imp 1789: 거리 = 0.4434, 임계값 = 0.4490, 차이 = 0.0056
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1789/1789_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1789/1789_1.jpg
+
+거짓 음성(False Negative) 오탐지: 14개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1537: 거리 = 0.4551, 임계값 = 0.4490, 차이 = 0.0061
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1537/1537_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1537/1537_1.jpg
+  gen 1550: 거리 = 0.4506, 임계값 = 0.4490, 차이 = 0.0016
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1550/1550_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1550/1550_1.jpg
+  gen 1577: 거리 = 0.4949, 임계값 = 0.4490, 차이 = 0.0459
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1577/1577_1.jpg
+  gen 1584: 거리 = 0.4601, 임계값 = 0.4490, 차이 = 0.0111
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1584/1584_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1584/1584_1.jpg
+  gen 1585: 거리 = 0.4875, 임계값 = 0.4490, 차이 = 0.0385
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1585/1585_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1585/1585_1.jpg
+  gen 1597: 거리 = 0.5290, 임계값 = 0.4490, 차이 = 0.0800
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1597/1597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1597/1597_1.jpg
+  gen 1603: 거리 = 0.5371, 임계값 = 0.4490, 차이 = 0.0881
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1603/1603_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1603/1603_1.jpg
+  gen 1604: 거리 = 0.4837, 임계값 = 0.4490, 차이 = 0.0347
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1604/1604_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1604/1604_1.jpg
+  gen 1688: 거리 = 0.5110, 임계값 = 0.4490, 차이 = 0.0620
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1688/1688_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1688/1688_1.jpg
+  gen 1694: 거리 = 0.4837, 임계값 = 0.4490, 차이 = 0.0347
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1694/1694_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1694/1694_1.jpg
+  gen 1696: 거리 = 0.4682, 임계값 = 0.4490, 차이 = 0.0192
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1696/1696_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1696/1696_1.jpg
+  gen 1705: 거리 = 0.4499, 임계값 = 0.4490, 차이 = 0.0009
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1705/1705_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1705/1705_1.jpg
+  gen 1708: 거리 = 0.4985, 임계값 = 0.4490, 차이 = 0.0495
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1708/1708_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1708/1708_1.jpg
+  gen 1726: 거리 = 0.4509, 임계값 = 0.4490, 차이 = 0.0019
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1726/1726_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1726/1726_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9637)
+
+거짓 양성(False Positive) 오탐지: 9개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1810: 거리 = 0.4473, 임계값 = 0.4500, 차이 = 0.0027
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1810/1810_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1810/1810_1.jpg
+  imp 1812: 거리 = 0.4468, 임계값 = 0.4500, 차이 = 0.0032
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1812/1812_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1812/1812_1.jpg
+  imp 1814: 거리 = 0.4500, 임계값 = 0.4500, 차이 = 0.0000
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1814/1814_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1814/1814_1.jpg
+  imp 1915: 거리 = 0.4142, 임계값 = 0.4500, 차이 = 0.0358
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1915/1915_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1915/1915_1.jpg
+  imp 1921: 거리 = 0.4375, 임계값 = 0.4500, 차이 = 0.0125
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1921/1921_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1921/1921_1.jpg
+  imp 1958: 거리 = 0.4310, 임계값 = 0.4500, 차이 = 0.0190
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1958/1958_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1958/1958_1.jpg
+  imp 1990: 거리 = 0.4262, 임계값 = 0.4500, 차이 = 0.0238
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1990/1990_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/1990/1990_1.jpg
+  imp 2011: 거리 = 0.4254, 임계값 = 0.4500, 차이 = 0.0246
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2011/2011_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2011/2011_1.jpg
+  imp 2080: 거리 = 0.4457, 임계값 = 0.4500, 차이 = 0.0043
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2080/2080_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2080/2080_1.jpg
+
+거짓 음성(False Negative) 오탐지: 18개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1805: 거리 = 0.5139, 임계값 = 0.4500, 차이 = 0.0639
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1805/1805_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1805/1805_1.jpg
+  gen 1874: 거리 = 0.4592, 임계값 = 0.4500, 차이 = 0.0092
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1874/1874_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1874/1874_1.jpg
+  gen 1882: 거리 = 0.4788, 임계값 = 0.4500, 차이 = 0.0288
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1882/1882_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1882/1882_1.jpg
+  gen 1889: 거리 = 0.4835, 임계값 = 0.4500, 차이 = 0.0335
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1889/1889_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1889/1889_1.jpg
+  gen 1896: 거리 = 0.5313, 임계값 = 0.4500, 차이 = 0.0813
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1896/1896_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1896/1896_1.jpg
+  gen 1906: 거리 = 0.4623, 임계값 = 0.4500, 차이 = 0.0123
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1906/1906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1906/1906_1.jpg
+  gen 1930: 거리 = 0.4850, 임계값 = 0.4500, 차이 = 0.0350
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1930/1930_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1930/1930_1.jpg
+  gen 1931: 거리 = 0.4778, 임계값 = 0.4500, 차이 = 0.0278
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1931/1931_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1931/1931_1.jpg
+  gen 1941: 거리 = 0.4651, 임계값 = 0.4500, 차이 = 0.0151
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1941/1941_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1941/1941_1.jpg
+  gen 1943: 거리 = 0.4866, 임계값 = 0.4500, 차이 = 0.0366
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1943/1943_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1943/1943_1.jpg
+  gen 1945: 거리 = 0.4689, 임계값 = 0.4500, 차이 = 0.0189
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1945/1945_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1945/1945_1.jpg
+  gen 1946: 거리 = 0.4946, 임계값 = 0.4500, 차이 = 0.0446
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1946/1946_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1946/1946_1.jpg
+  gen 1973: 거리 = 0.4586, 임계값 = 0.4500, 차이 = 0.0086
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1973/1973_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1973/1973_1.jpg
+  gen 1986: 거리 = 0.4784, 임계값 = 0.4500, 차이 = 0.0284
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1986/1986_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/1986/1986_1.jpg
+  gen 2008: 거리 = 0.4721, 임계값 = 0.4500, 차이 = 0.0221
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2008/2008_1.jpg
+  gen 2030: 거리 = 0.4572, 임계값 = 0.4500, 차이 = 0.0072
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2030/2030_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2030/2030_1.jpg
+  gen 2044: 거리 = 0.4599, 임계값 = 0.4500, 차이 = 0.0099
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2044/2044_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2044/2044_1.jpg
+  gen 2050: 거리 = 0.5031, 임계값 = 0.4500, 차이 = 0.0531
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2050/2050_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2050/2050_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9626)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2150: 거리 = 0.4490, 임계값 = 0.4490, 차이 = 0.0000
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2150/2150_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2150/2150_1.jpg
+  imp 2172: 거리 = 0.4482, 임계값 = 0.4490, 차이 = 0.0008
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2172/2172_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2172/2172_1.jpg
+  imp 2349: 거리 = 0.4468, 임계값 = 0.4490, 차이 = 0.0022
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2349/2349_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2349/2349_1.jpg
+  imp 2388: 거리 = 0.4459, 임계값 = 0.4490, 차이 = 0.0031
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2388/2388_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2388/2388_1.jpg
+
+거짓 음성(False Negative) 오탐지: 17개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2100: 거리 = 0.4733, 임계값 = 0.4490, 차이 = 0.0243
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2100/2100_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2100/2100_1.jpg
+  gen 2115: 거리 = 0.5274, 임계값 = 0.4490, 차이 = 0.0784
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2115/2115_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2115/2115_1.jpg
+  gen 2118: 거리 = 0.5136, 임계값 = 0.4490, 차이 = 0.0646
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2118/2118_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2118/2118_1.jpg
+  gen 2155: 거리 = 0.4671, 임계값 = 0.4490, 차이 = 0.0181
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2155/2155_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2155/2155_1.jpg
+  gen 2158: 거리 = 0.4972, 임계값 = 0.4490, 차이 = 0.0482
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2158/2158_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2158/2158_1.jpg
+  gen 2170: 거리 = 0.5080, 임계값 = 0.4490, 차이 = 0.0590
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2170/2170_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2170/2170_1.jpg
+  gen 2208: 거리 = 0.4971, 임계값 = 0.4490, 차이 = 0.0481
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2208/2208_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2208/2208_1.jpg
+  gen 2233: 거리 = 0.4496, 임계값 = 0.4490, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2233/2233_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2233/2233_1.jpg
+  gen 2247: 거리 = 0.4646, 임계값 = 0.4490, 차이 = 0.0156
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2247/2247_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2247/2247_1.jpg
+  gen 2254: 거리 = 0.4689, 임계값 = 0.4490, 차이 = 0.0199
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2254/2254_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2254/2254_1.jpg
+  gen 2257: 거리 = 0.5121, 임계값 = 0.4490, 차이 = 0.0631
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2257/2257_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2257/2257_1.jpg
+  gen 2273: 거리 = 0.4963, 임계값 = 0.4490, 차이 = 0.0473
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2273/2273_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2273/2273_1.jpg
+  gen 2274: 거리 = 0.5168, 임계값 = 0.4490, 차이 = 0.0678
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2274/2274_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2274/2274_1.jpg
+  gen 2316: 거리 = 0.4560, 임계값 = 0.4490, 차이 = 0.0070
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2316/2316_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2316/2316_1.jpg
+  gen 2347: 거리 = 0.4951, 임계값 = 0.4490, 차이 = 0.0461
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2347/2347_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2347/2347_1.jpg
+  gen 2368: 거리 = 0.4863, 임계값 = 0.4490, 차이 = 0.0373
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2368/2368_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2368/2368_1.jpg
+  gen 2395: 거리 = 0.4676, 임계값 = 0.4490, 차이 = 0.0186
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2395/2395_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2395/2395_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9635)
+
+거짓 양성(False Positive) 오탐지: 14개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2407: 거리 = 0.4496, 임계값 = 0.4500, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2407/2407_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2407/2407_1.jpg
+  imp 2414: 거리 = 0.4391, 임계값 = 0.4500, 차이 = 0.0109
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2414/2414_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2414/2414_1.jpg
+  imp 2462: 거리 = 0.4391, 임계값 = 0.4500, 차이 = 0.0109
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2462/2462_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2462/2462_1.jpg
+  imp 2475: 거리 = 0.4392, 임계값 = 0.4500, 차이 = 0.0108
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2475/2475_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2475/2475_1.jpg
+  imp 2534: 거리 = 0.4398, 임계값 = 0.4500, 차이 = 0.0102
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2534/2534_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2534/2534_1.jpg
+  imp 2548: 거리 = 0.4498, 임계값 = 0.4500, 차이 = 0.0002
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2548/2548_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2548/2548_1.jpg
+  imp 2594: 거리 = 0.3921, 임계값 = 0.4500, 차이 = 0.0579
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2594/2594_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2594/2594_1.jpg
+  imp 2597: 거리 = 0.4398, 임계값 = 0.4500, 차이 = 0.0102
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2597/2597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2597/2597_1.jpg
+  imp 2610: 거리 = 0.4262, 임계값 = 0.4500, 차이 = 0.0238
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2610/2610_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2610/2610_1.jpg
+  imp 2660: 거리 = 0.4463, 임계값 = 0.4500, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2660/2660_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2660/2660_1.jpg
+  imp 2661: 거리 = 0.4472, 임계값 = 0.4500, 차이 = 0.0028
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2661/2661_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2661/2661_1.jpg
+  imp 2664: 거리 = 0.4437, 임계값 = 0.4500, 차이 = 0.0063
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2664/2664_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2664/2664_1.jpg
+  imp 2666: 거리 = 0.4463, 임계값 = 0.4500, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2666/2666_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2666/2666_1.jpg
+  imp 2692: 거리 = 0.4043, 임계값 = 0.4500, 차이 = 0.0457
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2692/2692_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2692/2692_1.jpg
+
+거짓 음성(False Negative) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2402: 거리 = 0.4523, 임계값 = 0.4500, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2402/2402_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2402/2402_1.jpg
+  gen 2423: 거리 = 0.4732, 임계값 = 0.4500, 차이 = 0.0232
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2423/2423_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2423/2423_1.jpg
+  gen 2424: 거리 = 0.4760, 임계값 = 0.4500, 차이 = 0.0260
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2424/2424_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2424/2424_1.jpg
+  gen 2445: 거리 = 0.4680, 임계값 = 0.4500, 차이 = 0.0180
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2445/2445_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2445/2445_1.jpg
+  gen 2457: 거리 = 0.4809, 임계값 = 0.4500, 차이 = 0.0309
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2457/2457_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2457/2457_1.jpg
+  gen 2458: 거리 = 0.5014, 임계값 = 0.4500, 차이 = 0.0514
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2458/2458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2458/2458_1.jpg
+  gen 2474: 거리 = 0.4543, 임계값 = 0.4500, 차이 = 0.0043
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2474/2474_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2474/2474_1.jpg
+  gen 2491: 거리 = 0.4604, 임계값 = 0.4500, 차이 = 0.0104
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2491/2491_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2491/2491_1.jpg
+  gen 2498: 거리 = 0.5084, 임계값 = 0.4500, 차이 = 0.0584
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2498/2498_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2498/2498_1.jpg
+  gen 2546: 거리 = 0.4956, 임계값 = 0.4500, 차이 = 0.0456
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2546/2546_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2546/2546_1.jpg
+  gen 2591: 거리 = 0.4796, 임계값 = 0.4500, 차이 = 0.0296
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2591/2591_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2591/2591_1.jpg
+  gen 2680: 거리 = 0.4838, 임계값 = 0.4500, 차이 = 0.0338
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2680/2680_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9624)
+
+거짓 양성(False Positive) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2740: 거리 = 0.4339, 임계값 = 0.4500, 차이 = 0.0161
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2740/2740_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2740/2740_1.jpg
+  imp 2763: 거리 = 0.4500, 임계값 = 0.4500, 차이 = 0.0000
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2763/2763_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2763/2763_1.jpg
+  imp 2776: 거리 = 0.4428, 임계값 = 0.4500, 차이 = 0.0072
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2776/2776_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2776/2776_1.jpg
+  imp 2825: 거리 = 0.4465, 임계값 = 0.4500, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2825/2825_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2825/2825_1.jpg
+  imp 2860: 거리 = 0.4296, 임계값 = 0.4500, 차이 = 0.0204
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2860/2860_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2860/2860_1.jpg
+  imp 2892: 거리 = 0.4392, 임계값 = 0.4500, 차이 = 0.0108
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2892/2892_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2892/2892_1.jpg
+  imp 2928: 거리 = 0.4390, 임계값 = 0.4500, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2928/2928_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2928/2928_1.jpg
+  imp 2937: 거리 = 0.4402, 임계값 = 0.4500, 차이 = 0.0098
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2937/2937_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2937/2937_1.jpg
+  imp 2952: 거리 = 0.4483, 임계값 = 0.4500, 차이 = 0.0017
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2952/2952_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2952/2952_1.jpg
+  imp 2982: 거리 = 0.4390, 임계값 = 0.4500, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2982/2982_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/imp/2982/2982_1.jpg
+
+거짓 음성(False Negative) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2726: 거리 = 0.4869, 임계값 = 0.4500, 차이 = 0.0369
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2726/2726_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2726/2726_1.jpg
+  gen 2782: 거리 = 0.4526, 임계값 = 0.4500, 차이 = 0.0026
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2782/2782_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2782/2782_1.jpg
+  gen 2818: 거리 = 0.4800, 임계값 = 0.4500, 차이 = 0.0300
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2818/2818_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2818/2818_1.jpg
+  gen 2854: 거리 = 0.4920, 임계값 = 0.4500, 차이 = 0.0420
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2854/2854_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2854/2854_1.jpg
+  gen 2916: 거리 = 0.4684, 임계값 = 0.4500, 차이 = 0.0184
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2916/2916_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2916/2916_1.jpg
+  gen 2935: 거리 = 0.4967, 임계값 = 0.4500, 차이 = 0.0467
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2935/2935_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2935/2935_1.jpg
+  gen 2946: 거리 = 0.4676, 임계값 = 0.4500, 차이 = 0.0176
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2946/2946_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2946/2946_1.jpg
+  gen 2954: 거리 = 0.4523, 임계값 = 0.4500, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2954/2954_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2954/2954_1.jpg
+  gen 2962: 거리 = 0.4903, 임계값 = 0.4500, 차이 = 0.0403
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2962/2962_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2962/2962_1.jpg
+  gen 2980: 거리 = 0.5248, 임계값 = 0.4500, 차이 = 0.0748
+    경로1: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2980/2980_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/defocus_blur_1/gen/2980/2980_1.jpg
+Accuracy for each fold: [0.97       0.96833333 0.96166667 0.96166667 0.95166667 0.96333333
+ 0.955      0.965      0.95666667 0.96666667]
+Mean Accuracy: 0.9620000000000001
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.37929207
+Standard deviation for genuine pairs: 0.04287021
+Average distance for imposter pairs: 0.49574956
+Standard deviation for imposter pairs: 0.022736883

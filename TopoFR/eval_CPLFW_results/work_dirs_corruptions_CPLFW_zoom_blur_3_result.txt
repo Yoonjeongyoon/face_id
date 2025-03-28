@@ -1,0 +1,2015 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8956)
+
+거짓 양성(False Positive) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 58: 거리 = 0.4397, 임계값 = 0.4460, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0058/58_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0058/58_1.jpg
+  imp 95: 거리 = 0.4255, 임계값 = 0.4460, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0095/95_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0095/95_1.jpg
+  imp 107: 거리 = 0.4459, 임계값 = 0.4460, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0107/107_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0107/107_1.jpg
+  imp 141: 거리 = 0.4311, 임계값 = 0.4460, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0141/141_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0141/141_1.jpg
+  imp 148: 거리 = 0.4414, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0148/148_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0148/148_1.jpg
+  imp 175: 거리 = 0.4154, 임계값 = 0.4460, 차이 = 0.0306
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0175/175_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0175/175_1.jpg
+  imp 205: 거리 = 0.4097, 임계값 = 0.4460, 차이 = 0.0363
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0205/205_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0205/205_1.jpg
+  imp 218: 거리 = 0.4262, 임계값 = 0.4460, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0218/218_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0218/218_1.jpg
+  imp 260: 거리 = 0.4373, 임계값 = 0.4460, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0260/260_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0260/260_1.jpg
+  imp 275: 거리 = 0.4417, 임계값 = 0.4460, 차이 = 0.0043
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0275/275_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0275/275_1.jpg
+  imp 288: 거리 = 0.4175, 임계값 = 0.4460, 차이 = 0.0285
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0288/288_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0288/288_1.jpg
+
+거짓 음성(False Negative) 오탐지: 48개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 13: 거리 = 0.4783, 임계값 = 0.4460, 차이 = 0.0323
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0013/13_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0013/13_1.jpg
+  gen 14: 거리 = 0.5036, 임계값 = 0.4460, 차이 = 0.0576
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0014/14_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0014/14_1.jpg
+  gen 26: 거리 = 0.4917, 임계값 = 0.4460, 차이 = 0.0457
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0026/26_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0026/26_1.jpg
+  gen 34: 거리 = 0.5086, 임계값 = 0.4460, 차이 = 0.0626
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0034/34_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0034/34_1.jpg
+  gen 37: 거리 = 0.4865, 임계값 = 0.4460, 차이 = 0.0405
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0037/37_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0037/37_1.jpg
+  gen 38: 거리 = 0.4475, 임계값 = 0.4460, 차이 = 0.0015
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0038/38_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0038/38_1.jpg
+  gen 41: 거리 = 0.4585, 임계값 = 0.4460, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0041/41_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0041/41_1.jpg
+  gen 42: 거리 = 0.4671, 임계값 = 0.4460, 차이 = 0.0211
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0042/42_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0042/42_1.jpg
+  gen 49: 거리 = 0.4484, 임계값 = 0.4460, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0049/49_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0049/49_1.jpg
+  gen 56: 거리 = 0.5209, 임계값 = 0.4460, 차이 = 0.0749
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0056/56_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0056/56_1.jpg
+  gen 59: 거리 = 0.4521, 임계값 = 0.4460, 차이 = 0.0061
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0059/59_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0059/59_1.jpg
+  gen 74: 거리 = 0.4693, 임계값 = 0.4460, 차이 = 0.0233
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0074/74_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0074/74_1.jpg
+  gen 76: 거리 = 0.4533, 임계값 = 0.4460, 차이 = 0.0073
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0076/76_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0076/76_1.jpg
+  gen 82: 거리 = 0.4695, 임계값 = 0.4460, 차이 = 0.0235
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0082/82_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0082/82_1.jpg
+  gen 92: 거리 = 0.5043, 임계값 = 0.4460, 차이 = 0.0583
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0092/92_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0092/92_1.jpg
+  gen 120: 거리 = 0.4859, 임계값 = 0.4460, 차이 = 0.0399
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0120/120_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0120/120_1.jpg
+  gen 127: 거리 = 0.4776, 임계값 = 0.4460, 차이 = 0.0316
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0127/127_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0127/127_1.jpg
+  gen 128: 거리 = 0.4922, 임계값 = 0.4460, 차이 = 0.0462
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0128/128_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0128/128_1.jpg
+  gen 135: 거리 = 0.4750, 임계값 = 0.4460, 차이 = 0.0290
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0135/135_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0135/135_1.jpg
+  gen 142: 거리 = 0.5009, 임계값 = 0.4460, 차이 = 0.0549
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0142/142_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0142/142_1.jpg
+  gen 148: 거리 = 0.4846, 임계값 = 0.4460, 차이 = 0.0386
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0148/148_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0148/148_1.jpg
+  gen 149: 거리 = 0.4897, 임계값 = 0.4460, 차이 = 0.0437
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0149/149_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0149/149_1.jpg
+  gen 154: 거리 = 0.4724, 임계값 = 0.4460, 차이 = 0.0264
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0154/154_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0154/154_1.jpg
+  gen 157: 거리 = 0.5193, 임계값 = 0.4460, 차이 = 0.0733
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0157/157_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0157/157_1.jpg
+  gen 164: 거리 = 0.4925, 임계값 = 0.4460, 차이 = 0.0465
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0164/164_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0164/164_1.jpg
+  gen 174: 거리 = 0.4496, 임계값 = 0.4460, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0174/174_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0174/174_1.jpg
+  gen 178: 거리 = 0.5285, 임계값 = 0.4460, 차이 = 0.0825
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0178/178_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0178/178_1.jpg
+  gen 187: 거리 = 0.4524, 임계값 = 0.4460, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0187/187_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0187/187_1.jpg
+  gen 189: 거리 = 0.4622, 임계값 = 0.4460, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0189/189_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0189/189_1.jpg
+  gen 190: 거리 = 0.5027, 임계값 = 0.4460, 차이 = 0.0567
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0190/190_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0190/190_1.jpg
+  gen 196: 거리 = 0.4639, 임계값 = 0.4460, 차이 = 0.0179
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0196/196_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0196/196_1.jpg
+  gen 198: 거리 = 0.5085, 임계값 = 0.4460, 차이 = 0.0625
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0198/198_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0198/198_1.jpg
+  gen 203: 거리 = 0.4982, 임계값 = 0.4460, 차이 = 0.0522
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0203/203_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0203/203_1.jpg
+  gen 211: 거리 = 0.5110, 임계값 = 0.4460, 차이 = 0.0650
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0211/211_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0211/211_1.jpg
+  gen 212: 거리 = 0.5012, 임계값 = 0.4460, 차이 = 0.0552
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0212/212_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0212/212_1.jpg
+  gen 221: 거리 = 0.4919, 임계값 = 0.4460, 차이 = 0.0459
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0221/221_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0221/221_1.jpg
+  gen 225: 거리 = 0.4977, 임계값 = 0.4460, 차이 = 0.0517
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0225/225_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0225/225_1.jpg
+  gen 233: 거리 = 0.4627, 임계값 = 0.4460, 차이 = 0.0167
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0233/233_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0233/233_1.jpg
+  gen 238: 거리 = 0.4835, 임계값 = 0.4460, 차이 = 0.0375
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0238/238_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0238/238_1.jpg
+  gen 242: 거리 = 0.4524, 임계값 = 0.4460, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0242/242_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0242/242_1.jpg
+  gen 247: 거리 = 0.4774, 임계값 = 0.4460, 차이 = 0.0314
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0247/247_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0247/247_1.jpg
+  gen 257: 거리 = 0.5042, 임계값 = 0.4460, 차이 = 0.0582
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0257/257_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0257/257_1.jpg
+  gen 260: 거리 = 0.4829, 임계값 = 0.4460, 차이 = 0.0369
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0260/260_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0260/260_1.jpg
+  gen 261: 거리 = 0.4666, 임계값 = 0.4460, 차이 = 0.0206
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0261/261_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0261/261_1.jpg
+  gen 263: 거리 = 0.4652, 임계값 = 0.4460, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0263/263_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0263/263_1.jpg
+  gen 267: 거리 = 0.4982, 임계값 = 0.4460, 차이 = 0.0522
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0267/267_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0267/267_1.jpg
+  gen 269: 거리 = 0.4558, 임계값 = 0.4460, 차이 = 0.0098
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0269/269_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0269/269_1.jpg
+  gen 278: 거리 = 0.4660, 임계값 = 0.4460, 차이 = 0.0200
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0278/278_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0278/278_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8935)
+
+거짓 양성(False Positive) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 312: 거리 = 0.4277, 임계값 = 0.4460, 차이 = 0.0183
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0312/312_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0312/312_1.jpg
+  imp 367: 거리 = 0.4442, 임계값 = 0.4460, 차이 = 0.0018
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0367/367_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0367/367_1.jpg
+  imp 379: 거리 = 0.4400, 임계값 = 0.4460, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0379/379_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0379/379_1.jpg
+  imp 385: 거리 = 0.4434, 임계값 = 0.4460, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0385/385_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0385/385_1.jpg
+  imp 491: 거리 = 0.4344, 임계값 = 0.4460, 차이 = 0.0116
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0491/491_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0491/491_1.jpg
+  imp 503: 거리 = 0.4310, 임계값 = 0.4460, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0503/503_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0503/503_1.jpg
+  imp 506: 거리 = 0.4087, 임계값 = 0.4460, 차이 = 0.0373
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0506/506_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0506/506_1.jpg
+  imp 553: 거리 = 0.4401, 임계값 = 0.4460, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0553/553_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0553/553_1.jpg
+  imp 576: 거리 = 0.4452, 임계값 = 0.4460, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0576/576_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0576/576_1.jpg
+  imp 589: 거리 = 0.4338, 임계값 = 0.4460, 차이 = 0.0122
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0589/589_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0589/589_1.jpg
+  imp 591: 거리 = 0.4346, 임계값 = 0.4460, 차이 = 0.0114
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0591/591_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0591/591_1.jpg
+  imp 594: 거리 = 0.4407, 임계값 = 0.4460, 차이 = 0.0053
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0594/594_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0594/594_1.jpg
+
+거짓 음성(False Negative) 오탐지: 36개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 323: 거리 = 0.4462, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0323/323_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0323/323_1.jpg
+  gen 335: 거리 = 0.5191, 임계값 = 0.4460, 차이 = 0.0731
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0335/335_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0335/335_1.jpg
+  gen 337: 거리 = 0.4707, 임계값 = 0.4460, 차이 = 0.0247
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0337/337_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0337/337_1.jpg
+  gen 342: 거리 = 0.5109, 임계값 = 0.4460, 차이 = 0.0649
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0342/342_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0342/342_1.jpg
+  gen 343: 거리 = 0.4864, 임계값 = 0.4460, 차이 = 0.0404
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0343/343_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0343/343_1.jpg
+  gen 353: 거리 = 0.5105, 임계값 = 0.4460, 차이 = 0.0645
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0353/353_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0353/353_1.jpg
+  gen 358: 거리 = 0.5203, 임계값 = 0.4460, 차이 = 0.0743
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0358/358_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0358/358_1.jpg
+  gen 374: 거리 = 0.4663, 임계값 = 0.4460, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0374/374_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0374/374_1.jpg
+  gen 389: 거리 = 0.4667, 임계값 = 0.4460, 차이 = 0.0207
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0389/389_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0389/389_1.jpg
+  gen 405: 거리 = 0.5075, 임계값 = 0.4460, 차이 = 0.0615
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0405/405_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0405/405_1.jpg
+  gen 409: 거리 = 0.4528, 임계값 = 0.4460, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0409/409_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0409/409_1.jpg
+  gen 419: 거리 = 0.4871, 임계값 = 0.4460, 차이 = 0.0411
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0419/419_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0419/419_1.jpg
+  gen 431: 거리 = 0.4677, 임계값 = 0.4460, 차이 = 0.0217
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0431/431_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0431/431_1.jpg
+  gen 432: 거리 = 0.4764, 임계값 = 0.4460, 차이 = 0.0304
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0432/432_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0432/432_1.jpg
+  gen 434: 거리 = 0.4936, 임계값 = 0.4460, 차이 = 0.0476
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0434/434_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0434/434_1.jpg
+  gen 442: 거리 = 0.4819, 임계값 = 0.4460, 차이 = 0.0359
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0442/442_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0442/442_1.jpg
+  gen 465: 거리 = 0.4950, 임계값 = 0.4460, 차이 = 0.0490
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0465/465_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0465/465_1.jpg
+  gen 474: 거리 = 0.4590, 임계값 = 0.4460, 차이 = 0.0130
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0474/474_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0474/474_1.jpg
+  gen 489: 거리 = 0.4529, 임계값 = 0.4460, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0489/489_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0489/489_1.jpg
+  gen 490: 거리 = 0.4985, 임계값 = 0.4460, 차이 = 0.0525
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0490/490_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0490/490_1.jpg
+  gen 497: 거리 = 0.4607, 임계값 = 0.4460, 차이 = 0.0147
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0497/497_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0497/497_1.jpg
+  gen 503: 거리 = 0.4937, 임계값 = 0.4460, 차이 = 0.0477
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0503/503_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0503/503_1.jpg
+  gen 509: 거리 = 0.4783, 임계값 = 0.4460, 차이 = 0.0323
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0509/509_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0509/509_1.jpg
+  gen 525: 거리 = 0.4864, 임계값 = 0.4460, 차이 = 0.0404
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0525/525_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0525/525_1.jpg
+  gen 530: 거리 = 0.5095, 임계값 = 0.4460, 차이 = 0.0635
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0530/530_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0530/530_1.jpg
+  gen 532: 거리 = 0.5101, 임계값 = 0.4460, 차이 = 0.0641
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0532/532_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0532/532_1.jpg
+  gen 538: 거리 = 0.5026, 임계값 = 0.4460, 차이 = 0.0566
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0538/538_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0538/538_1.jpg
+  gen 549: 거리 = 0.5079, 임계값 = 0.4460, 차이 = 0.0619
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0549/549_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0549/549_1.jpg
+  gen 550: 거리 = 0.4507, 임계값 = 0.4460, 차이 = 0.0047
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0550/550_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0550/550_1.jpg
+  gen 555: 거리 = 0.4728, 임계값 = 0.4460, 차이 = 0.0268
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0555/555_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0555/555_1.jpg
+  gen 556: 거리 = 0.4495, 임계값 = 0.4460, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0556/556_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0556/556_1.jpg
+  gen 566: 거리 = 0.4595, 임계값 = 0.4460, 차이 = 0.0135
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0566/566_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0566/566_1.jpg
+  gen 571: 거리 = 0.4704, 임계값 = 0.4460, 차이 = 0.0244
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0571/571_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0571/571_1.jpg
+  gen 578: 거리 = 0.4618, 임계값 = 0.4460, 차이 = 0.0158
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0578/578_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0578/578_1.jpg
+  gen 590: 거리 = 0.4769, 임계값 = 0.4460, 차이 = 0.0309
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0590/590_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0590/590_1.jpg
+  gen 599: 거리 = 0.5031, 임계값 = 0.4460, 차이 = 0.0571
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0599/599_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0599/599_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8976)
+
+거짓 양성(False Positive) 오탐지: 15개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 605: 거리 = 0.4458, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0605/605_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0605/605_1.jpg
+  imp 681: 거리 = 0.4287, 임계값 = 0.4460, 차이 = 0.0173
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0681/681_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0681/681_1.jpg
+  imp 695: 거리 = 0.4251, 임계값 = 0.4460, 차이 = 0.0209
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0695/695_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0695/695_1.jpg
+  imp 712: 거리 = 0.4400, 임계값 = 0.4460, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0712/712_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0712/712_1.jpg
+  imp 756: 거리 = 0.4381, 임계값 = 0.4460, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0756/756_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0756/756_1.jpg
+  imp 764: 거리 = 0.4422, 임계값 = 0.4460, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0764/764_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0764/764_1.jpg
+  imp 766: 거리 = 0.4265, 임계값 = 0.4460, 차이 = 0.0195
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0766/766_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0766/766_1.jpg
+  imp 770: 거리 = 0.3900, 임계값 = 0.4460, 차이 = 0.0560
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0770/770_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0770/770_1.jpg
+  imp 806: 거리 = 0.4449, 임계값 = 0.4460, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0806/806_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0806/806_1.jpg
+  imp 816: 거리 = 0.4251, 임계값 = 0.4460, 차이 = 0.0209
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0816/816_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0816/816_1.jpg
+  imp 821: 거리 = 0.4349, 임계값 = 0.4460, 차이 = 0.0111
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0821/821_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0821/821_1.jpg
+  imp 822: 거리 = 0.4391, 임계값 = 0.4460, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0822/822_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0822/822_1.jpg
+  imp 866: 거리 = 0.2274, 임계값 = 0.4460, 차이 = 0.2186
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0866/866_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0866/866_1.jpg
+  imp 868: 거리 = 0.4460, 임계값 = 0.4460, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0868/868_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0868/868_1.jpg
+  imp 891: 거리 = 0.4215, 임계값 = 0.4460, 차이 = 0.0245
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0891/891_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0891/891_1.jpg
+
+거짓 음성(False Negative) 오탐지: 55개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 611: 거리 = 0.5132, 임계값 = 0.4460, 차이 = 0.0672
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0611/611_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0611/611_1.jpg
+  gen 612: 거리 = 0.5159, 임계값 = 0.4460, 차이 = 0.0699
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0612/612_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0612/612_1.jpg
+  gen 613: 거리 = 0.4476, 임계값 = 0.4460, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0613/613_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0613/613_1.jpg
+  gen 615: 거리 = 0.4790, 임계값 = 0.4460, 차이 = 0.0330
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0615/615_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0615/615_1.jpg
+  gen 620: 거리 = 0.4909, 임계값 = 0.4460, 차이 = 0.0449
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0620/620_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0620/620_1.jpg
+  gen 624: 거리 = 0.4956, 임계값 = 0.4460, 차이 = 0.0496
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0624/624_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0624/624_1.jpg
+  gen 628: 거리 = 0.5039, 임계값 = 0.4460, 차이 = 0.0579
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0628/628_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0628/628_1.jpg
+  gen 630: 거리 = 0.4649, 임계값 = 0.4460, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0630/630_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0630/630_1.jpg
+  gen 636: 거리 = 0.4583, 임계값 = 0.4460, 차이 = 0.0123
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0636/636_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0636/636_1.jpg
+  gen 637: 거리 = 0.4672, 임계값 = 0.4460, 차이 = 0.0212
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0637/637_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0637/637_1.jpg
+  gen 639: 거리 = 0.4561, 임계값 = 0.4460, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0639/639_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0639/639_1.jpg
+  gen 651: 거리 = 0.4691, 임계값 = 0.4460, 차이 = 0.0231
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0651/651_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0651/651_1.jpg
+  gen 653: 거리 = 0.4849, 임계값 = 0.4460, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0653/653_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0653/653_1.jpg
+  gen 654: 거리 = 0.4462, 임계값 = 0.4460, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0654/654_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0654/654_1.jpg
+  gen 656: 거리 = 0.5006, 임계값 = 0.4460, 차이 = 0.0546
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0656/656_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0656/656_1.jpg
+  gen 668: 거리 = 0.5139, 임계값 = 0.4460, 차이 = 0.0679
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0668/668_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0668/668_1.jpg
+  gen 669: 거리 = 0.4687, 임계값 = 0.4460, 차이 = 0.0227
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0669/669_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0669/669_1.jpg
+  gen 671: 거리 = 0.4904, 임계값 = 0.4460, 차이 = 0.0444
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0671/671_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0671/671_1.jpg
+  gen 676: 거리 = 0.5372, 임계값 = 0.4460, 차이 = 0.0912
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0676/676_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0676/676_1.jpg
+  gen 691: 거리 = 0.5047, 임계값 = 0.4460, 차이 = 0.0587
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0691/691_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0691/691_1.jpg
+  gen 702: 거리 = 0.4485, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0702/702_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0702/702_1.jpg
+  gen 718: 거리 = 0.5265, 임계값 = 0.4460, 차이 = 0.0805
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0718/718_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0718/718_1.jpg
+  gen 722: 거리 = 0.4858, 임계값 = 0.4460, 차이 = 0.0398
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0722/722_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0722/722_1.jpg
+  gen 725: 거리 = 0.4897, 임계값 = 0.4460, 차이 = 0.0437
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0725/725_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0725/725_1.jpg
+  gen 726: 거리 = 0.5253, 임계값 = 0.4460, 차이 = 0.0793
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0726/726_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0726/726_1.jpg
+  gen 730: 거리 = 0.4977, 임계값 = 0.4460, 차이 = 0.0517
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0730/730_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0730/730_1.jpg
+  gen 734: 거리 = 0.4962, 임계값 = 0.4460, 차이 = 0.0502
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0734/734_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0734/734_1.jpg
+  gen 735: 거리 = 0.4616, 임계값 = 0.4460, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0735/735_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0735/735_1.jpg
+  gen 751: 거리 = 0.4806, 임계값 = 0.4460, 차이 = 0.0346
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0751/751_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0751/751_1.jpg
+  gen 754: 거리 = 0.4980, 임계값 = 0.4460, 차이 = 0.0520
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0754/754_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0754/754_1.jpg
+  gen 756: 거리 = 0.4935, 임계값 = 0.4460, 차이 = 0.0475
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0756/756_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0756/756_1.jpg
+  gen 762: 거리 = 0.5318, 임계값 = 0.4460, 차이 = 0.0858
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0762/762_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0762/762_1.jpg
+  gen 768: 거리 = 0.5091, 임계값 = 0.4460, 차이 = 0.0631
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0768/768_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0768/768_1.jpg
+  gen 769: 거리 = 0.4771, 임계값 = 0.4460, 차이 = 0.0311
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0769/769_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0769/769_1.jpg
+  gen 777: 거리 = 0.4982, 임계값 = 0.4460, 차이 = 0.0522
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0777/777_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0777/777_1.jpg
+  gen 797: 거리 = 0.4805, 임계값 = 0.4460, 차이 = 0.0345
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0797/797_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0797/797_1.jpg
+  gen 801: 거리 = 0.4907, 임계값 = 0.4460, 차이 = 0.0447
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0801/801_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0801/801_1.jpg
+  gen 832: 거리 = 0.4656, 임계값 = 0.4460, 차이 = 0.0196
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0832/832_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0832/832_1.jpg
+  gen 834: 거리 = 0.5014, 임계값 = 0.4460, 차이 = 0.0554
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0834/834_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0834/834_1.jpg
+  gen 835: 거리 = 0.4517, 임계값 = 0.4460, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0835/835_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0835/835_1.jpg
+  gen 837: 거리 = 0.4530, 임계값 = 0.4460, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0837/837_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0837/837_1.jpg
+  gen 842: 거리 = 0.4685, 임계값 = 0.4460, 차이 = 0.0225
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0842/842_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0842/842_1.jpg
+  gen 843: 거리 = 0.4559, 임계값 = 0.4460, 차이 = 0.0099
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0843/843_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0843/843_1.jpg
+  gen 845: 거리 = 0.4534, 임계값 = 0.4460, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0845/845_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0845/845_1.jpg
+  gen 862: 거리 = 0.4681, 임계값 = 0.4460, 차이 = 0.0221
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0862/862_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0862/862_1.jpg
+  gen 863: 거리 = 0.4954, 임계값 = 0.4460, 차이 = 0.0494
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0863/863_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0863/863_1.jpg
+  gen 869: 거리 = 0.4481, 임계값 = 0.4460, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0869/869_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0869/869_1.jpg
+  gen 877: 거리 = 0.4873, 임계값 = 0.4460, 차이 = 0.0413
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0877/877_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0877/877_1.jpg
+  gen 878: 거리 = 0.4699, 임계값 = 0.4460, 차이 = 0.0239
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0878/878_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0878/878_1.jpg
+  gen 884: 거리 = 0.5197, 임계값 = 0.4460, 차이 = 0.0737
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0884/884_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0884/884_1.jpg
+  gen 886: 거리 = 0.4900, 임계값 = 0.4460, 차이 = 0.0440
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0886/886_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0886/886_1.jpg
+  gen 887: 거리 = 0.5008, 임계값 = 0.4460, 차이 = 0.0548
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0887/887_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0887/887_1.jpg
+  gen 893: 거리 = 0.4600, 임계값 = 0.4460, 차이 = 0.0140
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0893/893_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0893/893_1.jpg
+  gen 894: 거리 = 0.4968, 임계값 = 0.4460, 차이 = 0.0508
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0894/894_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0894/894_1.jpg
+  gen 897: 거리 = 0.4847, 임계값 = 0.4460, 차이 = 0.0387
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0897/897_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0897/897_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8972)
+
+거짓 양성(False Positive) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 921: 거리 = 0.4401, 임계값 = 0.4460, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0921/921_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0921/921_1.jpg
+  imp 935: 거리 = 0.4402, 임계값 = 0.4460, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0935/935_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0935/935_1.jpg
+  imp 959: 거리 = 0.4388, 임계값 = 0.4460, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0959/959_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0959/959_1.jpg
+  imp 983: 거리 = 0.4423, 임계값 = 0.4460, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0983/983_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0983/983_1.jpg
+  imp 995: 거리 = 0.4460, 임계값 = 0.4460, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0995/995_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/0995/995_1.jpg
+  imp 1015: 거리 = 0.4192, 임계값 = 0.4460, 차이 = 0.0268
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1015/1015_1.jpg
+  imp 1017: 거리 = 0.4329, 임계값 = 0.4460, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1017/1017_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1017/1017_1.jpg
+  imp 1078: 거리 = 0.4455, 임계값 = 0.4460, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1078/1078_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1078/1078_1.jpg
+  imp 1119: 거리 = 0.4295, 임계값 = 0.4460, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1119/1119_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1119/1119_1.jpg
+  imp 1120: 거리 = 0.4453, 임계값 = 0.4460, 차이 = 0.0007
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1120/1120_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1120/1120_1.jpg
+  imp 1140: 거리 = 0.4257, 임계값 = 0.4460, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1140/1140_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1140/1140_1.jpg
+  imp 1184: 거리 = 0.4128, 임계값 = 0.4460, 차이 = 0.0332
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1184/1184_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1184/1184_1.jpg
+
+거짓 음성(False Negative) 오탐지: 56개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 900: 거리 = 0.4481, 임계값 = 0.4460, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0900/900_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0900/900_1.jpg
+  gen 907: 거리 = 0.4978, 임계값 = 0.4460, 차이 = 0.0518
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0907/907_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0907/907_1.jpg
+  gen 908: 거리 = 0.4902, 임계값 = 0.4460, 차이 = 0.0442
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0908/908_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0908/908_1.jpg
+  gen 909: 거리 = 0.4797, 임계값 = 0.4460, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0909/909_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0909/909_1.jpg
+  gen 919: 거리 = 0.4799, 임계값 = 0.4460, 차이 = 0.0339
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0919/919_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0919/919_1.jpg
+  gen 924: 거리 = 0.4885, 임계값 = 0.4460, 차이 = 0.0425
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0924/924_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0924/924_1.jpg
+  gen 938: 거리 = 0.4703, 임계값 = 0.4460, 차이 = 0.0243
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0938/938_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0938/938_1.jpg
+  gen 948: 거리 = 0.4512, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0948/948_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0948/948_1.jpg
+  gen 950: 거리 = 0.4619, 임계값 = 0.4460, 차이 = 0.0159
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0950/950_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0950/950_1.jpg
+  gen 953: 거리 = 0.5047, 임계값 = 0.4460, 차이 = 0.0587
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0953/953_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0953/953_1.jpg
+  gen 956: 거리 = 0.5121, 임계값 = 0.4460, 차이 = 0.0661
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0956/956_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0956/956_1.jpg
+  gen 958: 거리 = 0.4852, 임계값 = 0.4460, 차이 = 0.0392
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0958/958_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0958/958_1.jpg
+  gen 960: 거리 = 0.4826, 임계값 = 0.4460, 차이 = 0.0366
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0960/960_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0960/960_1.jpg
+  gen 978: 거리 = 0.4610, 임계값 = 0.4460, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0978/978_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0978/978_1.jpg
+  gen 980: 거리 = 0.4735, 임계값 = 0.4460, 차이 = 0.0275
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0980/980_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0980/980_1.jpg
+  gen 983: 거리 = 0.4686, 임계값 = 0.4460, 차이 = 0.0226
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0983/983_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0983/983_1.jpg
+  gen 988: 거리 = 0.4640, 임계값 = 0.4460, 차이 = 0.0180
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0988/988_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0988/988_1.jpg
+  gen 991: 거리 = 0.5238, 임계값 = 0.4460, 차이 = 0.0778
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0991/991_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0991/991_1.jpg
+  gen 993: 거리 = 0.4525, 임계값 = 0.4460, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0993/993_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0993/993_1.jpg
+  gen 994: 거리 = 0.5039, 임계값 = 0.4460, 차이 = 0.0579
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0994/994_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0994/994_1.jpg
+  gen 997: 거리 = 0.4913, 임계값 = 0.4460, 차이 = 0.0453
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0997/997_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/0997/997_1.jpg
+  gen 1005: 거리 = 0.4713, 임계값 = 0.4460, 차이 = 0.0253
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1005/1005_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1005/1005_1.jpg
+  gen 1029: 거리 = 0.4506, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1029/1029_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1029/1029_1.jpg
+  gen 1033: 거리 = 0.4638, 임계값 = 0.4460, 차이 = 0.0178
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1033/1033_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1033/1033_1.jpg
+  gen 1035: 거리 = 0.4496, 임계값 = 0.4460, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1035/1035_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1035/1035_1.jpg
+  gen 1044: 거리 = 0.4910, 임계값 = 0.4460, 차이 = 0.0450
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1044/1044_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1044/1044_1.jpg
+  gen 1052: 거리 = 0.5055, 임계값 = 0.4460, 차이 = 0.0595
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1052/1052_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1052/1052_1.jpg
+  gen 1056: 거리 = 0.4612, 임계값 = 0.4460, 차이 = 0.0152
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1056/1056_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1056/1056_1.jpg
+  gen 1060: 거리 = 0.4849, 임계값 = 0.4460, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1060/1060_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1060/1060_1.jpg
+  gen 1066: 거리 = 0.5142, 임계값 = 0.4460, 차이 = 0.0682
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1066/1066_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1066/1066_1.jpg
+  gen 1071: 거리 = 0.4985, 임계값 = 0.4460, 차이 = 0.0525
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1071/1071_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1071/1071_1.jpg
+  gen 1074: 거리 = 0.5186, 임계값 = 0.4460, 차이 = 0.0726
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1074/1074_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1074/1074_1.jpg
+  gen 1076: 거리 = 0.4930, 임계값 = 0.4460, 차이 = 0.0470
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1076/1076_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1076/1076_1.jpg
+  gen 1082: 거리 = 0.4467, 임계값 = 0.4460, 차이 = 0.0007
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1082/1082_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1082/1082_1.jpg
+  gen 1083: 거리 = 0.4771, 임계값 = 0.4460, 차이 = 0.0311
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1083/1083_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1083/1083_1.jpg
+  gen 1089: 거리 = 0.4539, 임계값 = 0.4460, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1089/1089_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1089/1089_1.jpg
+  gen 1093: 거리 = 0.4525, 임계값 = 0.4460, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1093/1093_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1093/1093_1.jpg
+  gen 1096: 거리 = 0.5013, 임계값 = 0.4460, 차이 = 0.0553
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1096/1096_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1096/1096_1.jpg
+  gen 1115: 거리 = 0.4888, 임계값 = 0.4460, 차이 = 0.0428
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1115/1115_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1115/1115_1.jpg
+  gen 1120: 거리 = 0.5085, 임계값 = 0.4460, 차이 = 0.0625
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1120/1120_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1120/1120_1.jpg
+  gen 1122: 거리 = 0.4598, 임계값 = 0.4460, 차이 = 0.0138
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1122/1122_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1122/1122_1.jpg
+  gen 1130: 거리 = 0.4765, 임계값 = 0.4460, 차이 = 0.0305
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1130/1130_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1130/1130_1.jpg
+  gen 1134: 거리 = 0.4657, 임계값 = 0.4460, 차이 = 0.0197
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1134/1134_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1134/1134_1.jpg
+  gen 1137: 거리 = 0.5181, 임계값 = 0.4460, 차이 = 0.0721
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1137/1137_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1137/1137_1.jpg
+  gen 1140: 거리 = 0.4752, 임계값 = 0.4460, 차이 = 0.0292
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1140/1140_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1140/1140_1.jpg
+  gen 1141: 거리 = 0.4461, 임계값 = 0.4460, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1141/1141_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1141/1141_1.jpg
+  gen 1145: 거리 = 0.4489, 임계값 = 0.4460, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1145/1145_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1145/1145_1.jpg
+  gen 1148: 거리 = 0.4865, 임계값 = 0.4460, 차이 = 0.0405
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1148/1148_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1148/1148_1.jpg
+  gen 1151: 거리 = 0.5161, 임계값 = 0.4460, 차이 = 0.0701
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1151/1151_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1151/1151_1.jpg
+  gen 1153: 거리 = 0.4883, 임계값 = 0.4460, 차이 = 0.0423
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1153/1153_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1153/1153_1.jpg
+  gen 1156: 거리 = 0.5125, 임계값 = 0.4460, 차이 = 0.0665
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1156/1156_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1156/1156_1.jpg
+  gen 1172: 거리 = 0.5132, 임계값 = 0.4460, 차이 = 0.0672
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1172/1172_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1172/1172_1.jpg
+  gen 1173: 거리 = 0.4521, 임계값 = 0.4460, 차이 = 0.0061
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1173/1173_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1173/1173_1.jpg
+  gen 1176: 거리 = 0.4478, 임계값 = 0.4460, 차이 = 0.0018
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1176/1176_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1176/1176_1.jpg
+  gen 1191: 거리 = 0.4505, 임계값 = 0.4460, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1191/1191_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1191/1191_1.jpg
+  gen 1197: 거리 = 0.4809, 임계값 = 0.4460, 차이 = 0.0349
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1197/1197_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1197/1197_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.8965)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1226: 거리 = 0.4434, 임계값 = 0.4460, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1226/1226_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1226/1226_1.jpg
+  imp 1248: 거리 = 0.4244, 임계값 = 0.4460, 차이 = 0.0216
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1248/1248_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1248/1248_1.jpg
+  imp 1297: 거리 = 0.4123, 임계값 = 0.4460, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1297/1297_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1297/1297_1.jpg
+  imp 1320: 거리 = 0.4134, 임계값 = 0.4460, 차이 = 0.0326
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1320/1320_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1320/1320_1.jpg
+  imp 1327: 거리 = 0.4082, 임계값 = 0.4460, 차이 = 0.0378
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1327/1327_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1327/1327_1.jpg
+  imp 1381: 거리 = 0.4342, 임계값 = 0.4460, 차이 = 0.0118
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1381/1381_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1381/1381_1.jpg
+  imp 1390: 거리 = 0.4435, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1390/1390_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1390/1390_1.jpg
+  imp 1446: 거리 = 0.4408, 임계값 = 0.4460, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1446/1446_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1446/1446_1.jpg
+
+거짓 음성(False Negative) 오탐지: 56개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1202: 거리 = 0.4874, 임계값 = 0.4460, 차이 = 0.0414
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1202/1202_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1202/1202_1.jpg
+  gen 1204: 거리 = 0.4755, 임계값 = 0.4460, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1204/1204_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1204/1204_1.jpg
+  gen 1206: 거리 = 0.4919, 임계값 = 0.4460, 차이 = 0.0459
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1206/1206_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1206/1206_1.jpg
+  gen 1209: 거리 = 0.4772, 임계값 = 0.4460, 차이 = 0.0312
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1209/1209_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1209/1209_1.jpg
+  gen 1217: 거리 = 0.4753, 임계값 = 0.4460, 차이 = 0.0293
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1217/1217_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1217/1217_1.jpg
+  gen 1224: 거리 = 0.4994, 임계값 = 0.4460, 차이 = 0.0534
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1224/1224_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1224/1224_1.jpg
+  gen 1225: 거리 = 0.4962, 임계값 = 0.4460, 차이 = 0.0502
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1225/1225_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1225/1225_1.jpg
+  gen 1233: 거리 = 0.4519, 임계값 = 0.4460, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1233/1233_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1233/1233_1.jpg
+  gen 1242: 거리 = 0.4940, 임계값 = 0.4460, 차이 = 0.0480
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1242/1242_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1242/1242_1.jpg
+  gen 1243: 거리 = 0.4552, 임계값 = 0.4460, 차이 = 0.0092
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1243/1243_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1243/1243_1.jpg
+  gen 1250: 거리 = 0.4696, 임계값 = 0.4460, 차이 = 0.0236
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1250/1250_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1250/1250_1.jpg
+  gen 1252: 거리 = 0.4744, 임계값 = 0.4460, 차이 = 0.0284
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1252/1252_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1252/1252_1.jpg
+  gen 1254: 거리 = 0.4679, 임계값 = 0.4460, 차이 = 0.0219
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1254/1254_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1254/1254_1.jpg
+  gen 1258: 거리 = 0.5075, 임계값 = 0.4460, 차이 = 0.0615
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1258/1258_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1258/1258_1.jpg
+  gen 1268: 거리 = 0.4966, 임계값 = 0.4460, 차이 = 0.0506
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1268/1268_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1268/1268_1.jpg
+  gen 1271: 거리 = 0.4461, 임계값 = 0.4460, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1271/1271_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1271/1271_1.jpg
+  gen 1278: 거리 = 0.4838, 임계값 = 0.4460, 차이 = 0.0378
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1278/1278_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1278/1278_1.jpg
+  gen 1287: 거리 = 0.4968, 임계값 = 0.4460, 차이 = 0.0508
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1287/1287_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1287/1287_1.jpg
+  gen 1290: 거리 = 0.4587, 임계값 = 0.4460, 차이 = 0.0127
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1290/1290_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1290/1290_1.jpg
+  gen 1295: 거리 = 0.4603, 임계값 = 0.4460, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1295/1295_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1295/1295_1.jpg
+  gen 1298: 거리 = 0.4861, 임계값 = 0.4460, 차이 = 0.0401
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1298/1298_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1298/1298_1.jpg
+  gen 1307: 거리 = 0.4475, 임계값 = 0.4460, 차이 = 0.0015
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1307/1307_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1307/1307_1.jpg
+  gen 1318: 거리 = 0.5069, 임계값 = 0.4460, 차이 = 0.0609
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1318/1318_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1318/1318_1.jpg
+  gen 1328: 거리 = 0.5090, 임계값 = 0.4460, 차이 = 0.0630
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1328/1328_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1328/1328_1.jpg
+  gen 1339: 거리 = 0.4879, 임계값 = 0.4460, 차이 = 0.0419
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1339/1339_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1339/1339_1.jpg
+  gen 1346: 거리 = 0.4697, 임계값 = 0.4460, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1346/1346_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1346/1346_1.jpg
+  gen 1349: 거리 = 0.4708, 임계값 = 0.4460, 차이 = 0.0248
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1349/1349_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1349/1349_1.jpg
+  gen 1350: 거리 = 0.4546, 임계값 = 0.4460, 차이 = 0.0086
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1350/1350_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1350/1350_1.jpg
+  gen 1351: 거리 = 0.4612, 임계값 = 0.4460, 차이 = 0.0152
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1351/1351_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1351/1351_1.jpg
+  gen 1353: 거리 = 0.5031, 임계값 = 0.4460, 차이 = 0.0571
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1353/1353_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1353/1353_1.jpg
+  gen 1357: 거리 = 0.4817, 임계값 = 0.4460, 차이 = 0.0357
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1357/1357_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1357/1357_1.jpg
+  gen 1361: 거리 = 0.4981, 임계값 = 0.4460, 차이 = 0.0521
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1361/1361_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1361/1361_1.jpg
+  gen 1372: 거리 = 0.4521, 임계값 = 0.4460, 차이 = 0.0061
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1372/1372_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1372/1372_1.jpg
+  gen 1377: 거리 = 0.4886, 임계값 = 0.4460, 차이 = 0.0426
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1377/1377_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1377/1377_1.jpg
+  gen 1378: 거리 = 0.5135, 임계값 = 0.4460, 차이 = 0.0675
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1378/1378_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1378/1378_1.jpg
+  gen 1379: 거리 = 0.4840, 임계값 = 0.4460, 차이 = 0.0380
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1379/1379_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1379/1379_1.jpg
+  gen 1386: 거리 = 0.4843, 임계값 = 0.4460, 차이 = 0.0383
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1386/1386_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1386/1386_1.jpg
+  gen 1391: 거리 = 0.4498, 임계값 = 0.4460, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1391/1391_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1391/1391_1.jpg
+  gen 1404: 거리 = 0.5042, 임계값 = 0.4460, 차이 = 0.0582
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1404/1404_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1404/1404_1.jpg
+  gen 1433: 거리 = 0.4507, 임계값 = 0.4460, 차이 = 0.0047
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1433/1433_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1433/1433_1.jpg
+  gen 1436: 거리 = 0.4784, 임계값 = 0.4460, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1436/1436_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1436/1436_1.jpg
+  gen 1440: 거리 = 0.4868, 임계값 = 0.4460, 차이 = 0.0408
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1440/1440_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1440/1440_1.jpg
+  gen 1441: 거리 = 0.4943, 임계값 = 0.4460, 차이 = 0.0483
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1441/1441_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1441/1441_1.jpg
+  gen 1446: 거리 = 0.4609, 임계값 = 0.4460, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1446/1446_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1446/1446_1.jpg
+  gen 1448: 거리 = 0.4993, 임계값 = 0.4460, 차이 = 0.0533
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1448/1448_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1448/1448_1.jpg
+  gen 1450: 거리 = 0.4741, 임계값 = 0.4460, 차이 = 0.0281
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1450/1450_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1450/1450_1.jpg
+  gen 1456: 거리 = 0.4784, 임계값 = 0.4460, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1456/1456_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1456/1456_1.jpg
+  gen 1457: 거리 = 0.5107, 임계값 = 0.4460, 차이 = 0.0647
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1457/1457_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1457/1457_1.jpg
+  gen 1468: 거리 = 0.4605, 임계값 = 0.4460, 차이 = 0.0145
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1468/1468_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1468/1468_1.jpg
+  gen 1476: 거리 = 0.4913, 임계값 = 0.4460, 차이 = 0.0453
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1476/1476_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1476/1476_1.jpg
+  gen 1480: 거리 = 0.4807, 임계값 = 0.4460, 차이 = 0.0347
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1480/1480_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1480/1480_1.jpg
+  gen 1489: 거리 = 0.4577, 임계값 = 0.4460, 차이 = 0.0117
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1489/1489_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1489/1489_1.jpg
+  gen 1491: 거리 = 0.4737, 임계값 = 0.4460, 차이 = 0.0277
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1491/1491_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1491/1491_1.jpg
+  gen 1493: 거리 = 0.4963, 임계값 = 0.4460, 차이 = 0.0503
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1493/1493_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1493/1493_1.jpg
+  gen 1497: 거리 = 0.4852, 임계값 = 0.4460, 차이 = 0.0392
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1497/1497_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1497/1497_1.jpg
+  gen 1499: 거리 = 0.5037, 임계값 = 0.4460, 차이 = 0.0577
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1499/1499_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1499/1499_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4470 (훈련 정확도: 0.8959)
+
+거짓 양성(False Positive) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1544: 거리 = 0.4409, 임계값 = 0.4470, 차이 = 0.0061
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1544/1544_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1544/1544_1.jpg
+  imp 1548: 거리 = 0.4466, 임계값 = 0.4470, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1548/1548_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1548/1548_1.jpg
+  imp 1577: 거리 = 0.4368, 임계값 = 0.4470, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1577/1577_1.jpg
+  imp 1578: 거리 = 0.4347, 임계값 = 0.4470, 차이 = 0.0123
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1578/1578_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1578/1578_1.jpg
+  imp 1590: 거리 = 0.4296, 임계값 = 0.4470, 차이 = 0.0174
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1590/1590_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1590/1590_1.jpg
+  imp 1608: 거리 = 0.4450, 임계값 = 0.4470, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1608/1608_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1608/1608_1.jpg
+  imp 1629: 거리 = 0.4355, 임계값 = 0.4470, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1629/1629_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1629/1629_1.jpg
+  imp 1666: 거리 = 0.4405, 임계값 = 0.4470, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1666/1666_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1666/1666_1.jpg
+  imp 1678: 거리 = 0.4357, 임계값 = 0.4470, 차이 = 0.0113
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1678/1678_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1678/1678_1.jpg
+  imp 1690: 거리 = 0.4292, 임계값 = 0.4470, 차이 = 0.0178
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1690/1690_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1690/1690_1.jpg
+  imp 1701: 거리 = 0.4164, 임계값 = 0.4470, 차이 = 0.0306
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1701/1701_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1701/1701_1.jpg
+  imp 1751: 거리 = 0.4424, 임계값 = 0.4470, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1751/1751_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1751/1751_1.jpg
+  imp 1764: 거리 = 0.4430, 임계값 = 0.4470, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1764/1764_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1764/1764_1.jpg
+
+거짓 음성(False Negative) 오탐지: 48개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1505: 거리 = 0.5070, 임계값 = 0.4470, 차이 = 0.0600
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1505/1505_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1505/1505_1.jpg
+  gen 1519: 거리 = 0.4767, 임계값 = 0.4470, 차이 = 0.0297
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1519/1519_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1519/1519_1.jpg
+  gen 1535: 거리 = 0.5174, 임계값 = 0.4470, 차이 = 0.0704
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1535/1535_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1535/1535_1.jpg
+  gen 1540: 거리 = 0.4944, 임계값 = 0.4470, 차이 = 0.0474
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1540/1540_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1540/1540_1.jpg
+  gen 1544: 거리 = 0.4614, 임계값 = 0.4470, 차이 = 0.0144
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1544/1544_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1544/1544_1.jpg
+  gen 1547: 거리 = 0.4880, 임계값 = 0.4470, 차이 = 0.0410
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1547/1547_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1547/1547_1.jpg
+  gen 1551: 거리 = 0.4555, 임계값 = 0.4470, 차이 = 0.0085
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1551/1551_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1551/1551_1.jpg
+  gen 1561: 거리 = 0.4844, 임계값 = 0.4470, 차이 = 0.0374
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1561/1561_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1561/1561_1.jpg
+  gen 1575: 거리 = 0.4850, 임계값 = 0.4470, 차이 = 0.0380
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1575/1575_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1575/1575_1.jpg
+  gen 1577: 거리 = 0.4491, 임계값 = 0.4470, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1577/1577_1.jpg
+  gen 1583: 거리 = 0.4857, 임계값 = 0.4470, 차이 = 0.0387
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1583/1583_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1583/1583_1.jpg
+  gen 1593: 거리 = 0.4602, 임계값 = 0.4470, 차이 = 0.0132
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1593/1593_1.jpg
+  gen 1596: 거리 = 0.4852, 임계값 = 0.4470, 차이 = 0.0382
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1596/1596_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1596/1596_1.jpg
+  gen 1598: 거리 = 0.4673, 임계값 = 0.4470, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1598/1598_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1598/1598_1.jpg
+  gen 1610: 거리 = 0.4606, 임계값 = 0.4470, 차이 = 0.0136
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1610/1610_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1610/1610_1.jpg
+  gen 1621: 거리 = 0.4511, 임계값 = 0.4470, 차이 = 0.0041
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1621/1621_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1621/1621_1.jpg
+  gen 1645: 거리 = 0.4567, 임계값 = 0.4470, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1645/1645_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1645/1645_1.jpg
+  gen 1650: 거리 = 0.4577, 임계값 = 0.4470, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1650/1650_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1650/1650_1.jpg
+  gen 1665: 거리 = 0.4875, 임계값 = 0.4470, 차이 = 0.0405
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1665/1665_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1665/1665_1.jpg
+  gen 1669: 거리 = 0.5015, 임계값 = 0.4470, 차이 = 0.0545
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1669/1669_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1669/1669_1.jpg
+  gen 1670: 거리 = 0.4575, 임계값 = 0.4470, 차이 = 0.0105
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1670/1670_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1670/1670_1.jpg
+  gen 1681: 거리 = 0.4882, 임계값 = 0.4470, 차이 = 0.0412
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1681/1681_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1681/1681_1.jpg
+  gen 1683: 거리 = 0.4811, 임계값 = 0.4470, 차이 = 0.0341
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1683/1683_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1683/1683_1.jpg
+  gen 1685: 거리 = 0.4714, 임계값 = 0.4470, 차이 = 0.0244
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1685/1685_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1685/1685_1.jpg
+  gen 1695: 거리 = 0.4591, 임계값 = 0.4470, 차이 = 0.0121
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1695/1695_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1695/1695_1.jpg
+  gen 1697: 거리 = 0.4746, 임계값 = 0.4470, 차이 = 0.0276
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1697/1697_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1697/1697_1.jpg
+  gen 1703: 거리 = 0.5008, 임계값 = 0.4470, 차이 = 0.0538
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1703/1703_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1703/1703_1.jpg
+  gen 1707: 거리 = 0.4683, 임계값 = 0.4470, 차이 = 0.0213
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1707/1707_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1707/1707_1.jpg
+  gen 1709: 거리 = 0.4950, 임계값 = 0.4470, 차이 = 0.0480
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1709/1709_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1709/1709_1.jpg
+  gen 1721: 거리 = 0.4855, 임계값 = 0.4470, 차이 = 0.0385
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1721/1721_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1721/1721_1.jpg
+  gen 1724: 거리 = 0.4687, 임계값 = 0.4470, 차이 = 0.0217
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1724/1724_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1724/1724_1.jpg
+  gen 1725: 거리 = 0.5020, 임계값 = 0.4470, 차이 = 0.0550
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1725/1725_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1725/1725_1.jpg
+  gen 1728: 거리 = 0.4671, 임계값 = 0.4470, 차이 = 0.0201
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1728/1728_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1728/1728_1.jpg
+  gen 1730: 거리 = 0.4478, 임계값 = 0.4470, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1730/1730_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1730/1730_1.jpg
+  gen 1735: 거리 = 0.5202, 임계값 = 0.4470, 차이 = 0.0732
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1735/1735_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1735/1735_1.jpg
+  gen 1738: 거리 = 0.4524, 임계값 = 0.4470, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1738/1738_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1738/1738_1.jpg
+  gen 1739: 거리 = 0.4667, 임계값 = 0.4470, 차이 = 0.0197
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1739/1739_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1739/1739_1.jpg
+  gen 1741: 거리 = 0.4917, 임계값 = 0.4470, 차이 = 0.0447
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1741/1741_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1741/1741_1.jpg
+  gen 1743: 거리 = 0.5206, 임계값 = 0.4470, 차이 = 0.0736
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1743/1743_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1743/1743_1.jpg
+  gen 1748: 거리 = 0.5080, 임계값 = 0.4470, 차이 = 0.0610
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1748/1748_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1748/1748_1.jpg
+  gen 1762: 거리 = 0.4668, 임계값 = 0.4470, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1762/1762_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1762/1762_1.jpg
+  gen 1765: 거리 = 0.4729, 임계값 = 0.4470, 차이 = 0.0259
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1765/1765_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1765/1765_1.jpg
+  gen 1772: 거리 = 0.4843, 임계값 = 0.4470, 차이 = 0.0373
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1772/1772_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1772/1772_1.jpg
+  gen 1774: 거리 = 0.4489, 임계값 = 0.4470, 차이 = 0.0019
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1774/1774_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1774/1774_1.jpg
+  gen 1775: 거리 = 0.4864, 임계값 = 0.4470, 차이 = 0.0394
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1775/1775_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1775/1775_1.jpg
+  gen 1778: 거리 = 0.4612, 임계값 = 0.4470, 차이 = 0.0142
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1778/1778_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1778/1778_1.jpg
+  gen 1784: 거리 = 0.4476, 임계값 = 0.4470, 차이 = 0.0006
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1784/1784_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1784/1784_1.jpg
+  gen 1793: 거리 = 0.4712, 임계값 = 0.4470, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1793/1793_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1793/1793_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4470 (훈련 정확도: 0.8939)
+
+거짓 양성(False Positive) 오탐지: 15개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1842: 거리 = 0.4467, 임계값 = 0.4470, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1842/1842_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1842/1842_1.jpg
+  imp 1929: 거리 = 0.4382, 임계값 = 0.4470, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1929/1929_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1929/1929_1.jpg
+  imp 1933: 거리 = 0.4004, 임계값 = 0.4470, 차이 = 0.0466
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1933/1933_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1933/1933_1.jpg
+  imp 1943: 거리 = 0.4167, 임계값 = 0.4470, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1943/1943_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1943/1943_1.jpg
+  imp 1951: 거리 = 0.3994, 임계값 = 0.4470, 차이 = 0.0476
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1951/1951_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1951/1951_1.jpg
+  imp 1961: 거리 = 0.4310, 임계값 = 0.4470, 차이 = 0.0160
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1961/1961_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/1961/1961_1.jpg
+  imp 2000: 거리 = 0.4265, 임계값 = 0.4470, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2000/2000_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2000/2000_1.jpg
+  imp 2042: 거리 = 0.4205, 임계값 = 0.4470, 차이 = 0.0265
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2042/2042_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2042/2042_1.jpg
+  imp 2044: 거리 = 0.4278, 임계값 = 0.4470, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2044/2044_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2044/2044_1.jpg
+  imp 2050: 거리 = 0.4273, 임계값 = 0.4470, 차이 = 0.0197
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2050/2050_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2050/2050_1.jpg
+  imp 2052: 거리 = 0.4149, 임계값 = 0.4470, 차이 = 0.0321
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2052/2052_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2052/2052_1.jpg
+  imp 2079: 거리 = 0.4380, 임계값 = 0.4470, 차이 = 0.0090
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2079/2079_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2079/2079_1.jpg
+  imp 2089: 거리 = 0.4468, 임계값 = 0.4470, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2089/2089_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2089/2089_1.jpg
+  imp 2093: 거리 = 0.4234, 임계값 = 0.4470, 차이 = 0.0236
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2093/2093_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2093/2093_1.jpg
+  imp 2099: 거리 = 0.4360, 임계값 = 0.4470, 차이 = 0.0110
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2099/2099_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2099/2099_1.jpg
+
+거짓 음성(False Negative) 오탐지: 35개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1809: 거리 = 0.4501, 임계값 = 0.4470, 차이 = 0.0031
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1809/1809_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1809/1809_1.jpg
+  gen 1811: 거리 = 0.4847, 임계값 = 0.4470, 차이 = 0.0377
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1811/1811_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1811/1811_1.jpg
+  gen 1812: 거리 = 0.5102, 임계값 = 0.4470, 차이 = 0.0632
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1812/1812_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1812/1812_1.jpg
+  gen 1830: 거리 = 0.4712, 임계값 = 0.4470, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1830/1830_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1830/1830_1.jpg
+  gen 1832: 거리 = 0.4609, 임계값 = 0.4470, 차이 = 0.0139
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1832/1832_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1832/1832_1.jpg
+  gen 1837: 거리 = 0.4891, 임계값 = 0.4470, 차이 = 0.0421
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1837/1837_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1837/1837_1.jpg
+  gen 1846: 거리 = 0.4824, 임계값 = 0.4470, 차이 = 0.0354
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1846/1846_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1846/1846_1.jpg
+  gen 1847: 거리 = 0.4812, 임계값 = 0.4470, 차이 = 0.0342
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1847/1847_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1847/1847_1.jpg
+  gen 1857: 거리 = 0.5003, 임계값 = 0.4470, 차이 = 0.0533
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1857/1857_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1857/1857_1.jpg
+  gen 1871: 거리 = 0.4483, 임계값 = 0.4470, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1871/1871_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1871/1871_1.jpg
+  gen 1903: 거리 = 0.5106, 임계값 = 0.4470, 차이 = 0.0636
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1903/1903_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1903/1903_1.jpg
+  gen 1913: 거리 = 0.4838, 임계값 = 0.4470, 차이 = 0.0368
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1913/1913_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1913/1913_1.jpg
+  gen 1915: 거리 = 0.4792, 임계값 = 0.4470, 차이 = 0.0322
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1915/1915_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1915/1915_1.jpg
+  gen 1919: 거리 = 0.4903, 임계값 = 0.4470, 차이 = 0.0433
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1919/1919_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1919/1919_1.jpg
+  gen 1923: 거리 = 0.4473, 임계값 = 0.4470, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1923/1923_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1923/1923_1.jpg
+  gen 1928: 거리 = 0.4790, 임계값 = 0.4470, 차이 = 0.0320
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1928/1928_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1928/1928_1.jpg
+  gen 1940: 거리 = 0.4490, 임계값 = 0.4470, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1940/1940_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1940/1940_1.jpg
+  gen 1976: 거리 = 0.4599, 임계값 = 0.4470, 차이 = 0.0129
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1976/1976_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1976/1976_1.jpg
+  gen 1982: 거리 = 0.4536, 임계값 = 0.4470, 차이 = 0.0066
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1982/1982_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1982/1982_1.jpg
+  gen 1983: 거리 = 0.5195, 임계값 = 0.4470, 차이 = 0.0725
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1983/1983_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1983/1983_1.jpg
+  gen 1987: 거리 = 0.5087, 임계값 = 0.4470, 차이 = 0.0617
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1987/1987_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1987/1987_1.jpg
+  gen 1988: 거리 = 0.5240, 임계값 = 0.4470, 차이 = 0.0770
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1988/1988_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1988/1988_1.jpg
+  gen 1990: 거리 = 0.5283, 임계값 = 0.4470, 차이 = 0.0813
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1990/1990_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/1990/1990_1.jpg
+  gen 2001: 거리 = 0.4508, 임계값 = 0.4470, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2001/2001_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2001/2001_1.jpg
+  gen 2025: 거리 = 0.4947, 임계값 = 0.4470, 차이 = 0.0477
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2025/2025_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2025/2025_1.jpg
+  gen 2030: 거리 = 0.4596, 임계값 = 0.4470, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2030/2030_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2030/2030_1.jpg
+  gen 2032: 거리 = 0.4511, 임계값 = 0.4470, 차이 = 0.0041
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2032/2032_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2032/2032_1.jpg
+  gen 2034: 거리 = 0.4780, 임계값 = 0.4470, 차이 = 0.0310
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2034/2034_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2034/2034_1.jpg
+  gen 2040: 거리 = 0.4815, 임계값 = 0.4470, 차이 = 0.0345
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2040/2040_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2040/2040_1.jpg
+  gen 2054: 거리 = 0.4720, 임계값 = 0.4470, 차이 = 0.0250
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2054/2054_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2054/2054_1.jpg
+  gen 2056: 거리 = 0.4684, 임계값 = 0.4470, 차이 = 0.0214
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2056/2056_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2056/2056_1.jpg
+  gen 2059: 거리 = 0.4932, 임계값 = 0.4470, 차이 = 0.0462
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2059/2059_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2059/2059_1.jpg
+  gen 2062: 거리 = 0.5119, 임계값 = 0.4470, 차이 = 0.0649
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2062/2062_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2062/2062_1.jpg
+  gen 2072: 거리 = 0.4939, 임계값 = 0.4470, 차이 = 0.0469
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2072/2072_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2072/2072_1.jpg
+  gen 2095: 거리 = 0.4612, 임계값 = 0.4470, 차이 = 0.0142
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2095/2095_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2095/2095_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4470 (훈련 정확도: 0.8980)
+
+거짓 양성(False Positive) 오탐지: 24개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2107: 거리 = 0.4405, 임계값 = 0.4470, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2107/2107_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2107/2107_1.jpg
+  imp 2126: 거리 = 0.4355, 임계값 = 0.4470, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2126/2126_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2126/2126_1.jpg
+  imp 2177: 거리 = 0.4437, 임계값 = 0.4470, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2177/2177_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2177/2177_1.jpg
+  imp 2184: 거리 = 0.4322, 임계값 = 0.4470, 차이 = 0.0148
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2184/2184_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2184/2184_1.jpg
+  imp 2187: 거리 = 0.4105, 임계값 = 0.4470, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2187/2187_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2187/2187_1.jpg
+  imp 2209: 거리 = 0.4425, 임계값 = 0.4470, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2209/2209_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2209/2209_1.jpg
+  imp 2213: 거리 = 0.4431, 임계값 = 0.4470, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2213/2213_1.jpg
+  imp 2221: 거리 = 0.4307, 임계값 = 0.4470, 차이 = 0.0163
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2221/2221_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2221/2221_1.jpg
+  imp 2234: 거리 = 0.4400, 임계값 = 0.4470, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2234/2234_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2234/2234_1.jpg
+  imp 2259: 거리 = 0.4068, 임계값 = 0.4470, 차이 = 0.0402
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2259/2259_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2259/2259_1.jpg
+  imp 2280: 거리 = 0.4395, 임계값 = 0.4470, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2280/2280_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2280/2280_1.jpg
+  imp 2286: 거리 = 0.4407, 임계값 = 0.4470, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2286/2286_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2286/2286_1.jpg
+  imp 2295: 거리 = 0.4104, 임계값 = 0.4470, 차이 = 0.0366
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2295/2295_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2295/2295_1.jpg
+  imp 2303: 거리 = 0.4408, 임계값 = 0.4470, 차이 = 0.0062
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2303/2303_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2303/2303_1.jpg
+  imp 2308: 거리 = 0.4363, 임계값 = 0.4470, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2308/2308_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2308/2308_1.jpg
+  imp 2314: 거리 = 0.4434, 임계값 = 0.4470, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2314/2314_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2314/2314_1.jpg
+  imp 2317: 거리 = 0.4278, 임계값 = 0.4470, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2317/2317_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2317/2317_1.jpg
+  imp 2334: 거리 = 0.4450, 임계값 = 0.4470, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2334/2334_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2334/2334_1.jpg
+  imp 2342: 거리 = 0.4465, 임계값 = 0.4470, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2342/2342_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2342/2342_1.jpg
+  imp 2346: 거리 = 0.4333, 임계값 = 0.4470, 차이 = 0.0137
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2346/2346_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2346/2346_1.jpg
+  imp 2347: 거리 = 0.4415, 임계값 = 0.4470, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2347/2347_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2347/2347_1.jpg
+  imp 2365: 거리 = 0.4317, 임계값 = 0.4470, 차이 = 0.0153
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2365/2365_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2365/2365_1.jpg
+  imp 2369: 거리 = 0.4265, 임계값 = 0.4470, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2369/2369_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2369/2369_1.jpg
+  imp 2394: 거리 = 0.4407, 임계값 = 0.4470, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2394/2394_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2394/2394_1.jpg
+
+거짓 음성(False Negative) 오탐지: 48개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2100: 거리 = 0.4852, 임계값 = 0.4470, 차이 = 0.0382
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2100/2100_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2100/2100_1.jpg
+  gen 2101: 거리 = 0.4901, 임계값 = 0.4470, 차이 = 0.0431
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2101/2101_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2101/2101_1.jpg
+  gen 2103: 거리 = 0.4613, 임계값 = 0.4470, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2103/2103_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2103/2103_1.jpg
+  gen 2106: 거리 = 0.5173, 임계값 = 0.4470, 차이 = 0.0703
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2106/2106_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2106/2106_1.jpg
+  gen 2110: 거리 = 0.5040, 임계값 = 0.4470, 차이 = 0.0570
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2110/2110_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2110/2110_1.jpg
+  gen 2117: 거리 = 0.4473, 임계값 = 0.4470, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2117/2117_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2117/2117_1.jpg
+  gen 2118: 거리 = 0.5168, 임계값 = 0.4470, 차이 = 0.0698
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2118/2118_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2118/2118_1.jpg
+  gen 2119: 거리 = 0.4509, 임계값 = 0.4470, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2119/2119_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2119/2119_1.jpg
+  gen 2120: 거리 = 0.5151, 임계값 = 0.4470, 차이 = 0.0681
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2120/2120_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2120/2120_1.jpg
+  gen 2127: 거리 = 0.5173, 임계값 = 0.4470, 차이 = 0.0703
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2127/2127_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2127/2127_1.jpg
+  gen 2136: 거리 = 0.5183, 임계값 = 0.4470, 차이 = 0.0713
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2136/2136_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2136/2136_1.jpg
+  gen 2140: 거리 = 0.4960, 임계값 = 0.4470, 차이 = 0.0490
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2140/2140_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2140/2140_1.jpg
+  gen 2142: 거리 = 0.4810, 임계값 = 0.4470, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2142/2142_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2142/2142_1.jpg
+  gen 2153: 거리 = 0.4852, 임계값 = 0.4470, 차이 = 0.0382
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2153/2153_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2153/2153_1.jpg
+  gen 2175: 거리 = 0.4567, 임계값 = 0.4470, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2175/2175_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2175/2175_1.jpg
+  gen 2181: 거리 = 0.4495, 임계값 = 0.4470, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2181/2181_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2181/2181_1.jpg
+  gen 2192: 거리 = 0.5255, 임계값 = 0.4470, 차이 = 0.0785
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2192/2192_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2192/2192_1.jpg
+  gen 2198: 거리 = 0.5065, 임계값 = 0.4470, 차이 = 0.0595
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2198/2198_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2198/2198_1.jpg
+  gen 2206: 거리 = 0.4614, 임계값 = 0.4470, 차이 = 0.0144
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2206/2206_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2206/2206_1.jpg
+  gen 2220: 거리 = 0.4791, 임계값 = 0.4470, 차이 = 0.0321
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2220/2220_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2220/2220_1.jpg
+  gen 2224: 거리 = 0.4828, 임계값 = 0.4470, 차이 = 0.0358
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2224/2224_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2224/2224_1.jpg
+  gen 2227: 거리 = 0.5015, 임계값 = 0.4470, 차이 = 0.0545
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2227/2227_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2227/2227_1.jpg
+  gen 2228: 거리 = 0.4572, 임계값 = 0.4470, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2228/2228_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2228/2228_1.jpg
+  gen 2233: 거리 = 0.4835, 임계값 = 0.4470, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2233/2233_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2233/2233_1.jpg
+  gen 2245: 거리 = 0.4656, 임계값 = 0.4470, 차이 = 0.0186
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2245/2245_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2245/2245_1.jpg
+  gen 2252: 거리 = 0.5007, 임계값 = 0.4470, 차이 = 0.0537
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2252/2252_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2252/2252_1.jpg
+  gen 2254: 거리 = 0.4760, 임계값 = 0.4470, 차이 = 0.0290
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2254/2254_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2254/2254_1.jpg
+  gen 2256: 거리 = 0.5005, 임계값 = 0.4470, 차이 = 0.0535
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2256/2256_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2256/2256_1.jpg
+  gen 2271: 거리 = 0.4647, 임계값 = 0.4470, 차이 = 0.0177
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2271/2271_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2271/2271_1.jpg
+  gen 2276: 거리 = 0.5157, 임계값 = 0.4470, 차이 = 0.0687
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2276/2276_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2276/2276_1.jpg
+  gen 2279: 거리 = 0.5149, 임계값 = 0.4470, 차이 = 0.0679
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2279/2279_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2279/2279_1.jpg
+  gen 2280: 거리 = 0.4955, 임계값 = 0.4470, 차이 = 0.0485
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2280/2280_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2280/2280_1.jpg
+  gen 2284: 거리 = 0.4757, 임계값 = 0.4470, 차이 = 0.0287
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2284/2284_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2284/2284_1.jpg
+  gen 2299: 거리 = 0.4995, 임계값 = 0.4470, 차이 = 0.0525
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2299/2299_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2299/2299_1.jpg
+  gen 2316: 거리 = 0.4920, 임계값 = 0.4470, 차이 = 0.0450
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2316/2316_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2316/2316_1.jpg
+  gen 2322: 거리 = 0.4675, 임계값 = 0.4470, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2322/2322_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2322/2322_1.jpg
+  gen 2325: 거리 = 0.4794, 임계값 = 0.4470, 차이 = 0.0324
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2325/2325_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2325/2325_1.jpg
+  gen 2326: 거리 = 0.4918, 임계값 = 0.4470, 차이 = 0.0448
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2326/2326_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2326/2326_1.jpg
+  gen 2334: 거리 = 0.4888, 임계값 = 0.4470, 차이 = 0.0418
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2334/2334_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2334/2334_1.jpg
+  gen 2335: 거리 = 0.5472, 임계값 = 0.4470, 차이 = 0.1002
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2335/2335_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2335/2335_1.jpg
+  gen 2341: 거리 = 0.5035, 임계값 = 0.4470, 차이 = 0.0565
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2341/2341_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2341/2341_1.jpg
+  gen 2345: 거리 = 0.4707, 임계값 = 0.4470, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2345/2345_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2345/2345_1.jpg
+  gen 2359: 거리 = 0.4543, 임계값 = 0.4470, 차이 = 0.0073
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2359/2359_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2359/2359_1.jpg
+  gen 2362: 거리 = 0.4691, 임계값 = 0.4470, 차이 = 0.0221
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2362/2362_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2362/2362_1.jpg
+  gen 2378: 거리 = 0.4906, 임계값 = 0.4470, 차이 = 0.0436
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2378/2378_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2378/2378_1.jpg
+  gen 2383: 거리 = 0.5041, 임계값 = 0.4470, 차이 = 0.0571
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2383/2383_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2383/2383_1.jpg
+  gen 2392: 거리 = 0.4475, 임계값 = 0.4470, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2392/2392_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2392/2392_1.jpg
+  gen 2395: 거리 = 0.4981, 임계값 = 0.4470, 차이 = 0.0511
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2395/2395_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2395/2395_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4470 (훈련 정확도: 0.8970)
+
+거짓 양성(False Positive) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2428: 거리 = 0.4321, 임계값 = 0.4470, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2428/2428_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2428/2428_1.jpg
+  imp 2439: 거리 = 0.4449, 임계값 = 0.4470, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2439/2439_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2439/2439_1.jpg
+  imp 2442: 거리 = 0.4305, 임계값 = 0.4470, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2442/2442_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2442/2442_1.jpg
+  imp 2497: 거리 = 0.4406, 임계값 = 0.4470, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2497/2497_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2497/2497_1.jpg
+  imp 2532: 거리 = 0.4462, 임계값 = 0.4470, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2532/2532_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2532/2532_1.jpg
+  imp 2575: 거리 = 0.4270, 임계값 = 0.4470, 차이 = 0.0200
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2575/2575_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2575/2575_1.jpg
+  imp 2594: 거리 = 0.4407, 임계값 = 0.4470, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2594/2594_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2594/2594_1.jpg
+  imp 2605: 거리 = 0.4299, 임계값 = 0.4470, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2605/2605_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2605/2605_1.jpg
+  imp 2609: 거리 = 0.4326, 임계값 = 0.4470, 차이 = 0.0144
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2609/2609_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2609/2609_1.jpg
+  imp 2673: 거리 = 0.4435, 임계값 = 0.4470, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2673/2673_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2673/2673_1.jpg
+  imp 2684: 거리 = 0.4415, 임계값 = 0.4470, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2684/2684_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2684/2684_1.jpg
+  imp 2699: 거리 = 0.4336, 임계값 = 0.4470, 차이 = 0.0134
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2699/2699_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2699/2699_1.jpg
+
+거짓 음성(False Negative) 오탐지: 55개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2401: 거리 = 0.4615, 임계값 = 0.4470, 차이 = 0.0145
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2401/2401_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2401/2401_1.jpg
+  gen 2402: 거리 = 0.4863, 임계값 = 0.4470, 차이 = 0.0393
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2402/2402_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2402/2402_1.jpg
+  gen 2405: 거리 = 0.4559, 임계값 = 0.4470, 차이 = 0.0089
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2405/2405_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2405/2405_1.jpg
+  gen 2413: 거리 = 0.4831, 임계값 = 0.4470, 차이 = 0.0361
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2413/2413_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2413/2413_1.jpg
+  gen 2414: 거리 = 0.5015, 임계값 = 0.4470, 차이 = 0.0545
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2414/2414_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2414/2414_1.jpg
+  gen 2420: 거리 = 0.4520, 임계값 = 0.4470, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2420/2420_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2420/2420_1.jpg
+  gen 2421: 거리 = 0.4538, 임계값 = 0.4470, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2421/2421_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2421/2421_1.jpg
+  gen 2422: 거리 = 0.4957, 임계값 = 0.4470, 차이 = 0.0487
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2422/2422_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2422/2422_1.jpg
+  gen 2424: 거리 = 0.4775, 임계값 = 0.4470, 차이 = 0.0305
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2424/2424_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2424/2424_1.jpg
+  gen 2425: 거리 = 0.4550, 임계값 = 0.4470, 차이 = 0.0080
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2425/2425_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2425/2425_1.jpg
+  gen 2426: 거리 = 0.4740, 임계값 = 0.4470, 차이 = 0.0270
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2426/2426_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2426/2426_1.jpg
+  gen 2431: 거리 = 0.4991, 임계값 = 0.4470, 차이 = 0.0521
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2431/2431_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2431/2431_1.jpg
+  gen 2438: 거리 = 0.5149, 임계값 = 0.4470, 차이 = 0.0679
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2438/2438_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2438/2438_1.jpg
+  gen 2440: 거리 = 0.5112, 임계값 = 0.4470, 차이 = 0.0642
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2440/2440_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2440/2440_1.jpg
+  gen 2443: 거리 = 0.4472, 임계값 = 0.4470, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2443/2443_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2443/2443_1.jpg
+  gen 2444: 거리 = 0.4859, 임계값 = 0.4470, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2444/2444_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2444/2444_1.jpg
+  gen 2455: 거리 = 0.5256, 임계값 = 0.4470, 차이 = 0.0786
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2455/2455_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2455/2455_1.jpg
+  gen 2457: 거리 = 0.4948, 임계값 = 0.4470, 차이 = 0.0478
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2457/2457_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2457/2457_1.jpg
+  gen 2487: 거리 = 0.4735, 임계값 = 0.4470, 차이 = 0.0265
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2487/2487_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2487/2487_1.jpg
+  gen 2493: 거리 = 0.4861, 임계값 = 0.4470, 차이 = 0.0391
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2493/2493_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2493/2493_1.jpg
+  gen 2496: 거리 = 0.5026, 임계값 = 0.4470, 차이 = 0.0556
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2496/2496_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2496/2496_1.jpg
+  gen 2502: 거리 = 0.4552, 임계값 = 0.4470, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2502/2502_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2502/2502_1.jpg
+  gen 2507: 거리 = 0.4771, 임계값 = 0.4470, 차이 = 0.0301
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2507/2507_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2507/2507_1.jpg
+  gen 2510: 거리 = 0.5117, 임계값 = 0.4470, 차이 = 0.0647
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2510/2510_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2510/2510_1.jpg
+  gen 2521: 거리 = 0.4793, 임계값 = 0.4470, 차이 = 0.0323
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2521/2521_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2521/2521_1.jpg
+  gen 2523: 거리 = 0.4908, 임계값 = 0.4470, 차이 = 0.0438
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2523/2523_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2523/2523_1.jpg
+  gen 2541: 거리 = 0.4929, 임계값 = 0.4470, 차이 = 0.0459
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2541/2541_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2541/2541_1.jpg
+  gen 2543: 거리 = 0.4626, 임계값 = 0.4470, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2543/2543_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2543/2543_1.jpg
+  gen 2544: 거리 = 0.4801, 임계값 = 0.4470, 차이 = 0.0331
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2544/2544_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2544/2544_1.jpg
+  gen 2548: 거리 = 0.5196, 임계값 = 0.4470, 차이 = 0.0726
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2548/2548_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2548/2548_1.jpg
+  gen 2549: 거리 = 0.5054, 임계값 = 0.4470, 차이 = 0.0584
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2549/2549_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2549/2549_1.jpg
+  gen 2550: 거리 = 0.4877, 임계값 = 0.4470, 차이 = 0.0407
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2550/2550_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2550/2550_1.jpg
+  gen 2553: 거리 = 0.4734, 임계값 = 0.4470, 차이 = 0.0264
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2553/2553_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2553/2553_1.jpg
+  gen 2556: 거리 = 0.4899, 임계값 = 0.4470, 차이 = 0.0429
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2556/2556_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2556/2556_1.jpg
+  gen 2572: 거리 = 0.4807, 임계값 = 0.4470, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2572/2572_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2572/2572_1.jpg
+  gen 2573: 거리 = 0.4766, 임계값 = 0.4470, 차이 = 0.0296
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2573/2573_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2573/2573_1.jpg
+  gen 2590: 거리 = 0.4799, 임계값 = 0.4470, 차이 = 0.0329
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2590/2590_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2590/2590_1.jpg
+  gen 2599: 거리 = 0.5024, 임계값 = 0.4470, 차이 = 0.0554
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2599/2599_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2599/2599_1.jpg
+  gen 2603: 거리 = 0.4702, 임계값 = 0.4470, 차이 = 0.0232
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2603/2603_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2603/2603_1.jpg
+  gen 2605: 거리 = 0.4716, 임계값 = 0.4470, 차이 = 0.0246
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2605/2605_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2605/2605_1.jpg
+  gen 2613: 거리 = 0.4971, 임계값 = 0.4470, 차이 = 0.0501
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2613/2613_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2613/2613_1.jpg
+  gen 2615: 거리 = 0.4569, 임계값 = 0.4470, 차이 = 0.0099
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2615/2615_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2615/2615_1.jpg
+  gen 2619: 거리 = 0.5500, 임계값 = 0.4470, 차이 = 0.1030
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2619/2619_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2619/2619_1.jpg
+  gen 2623: 거리 = 0.4692, 임계값 = 0.4470, 차이 = 0.0222
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2623/2623_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2623/2623_1.jpg
+  gen 2628: 거리 = 0.4904, 임계값 = 0.4470, 차이 = 0.0434
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2628/2628_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2628/2628_1.jpg
+  gen 2629: 거리 = 0.4706, 임계값 = 0.4470, 차이 = 0.0236
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2629/2629_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2629/2629_1.jpg
+  gen 2650: 거리 = 0.4552, 임계값 = 0.4470, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2650/2650_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2650/2650_1.jpg
+  gen 2652: 거리 = 0.5121, 임계값 = 0.4470, 차이 = 0.0651
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2652/2652_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2652/2652_1.jpg
+  gen 2656: 거리 = 0.4478, 임계값 = 0.4470, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2656/2656_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2656/2656_1.jpg
+  gen 2668: 거리 = 0.4929, 임계값 = 0.4470, 차이 = 0.0459
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2668/2668_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2668/2668_1.jpg
+  gen 2674: 거리 = 0.4789, 임계값 = 0.4470, 차이 = 0.0319
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2674/2674_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2674/2674_1.jpg
+  gen 2683: 거리 = 0.4611, 임계값 = 0.4470, 차이 = 0.0141
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2683/2683_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2683/2683_1.jpg
+  gen 2689: 거리 = 0.5141, 임계값 = 0.4470, 차이 = 0.0671
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2689/2689_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2689/2689_1.jpg
+  gen 2690: 거리 = 0.4480, 임계값 = 0.4470, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2690/2690_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2690/2690_1.jpg
+  gen 2692: 거리 = 0.4585, 임계값 = 0.4470, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2692/2692_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2692/2692_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4400 (훈련 정확도: 0.8974)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2716: 거리 = 0.4388, 임계값 = 0.4400, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2716/2716_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2716/2716_1.jpg
+  imp 2783: 거리 = 0.4315, 임계값 = 0.4400, 차이 = 0.0085
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2783/2783_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2783/2783_1.jpg
+  imp 2806: 거리 = 0.4266, 임계값 = 0.4400, 차이 = 0.0134
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2806/2806_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2806/2806_1.jpg
+  imp 2846: 거리 = 0.4388, 임계값 = 0.4400, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2846/2846_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/imp/2846/2846_1.jpg
+
+거짓 음성(False Negative) 오탐지: 69개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2709: 거리 = 0.4656, 임계값 = 0.4400, 차이 = 0.0256
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2709/2709_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2709/2709_1.jpg
+  gen 2711: 거리 = 0.5211, 임계값 = 0.4400, 차이 = 0.0811
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2711/2711_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2711/2711_1.jpg
+  gen 2716: 거리 = 0.5128, 임계값 = 0.4400, 차이 = 0.0728
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2716/2716_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2716/2716_1.jpg
+  gen 2719: 거리 = 0.4990, 임계값 = 0.4400, 차이 = 0.0590
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2719/2719_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2719/2719_1.jpg
+  gen 2721: 거리 = 0.4718, 임계값 = 0.4400, 차이 = 0.0318
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2721/2721_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2721/2721_1.jpg
+  gen 2744: 거리 = 0.5105, 임계값 = 0.4400, 차이 = 0.0705
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2744/2744_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2744/2744_1.jpg
+  gen 2747: 거리 = 0.4620, 임계값 = 0.4400, 차이 = 0.0220
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2747/2747_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2747/2747_1.jpg
+  gen 2749: 거리 = 0.4890, 임계값 = 0.4400, 차이 = 0.0490
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2749/2749_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2749/2749_1.jpg
+  gen 2750: 거리 = 0.5098, 임계값 = 0.4400, 차이 = 0.0698
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2750/2750_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2750/2750_1.jpg
+  gen 2759: 거리 = 0.4854, 임계값 = 0.4400, 차이 = 0.0454
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2759/2759_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2759/2759_1.jpg
+  gen 2776: 거리 = 0.5066, 임계값 = 0.4400, 차이 = 0.0666
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2776/2776_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2776/2776_1.jpg
+  gen 2780: 거리 = 0.4762, 임계값 = 0.4400, 차이 = 0.0362
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2780/2780_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2780/2780_1.jpg
+  gen 2783: 거리 = 0.5080, 임계값 = 0.4400, 차이 = 0.0680
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2783/2783_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2783/2783_1.jpg
+  gen 2784: 거리 = 0.4801, 임계값 = 0.4400, 차이 = 0.0401
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2784/2784_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2784/2784_1.jpg
+  gen 2787: 거리 = 0.4582, 임계값 = 0.4400, 차이 = 0.0182
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2787/2787_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2787/2787_1.jpg
+  gen 2788: 거리 = 0.4917, 임계값 = 0.4400, 차이 = 0.0517
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2788/2788_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2788/2788_1.jpg
+  gen 2790: 거리 = 0.5310, 임계값 = 0.4400, 차이 = 0.0910
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2790/2790_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2790/2790_1.jpg
+  gen 2792: 거리 = 0.4604, 임계값 = 0.4400, 차이 = 0.0204
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2792/2792_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2792/2792_1.jpg
+  gen 2793: 거리 = 0.4595, 임계값 = 0.4400, 차이 = 0.0195
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2793/2793_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2793/2793_1.jpg
+  gen 2805: 거리 = 0.4975, 임계값 = 0.4400, 차이 = 0.0575
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2805/2805_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2805/2805_1.jpg
+  gen 2807: 거리 = 0.4841, 임계값 = 0.4400, 차이 = 0.0441
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2807/2807_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2807/2807_1.jpg
+  gen 2812: 거리 = 0.5169, 임계값 = 0.4400, 차이 = 0.0769
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2812/2812_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2812/2812_1.jpg
+  gen 2814: 거리 = 0.4910, 임계값 = 0.4400, 차이 = 0.0510
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2814/2814_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2814/2814_1.jpg
+  gen 2815: 거리 = 0.4547, 임계값 = 0.4400, 차이 = 0.0147
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2815/2815_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2815/2815_1.jpg
+  gen 2816: 거리 = 0.5128, 임계값 = 0.4400, 차이 = 0.0728
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2816/2816_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2816/2816_1.jpg
+  gen 2819: 거리 = 0.5108, 임계값 = 0.4400, 차이 = 0.0708
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2819/2819_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2819/2819_1.jpg
+  gen 2820: 거리 = 0.4574, 임계값 = 0.4400, 차이 = 0.0174
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2820/2820_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2820/2820_1.jpg
+  gen 2826: 거리 = 0.4883, 임계값 = 0.4400, 차이 = 0.0483
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2826/2826_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2826/2826_1.jpg
+  gen 2828: 거리 = 0.4563, 임계값 = 0.4400, 차이 = 0.0163
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2828/2828_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2828/2828_1.jpg
+  gen 2830: 거리 = 0.4781, 임계값 = 0.4400, 차이 = 0.0381
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2830/2830_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2830/2830_1.jpg
+  gen 2838: 거리 = 0.4993, 임계값 = 0.4400, 차이 = 0.0593
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2838/2838_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2838/2838_1.jpg
+  gen 2841: 거리 = 0.4425, 임계값 = 0.4400, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2841/2841_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2841/2841_1.jpg
+  gen 2842: 거리 = 0.4972, 임계값 = 0.4400, 차이 = 0.0572
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2842/2842_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2842/2842_1.jpg
+  gen 2849: 거리 = 0.4751, 임계값 = 0.4400, 차이 = 0.0351
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2849/2849_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2849/2849_1.jpg
+  gen 2852: 거리 = 0.4997, 임계값 = 0.4400, 차이 = 0.0597
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2852/2852_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2852/2852_1.jpg
+  gen 2853: 거리 = 0.4587, 임계값 = 0.4400, 차이 = 0.0187
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2853/2853_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2853/2853_1.jpg
+  gen 2855: 거리 = 0.5139, 임계값 = 0.4400, 차이 = 0.0739
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2855/2855_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2855/2855_1.jpg
+  gen 2860: 거리 = 0.4940, 임계값 = 0.4400, 차이 = 0.0540
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2860/2860_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2860/2860_1.jpg
+  gen 2861: 거리 = 0.4871, 임계값 = 0.4400, 차이 = 0.0471
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2861/2861_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2861/2861_1.jpg
+  gen 2866: 거리 = 0.4873, 임계값 = 0.4400, 차이 = 0.0473
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2866/2866_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2866/2866_1.jpg
+  gen 2870: 거리 = 0.4439, 임계값 = 0.4400, 차이 = 0.0039
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2870/2870_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2870/2870_1.jpg
+  gen 2871: 거리 = 0.5003, 임계값 = 0.4400, 차이 = 0.0603
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2871/2871_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2871/2871_1.jpg
+  gen 2873: 거리 = 0.4469, 임계값 = 0.4400, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2873/2873_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2873/2873_1.jpg
+  gen 2874: 거리 = 0.4751, 임계값 = 0.4400, 차이 = 0.0351
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2874/2874_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2874/2874_1.jpg
+  gen 2878: 거리 = 0.4735, 임계값 = 0.4400, 차이 = 0.0335
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2878/2878_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2878/2878_1.jpg
+  gen 2883: 거리 = 0.4454, 임계값 = 0.4400, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2883/2883_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2883/2883_1.jpg
+  gen 2885: 거리 = 0.4613, 임계값 = 0.4400, 차이 = 0.0213
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2885/2885_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2885/2885_1.jpg
+  gen 2894: 거리 = 0.4629, 임계값 = 0.4400, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2894/2894_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2894/2894_1.jpg
+  gen 2897: 거리 = 0.4464, 임계값 = 0.4400, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2897/2897_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2897/2897_1.jpg
+  gen 2899: 거리 = 0.4503, 임계값 = 0.4400, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2899/2899_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2899/2899_1.jpg
+  gen 2900: 거리 = 0.5001, 임계값 = 0.4400, 차이 = 0.0601
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2900/2900_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2900/2900_1.jpg
+  gen 2903: 거리 = 0.4432, 임계값 = 0.4400, 차이 = 0.0032
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2903/2903_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2903/2903_1.jpg
+  gen 2911: 거리 = 0.4890, 임계값 = 0.4400, 차이 = 0.0490
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2911/2911_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2911/2911_1.jpg
+  gen 2916: 거리 = 0.4727, 임계값 = 0.4400, 차이 = 0.0327
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2916/2916_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2916/2916_1.jpg
+  gen 2924: 거리 = 0.4435, 임계값 = 0.4400, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2924/2924_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2924/2924_1.jpg
+  gen 2925: 거리 = 0.5004, 임계값 = 0.4400, 차이 = 0.0604
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2925/2925_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2925/2925_1.jpg
+  gen 2926: 거리 = 0.4725, 임계값 = 0.4400, 차이 = 0.0325
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2926/2926_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2926/2926_1.jpg
+  gen 2931: 거리 = 0.4484, 임계값 = 0.4400, 차이 = 0.0084
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2931/2931_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2931/2931_1.jpg
+  gen 2939: 거리 = 0.4827, 임계값 = 0.4400, 차이 = 0.0427
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2939/2939_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2939/2939_1.jpg
+  gen 2949: 거리 = 0.5030, 임계값 = 0.4400, 차이 = 0.0630
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2949/2949_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2949/2949_1.jpg
+  gen 2950: 거리 = 0.4433, 임계값 = 0.4400, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2950/2950_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2950/2950_1.jpg
+  gen 2954: 거리 = 0.4818, 임계값 = 0.4400, 차이 = 0.0418
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2954/2954_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2954/2954_1.jpg
+  gen 2965: 거리 = 0.4851, 임계값 = 0.4400, 차이 = 0.0451
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2965/2965_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2965/2965_1.jpg
+  gen 2975: 거리 = 0.5112, 임계값 = 0.4400, 차이 = 0.0712
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2975/2975_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2975/2975_1.jpg
+  gen 2980: 거리 = 0.4669, 임계값 = 0.4400, 차이 = 0.0269
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2980/2980_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2980/2980_1.jpg
+  gen 2986: 거리 = 0.4691, 임계값 = 0.4400, 차이 = 0.0291
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2986/2986_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2986/2986_1.jpg
+  gen 2987: 거리 = 0.5004, 임계값 = 0.4400, 차이 = 0.0604
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2987/2987_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2987/2987_1.jpg
+  gen 2993: 거리 = 0.4521, 임계값 = 0.4400, 차이 = 0.0121
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2993/2993_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2993/2993_1.jpg
+  gen 2999: 거리 = 0.4893, 임계값 = 0.4400, 차이 = 0.0493
+    경로1: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2999/2999_0.jpg
+    경로2: work_dirs/corruptions/CPLFW/zoom_blur_3/gen/2999/2999_1.jpg
+Accuracy for each fold: [0.90166667 0.92       0.88333333 0.88666667 0.89333333 0.89833333
+ 0.91666667 0.88       0.88833333 0.87833333]
+Mean Accuracy: 0.8946666666666667
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.3784734
+Standard deviation for genuine pairs: 0.06304915
+Average distance for imposter pairs: 0.48781037
+Standard deviation for imposter pairs: 0.023918256

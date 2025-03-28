@@ -1,0 +1,17 @@
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 2
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch2.pt
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 4
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch4.pt
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 8
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch8.pt
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 16
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch16.pt
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 32
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch32.pt
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 64
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch64.pt
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 128
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch128.pt
+Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 256
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch256.pt
+All experiments completed.

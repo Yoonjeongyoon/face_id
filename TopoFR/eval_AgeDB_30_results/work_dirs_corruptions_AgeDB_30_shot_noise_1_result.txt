@@ -1,0 +1,743 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9663)
+
+거짓 양성(False Positive) 오탐지: 9개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 12: 거리 = 0.4449, 임계값 = 0.4500, 차이 = 0.0051
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0012/12_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0012/12_1.jpg
+  imp 26: 거리 = 0.4393, 임계값 = 0.4500, 차이 = 0.0107
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0026/26_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0026/26_1.jpg
+  imp 134: 거리 = 0.4477, 임계값 = 0.4500, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0134/134_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0134/134_1.jpg
+  imp 147: 거리 = 0.4477, 임계값 = 0.4500, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0147/147_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0147/147_1.jpg
+  imp 194: 거리 = 0.4497, 임계값 = 0.4500, 차이 = 0.0003
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0194/194_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0194/194_1.jpg
+  imp 231: 거리 = 0.4441, 임계값 = 0.4500, 차이 = 0.0059
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0231/231_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0231/231_1.jpg
+  imp 261: 거리 = 0.4477, 임계값 = 0.4500, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0261/261_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0261/261_1.jpg
+  imp 286: 거리 = 0.4454, 임계값 = 0.4500, 차이 = 0.0046
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0286/286_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0286/286_1.jpg
+  imp 298: 거리 = 0.4471, 임계값 = 0.4500, 차이 = 0.0029
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0298/298_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0298/298_1.jpg
+
+거짓 음성(False Negative) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 47: 거리 = 0.4696, 임계값 = 0.4500, 차이 = 0.0196
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0047/47_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0047/47_1.jpg
+  gen 219: 거리 = 0.4778, 임계값 = 0.4500, 차이 = 0.0278
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0219/219_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0219/219_1.jpg
+  gen 220: 거리 = 0.5007, 임계값 = 0.4500, 차이 = 0.0507
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0220/220_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0220/220_1.jpg
+  gen 236: 거리 = 0.4631, 임계값 = 0.4500, 차이 = 0.0131
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0236/236_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0236/236_1.jpg
+  gen 262: 거리 = 0.4547, 임계값 = 0.4500, 차이 = 0.0047
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0262/262_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0262/262_1.jpg
+  gen 296: 거리 = 0.4504, 임계값 = 0.4500, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0296/296_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0296/296_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.9659)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 387: 거리 = 0.4340, 임계값 = 0.4460, 차이 = 0.0120
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0387/387_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0387/387_1.jpg
+  imp 487: 거리 = 0.4435, 임계값 = 0.4460, 차이 = 0.0025
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0487/487_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0487/487_1.jpg
+  imp 506: 거리 = 0.4325, 임계값 = 0.4460, 차이 = 0.0135
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0506/506_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0506/506_1.jpg
+
+거짓 음성(False Negative) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 304: 거리 = 0.4560, 임계값 = 0.4460, 차이 = 0.0100
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0304/304_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0304/304_1.jpg
+  gen 368: 거리 = 0.4498, 임계값 = 0.4460, 차이 = 0.0038
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0368/368_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0368/368_1.jpg
+  gen 409: 거리 = 0.4550, 임계값 = 0.4460, 차이 = 0.0090
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0409/409_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0409/409_1.jpg
+  gen 414: 거리 = 0.5041, 임계값 = 0.4460, 차이 = 0.0581
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0414/414_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0414/414_1.jpg
+  gen 455: 거리 = 0.4596, 임계값 = 0.4460, 차이 = 0.0136
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0455/455_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0455/455_1.jpg
+  gen 500: 거리 = 0.4676, 임계값 = 0.4460, 차이 = 0.0216
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0500/500_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0500/500_1.jpg
+  gen 522: 거리 = 0.4877, 임계값 = 0.4460, 차이 = 0.0417
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0522/522_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0522/522_1.jpg
+  gen 523: 거리 = 0.4694, 임계값 = 0.4460, 차이 = 0.0234
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0523/523_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0523/523_1.jpg
+  gen 526: 거리 = 0.4464, 임계값 = 0.4460, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0526/526_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0526/526_1.jpg
+  gen 597: 거리 = 0.4534, 임계값 = 0.4460, 차이 = 0.0074
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0597/597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0597/597_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.9667)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 628: 거리 = 0.4359, 임계값 = 0.4460, 차이 = 0.0101
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0628/628_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0628/628_1.jpg
+  imp 681: 거리 = 0.4371, 임계값 = 0.4460, 차이 = 0.0089
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0681/681_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0681/681_1.jpg
+  imp 687: 거리 = 0.4410, 임계값 = 0.4460, 차이 = 0.0050
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0687/687_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0687/687_1.jpg
+  imp 691: 거리 = 0.4387, 임계값 = 0.4460, 차이 = 0.0073
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0691/691_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0691/691_1.jpg
+  imp 694: 거리 = 0.4264, 임계값 = 0.4460, 차이 = 0.0196
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0694/694_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0694/694_1.jpg
+  imp 792: 거리 = 0.4357, 임계값 = 0.4460, 차이 = 0.0103
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0792/792_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0792/792_1.jpg
+
+거짓 음성(False Negative) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 615: 거리 = 0.4481, 임계값 = 0.4460, 차이 = 0.0021
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0615/615_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0615/615_1.jpg
+  gen 616: 거리 = 0.4494, 임계값 = 0.4460, 차이 = 0.0034
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0616/616_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0616/616_1.jpg
+  gen 617: 거리 = 0.4478, 임계값 = 0.4460, 차이 = 0.0018
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0617/617_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0617/617_1.jpg
+  gen 652: 거리 = 0.4548, 임계값 = 0.4460, 차이 = 0.0088
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0652/652_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0652/652_1.jpg
+  gen 703: 거리 = 0.4517, 임계값 = 0.4460, 차이 = 0.0057
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0703/703_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0703/703_1.jpg
+  gen 708: 거리 = 0.4623, 임계값 = 0.4460, 차이 = 0.0163
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0708/708_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0708/708_1.jpg
+  gen 735: 거리 = 0.5074, 임계값 = 0.4460, 차이 = 0.0614
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0735/735_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0735/735_1.jpg
+  gen 750: 거리 = 0.4644, 임계값 = 0.4460, 차이 = 0.0184
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0750/750_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0750/750_1.jpg
+  gen 753: 거리 = 0.4497, 임계값 = 0.4460, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0753/753_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0753/753_1.jpg
+  gen 808: 거리 = 0.4754, 임계값 = 0.4460, 차이 = 0.0294
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0808/808_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0808/808_1.jpg
+  gen 854: 거리 = 0.4466, 임계값 = 0.4460, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0854/854_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0854/854_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.9676)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 922: 거리 = 0.4449, 임계값 = 0.4460, 차이 = 0.0011
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0922/922_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0922/922_1.jpg
+  imp 936: 거리 = 0.4459, 임계값 = 0.4460, 차이 = 0.0001
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0936/936_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/0936/936_1.jpg
+  imp 1031: 거리 = 0.4369, 임계값 = 0.4460, 차이 = 0.0091
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1031/1031_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1031/1031_1.jpg
+  imp 1174: 거리 = 0.4381, 임계값 = 0.4460, 차이 = 0.0079
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1174/1174_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1174/1174_1.jpg
+
+거짓 음성(False Negative) 오탐지: 18개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 904: 거리 = 0.4695, 임계값 = 0.4460, 차이 = 0.0235
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0904/904_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0904/904_1.jpg
+  gen 906: 거리 = 0.4989, 임계값 = 0.4460, 차이 = 0.0529
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0906/906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0906/906_1.jpg
+  gen 907: 거리 = 0.4589, 임계값 = 0.4460, 차이 = 0.0129
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0907/907_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0907/907_1.jpg
+  gen 936: 거리 = 0.4474, 임계값 = 0.4460, 차이 = 0.0014
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0936/936_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0936/936_1.jpg
+  gen 948: 거리 = 0.5023, 임계값 = 0.4460, 차이 = 0.0563
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0948/948_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0948/948_1.jpg
+  gen 957: 거리 = 0.4829, 임계값 = 0.4460, 차이 = 0.0369
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0957/957_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0957/957_1.jpg
+  gen 966: 거리 = 0.4481, 임계값 = 0.4460, 차이 = 0.0021
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0966/966_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0966/966_1.jpg
+  gen 990: 거리 = 0.4703, 임계값 = 0.4460, 차이 = 0.0243
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0990/990_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0990/990_1.jpg
+  gen 991: 거리 = 0.4637, 임계값 = 0.4460, 차이 = 0.0177
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0991/991_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0991/991_1.jpg
+  gen 992: 거리 = 0.4506, 임계값 = 0.4460, 차이 = 0.0046
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0992/992_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0992/992_1.jpg
+  gen 993: 거리 = 0.4730, 임계값 = 0.4460, 차이 = 0.0270
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0993/993_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/0993/993_1.jpg
+  gen 1025: 거리 = 0.4546, 임계값 = 0.4460, 차이 = 0.0086
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1025/1025_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1025/1025_1.jpg
+  gen 1070: 거리 = 0.4487, 임계값 = 0.4460, 차이 = 0.0027
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1070/1070_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1070/1070_1.jpg
+  gen 1107: 거리 = 0.4664, 임계값 = 0.4460, 차이 = 0.0204
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1107/1107_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1107/1107_1.jpg
+  gen 1128: 거리 = 0.4472, 임계값 = 0.4460, 차이 = 0.0012
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1128/1128_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1128/1128_1.jpg
+  gen 1133: 거리 = 0.4673, 임계값 = 0.4460, 차이 = 0.0213
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1133/1133_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1133/1133_1.jpg
+  gen 1141: 거리 = 0.4493, 임계값 = 0.4460, 차이 = 0.0033
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1141/1141_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1141/1141_1.jpg
+  gen 1195: 거리 = 0.4794, 임계값 = 0.4460, 차이 = 0.0334
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1195/1195_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1195/1195_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.9683)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1226: 거리 = 0.4327, 임계값 = 0.4460, 차이 = 0.0133
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1226/1226_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1226/1226_1.jpg
+  imp 1243: 거리 = 0.4114, 임계값 = 0.4460, 차이 = 0.0346
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1243/1243_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1243/1243_1.jpg
+  imp 1249: 거리 = 0.4413, 임계값 = 0.4460, 차이 = 0.0047
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1249/1249_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1249/1249_1.jpg
+  imp 1256: 거리 = 0.4425, 임계값 = 0.4460, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1256/1256_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1256/1256_1.jpg
+  imp 1277: 거리 = 0.4225, 임계값 = 0.4460, 차이 = 0.0235
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1277/1277_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1277/1277_1.jpg
+  imp 1350: 거리 = 0.4306, 임계값 = 0.4460, 차이 = 0.0154
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1350/1350_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1350/1350_1.jpg
+
+거짓 음성(False Negative) 오탐지: 20개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1200: 거리 = 0.4757, 임계값 = 0.4460, 차이 = 0.0297
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1200/1200_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1200/1200_1.jpg
+  gen 1203: 거리 = 0.5365, 임계값 = 0.4460, 차이 = 0.0905
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1203/1203_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1203/1203_1.jpg
+  gen 1255: 거리 = 0.4649, 임계값 = 0.4460, 차이 = 0.0189
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1255/1255_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1255/1255_1.jpg
+  gen 1285: 거리 = 0.5118, 임계값 = 0.4460, 차이 = 0.0658
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1285/1285_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1285/1285_1.jpg
+  gen 1287: 거리 = 0.4490, 임계값 = 0.4460, 차이 = 0.0030
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1287/1287_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1287/1287_1.jpg
+  gen 1308: 거리 = 0.5352, 임계값 = 0.4460, 차이 = 0.0892
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1308/1308_1.jpg
+  gen 1327: 거리 = 0.4537, 임계값 = 0.4460, 차이 = 0.0077
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1327/1327_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1327/1327_1.jpg
+  gen 1330: 거리 = 0.4509, 임계값 = 0.4460, 차이 = 0.0049
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1330/1330_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1330/1330_1.jpg
+  gen 1344: 거리 = 0.4505, 임계값 = 0.4460, 차이 = 0.0045
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1344/1344_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1344/1344_1.jpg
+  gen 1362: 거리 = 0.4670, 임계값 = 0.4460, 차이 = 0.0210
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1362/1362_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1362/1362_1.jpg
+  gen 1363: 거리 = 0.4704, 임계값 = 0.4460, 차이 = 0.0244
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1363/1363_1.jpg
+  gen 1369: 거리 = 0.4470, 임계값 = 0.4460, 차이 = 0.0010
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1369/1369_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1369/1369_1.jpg
+  gen 1372: 거리 = 0.4735, 임계값 = 0.4460, 차이 = 0.0275
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1372/1372_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1372/1372_1.jpg
+  gen 1399: 거리 = 0.4880, 임계값 = 0.4460, 차이 = 0.0420
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1399/1399_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1399/1399_1.jpg
+  gen 1400: 거리 = 0.4783, 임계값 = 0.4460, 차이 = 0.0323
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1400/1400_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1400/1400_1.jpg
+  gen 1401: 거리 = 0.4755, 임계값 = 0.4460, 차이 = 0.0295
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1401/1401_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1401/1401_1.jpg
+  gen 1438: 거리 = 0.4565, 임계값 = 0.4460, 차이 = 0.0105
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1438/1438_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1438/1438_1.jpg
+  gen 1465: 거리 = 0.4618, 임계값 = 0.4460, 차이 = 0.0158
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1465/1465_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1465/1465_1.jpg
+  gen 1472: 거리 = 0.4755, 임계값 = 0.4460, 차이 = 0.0295
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1472/1472_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1472/1472_1.jpg
+  gen 1495: 거리 = 0.4494, 임계값 = 0.4460, 차이 = 0.0034
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1495/1495_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1495/1495_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9670)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1549: 거리 = 0.4471, 임계값 = 0.4500, 차이 = 0.0029
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1549/1549_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1549/1549_1.jpg
+  imp 1580: 거리 = 0.4333, 임계값 = 0.4500, 차이 = 0.0167
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1580/1580_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1580/1580_1.jpg
+  imp 1593: 거리 = 0.4281, 임계값 = 0.4500, 차이 = 0.0219
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1593/1593_1.jpg
+  imp 1632: 거리 = 0.4428, 임계값 = 0.4500, 차이 = 0.0072
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1632/1632_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1632/1632_1.jpg
+  imp 1644: 거리 = 0.4470, 임계값 = 0.4500, 차이 = 0.0030
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1644/1644_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1644/1644_1.jpg
+  imp 1666: 거리 = 0.4390, 임계값 = 0.4500, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1666/1666_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1666/1666_1.jpg
+  imp 1793: 거리 = 0.4331, 임계값 = 0.4500, 차이 = 0.0169
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1793/1793_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1793/1793_1.jpg
+  imp 1794: 거리 = 0.4451, 임계값 = 0.4500, 차이 = 0.0049
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1794/1794_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1794/1794_1.jpg
+
+거짓 음성(False Negative) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1536: 거리 = 0.4535, 임계값 = 0.4500, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1536/1536_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1536/1536_1.jpg
+  gen 1537: 거리 = 0.4626, 임계값 = 0.4500, 차이 = 0.0126
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1537/1537_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1537/1537_1.jpg
+  gen 1550: 거리 = 0.4580, 임계값 = 0.4500, 차이 = 0.0080
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1550/1550_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1550/1550_1.jpg
+  gen 1577: 거리 = 0.4921, 임계값 = 0.4500, 차이 = 0.0421
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1577/1577_1.jpg
+  gen 1585: 거리 = 0.4769, 임계값 = 0.4500, 차이 = 0.0269
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1585/1585_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1585/1585_1.jpg
+  gen 1597: 거리 = 0.5299, 임계값 = 0.4500, 차이 = 0.0799
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1597/1597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1597/1597_1.jpg
+  gen 1603: 거리 = 0.5380, 임계값 = 0.4500, 차이 = 0.0880
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1603/1603_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1603/1603_1.jpg
+  gen 1604: 거리 = 0.4664, 임계값 = 0.4500, 차이 = 0.0164
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1604/1604_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1604/1604_1.jpg
+  gen 1688: 거리 = 0.5029, 임계값 = 0.4500, 차이 = 0.0529
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1688/1688_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1688/1688_1.jpg
+  gen 1708: 거리 = 0.4985, 임계값 = 0.4500, 차이 = 0.0485
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1708/1708_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1708/1708_1.jpg
+  gen 1723: 거리 = 0.4617, 임계값 = 0.4500, 차이 = 0.0117
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1723/1723_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1723/1723_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.9685)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1915: 거리 = 0.4289, 임계값 = 0.4460, 차이 = 0.0171
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1915/1915_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1915/1915_1.jpg
+  imp 1939: 거리 = 0.4068, 임계값 = 0.4460, 차이 = 0.0392
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1939/1939_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/1939/1939_1.jpg
+  imp 2000: 거리 = 0.4377, 임계값 = 0.4460, 차이 = 0.0083
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2000/2000_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2000/2000_1.jpg
+  imp 2029: 거리 = 0.4415, 임계값 = 0.4460, 차이 = 0.0045
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2029/2029_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2029/2029_1.jpg
+  imp 2041: 거리 = 0.4456, 임계값 = 0.4460, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2041/2041_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2041/2041_1.jpg
+  imp 2078: 거리 = 0.4403, 임계값 = 0.4460, 차이 = 0.0057
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2078/2078_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2078/2078_1.jpg
+  imp 2080: 거리 = 0.4237, 임계값 = 0.4460, 차이 = 0.0223
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2080/2080_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2080/2080_1.jpg
+
+거짓 음성(False Negative) 오탐지: 20개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1805: 거리 = 0.5146, 임계값 = 0.4460, 차이 = 0.0686
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1805/1805_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1805/1805_1.jpg
+  gen 1834: 거리 = 0.4468, 임계값 = 0.4460, 차이 = 0.0008
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1834/1834_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1834/1834_1.jpg
+  gen 1838: 거리 = 0.4723, 임계값 = 0.4460, 차이 = 0.0263
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1838/1838_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1838/1838_1.jpg
+  gen 1882: 거리 = 0.4645, 임계값 = 0.4460, 차이 = 0.0185
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1882/1882_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1882/1882_1.jpg
+  gen 1889: 거리 = 0.4695, 임계값 = 0.4460, 차이 = 0.0235
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1889/1889_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1889/1889_1.jpg
+  gen 1896: 거리 = 0.5088, 임계값 = 0.4460, 차이 = 0.0628
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1896/1896_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1896/1896_1.jpg
+  gen 1906: 거리 = 0.4541, 임계값 = 0.4460, 차이 = 0.0081
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1906/1906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1906/1906_1.jpg
+  gen 1926: 거리 = 0.4709, 임계값 = 0.4460, 차이 = 0.0249
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1926/1926_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1926/1926_1.jpg
+  gen 1930: 거리 = 0.4468, 임계값 = 0.4460, 차이 = 0.0008
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1930/1930_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1930/1930_1.jpg
+  gen 1931: 거리 = 0.5074, 임계값 = 0.4460, 차이 = 0.0614
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1931/1931_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1931/1931_1.jpg
+  gen 1935: 거리 = 0.4474, 임계값 = 0.4460, 차이 = 0.0014
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1935/1935_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1935/1935_1.jpg
+  gen 1941: 거리 = 0.4755, 임계값 = 0.4460, 차이 = 0.0295
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1941/1941_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1941/1941_1.jpg
+  gen 1943: 거리 = 0.4476, 임계값 = 0.4460, 차이 = 0.0016
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1943/1943_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1943/1943_1.jpg
+  gen 1945: 거리 = 0.4693, 임계값 = 0.4460, 차이 = 0.0233
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1945/1945_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1945/1945_1.jpg
+  gen 1946: 거리 = 0.4502, 임계값 = 0.4460, 차이 = 0.0042
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1946/1946_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1946/1946_1.jpg
+  gen 1973: 거리 = 0.4637, 임계값 = 0.4460, 차이 = 0.0177
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1973/1973_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1973/1973_1.jpg
+  gen 1986: 거리 = 0.4708, 임계값 = 0.4460, 차이 = 0.0248
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1986/1986_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/1986/1986_1.jpg
+  gen 2008: 거리 = 0.4652, 임계값 = 0.4460, 차이 = 0.0192
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2008/2008_1.jpg
+  gen 2044: 거리 = 0.4657, 임계값 = 0.4460, 차이 = 0.0197
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2044/2044_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2044/2044_1.jpg
+  gen 2050: 거리 = 0.5074, 임계값 = 0.4460, 차이 = 0.0614
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2050/2050_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2050/2050_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4510 (훈련 정확도: 0.9685)
+
+거짓 양성(False Positive) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2177: 거리 = 0.4510, 임계값 = 0.4510, 차이 = 0.0000
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2177/2177_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2177/2177_1.jpg
+  imp 2213: 거리 = 0.4500, 임계값 = 0.4510, 차이 = 0.0010
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2213/2213_1.jpg
+  imp 2239: 거리 = 0.4237, 임계값 = 0.4510, 차이 = 0.0273
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2239/2239_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2239/2239_1.jpg
+  imp 2267: 거리 = 0.4504, 임계값 = 0.4510, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2267/2267_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2267/2267_1.jpg
+  imp 2270: 거리 = 0.4459, 임계값 = 0.4510, 차이 = 0.0051
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2270/2270_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2270/2270_1.jpg
+  imp 2294: 거리 = 0.4495, 임계값 = 0.4510, 차이 = 0.0015
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2294/2294_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2294/2294_1.jpg
+  imp 2301: 거리 = 0.4479, 임계값 = 0.4510, 차이 = 0.0031
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2301/2301_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2301/2301_1.jpg
+  imp 2320: 거리 = 0.4490, 임계값 = 0.4510, 차이 = 0.0020
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2320/2320_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2320/2320_1.jpg
+  imp 2335: 거리 = 0.4458, 임계값 = 0.4510, 차이 = 0.0052
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2335/2335_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2335/2335_1.jpg
+  imp 2339: 거리 = 0.4370, 임계값 = 0.4510, 차이 = 0.0140
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2339/2339_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2339/2339_1.jpg
+  imp 2354: 거리 = 0.4496, 임계값 = 0.4510, 차이 = 0.0014
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2354/2354_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2354/2354_1.jpg
+  imp 2389: 거리 = 0.4426, 임계값 = 0.4510, 차이 = 0.0084
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2389/2389_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2389/2389_1.jpg
+
+거짓 음성(False Negative) 오탐지: 16개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2100: 거리 = 0.4551, 임계값 = 0.4510, 차이 = 0.0041
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2100/2100_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2100/2100_1.jpg
+  gen 2115: 거리 = 0.5336, 임계값 = 0.4510, 차이 = 0.0826
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2115/2115_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2115/2115_1.jpg
+  gen 2118: 거리 = 0.5118, 임계값 = 0.4510, 차이 = 0.0608
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2118/2118_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2118/2118_1.jpg
+  gen 2155: 거리 = 0.4658, 임계값 = 0.4510, 차이 = 0.0148
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2155/2155_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2155/2155_1.jpg
+  gen 2158: 거리 = 0.5171, 임계값 = 0.4510, 차이 = 0.0661
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2158/2158_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2158/2158_1.jpg
+  gen 2170: 거리 = 0.4903, 임계값 = 0.4510, 차이 = 0.0393
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2170/2170_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2170/2170_1.jpg
+  gen 2181: 거리 = 0.4566, 임계값 = 0.4510, 차이 = 0.0056
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2181/2181_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2181/2181_1.jpg
+  gen 2208: 거리 = 0.5016, 임계값 = 0.4510, 차이 = 0.0506
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2208/2208_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2208/2208_1.jpg
+  gen 2233: 거리 = 0.4807, 임계값 = 0.4510, 차이 = 0.0297
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2233/2233_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2233/2233_1.jpg
+  gen 2256: 거리 = 0.4574, 임계값 = 0.4510, 차이 = 0.0064
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2256/2256_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2256/2256_1.jpg
+  gen 2257: 거리 = 0.5031, 임계값 = 0.4510, 차이 = 0.0521
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2257/2257_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2257/2257_1.jpg
+  gen 2273: 거리 = 0.5047, 임계값 = 0.4510, 차이 = 0.0537
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2273/2273_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2273/2273_1.jpg
+  gen 2274: 거리 = 0.5075, 임계값 = 0.4510, 차이 = 0.0565
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2274/2274_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2274/2274_1.jpg
+  gen 2347: 거리 = 0.4757, 임계값 = 0.4510, 차이 = 0.0247
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2347/2347_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2347/2347_1.jpg
+  gen 2368: 거리 = 0.4798, 임계값 = 0.4510, 차이 = 0.0288
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2368/2368_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2368/2368_1.jpg
+  gen 2396: 거리 = 0.4746, 임계값 = 0.4510, 차이 = 0.0236
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2396/2396_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2396/2396_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9678)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2534: 거리 = 0.4463, 임계값 = 0.4500, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2534/2534_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2534/2534_1.jpg
+  imp 2594: 거리 = 0.4241, 임계값 = 0.4500, 차이 = 0.0259
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2594/2594_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2594/2594_1.jpg
+  imp 2610: 거리 = 0.4390, 임계값 = 0.4500, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2610/2610_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2610/2610_1.jpg
+  imp 2613: 거리 = 0.4310, 임계값 = 0.4500, 차이 = 0.0190
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2613/2613_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2613/2613_1.jpg
+  imp 2628: 거리 = 0.4420, 임계값 = 0.4500, 차이 = 0.0080
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2628/2628_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2628/2628_1.jpg
+  imp 2697: 거리 = 0.4481, 임계값 = 0.4500, 차이 = 0.0019
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2697/2697_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2697/2697_1.jpg
+
+거짓 음성(False Negative) 오탐지: 17개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2423: 거리 = 0.4637, 임계값 = 0.4500, 차이 = 0.0137
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2423/2423_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2423/2423_1.jpg
+  gen 2424: 거리 = 0.4999, 임계값 = 0.4500, 차이 = 0.0499
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2424/2424_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2424/2424_1.jpg
+  gen 2425: 거리 = 0.4531, 임계값 = 0.4500, 차이 = 0.0031
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2425/2425_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2425/2425_1.jpg
+  gen 2428: 거리 = 0.4502, 임계값 = 0.4500, 차이 = 0.0002
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2428/2428_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2428/2428_1.jpg
+  gen 2445: 거리 = 0.5103, 임계값 = 0.4500, 차이 = 0.0603
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2445/2445_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2445/2445_1.jpg
+  gen 2457: 거리 = 0.4942, 임계값 = 0.4500, 차이 = 0.0442
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2457/2457_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2457/2457_1.jpg
+  gen 2458: 거리 = 0.5102, 임계값 = 0.4500, 차이 = 0.0602
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2458/2458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2458/2458_1.jpg
+  gen 2474: 거리 = 0.4744, 임계값 = 0.4500, 차이 = 0.0244
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2474/2474_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2474/2474_1.jpg
+  gen 2491: 거리 = 0.4609, 임계값 = 0.4500, 차이 = 0.0109
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2491/2491_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2491/2491_1.jpg
+  gen 2498: 거리 = 0.5216, 임계값 = 0.4500, 차이 = 0.0716
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2498/2498_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2498/2498_1.jpg
+  gen 2512: 거리 = 0.4582, 임계값 = 0.4500, 차이 = 0.0082
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2512/2512_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2512/2512_1.jpg
+  gen 2524: 거리 = 0.4643, 임계값 = 0.4500, 차이 = 0.0143
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2524/2524_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2524/2524_1.jpg
+  gen 2546: 거리 = 0.4837, 임계값 = 0.4500, 차이 = 0.0337
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2546/2546_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2546/2546_1.jpg
+  gen 2554: 거리 = 0.4651, 임계값 = 0.4500, 차이 = 0.0151
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2554/2554_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2554/2554_1.jpg
+  gen 2560: 거리 = 0.4523, 임계값 = 0.4500, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2560/2560_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2560/2560_1.jpg
+  gen 2680: 거리 = 0.4930, 임계값 = 0.4500, 차이 = 0.0430
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2680/2680_1.jpg
+  gen 2682: 거리 = 0.4894, 임계값 = 0.4500, 차이 = 0.0394
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2682/2682_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2682/2682_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4460 (훈련 정확도: 0.9669)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2740: 거리 = 0.4340, 임계값 = 0.4460, 차이 = 0.0120
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2740/2740_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2740/2740_1.jpg
+  imp 2758: 거리 = 0.4430, 임계값 = 0.4460, 차이 = 0.0030
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2758/2758_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2758/2758_1.jpg
+  imp 2776: 거리 = 0.4322, 임계값 = 0.4460, 차이 = 0.0138
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2776/2776_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2776/2776_1.jpg
+  imp 2887: 거리 = 0.4429, 임계값 = 0.4460, 차이 = 0.0031
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2887/2887_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/imp/2887/2887_1.jpg
+
+거짓 음성(False Negative) 오탐지: 14개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2726: 거리 = 0.5105, 임계값 = 0.4460, 차이 = 0.0645
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2726/2726_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2726/2726_1.jpg
+  gen 2818: 거리 = 0.4630, 임계값 = 0.4460, 차이 = 0.0170
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2818/2818_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2818/2818_1.jpg
+  gen 2842: 거리 = 0.4563, 임계값 = 0.4460, 차이 = 0.0103
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2842/2842_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2842/2842_1.jpg
+  gen 2844: 거리 = 0.4530, 임계값 = 0.4460, 차이 = 0.0070
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2844/2844_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2844/2844_1.jpg
+  gen 2848: 거리 = 0.4642, 임계값 = 0.4460, 차이 = 0.0182
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2848/2848_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2848/2848_1.jpg
+  gen 2853: 거리 = 0.4600, 임계값 = 0.4460, 차이 = 0.0140
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2853/2853_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2853/2853_1.jpg
+  gen 2854: 거리 = 0.4979, 임계값 = 0.4460, 차이 = 0.0519
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2854/2854_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2854/2854_1.jpg
+  gen 2935: 거리 = 0.4657, 임계값 = 0.4460, 차이 = 0.0197
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2935/2935_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2935/2935_1.jpg
+  gen 2946: 거리 = 0.4496, 임계값 = 0.4460, 차이 = 0.0036
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2946/2946_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2946/2946_1.jpg
+  gen 2962: 거리 = 0.4840, 임계값 = 0.4460, 차이 = 0.0380
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2962/2962_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2962/2962_1.jpg
+  gen 2968: 거리 = 0.4616, 임계값 = 0.4460, 차이 = 0.0156
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2968/2968_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2968/2968_1.jpg
+  gen 2979: 거리 = 0.4777, 임계값 = 0.4460, 차이 = 0.0317
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2979/2979_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2979/2979_1.jpg
+  gen 2980: 거리 = 0.5150, 임계값 = 0.4460, 차이 = 0.0690
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2980/2980_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2980/2980_1.jpg
+  gen 2995: 거리 = 0.4531, 임계값 = 0.4460, 차이 = 0.0071
+    경로1: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2995/2995_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/shot_noise_1/gen/2995/2995_1.jpg
+Accuracy for each fold: [0.975      0.97833333 0.97166667 0.96333333 0.95666667 0.96833333
+ 0.955      0.95333333 0.96166667 0.97      ]
+Mean Accuracy: 0.9653333333333334
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.3721562
+Standard deviation for genuine pairs: 0.043117937
+Average distance for imposter pairs: 0.49657694
+Standard deviation for imposter pairs: 0.022082807

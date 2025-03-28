@@ -1,0 +1,794 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9628)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 26: 거리 = 0.4283, 임계값 = 0.4500, 차이 = 0.0217
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0026/26_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0026/26_1.jpg
+  imp 41: 거리 = 0.4494, 임계값 = 0.4500, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0041/41_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0041/41_1.jpg
+  imp 54: 거리 = 0.4425, 임계값 = 0.4500, 차이 = 0.0075
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0054/54_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0054/54_1.jpg
+  imp 134: 거리 = 0.4491, 임계값 = 0.4500, 차이 = 0.0009
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0134/134_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0134/134_1.jpg
+  imp 194: 거리 = 0.4444, 임계값 = 0.4500, 차이 = 0.0056
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0194/194_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0194/194_1.jpg
+  imp 226: 거리 = 0.4485, 임계값 = 0.4500, 차이 = 0.0015
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0226/226_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0226/226_1.jpg
+  imp 257: 거리 = 0.4414, 임계값 = 0.4500, 차이 = 0.0086
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0257/257_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0257/257_1.jpg
+
+거짓 음성(False Negative) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 47: 거리 = 0.4672, 임계값 = 0.4500, 차이 = 0.0172
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0047/47_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0047/47_1.jpg
+  gen 219: 거리 = 0.4929, 임계값 = 0.4500, 차이 = 0.0429
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0219/219_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0219/219_1.jpg
+  gen 220: 거리 = 0.5028, 임계값 = 0.4500, 차이 = 0.0528
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0220/220_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0220/220_1.jpg
+  gen 229: 거리 = 0.4515, 임계값 = 0.4500, 차이 = 0.0015
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0229/229_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0229/229_1.jpg
+  gen 236: 거리 = 0.4811, 임계값 = 0.4500, 차이 = 0.0311
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0236/236_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0236/236_1.jpg
+  gen 289: 거리 = 0.4603, 임계값 = 0.4500, 차이 = 0.0103
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0289/289_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0289/289_1.jpg
+  gen 299: 거리 = 0.4620, 임계값 = 0.4500, 차이 = 0.0120
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0299/299_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0299/299_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9630)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 310: 거리 = 0.4382, 임계값 = 0.4450, 차이 = 0.0068
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0310/310_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0310/310_1.jpg
+  imp 387: 거리 = 0.4315, 임계값 = 0.4450, 차이 = 0.0135
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0387/387_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0387/387_1.jpg
+  imp 487: 거리 = 0.4340, 임계값 = 0.4450, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0487/487_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0487/487_1.jpg
+  imp 506: 거리 = 0.4421, 임계값 = 0.4450, 차이 = 0.0029
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0506/506_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0506/506_1.jpg
+
+거짓 음성(False Negative) 오탐지: 14개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 304: 거리 = 0.4514, 임계값 = 0.4450, 차이 = 0.0064
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0304/304_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0304/304_1.jpg
+  gen 371: 거리 = 0.4653, 임계값 = 0.4450, 차이 = 0.0203
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0371/371_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0371/371_1.jpg
+  gen 372: 거리 = 0.4603, 임계값 = 0.4450, 차이 = 0.0153
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0372/372_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0372/372_1.jpg
+  gen 409: 거리 = 0.4702, 임계값 = 0.4450, 차이 = 0.0252
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0409/409_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0409/409_1.jpg
+  gen 414: 거리 = 0.4953, 임계값 = 0.4450, 차이 = 0.0503
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0414/414_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0414/414_1.jpg
+  gen 446: 거리 = 0.4480, 임계값 = 0.4450, 차이 = 0.0030
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0446/446_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0446/446_1.jpg
+  gen 447: 거리 = 0.4466, 임계값 = 0.4450, 차이 = 0.0016
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0447/447_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0447/447_1.jpg
+  gen 458: 거리 = 0.4482, 임계값 = 0.4450, 차이 = 0.0032
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0458/458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0458/458_1.jpg
+  gen 500: 거리 = 0.4922, 임계값 = 0.4450, 차이 = 0.0472
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0500/500_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0500/500_1.jpg
+  gen 522: 거리 = 0.4997, 임계값 = 0.4450, 차이 = 0.0547
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0522/522_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0522/522_1.jpg
+  gen 526: 거리 = 0.4653, 임계값 = 0.4450, 차이 = 0.0203
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0526/526_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0526/526_1.jpg
+  gen 547: 거리 = 0.4501, 임계값 = 0.4450, 차이 = 0.0051
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0547/547_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0547/547_1.jpg
+  gen 594: 거리 = 0.4483, 임계값 = 0.4450, 차이 = 0.0033
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0594/594_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0594/594_1.jpg
+  gen 595: 거리 = 0.4871, 임계값 = 0.4450, 차이 = 0.0421
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0595/595_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0595/595_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4520 (훈련 정확도: 0.9641)
+
+거짓 양성(False Positive) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 681: 거리 = 0.4441, 임계값 = 0.4520, 차이 = 0.0079
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0681/681_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0681/681_1.jpg
+  imp 688: 거리 = 0.4451, 임계값 = 0.4520, 차이 = 0.0069
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0688/688_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0688/688_1.jpg
+  imp 694: 거리 = 0.4140, 임계값 = 0.4520, 차이 = 0.0380
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0694/694_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0694/694_1.jpg
+  imp 703: 거리 = 0.4517, 임계값 = 0.4520, 차이 = 0.0003
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0703/703_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0703/703_1.jpg
+  imp 734: 거리 = 0.4433, 임계값 = 0.4520, 차이 = 0.0087
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0734/734_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0734/734_1.jpg
+  imp 736: 거리 = 0.4476, 임계값 = 0.4520, 차이 = 0.0044
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0736/736_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0736/736_1.jpg
+  imp 740: 거리 = 0.4457, 임계값 = 0.4520, 차이 = 0.0063
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0740/740_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0740/740_1.jpg
+  imp 774: 거리 = 0.4471, 임계값 = 0.4520, 차이 = 0.0049
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0774/774_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0774/774_1.jpg
+  imp 778: 거리 = 0.4292, 임계값 = 0.4520, 차이 = 0.0228
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0778/778_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0778/778_1.jpg
+  imp 792: 거리 = 0.4396, 임계값 = 0.4520, 차이 = 0.0124
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0792/792_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0792/792_1.jpg
+
+거짓 음성(False Negative) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 616: 거리 = 0.4825, 임계값 = 0.4520, 차이 = 0.0305
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0616/616_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0616/616_1.jpg
+  gen 617: 거리 = 0.4567, 임계값 = 0.4520, 차이 = 0.0047
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0617/617_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0617/617_1.jpg
+  gen 618: 거리 = 0.4627, 임계값 = 0.4520, 차이 = 0.0107
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0618/618_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0618/618_1.jpg
+  gen 652: 거리 = 0.4662, 임계값 = 0.4520, 차이 = 0.0142
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0652/652_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0652/652_1.jpg
+  gen 691: 거리 = 0.4591, 임계값 = 0.4520, 차이 = 0.0071
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0691/691_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0691/691_1.jpg
+  gen 702: 거리 = 0.4599, 임계값 = 0.4520, 차이 = 0.0079
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0702/702_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0702/702_1.jpg
+  gen 708: 거리 = 0.4655, 임계값 = 0.4520, 차이 = 0.0135
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0708/708_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0708/708_1.jpg
+  gen 735: 거리 = 0.5347, 임계값 = 0.4520, 차이 = 0.0827
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0735/735_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0735/735_1.jpg
+  gen 740: 거리 = 0.4543, 임계값 = 0.4520, 차이 = 0.0023
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0740/740_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0740/740_1.jpg
+  gen 750: 거리 = 0.4693, 임계값 = 0.4520, 차이 = 0.0173
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0750/750_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0750/750_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4520 (훈련 정확도: 0.9656)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 922: 거리 = 0.4341, 임계값 = 0.4520, 차이 = 0.0179
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0922/922_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0922/922_1.jpg
+  imp 924: 거리 = 0.4505, 임계값 = 0.4520, 차이 = 0.0015
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0924/924_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0924/924_1.jpg
+  imp 990: 거리 = 0.4493, 임계값 = 0.4520, 차이 = 0.0027
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/0990/990_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/0990/990_1.jpg
+  imp 1002: 거리 = 0.4452, 임계값 = 0.4520, 차이 = 0.0068
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1002/1002_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1002/1002_1.jpg
+  imp 1031: 거리 = 0.4461, 임계값 = 0.4520, 차이 = 0.0059
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1031/1031_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1031/1031_1.jpg
+  imp 1047: 거리 = 0.4257, 임계값 = 0.4520, 차이 = 0.0263
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1047/1047_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1047/1047_1.jpg
+  imp 1061: 거리 = 0.4506, 임계값 = 0.4520, 차이 = 0.0014
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1061/1061_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1061/1061_1.jpg
+  imp 1113: 거리 = 0.4278, 임계값 = 0.4520, 차이 = 0.0242
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1113/1113_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1113/1113_1.jpg
+
+거짓 음성(False Negative) 오탐지: 20개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 904: 거리 = 0.4634, 임계값 = 0.4520, 차이 = 0.0114
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0904/904_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0904/904_1.jpg
+  gen 906: 거리 = 0.4711, 임계값 = 0.4520, 차이 = 0.0191
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0906/906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0906/906_1.jpg
+  gen 907: 거리 = 0.4725, 임계값 = 0.4520, 차이 = 0.0205
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0907/907_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0907/907_1.jpg
+  gen 909: 거리 = 0.4548, 임계값 = 0.4520, 차이 = 0.0028
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0909/909_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0909/909_1.jpg
+  gen 914: 거리 = 0.4570, 임계값 = 0.4520, 차이 = 0.0050
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0914/914_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0914/914_1.jpg
+  gen 924: 거리 = 0.4607, 임계값 = 0.4520, 차이 = 0.0087
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0924/924_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0924/924_1.jpg
+  gen 936: 거리 = 0.4585, 임계값 = 0.4520, 차이 = 0.0065
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0936/936_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0936/936_1.jpg
+  gen 948: 거리 = 0.4840, 임계값 = 0.4520, 차이 = 0.0320
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0948/948_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0948/948_1.jpg
+  gen 957: 거리 = 0.4898, 임계값 = 0.4520, 차이 = 0.0378
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0957/957_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0957/957_1.jpg
+  gen 990: 거리 = 0.4860, 임계값 = 0.4520, 차이 = 0.0340
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0990/990_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0990/990_1.jpg
+  gen 991: 거리 = 0.4611, 임계값 = 0.4520, 차이 = 0.0091
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0991/991_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0991/991_1.jpg
+  gen 992: 거리 = 0.4537, 임계값 = 0.4520, 차이 = 0.0017
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0992/992_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0992/992_1.jpg
+  gen 993: 거리 = 0.4715, 임계값 = 0.4520, 차이 = 0.0195
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/0993/993_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/0993/993_1.jpg
+  gen 1025: 거리 = 0.4705, 임계값 = 0.4520, 차이 = 0.0185
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1025/1025_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1025/1025_1.jpg
+  gen 1085: 거리 = 0.4648, 임계값 = 0.4520, 차이 = 0.0128
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1085/1085_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1085/1085_1.jpg
+  gen 1128: 거리 = 0.4634, 임계값 = 0.4520, 차이 = 0.0114
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1128/1128_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1128/1128_1.jpg
+  gen 1133: 거리 = 0.4690, 임계값 = 0.4520, 차이 = 0.0170
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1133/1133_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1133/1133_1.jpg
+  gen 1140: 거리 = 0.4599, 임계값 = 0.4520, 차이 = 0.0079
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1140/1140_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1140/1140_1.jpg
+  gen 1172: 거리 = 0.4734, 임계값 = 0.4520, 차이 = 0.0214
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1172/1172_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1172/1172_1.jpg
+  gen 1195: 거리 = 0.4707, 임계값 = 0.4520, 차이 = 0.0187
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1195/1195_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1195/1195_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9648)
+
+거짓 양성(False Positive) 오탐지: 5개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1216: 거리 = 0.4458, 임계값 = 0.4500, 차이 = 0.0042
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1216/1216_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1216/1216_1.jpg
+  imp 1232: 거리 = 0.4413, 임계값 = 0.4500, 차이 = 0.0087
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1232/1232_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1232/1232_1.jpg
+  imp 1393: 거리 = 0.4476, 임계값 = 0.4500, 차이 = 0.0024
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1393/1393_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1393/1393_1.jpg
+  imp 1458: 거리 = 0.4351, 임계값 = 0.4500, 차이 = 0.0149
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1458/1458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1458/1458_1.jpg
+  imp 1484: 거리 = 0.4429, 임계값 = 0.4500, 차이 = 0.0071
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1484/1484_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1484/1484_1.jpg
+
+거짓 음성(False Negative) 오탐지: 20개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1200: 거리 = 0.4711, 임계값 = 0.4500, 차이 = 0.0211
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1200/1200_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1200/1200_1.jpg
+  gen 1203: 거리 = 0.5259, 임계값 = 0.4500, 차이 = 0.0759
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1203/1203_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1203/1203_1.jpg
+  gen 1255: 거리 = 0.4798, 임계값 = 0.4500, 차이 = 0.0298
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1255/1255_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1255/1255_1.jpg
+  gen 1256: 거리 = 0.4608, 임계값 = 0.4500, 차이 = 0.0108
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1256/1256_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1256/1256_1.jpg
+  gen 1285: 거리 = 0.4962, 임계값 = 0.4500, 차이 = 0.0462
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1285/1285_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1285/1285_1.jpg
+  gen 1287: 거리 = 0.4650, 임계값 = 0.4500, 차이 = 0.0150
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1287/1287_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1287/1287_1.jpg
+  gen 1293: 거리 = 0.4517, 임계값 = 0.4500, 차이 = 0.0017
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1293/1293_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1293/1293_1.jpg
+  gen 1308: 거리 = 0.4840, 임계값 = 0.4500, 차이 = 0.0340
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1308/1308_1.jpg
+  gen 1362: 거리 = 0.4626, 임계값 = 0.4500, 차이 = 0.0126
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1362/1362_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1362/1362_1.jpg
+  gen 1363: 거리 = 0.4729, 임계값 = 0.4500, 차이 = 0.0229
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1363/1363_1.jpg
+  gen 1364: 거리 = 0.4901, 임계값 = 0.4500, 차이 = 0.0401
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1364/1364_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1364/1364_1.jpg
+  gen 1372: 거리 = 0.4767, 임계값 = 0.4500, 차이 = 0.0267
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1372/1372_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1372/1372_1.jpg
+  gen 1399: 거리 = 0.5021, 임계값 = 0.4500, 차이 = 0.0521
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1399/1399_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1399/1399_1.jpg
+  gen 1400: 거리 = 0.5068, 임계값 = 0.4500, 차이 = 0.0568
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1400/1400_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1400/1400_1.jpg
+  gen 1401: 거리 = 0.5060, 임계값 = 0.4500, 차이 = 0.0560
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1401/1401_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1401/1401_1.jpg
+  gen 1409: 거리 = 0.4738, 임계값 = 0.4500, 차이 = 0.0238
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1409/1409_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1409/1409_1.jpg
+  gen 1438: 거리 = 0.4698, 임계값 = 0.4500, 차이 = 0.0198
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1438/1438_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1438/1438_1.jpg
+  gen 1452: 거리 = 0.4515, 임계값 = 0.4500, 차이 = 0.0015
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1452/1452_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1452/1452_1.jpg
+  gen 1465: 거리 = 0.5080, 임계값 = 0.4500, 차이 = 0.0580
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1465/1465_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1465/1465_1.jpg
+  gen 1472: 거리 = 0.4621, 임계값 = 0.4500, 차이 = 0.0121
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1472/1472_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1472/1472_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4520 (훈련 정확도: 0.9631)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1593: 거리 = 0.4501, 임계값 = 0.4520, 차이 = 0.0019
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1593/1593_1.jpg
+  imp 1632: 거리 = 0.4426, 임계값 = 0.4520, 차이 = 0.0094
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1632/1632_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1632/1632_1.jpg
+  imp 1789: 거리 = 0.4437, 임계값 = 0.4520, 차이 = 0.0083
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1789/1789_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1789/1789_1.jpg
+
+거짓 음성(False Negative) 오탐지: 12개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1514: 거리 = 0.4580, 임계값 = 0.4520, 차이 = 0.0060
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1514/1514_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1514/1514_1.jpg
+  gen 1537: 거리 = 0.4618, 임계값 = 0.4520, 차이 = 0.0098
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1537/1537_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1537/1537_1.jpg
+  gen 1550: 거리 = 0.4634, 임계값 = 0.4520, 차이 = 0.0114
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1550/1550_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1550/1550_1.jpg
+  gen 1564: 거리 = 0.4568, 임계값 = 0.4520, 차이 = 0.0048
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1564/1564_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1564/1564_1.jpg
+  gen 1577: 거리 = 0.4885, 임계값 = 0.4520, 차이 = 0.0365
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1577/1577_1.jpg
+  gen 1585: 거리 = 0.4959, 임계값 = 0.4520, 차이 = 0.0439
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1585/1585_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1585/1585_1.jpg
+  gen 1597: 거리 = 0.5080, 임계값 = 0.4520, 차이 = 0.0560
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1597/1597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1597/1597_1.jpg
+  gen 1603: 거리 = 0.4825, 임계값 = 0.4520, 차이 = 0.0305
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1603/1603_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1603/1603_1.jpg
+  gen 1604: 거리 = 0.4865, 임계값 = 0.4520, 차이 = 0.0345
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1604/1604_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1604/1604_1.jpg
+  gen 1688: 거리 = 0.5035, 임계값 = 0.4520, 차이 = 0.0515
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1688/1688_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1688/1688_1.jpg
+  gen 1694: 거리 = 0.4528, 임계값 = 0.4520, 차이 = 0.0008
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1694/1694_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1694/1694_1.jpg
+  gen 1708: 거리 = 0.5117, 임계값 = 0.4520, 차이 = 0.0597
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1708/1708_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1708/1708_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4500 (훈련 정확도: 0.9657)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1803: 거리 = 0.4417, 임계값 = 0.4500, 차이 = 0.0083
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1803/1803_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1803/1803_1.jpg
+  imp 1952: 거리 = 0.4465, 임계값 = 0.4500, 차이 = 0.0035
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1952/1952_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1952/1952_1.jpg
+  imp 1977: 거리 = 0.4490, 임계값 = 0.4500, 차이 = 0.0010
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/1977/1977_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/1977/1977_1.jpg
+  imp 2000: 거리 = 0.4463, 임계값 = 0.4500, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2000/2000_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2000/2000_1.jpg
+  imp 2078: 거리 = 0.4364, 임계값 = 0.4500, 차이 = 0.0136
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2078/2078_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2078/2078_1.jpg
+  imp 2080: 거리 = 0.3960, 임계값 = 0.4500, 차이 = 0.0540
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2080/2080_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2080/2080_1.jpg
+
+거짓 음성(False Negative) 오탐지: 24개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1805: 거리 = 0.5452, 임계값 = 0.4500, 차이 = 0.0952
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1805/1805_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1805/1805_1.jpg
+  gen 1836: 거리 = 0.4663, 임계값 = 0.4500, 차이 = 0.0163
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1836/1836_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1836/1836_1.jpg
+  gen 1838: 거리 = 0.4687, 임계값 = 0.4500, 차이 = 0.0187
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1838/1838_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1838/1838_1.jpg
+  gen 1847: 거리 = 0.4506, 임계값 = 0.4500, 차이 = 0.0006
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1847/1847_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1847/1847_1.jpg
+  gen 1851: 거리 = 0.4651, 임계값 = 0.4500, 차이 = 0.0151
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1851/1851_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1851/1851_1.jpg
+  gen 1881: 거리 = 0.4734, 임계값 = 0.4500, 차이 = 0.0234
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1881/1881_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1881/1881_1.jpg
+  gen 1882: 거리 = 0.5090, 임계값 = 0.4500, 차이 = 0.0590
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1882/1882_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1882/1882_1.jpg
+  gen 1889: 거리 = 0.4855, 임계값 = 0.4500, 차이 = 0.0355
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1889/1889_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1889/1889_1.jpg
+  gen 1896: 거리 = 0.5004, 임계값 = 0.4500, 차이 = 0.0504
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1896/1896_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1896/1896_1.jpg
+  gen 1906: 거리 = 0.4643, 임계값 = 0.4500, 차이 = 0.0143
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1906/1906_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1906/1906_1.jpg
+  gen 1920: 거리 = 0.4513, 임계값 = 0.4500, 차이 = 0.0013
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1920/1920_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1920/1920_1.jpg
+  gen 1925: 거리 = 0.4550, 임계값 = 0.4500, 차이 = 0.0050
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1925/1925_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1925/1925_1.jpg
+  gen 1926: 거리 = 0.4880, 임계값 = 0.4500, 차이 = 0.0380
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1926/1926_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1926/1926_1.jpg
+  gen 1927: 거리 = 0.4534, 임계값 = 0.4500, 차이 = 0.0034
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1927/1927_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1927/1927_1.jpg
+  gen 1929: 거리 = 0.4532, 임계값 = 0.4500, 차이 = 0.0032
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1929/1929_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1929/1929_1.jpg
+  gen 1931: 거리 = 0.4648, 임계값 = 0.4500, 차이 = 0.0148
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1931/1931_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1931/1931_1.jpg
+  gen 1933: 거리 = 0.4600, 임계값 = 0.4500, 차이 = 0.0100
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1933/1933_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1933/1933_1.jpg
+  gen 1935: 거리 = 0.4513, 임계값 = 0.4500, 차이 = 0.0013
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1935/1935_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1935/1935_1.jpg
+  gen 1941: 거리 = 0.4734, 임계값 = 0.4500, 차이 = 0.0234
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1941/1941_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1941/1941_1.jpg
+  gen 1946: 거리 = 0.4562, 임계값 = 0.4500, 차이 = 0.0062
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/1946/1946_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/1946/1946_1.jpg
+  gen 2008: 거리 = 0.5007, 임계값 = 0.4500, 차이 = 0.0507
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2008/2008_1.jpg
+  gen 2012: 거리 = 0.4570, 임계값 = 0.4500, 차이 = 0.0070
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2012/2012_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2012/2012_1.jpg
+  gen 2044: 거리 = 0.4776, 임계값 = 0.4500, 차이 = 0.0276
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2044/2044_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2044/2044_1.jpg
+  gen 2050: 거리 = 0.4863, 임계값 = 0.4500, 차이 = 0.0363
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2050/2050_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2050/2050_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4520 (훈련 정확도: 0.9663)
+
+거짓 양성(False Positive) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2112: 거리 = 0.4486, 임계값 = 0.4520, 차이 = 0.0034
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2112/2112_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2112/2112_1.jpg
+  imp 2165: 거리 = 0.4358, 임계값 = 0.4520, 차이 = 0.0162
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2165/2165_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2165/2165_1.jpg
+  imp 2188: 거리 = 0.4501, 임계값 = 0.4520, 차이 = 0.0019
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2188/2188_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2188/2188_1.jpg
+  imp 2213: 거리 = 0.4357, 임계값 = 0.4520, 차이 = 0.0163
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2213/2213_1.jpg
+  imp 2229: 거리 = 0.4512, 임계값 = 0.4520, 차이 = 0.0008
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2229/2229_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2229/2229_1.jpg
+  imp 2264: 거리 = 0.4519, 임계값 = 0.4520, 차이 = 0.0001
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2264/2264_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2264/2264_1.jpg
+  imp 2270: 거리 = 0.4433, 임계값 = 0.4520, 차이 = 0.0087
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2270/2270_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2270/2270_1.jpg
+  imp 2301: 거리 = 0.4517, 임계값 = 0.4520, 차이 = 0.0003
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2301/2301_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2301/2301_1.jpg
+  imp 2304: 거리 = 0.4360, 임계값 = 0.4520, 차이 = 0.0160
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2304/2304_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2304/2304_1.jpg
+  imp 2350: 거리 = 0.4509, 임계값 = 0.4520, 차이 = 0.0011
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2350/2350_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2350/2350_1.jpg
+  imp 2354: 거리 = 0.4346, 임계값 = 0.4520, 차이 = 0.0174
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2354/2354_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2354/2354_1.jpg
+  imp 2359: 거리 = 0.4316, 임계값 = 0.4520, 차이 = 0.0204
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2359/2359_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2359/2359_1.jpg
+  imp 2389: 거리 = 0.4270, 임계값 = 0.4520, 차이 = 0.0250
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2389/2389_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2389/2389_1.jpg
+
+거짓 음성(False Negative) 오탐지: 19개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2115: 거리 = 0.5002, 임계값 = 0.4520, 차이 = 0.0482
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2115/2115_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2115/2115_1.jpg
+  gen 2118: 거리 = 0.4921, 임계값 = 0.4520, 차이 = 0.0401
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2118/2118_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2118/2118_1.jpg
+  gen 2153: 거리 = 0.4657, 임계값 = 0.4520, 차이 = 0.0137
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2153/2153_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2153/2153_1.jpg
+  gen 2158: 거리 = 0.5162, 임계값 = 0.4520, 차이 = 0.0642
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2158/2158_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2158/2158_1.jpg
+  gen 2170: 거리 = 0.4974, 임계값 = 0.4520, 차이 = 0.0454
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2170/2170_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2170/2170_1.jpg
+  gen 2208: 거리 = 0.5020, 임계값 = 0.4520, 차이 = 0.0500
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2208/2208_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2208/2208_1.jpg
+  gen 2233: 거리 = 0.4775, 임계값 = 0.4520, 차이 = 0.0255
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2233/2233_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2233/2233_1.jpg
+  gen 2238: 거리 = 0.4524, 임계값 = 0.4520, 차이 = 0.0004
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2238/2238_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2238/2238_1.jpg
+  gen 2247: 거리 = 0.4560, 임계값 = 0.4520, 차이 = 0.0040
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2247/2247_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2247/2247_1.jpg
+  gen 2252: 거리 = 0.4557, 임계값 = 0.4520, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2252/2252_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2252/2252_1.jpg
+  gen 2256: 거리 = 0.4630, 임계값 = 0.4520, 차이 = 0.0110
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2256/2256_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2256/2256_1.jpg
+  gen 2257: 거리 = 0.4776, 임계값 = 0.4520, 차이 = 0.0256
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2257/2257_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2257/2257_1.jpg
+  gen 2273: 거리 = 0.4877, 임계값 = 0.4520, 차이 = 0.0357
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2273/2273_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2273/2273_1.jpg
+  gen 2274: 거리 = 0.5160, 임계값 = 0.4520, 차이 = 0.0640
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2274/2274_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2274/2274_1.jpg
+  gen 2327: 거리 = 0.4590, 임계값 = 0.4520, 차이 = 0.0070
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2327/2327_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2327/2327_1.jpg
+  gen 2347: 거리 = 0.4796, 임계값 = 0.4520, 차이 = 0.0276
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2347/2347_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2347/2347_1.jpg
+  gen 2368: 거리 = 0.4624, 임계값 = 0.4520, 차이 = 0.0104
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2368/2368_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2368/2368_1.jpg
+  gen 2395: 거리 = 0.4628, 임계값 = 0.4520, 차이 = 0.0108
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2395/2395_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2395/2395_1.jpg
+  gen 2396: 거리 = 0.4765, 임계값 = 0.4520, 차이 = 0.0245
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2396/2396_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2396/2396_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4520 (훈련 정확도: 0.9650)
+
+거짓 양성(False Positive) 오탐지: 9개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2442: 거리 = 0.4270, 임계값 = 0.4520, 차이 = 0.0250
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2442/2442_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2442/2442_1.jpg
+  imp 2495: 거리 = 0.4429, 임계값 = 0.4520, 차이 = 0.0091
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2495/2495_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2495/2495_1.jpg
+  imp 2517: 거리 = 0.4478, 임계값 = 0.4520, 차이 = 0.0042
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2517/2517_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2517/2517_1.jpg
+  imp 2580: 거리 = 0.4334, 임계값 = 0.4520, 차이 = 0.0186
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2580/2580_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2580/2580_1.jpg
+  imp 2597: 거리 = 0.4476, 임계값 = 0.4520, 차이 = 0.0044
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2597/2597_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2597/2597_1.jpg
+  imp 2610: 거리 = 0.4454, 임계값 = 0.4520, 차이 = 0.0066
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2610/2610_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2610/2610_1.jpg
+  imp 2661: 거리 = 0.4389, 임계값 = 0.4520, 차이 = 0.0131
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2661/2661_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2661/2661_1.jpg
+  imp 2670: 거리 = 0.4483, 임계값 = 0.4520, 차이 = 0.0037
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2670/2670_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2670/2670_1.jpg
+  imp 2687: 거리 = 0.4458, 임계값 = 0.4520, 차이 = 0.0062
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2687/2687_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2687/2687_1.jpg
+
+거짓 음성(False Negative) 오탐지: 16개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2423: 거리 = 0.4623, 임계값 = 0.4520, 차이 = 0.0103
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2423/2423_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2423/2423_1.jpg
+  gen 2424: 거리 = 0.5135, 임계값 = 0.4520, 차이 = 0.0615
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2424/2424_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2424/2424_1.jpg
+  gen 2425: 거리 = 0.4556, 임계값 = 0.4520, 차이 = 0.0036
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2425/2425_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2425/2425_1.jpg
+  gen 2429: 거리 = 0.4789, 임계값 = 0.4520, 차이 = 0.0269
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2429/2429_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2429/2429_1.jpg
+  gen 2445: 거리 = 0.5141, 임계값 = 0.4520, 차이 = 0.0621
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2445/2445_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2445/2445_1.jpg
+  gen 2457: 거리 = 0.4956, 임계값 = 0.4520, 차이 = 0.0436
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2457/2457_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2457/2457_1.jpg
+  gen 2458: 거리 = 0.5089, 임계값 = 0.4520, 차이 = 0.0569
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2458/2458_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2458/2458_1.jpg
+  gen 2474: 거리 = 0.4779, 임계값 = 0.4520, 차이 = 0.0259
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2474/2474_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2474/2474_1.jpg
+  gen 2491: 거리 = 0.4544, 임계값 = 0.4520, 차이 = 0.0024
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2491/2491_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2491/2491_1.jpg
+  gen 2498: 거리 = 0.5269, 임계값 = 0.4520, 차이 = 0.0749
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2498/2498_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2498/2498_1.jpg
+  gen 2512: 거리 = 0.4716, 임계값 = 0.4520, 차이 = 0.0196
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2512/2512_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2512/2512_1.jpg
+  gen 2560: 거리 = 0.4891, 임계값 = 0.4520, 차이 = 0.0371
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2560/2560_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2560/2560_1.jpg
+  gen 2591: 거리 = 0.4778, 임계값 = 0.4520, 차이 = 0.0258
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2591/2591_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2591/2591_1.jpg
+  gen 2680: 거리 = 0.4852, 임계값 = 0.4520, 차이 = 0.0332
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2680/2680_1.jpg
+  gen 2681: 거리 = 0.4650, 임계값 = 0.4520, 차이 = 0.0130
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2681/2681_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2681/2681_1.jpg
+  gen 2682: 거리 = 0.4694, 임계값 = 0.4520, 차이 = 0.0174
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2682/2682_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2682/2682_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4520 (훈련 정확도: 0.9637)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2740: 거리 = 0.4136, 임계값 = 0.4520, 차이 = 0.0384
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2740/2740_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2740/2740_1.jpg
+  imp 2769: 거리 = 0.4262, 임계값 = 0.4520, 차이 = 0.0258
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2769/2769_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2769/2769_1.jpg
+  imp 2776: 거리 = 0.4260, 임계값 = 0.4520, 차이 = 0.0260
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2776/2776_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2776/2776_1.jpg
+  imp 2787: 거리 = 0.4296, 임계값 = 0.4520, 차이 = 0.0224
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2787/2787_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2787/2787_1.jpg
+  imp 2932: 거리 = 0.4471, 임계값 = 0.4520, 차이 = 0.0049
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2932/2932_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2932/2932_1.jpg
+  imp 2963: 거리 = 0.4422, 임계값 = 0.4520, 차이 = 0.0098
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2963/2963_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2963/2963_1.jpg
+  imp 2973: 거리 = 0.4474, 임계값 = 0.4520, 차이 = 0.0046
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/imp/2973/2973_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/imp/2973/2973_1.jpg
+
+거짓 음성(False Negative) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2700: 거리 = 0.4569, 임계값 = 0.4520, 차이 = 0.0049
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2700/2700_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2700/2700_1.jpg
+  gen 2726: 거리 = 0.5324, 임계값 = 0.4520, 차이 = 0.0804
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2726/2726_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2726/2726_1.jpg
+  gen 2749: 거리 = 0.4569, 임계값 = 0.4520, 차이 = 0.0049
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2749/2749_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2749/2749_1.jpg
+  gen 2811: 거리 = 0.4773, 임계값 = 0.4520, 차이 = 0.0253
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2811/2811_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2811/2811_1.jpg
+  gen 2852: 거리 = 0.4880, 임계값 = 0.4520, 차이 = 0.0360
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2852/2852_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2852/2852_1.jpg
+  gen 2854: 거리 = 0.4995, 임계값 = 0.4520, 차이 = 0.0475
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2854/2854_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2854/2854_1.jpg
+  gen 2935: 거리 = 0.4976, 임계값 = 0.4520, 차이 = 0.0456
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2935/2935_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2935/2935_1.jpg
+  gen 2954: 거리 = 0.4611, 임계값 = 0.4520, 차이 = 0.0091
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2954/2954_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2954/2954_1.jpg
+  gen 2962: 거리 = 0.4879, 임계값 = 0.4520, 차이 = 0.0359
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2962/2962_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2962/2962_1.jpg
+  gen 2979: 거리 = 0.4658, 임계값 = 0.4520, 차이 = 0.0138
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2979/2979_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2979/2979_1.jpg
+  gen 2980: 거리 = 0.5359, 임계값 = 0.4520, 차이 = 0.0839
+    경로1: work_dirs/corruptions/AgeDB_30/frost_1/gen/2980/2980_0.jpg
+    경로2: work_dirs/corruptions/AgeDB_30/frost_1/gen/2980/2980_1.jpg
+Accuracy for each fold: [0.97666667 0.97       0.96666667 0.95333333 0.95833333 0.975
+ 0.95       0.94666667 0.95833333 0.97      ]
+Mean Accuracy: 0.9625000000000001
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.37306827
+Standard deviation for genuine pairs: 0.044194646
+Average distance for imposter pairs: 0.49724627
+Standard deviation for imposter pairs: 0.02196156

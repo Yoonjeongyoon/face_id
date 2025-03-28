@@ -1,0 +1,1316 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9350)
+
+거짓 양성(False Positive) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 15: 거리 = 0.4318, 임계값 = 0.4440, 차이 = 0.0122
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0015/15_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0015/15_1.jpg
+  imp 44: 거리 = 0.4438, 임계값 = 0.4440, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0044/44_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0044/44_1.jpg
+  imp 105: 거리 = 0.4393, 임계값 = 0.4440, 차이 = 0.0047
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0105/105_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0105/105_1.jpg
+  imp 169: 거리 = 0.4416, 임계값 = 0.4440, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0169/169_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0169/169_1.jpg
+  imp 184: 거리 = 0.4350, 임계값 = 0.4440, 차이 = 0.0090
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0184/184_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0184/184_1.jpg
+  imp 221: 거리 = 0.4174, 임계값 = 0.4440, 차이 = 0.0266
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0221/221_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0221/221_1.jpg
+  imp 230: 거리 = 0.4179, 임계값 = 0.4440, 차이 = 0.0261
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0230/230_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0230/230_1.jpg
+  imp 241: 거리 = 0.4433, 임계값 = 0.4440, 차이 = 0.0007
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0241/241_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0241/241_1.jpg
+  imp 270: 거리 = 0.4076, 임계값 = 0.4440, 차이 = 0.0364
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0270/270_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0270/270_1.jpg
+  imp 274: 거리 = 0.4404, 임계값 = 0.4440, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0274/274_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0274/274_1.jpg
+  imp 289: 거리 = 0.4438, 임계값 = 0.4440, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0289/289_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0289/289_1.jpg
+
+거짓 음성(False Negative) 오탐지: 29개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 4: 거리 = 0.4597, 임계값 = 0.4440, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0004/4_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0004/4_1.jpg
+  gen 5: 거리 = 0.4463, 임계값 = 0.4440, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0005/5_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0005/5_1.jpg
+  gen 6: 거리 = 0.4787, 임계값 = 0.4440, 차이 = 0.0347
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0006/6_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0006/6_1.jpg
+  gen 7: 거리 = 0.4616, 임계값 = 0.4440, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0007/7_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0007/7_1.jpg
+  gen 17: 거리 = 0.4602, 임계값 = 0.4440, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0017/17_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0017/17_1.jpg
+  gen 19: 거리 = 0.4570, 임계값 = 0.4440, 차이 = 0.0130
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0019/19_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0019/19_1.jpg
+  gen 20: 거리 = 0.4453, 임계값 = 0.4440, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0020/20_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0020/20_1.jpg
+  gen 30: 거리 = 0.4674, 임계값 = 0.4440, 차이 = 0.0234
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0030/30_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0030/30_1.jpg
+  gen 31: 거리 = 0.4658, 임계값 = 0.4440, 차이 = 0.0218
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0031/31_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0031/31_1.jpg
+  gen 33: 거리 = 0.4866, 임계값 = 0.4440, 차이 = 0.0426
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0033/33_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0033/33_1.jpg
+  gen 49: 거리 = 0.4476, 임계값 = 0.4440, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0049/49_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0049/49_1.jpg
+  gen 58: 거리 = 0.4529, 임계값 = 0.4440, 차이 = 0.0089
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0058/58_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0058/58_1.jpg
+  gen 64: 거리 = 0.4987, 임계값 = 0.4440, 차이 = 0.0547
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0064/64_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0064/64_1.jpg
+  gen 69: 거리 = 0.4616, 임계값 = 0.4440, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0069/69_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0069/69_1.jpg
+  gen 72: 거리 = 0.4472, 임계값 = 0.4440, 차이 = 0.0032
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0072/72_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0072/72_1.jpg
+  gen 106: 거리 = 0.4581, 임계값 = 0.4440, 차이 = 0.0141
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0106/106_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0106/106_1.jpg
+  gen 134: 거리 = 0.4618, 임계값 = 0.4440, 차이 = 0.0178
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0134/134_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0134/134_1.jpg
+  gen 147: 거리 = 0.4866, 임계값 = 0.4440, 차이 = 0.0426
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0147/147_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0147/147_1.jpg
+  gen 162: 거리 = 0.4501, 임계값 = 0.4440, 차이 = 0.0061
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0162/162_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0162/162_1.jpg
+  gen 168: 거리 = 0.4684, 임계값 = 0.4440, 차이 = 0.0244
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0168/168_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0168/168_1.jpg
+  gen 194: 거리 = 0.5150, 임계값 = 0.4440, 차이 = 0.0710
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0194/194_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0194/194_1.jpg
+  gen 206: 거리 = 0.4753, 임계값 = 0.4440, 차이 = 0.0313
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0206/206_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0206/206_1.jpg
+  gen 211: 거리 = 0.4786, 임계값 = 0.4440, 차이 = 0.0346
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0211/211_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0211/211_1.jpg
+  gen 231: 거리 = 0.4484, 임계값 = 0.4440, 차이 = 0.0044
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0231/231_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0231/231_1.jpg
+  gen 235: 거리 = 0.4516, 임계값 = 0.4440, 차이 = 0.0076
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0235/235_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0235/235_1.jpg
+  gen 252: 거리 = 0.5170, 임계값 = 0.4440, 차이 = 0.0730
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0252/252_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0252/252_1.jpg
+  gen 253: 거리 = 0.4467, 임계값 = 0.4440, 차이 = 0.0027
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0253/253_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0253/253_1.jpg
+  gen 260: 거리 = 0.4706, 임계값 = 0.4440, 차이 = 0.0266
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0260/260_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0260/260_1.jpg
+  gen 299: 거리 = 0.4995, 임계값 = 0.4440, 차이 = 0.0555
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0299/299_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0299/299_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9356)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 359: 거리 = 0.4337, 임계값 = 0.4440, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0359/359_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0359/359_1.jpg
+  imp 373: 거리 = 0.4266, 임계값 = 0.4440, 차이 = 0.0174
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0373/373_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0373/373_1.jpg
+  imp 432: 거리 = 0.4084, 임계값 = 0.4440, 차이 = 0.0356
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0432/432_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0432/432_1.jpg
+  imp 446: 거리 = 0.4402, 임계값 = 0.4440, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0446/446_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0446/446_1.jpg
+  imp 455: 거리 = 0.4372, 임계값 = 0.4440, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0455/455_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0455/455_1.jpg
+  imp 492: 거리 = 0.4228, 임계값 = 0.4440, 차이 = 0.0212
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0492/492_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0492/492_1.jpg
+  imp 523: 거리 = 0.4199, 임계값 = 0.4440, 차이 = 0.0241
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0523/523_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0523/523_1.jpg
+
+거짓 음성(False Negative) 오탐지: 36개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 316: 거리 = 0.4775, 임계값 = 0.4440, 차이 = 0.0335
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0316/316_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0316/316_1.jpg
+  gen 323: 거리 = 0.4834, 임계값 = 0.4440, 차이 = 0.0394
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0323/323_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0323/323_1.jpg
+  gen 324: 거리 = 0.4577, 임계값 = 0.4440, 차이 = 0.0137
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0324/324_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0324/324_1.jpg
+  gen 330: 거리 = 0.5381, 임계값 = 0.4440, 차이 = 0.0941
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0330/330_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0330/330_1.jpg
+  gen 344: 거리 = 0.5153, 임계값 = 0.4440, 차이 = 0.0713
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0344/344_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0344/344_1.jpg
+  gen 359: 거리 = 0.4802, 임계값 = 0.4440, 차이 = 0.0362
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0359/359_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0359/359_1.jpg
+  gen 372: 거리 = 0.4888, 임계값 = 0.4440, 차이 = 0.0448
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0372/372_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0372/372_1.jpg
+  gen 380: 거리 = 0.5054, 임계값 = 0.4440, 차이 = 0.0614
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0380/380_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0380/380_1.jpg
+  gen 382: 거리 = 0.4543, 임계값 = 0.4440, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0382/382_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0382/382_1.jpg
+  gen 402: 거리 = 0.4754, 임계값 = 0.4440, 차이 = 0.0314
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0402/402_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0402/402_1.jpg
+  gen 416: 거리 = 0.4653, 임계값 = 0.4440, 차이 = 0.0213
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0416/416_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0416/416_1.jpg
+  gen 419: 거리 = 0.4626, 임계값 = 0.4440, 차이 = 0.0186
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0419/419_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0419/419_1.jpg
+  gen 423: 거리 = 0.4805, 임계값 = 0.4440, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0423/423_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0423/423_1.jpg
+  gen 433: 거리 = 0.4762, 임계값 = 0.4440, 차이 = 0.0322
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0433/433_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0433/433_1.jpg
+  gen 438: 거리 = 0.4575, 임계값 = 0.4440, 차이 = 0.0135
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0438/438_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0438/438_1.jpg
+  gen 446: 거리 = 0.4807, 임계값 = 0.4440, 차이 = 0.0367
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0446/446_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0446/446_1.jpg
+  gen 451: 거리 = 0.5032, 임계값 = 0.4440, 차이 = 0.0592
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0451/451_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0451/451_1.jpg
+  gen 456: 거리 = 0.4645, 임계값 = 0.4440, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0456/456_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0456/456_1.jpg
+  gen 467: 거리 = 0.4445, 임계값 = 0.4440, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0467/467_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0467/467_1.jpg
+  gen 481: 거리 = 0.4747, 임계값 = 0.4440, 차이 = 0.0307
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0481/481_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0481/481_1.jpg
+  gen 489: 거리 = 0.4587, 임계값 = 0.4440, 차이 = 0.0147
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0489/489_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0489/489_1.jpg
+  gen 498: 거리 = 0.5029, 임계값 = 0.4440, 차이 = 0.0589
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0498/498_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0498/498_1.jpg
+  gen 501: 거리 = 0.4897, 임계값 = 0.4440, 차이 = 0.0457
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0501/501_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0501/501_1.jpg
+  gen 502: 거리 = 0.4667, 임계값 = 0.4440, 차이 = 0.0227
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0502/502_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0502/502_1.jpg
+  gen 516: 거리 = 0.5198, 임계값 = 0.4440, 차이 = 0.0758
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0516/516_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0516/516_1.jpg
+  gen 532: 거리 = 0.4478, 임계값 = 0.4440, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0532/532_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0532/532_1.jpg
+  gen 534: 거리 = 0.4630, 임계값 = 0.4440, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0534/534_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0534/534_1.jpg
+  gen 539: 거리 = 0.4510, 임계값 = 0.4440, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0539/539_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0539/539_1.jpg
+  gen 543: 거리 = 0.4645, 임계값 = 0.4440, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0543/543_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0543/543_1.jpg
+  gen 545: 거리 = 0.4848, 임계값 = 0.4440, 차이 = 0.0408
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0545/545_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0545/545_1.jpg
+  gen 553: 거리 = 0.4506, 임계값 = 0.4440, 차이 = 0.0066
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0553/553_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0553/553_1.jpg
+  gen 558: 거리 = 0.4761, 임계값 = 0.4440, 차이 = 0.0321
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0558/558_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0558/558_1.jpg
+  gen 559: 거리 = 0.4579, 임계값 = 0.4440, 차이 = 0.0139
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0559/559_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0559/559_1.jpg
+  gen 560: 거리 = 0.4597, 임계값 = 0.4440, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0560/560_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0560/560_1.jpg
+  gen 562: 거리 = 0.4810, 임계값 = 0.4440, 차이 = 0.0370
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0562/562_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0562/562_1.jpg
+  gen 573: 거리 = 0.5260, 임계값 = 0.4440, 차이 = 0.0820
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0573/573_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0573/573_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9341)
+
+거짓 양성(False Positive) 오탐지: 5개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 684: 거리 = 0.4404, 임계값 = 0.4440, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0684/684_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0684/684_1.jpg
+  imp 701: 거리 = 0.4400, 임계값 = 0.4440, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0701/701_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0701/701_1.jpg
+  imp 793: 거리 = 0.4298, 임계값 = 0.4440, 차이 = 0.0142
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0793/793_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0793/793_1.jpg
+  imp 827: 거리 = 0.4435, 임계값 = 0.4440, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0827/827_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0827/827_1.jpg
+  imp 835: 거리 = 0.4110, 임계값 = 0.4440, 차이 = 0.0330
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0835/835_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0835/835_1.jpg
+
+거짓 음성(False Negative) 오탐지: 30개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 601: 거리 = 0.4646, 임계값 = 0.4440, 차이 = 0.0206
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0601/601_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0601/601_1.jpg
+  gen 602: 거리 = 0.5170, 임계값 = 0.4440, 차이 = 0.0730
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0602/602_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0602/602_1.jpg
+  gen 608: 거리 = 0.4890, 임계값 = 0.4440, 차이 = 0.0450
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0608/608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0608/608_1.jpg
+  gen 618: 거리 = 0.4987, 임계값 = 0.4440, 차이 = 0.0547
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0618/618_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0618/618_1.jpg
+  gen 650: 거리 = 0.4732, 임계값 = 0.4440, 차이 = 0.0292
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0650/650_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0650/650_1.jpg
+  gen 656: 거리 = 0.4611, 임계값 = 0.4440, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0656/656_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0656/656_1.jpg
+  gen 658: 거리 = 0.4540, 임계값 = 0.4440, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0658/658_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0658/658_1.jpg
+  gen 660: 거리 = 0.4817, 임계값 = 0.4440, 차이 = 0.0377
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0660/660_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0660/660_1.jpg
+  gen 661: 거리 = 0.5244, 임계값 = 0.4440, 차이 = 0.0804
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0661/661_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0661/661_1.jpg
+  gen 662: 거리 = 0.5095, 임계값 = 0.4440, 차이 = 0.0655
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0662/662_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0662/662_1.jpg
+  gen 674: 거리 = 0.4670, 임계값 = 0.4440, 차이 = 0.0230
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0674/674_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0674/674_1.jpg
+  gen 685: 거리 = 0.4780, 임계값 = 0.4440, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0685/685_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0685/685_1.jpg
+  gen 695: 거리 = 0.5069, 임계값 = 0.4440, 차이 = 0.0629
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0695/695_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0695/695_1.jpg
+  gen 718: 거리 = 0.4477, 임계값 = 0.4440, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0718/718_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0718/718_1.jpg
+  gen 722: 거리 = 0.4767, 임계값 = 0.4440, 차이 = 0.0327
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0722/722_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0722/722_1.jpg
+  gen 741: 거리 = 0.4969, 임계값 = 0.4440, 차이 = 0.0529
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0741/741_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0741/741_1.jpg
+  gen 743: 거리 = 0.4609, 임계값 = 0.4440, 차이 = 0.0169
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0743/743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0743/743_1.jpg
+  gen 745: 거리 = 0.5236, 임계값 = 0.4440, 차이 = 0.0796
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0745/745_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0745/745_1.jpg
+  gen 755: 거리 = 0.5263, 임계값 = 0.4440, 차이 = 0.0823
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0755/755_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0755/755_1.jpg
+  gen 775: 거리 = 0.4495, 임계값 = 0.4440, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0775/775_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0775/775_1.jpg
+  gen 784: 거리 = 0.4522, 임계값 = 0.4440, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0784/784_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0784/784_1.jpg
+  gen 829: 거리 = 0.4451, 임계값 = 0.4440, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0829/829_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0829/829_1.jpg
+  gen 832: 거리 = 0.4491, 임계값 = 0.4440, 차이 = 0.0051
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0832/832_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0832/832_1.jpg
+  gen 833: 거리 = 0.4753, 임계값 = 0.4440, 차이 = 0.0313
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0833/833_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0833/833_1.jpg
+  gen 840: 거리 = 0.4535, 임계값 = 0.4440, 차이 = 0.0095
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0840/840_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0840/840_1.jpg
+  gen 848: 거리 = 0.4923, 임계값 = 0.4440, 차이 = 0.0483
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0848/848_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0848/848_1.jpg
+  gen 852: 거리 = 0.5157, 임계값 = 0.4440, 차이 = 0.0717
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0852/852_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0852/852_1.jpg
+  gen 860: 거리 = 0.4730, 임계값 = 0.4440, 차이 = 0.0290
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0860/860_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0860/860_1.jpg
+  gen 880: 거리 = 0.4680, 임계값 = 0.4440, 차이 = 0.0240
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0880/880_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0880/880_1.jpg
+  gen 887: 거리 = 0.4976, 임계값 = 0.4440, 차이 = 0.0536
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0887/887_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0887/887_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9356)
+
+거짓 양성(False Positive) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 915: 거리 = 0.4353, 임계값 = 0.4440, 차이 = 0.0087
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0915/915_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0915/915_1.jpg
+  imp 952: 거리 = 0.4382, 임계값 = 0.4440, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0952/952_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0952/952_1.jpg
+  imp 968: 거리 = 0.4325, 임계값 = 0.4440, 차이 = 0.0115
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0968/968_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/0968/968_1.jpg
+  imp 1015: 거리 = 0.4235, 임계값 = 0.4440, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1015/1015_1.jpg
+  imp 1018: 거리 = 0.4345, 임계값 = 0.4440, 차이 = 0.0095
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1018/1018_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1018/1018_1.jpg
+  imp 1105: 거리 = 0.4207, 임계값 = 0.4440, 차이 = 0.0233
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1105/1105_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1105/1105_1.jpg
+  imp 1132: 거리 = 0.4382, 임계값 = 0.4440, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1132/1132_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1132/1132_1.jpg
+  imp 1151: 거리 = 0.4439, 임계값 = 0.4440, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1151/1151_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1151/1151_1.jpg
+  imp 1166: 거리 = 0.4395, 임계값 = 0.4440, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1166/1166_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1166/1166_1.jpg
+  imp 1169: 거리 = 0.4377, 임계값 = 0.4440, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1169/1169_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1169/1169_1.jpg
+
+거짓 음성(False Negative) 오탐지: 33개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 914: 거리 = 0.4907, 임계값 = 0.4440, 차이 = 0.0467
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0914/914_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0914/914_1.jpg
+  gen 923: 거리 = 0.5051, 임계값 = 0.4440, 차이 = 0.0611
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0923/923_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0923/923_1.jpg
+  gen 931: 거리 = 0.5064, 임계값 = 0.4440, 차이 = 0.0624
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0931/931_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0931/931_1.jpg
+  gen 932: 거리 = 0.4495, 임계값 = 0.4440, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0932/932_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0932/932_1.jpg
+  gen 934: 거리 = 0.4513, 임계값 = 0.4440, 차이 = 0.0073
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0934/934_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0934/934_1.jpg
+  gen 938: 거리 = 0.4679, 임계값 = 0.4440, 차이 = 0.0239
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0938/938_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0938/938_1.jpg
+  gen 947: 거리 = 0.5001, 임계값 = 0.4440, 차이 = 0.0561
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0947/947_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0947/947_1.jpg
+  gen 949: 거리 = 0.5078, 임계값 = 0.4440, 차이 = 0.0638
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0949/949_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0949/949_1.jpg
+  gen 952: 거리 = 0.4906, 임계값 = 0.4440, 차이 = 0.0466
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0952/952_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0952/952_1.jpg
+  gen 955: 거리 = 0.4463, 임계값 = 0.4440, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0955/955_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0955/955_1.jpg
+  gen 963: 거리 = 0.4487, 임계값 = 0.4440, 차이 = 0.0047
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0963/963_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0963/963_1.jpg
+  gen 979: 거리 = 0.4820, 임계값 = 0.4440, 차이 = 0.0380
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0979/979_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/0979/979_1.jpg
+  gen 1015: 거리 = 0.5292, 임계값 = 0.4440, 차이 = 0.0852
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1015/1015_1.jpg
+  gen 1017: 거리 = 0.4746, 임계값 = 0.4440, 차이 = 0.0306
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1017/1017_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1017/1017_1.jpg
+  gen 1019: 거리 = 0.4820, 임계값 = 0.4440, 차이 = 0.0380
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1019/1019_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1019/1019_1.jpg
+  gen 1027: 거리 = 0.4991, 임계값 = 0.4440, 차이 = 0.0551
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1027/1027_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1027/1027_1.jpg
+  gen 1032: 거리 = 0.4820, 임계값 = 0.4440, 차이 = 0.0380
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1032/1032_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1032/1032_1.jpg
+  gen 1038: 거리 = 0.5327, 임계값 = 0.4440, 차이 = 0.0887
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1038/1038_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1038/1038_1.jpg
+  gen 1047: 거리 = 0.4784, 임계값 = 0.4440, 차이 = 0.0344
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1047/1047_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1047/1047_1.jpg
+  gen 1064: 거리 = 0.4784, 임계값 = 0.4440, 차이 = 0.0344
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1064/1064_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1064/1064_1.jpg
+  gen 1068: 거리 = 0.4975, 임계값 = 0.4440, 차이 = 0.0535
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1068/1068_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1068/1068_1.jpg
+  gen 1069: 거리 = 0.4924, 임계값 = 0.4440, 차이 = 0.0484
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1069/1069_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1069/1069_1.jpg
+  gen 1081: 거리 = 0.4494, 임계값 = 0.4440, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1081/1081_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1081/1081_1.jpg
+  gen 1086: 거리 = 0.4908, 임계값 = 0.4440, 차이 = 0.0468
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1086/1086_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1086/1086_1.jpg
+  gen 1095: 거리 = 0.4677, 임계값 = 0.4440, 차이 = 0.0237
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1095/1095_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1095/1095_1.jpg
+  gen 1105: 거리 = 0.4808, 임계값 = 0.4440, 차이 = 0.0368
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1105/1105_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1105/1105_1.jpg
+  gen 1107: 거리 = 0.4551, 임계값 = 0.4440, 차이 = 0.0111
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1107/1107_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1107/1107_1.jpg
+  gen 1110: 거리 = 0.4657, 임계값 = 0.4440, 차이 = 0.0217
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1110/1110_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1110/1110_1.jpg
+  gen 1116: 거리 = 0.4454, 임계값 = 0.4440, 차이 = 0.0014
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1116/1116_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1116/1116_1.jpg
+  gen 1117: 거리 = 0.4601, 임계값 = 0.4440, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1117/1117_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1117/1117_1.jpg
+  gen 1135: 거리 = 0.4755, 임계값 = 0.4440, 차이 = 0.0315
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1135/1135_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1135/1135_1.jpg
+  gen 1138: 거리 = 0.4704, 임계값 = 0.4440, 차이 = 0.0264
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1138/1138_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1138/1138_1.jpg
+  gen 1191: 거리 = 0.4713, 임계값 = 0.4440, 차이 = 0.0273
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1191/1191_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1191/1191_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9357)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1228: 거리 = 0.4311, 임계값 = 0.4440, 차이 = 0.0129
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1228/1228_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1228/1228_1.jpg
+  imp 1238: 거리 = 0.4130, 임계값 = 0.4440, 차이 = 0.0310
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1238/1238_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1238/1238_1.jpg
+  imp 1264: 거리 = 0.4430, 임계값 = 0.4440, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1264/1264_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1264/1264_1.jpg
+  imp 1306: 거리 = 0.4370, 임계값 = 0.4440, 차이 = 0.0070
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1306/1306_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1306/1306_1.jpg
+  imp 1308: 거리 = 0.4287, 임계값 = 0.4440, 차이 = 0.0153
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1308/1308_1.jpg
+  imp 1356: 거리 = 0.4350, 임계값 = 0.4440, 차이 = 0.0090
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1356/1356_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1356/1356_1.jpg
+  imp 1374: 거리 = 0.3976, 임계값 = 0.4440, 차이 = 0.0464
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1374/1374_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1374/1374_1.jpg
+  imp 1414: 거리 = 0.4148, 임계값 = 0.4440, 차이 = 0.0292
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1414/1414_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1414/1414_1.jpg
+
+거짓 음성(False Negative) 오탐지: 36개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1202: 거리 = 0.4852, 임계값 = 0.4440, 차이 = 0.0412
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1202/1202_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1202/1202_1.jpg
+  gen 1221: 거리 = 0.4780, 임계값 = 0.4440, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1221/1221_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1221/1221_1.jpg
+  gen 1240: 거리 = 0.5070, 임계값 = 0.4440, 차이 = 0.0630
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1240/1240_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1240/1240_1.jpg
+  gen 1246: 거리 = 0.4505, 임계값 = 0.4440, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1246/1246_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1246/1246_1.jpg
+  gen 1273: 거리 = 0.4513, 임계값 = 0.4440, 차이 = 0.0073
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1273/1273_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1273/1273_1.jpg
+  gen 1293: 거리 = 0.4543, 임계값 = 0.4440, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1293/1293_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1293/1293_1.jpg
+  gen 1300: 거리 = 0.5087, 임계값 = 0.4440, 차이 = 0.0647
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1300/1300_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1300/1300_1.jpg
+  gen 1308: 거리 = 0.4523, 임계값 = 0.4440, 차이 = 0.0083
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1308/1308_1.jpg
+  gen 1318: 거리 = 0.4766, 임계값 = 0.4440, 차이 = 0.0326
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1318/1318_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1318/1318_1.jpg
+  gen 1320: 거리 = 0.4848, 임계값 = 0.4440, 차이 = 0.0408
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1320/1320_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1320/1320_1.jpg
+  gen 1332: 거리 = 0.4590, 임계값 = 0.4440, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1332/1332_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1332/1332_1.jpg
+  gen 1333: 거리 = 0.4794, 임계값 = 0.4440, 차이 = 0.0354
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1333/1333_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1333/1333_1.jpg
+  gen 1336: 거리 = 0.4696, 임계값 = 0.4440, 차이 = 0.0256
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1336/1336_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1336/1336_1.jpg
+  gen 1341: 거리 = 0.4753, 임계값 = 0.4440, 차이 = 0.0313
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1341/1341_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1341/1341_1.jpg
+  gen 1361: 거리 = 0.4883, 임계값 = 0.4440, 차이 = 0.0443
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1361/1361_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1361/1361_1.jpg
+  gen 1363: 거리 = 0.4692, 임계값 = 0.4440, 차이 = 0.0252
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1363/1363_1.jpg
+  gen 1374: 거리 = 0.4890, 임계값 = 0.4440, 차이 = 0.0450
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1374/1374_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1374/1374_1.jpg
+  gen 1384: 거리 = 0.4502, 임계값 = 0.4440, 차이 = 0.0062
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1384/1384_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1384/1384_1.jpg
+  gen 1396: 거리 = 0.4639, 임계값 = 0.4440, 차이 = 0.0199
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1396/1396_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1396/1396_1.jpg
+  gen 1400: 거리 = 0.4637, 임계값 = 0.4440, 차이 = 0.0197
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1400/1400_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1400/1400_1.jpg
+  gen 1412: 거리 = 0.4547, 임계값 = 0.4440, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1412/1412_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1412/1412_1.jpg
+  gen 1425: 거리 = 0.4457, 임계값 = 0.4440, 차이 = 0.0017
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1425/1425_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1425/1425_1.jpg
+  gen 1433: 거리 = 0.4441, 임계값 = 0.4440, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1433/1433_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1433/1433_1.jpg
+  gen 1444: 거리 = 0.4635, 임계값 = 0.4440, 차이 = 0.0195
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1444/1444_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1444/1444_1.jpg
+  gen 1448: 거리 = 0.5180, 임계값 = 0.4440, 차이 = 0.0740
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1448/1448_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1448/1448_1.jpg
+  gen 1453: 거리 = 0.4509, 임계값 = 0.4440, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1453/1453_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1453/1453_1.jpg
+  gen 1456: 거리 = 0.4816, 임계값 = 0.4440, 차이 = 0.0376
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1456/1456_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1456/1456_1.jpg
+  gen 1458: 거리 = 0.4894, 임계값 = 0.4440, 차이 = 0.0454
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1458/1458_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1458/1458_1.jpg
+  gen 1460: 거리 = 0.4967, 임계값 = 0.4440, 차이 = 0.0527
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1460/1460_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1460/1460_1.jpg
+  gen 1463: 거리 = 0.4596, 임계값 = 0.4440, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1463/1463_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1463/1463_1.jpg
+  gen 1468: 거리 = 0.5309, 임계값 = 0.4440, 차이 = 0.0869
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1468/1468_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1468/1468_1.jpg
+  gen 1478: 거리 = 0.5029, 임계값 = 0.4440, 차이 = 0.0589
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1478/1478_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1478/1478_1.jpg
+  gen 1481: 거리 = 0.4459, 임계값 = 0.4440, 차이 = 0.0019
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1481/1481_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1481/1481_1.jpg
+  gen 1489: 거리 = 0.4520, 임계값 = 0.4440, 차이 = 0.0080
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1489/1489_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1489/1489_1.jpg
+  gen 1497: 거리 = 0.4634, 임계값 = 0.4440, 차이 = 0.0194
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1497/1497_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1497/1497_1.jpg
+  gen 1499: 거리 = 0.4819, 임계값 = 0.4440, 차이 = 0.0379
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1499/1499_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1499/1499_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9333)
+
+거짓 양성(False Positive) 오탐지: 9개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1545: 거리 = 0.4425, 임계값 = 0.4440, 차이 = 0.0015
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1545/1545_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1545/1545_1.jpg
+  imp 1600: 거리 = 0.4366, 임계값 = 0.4440, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1600/1600_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1600/1600_1.jpg
+  imp 1642: 거리 = 0.4369, 임계값 = 0.4440, 차이 = 0.0071
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1642/1642_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1642/1642_1.jpg
+  imp 1658: 거리 = 0.4312, 임계값 = 0.4440, 차이 = 0.0128
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1658/1658_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1658/1658_1.jpg
+  imp 1672: 거리 = 0.4416, 임계값 = 0.4440, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1672/1672_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1672/1672_1.jpg
+  imp 1688: 거리 = 0.4397, 임계값 = 0.4440, 차이 = 0.0043
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1688/1688_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1688/1688_1.jpg
+  imp 1751: 거리 = 0.4238, 임계값 = 0.4440, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1751/1751_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1751/1751_1.jpg
+  imp 1754: 거리 = 0.4428, 임계값 = 0.4440, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1754/1754_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1754/1754_1.jpg
+  imp 1799: 거리 = 0.4334, 임계값 = 0.4440, 차이 = 0.0106
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1799/1799_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1799/1799_1.jpg
+
+거짓 음성(False Negative) 오탐지: 22개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1508: 거리 = 0.5009, 임계값 = 0.4440, 차이 = 0.0569
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1508/1508_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1508/1508_1.jpg
+  gen 1509: 거리 = 0.4526, 임계값 = 0.4440, 차이 = 0.0086
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1509/1509_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1509/1509_1.jpg
+  gen 1519: 거리 = 0.4580, 임계값 = 0.4440, 차이 = 0.0140
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1519/1519_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1519/1519_1.jpg
+  gen 1526: 거리 = 0.4547, 임계값 = 0.4440, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1526/1526_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1526/1526_1.jpg
+  gen 1543: 거리 = 0.4629, 임계값 = 0.4440, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1543/1543_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1543/1543_1.jpg
+  gen 1546: 거리 = 0.4450, 임계값 = 0.4440, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1546/1546_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1546/1546_1.jpg
+  gen 1562: 거리 = 0.4643, 임계값 = 0.4440, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1562/1562_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1562/1562_1.jpg
+  gen 1568: 거리 = 0.4743, 임계값 = 0.4440, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1568/1568_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1568/1568_1.jpg
+  gen 1570: 거리 = 0.4490, 임계값 = 0.4440, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1570/1570_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1570/1570_1.jpg
+  gen 1577: 거리 = 0.5173, 임계값 = 0.4440, 차이 = 0.0733
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1577/1577_1.jpg
+  gen 1581: 거리 = 0.4911, 임계값 = 0.4440, 차이 = 0.0471
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1581/1581_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1581/1581_1.jpg
+  gen 1608: 거리 = 0.5078, 임계값 = 0.4440, 차이 = 0.0638
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1608/1608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1608/1608_1.jpg
+  gen 1610: 거리 = 0.4470, 임계값 = 0.4440, 차이 = 0.0030
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1610/1610_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1610/1610_1.jpg
+  gen 1611: 거리 = 0.4902, 임계값 = 0.4440, 차이 = 0.0462
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1611/1611_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1611/1611_1.jpg
+  gen 1668: 거리 = 0.4748, 임계값 = 0.4440, 차이 = 0.0308
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1668/1668_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1668/1668_1.jpg
+  gen 1671: 거리 = 0.4629, 임계값 = 0.4440, 차이 = 0.0189
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1671/1671_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1671/1671_1.jpg
+  gen 1680: 거리 = 0.4814, 임계값 = 0.4440, 차이 = 0.0374
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1680/1680_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1680/1680_1.jpg
+  gen 1695: 거리 = 0.4862, 임계값 = 0.4440, 차이 = 0.0422
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1695/1695_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1695/1695_1.jpg
+  gen 1726: 거리 = 0.4601, 임계값 = 0.4440, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1726/1726_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1726/1726_1.jpg
+  gen 1743: 거리 = 0.5079, 임계값 = 0.4440, 차이 = 0.0639
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1743/1743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1743/1743_1.jpg
+  gen 1772: 거리 = 0.5068, 임계값 = 0.4440, 차이 = 0.0628
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1772/1772_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1772/1772_1.jpg
+  gen 1781: 거리 = 0.4735, 임계값 = 0.4440, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1781/1781_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1781/1781_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9333)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1828: 거리 = 0.4426, 임계값 = 0.4440, 차이 = 0.0014
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1828/1828_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1828/1828_1.jpg
+  imp 1840: 거리 = 0.4272, 임계값 = 0.4440, 차이 = 0.0168
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1840/1840_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1840/1840_1.jpg
+  imp 1856: 거리 = 0.4247, 임계값 = 0.4440, 차이 = 0.0193
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1856/1856_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1856/1856_1.jpg
+  imp 1868: 거리 = 0.4250, 임계값 = 0.4440, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1868/1868_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1868/1868_1.jpg
+  imp 1976: 거리 = 0.4377, 임계값 = 0.4440, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1976/1976_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1976/1976_1.jpg
+  imp 1978: 거리 = 0.4153, 임계값 = 0.4440, 차이 = 0.0287
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1978/1978_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1978/1978_1.jpg
+  imp 1997: 거리 = 0.4375, 임계값 = 0.4440, 차이 = 0.0065
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1997/1997_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/1997/1997_1.jpg
+  imp 2041: 거리 = 0.4322, 임계값 = 0.4440, 차이 = 0.0118
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2041/2041_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2041/2041_1.jpg
+
+거짓 음성(False Negative) 오탐지: 23개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1801: 거리 = 0.4441, 임계값 = 0.4440, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1801/1801_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1801/1801_1.jpg
+  gen 1802: 거리 = 0.4466, 임계값 = 0.4440, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1802/1802_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1802/1802_1.jpg
+  gen 1803: 거리 = 0.4686, 임계값 = 0.4440, 차이 = 0.0246
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1803/1803_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1803/1803_1.jpg
+  gen 1805: 거리 = 0.4512, 임계값 = 0.4440, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1805/1805_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1805/1805_1.jpg
+  gen 1806: 거리 = 0.4637, 임계값 = 0.4440, 차이 = 0.0197
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1806/1806_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1806/1806_1.jpg
+  gen 1813: 거리 = 0.4575, 임계값 = 0.4440, 차이 = 0.0135
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1813/1813_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1813/1813_1.jpg
+  gen 1818: 거리 = 0.4778, 임계값 = 0.4440, 차이 = 0.0338
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1818/1818_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1818/1818_1.jpg
+  gen 1831: 거리 = 0.4486, 임계값 = 0.4440, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1831/1831_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1831/1831_1.jpg
+  gen 1834: 거리 = 0.4557, 임계값 = 0.4440, 차이 = 0.0117
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1834/1834_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1834/1834_1.jpg
+  gen 1843: 거리 = 0.4584, 임계값 = 0.4440, 차이 = 0.0144
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1843/1843_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1843/1843_1.jpg
+  gen 1850: 거리 = 0.5140, 임계값 = 0.4440, 차이 = 0.0700
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1850/1850_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1850/1850_1.jpg
+  gen 1855: 거리 = 0.4982, 임계값 = 0.4440, 차이 = 0.0542
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1855/1855_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1855/1855_1.jpg
+  gen 1857: 거리 = 0.5101, 임계값 = 0.4440, 차이 = 0.0661
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1857/1857_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1857/1857_1.jpg
+  gen 1877: 거리 = 0.5090, 임계값 = 0.4440, 차이 = 0.0650
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1877/1877_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1877/1877_1.jpg
+  gen 1892: 거리 = 0.4468, 임계값 = 0.4440, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1892/1892_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1892/1892_1.jpg
+  gen 1901: 거리 = 0.4771, 임계값 = 0.4440, 차이 = 0.0331
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1901/1901_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1901/1901_1.jpg
+  gen 1906: 거리 = 0.4692, 임계값 = 0.4440, 차이 = 0.0252
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1906/1906_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1906/1906_1.jpg
+  gen 1917: 거리 = 0.4579, 임계값 = 0.4440, 차이 = 0.0139
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1917/1917_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1917/1917_1.jpg
+  gen 1946: 거리 = 0.4449, 임계값 = 0.4440, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1946/1946_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1946/1946_1.jpg
+  gen 1953: 거리 = 0.4602, 임계값 = 0.4440, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1953/1953_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/1953/1953_1.jpg
+  gen 2008: 거리 = 0.4466, 임계값 = 0.4440, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2008/2008_1.jpg
+  gen 2025: 거리 = 0.4921, 임계값 = 0.4440, 차이 = 0.0481
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2025/2025_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2025/2025_1.jpg
+  gen 2029: 거리 = 0.4924, 임계값 = 0.4440, 차이 = 0.0484
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2029/2029_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2029/2029_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4490 (훈련 정확도: 0.9352)
+
+거짓 양성(False Positive) 오탐지: 17개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2166: 거리 = 0.4112, 임계값 = 0.4490, 차이 = 0.0378
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2166/2166_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2166/2166_1.jpg
+  imp 2186: 거리 = 0.4448, 임계값 = 0.4490, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2186/2186_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2186/2186_1.jpg
+  imp 2202: 거리 = 0.4470, 임계값 = 0.4490, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2202/2202_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2202/2202_1.jpg
+  imp 2229: 거리 = 0.4245, 임계값 = 0.4490, 차이 = 0.0245
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2229/2229_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2229/2229_1.jpg
+  imp 2257: 거리 = 0.4366, 임계값 = 0.4490, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2257/2257_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2257/2257_1.jpg
+  imp 2260: 거리 = 0.4477, 임계값 = 0.4490, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2260/2260_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2260/2260_1.jpg
+  imp 2299: 거리 = 0.4000, 임계값 = 0.4490, 차이 = 0.0490
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2299/2299_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2299/2299_1.jpg
+  imp 2312: 거리 = 0.4482, 임계값 = 0.4490, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2312/2312_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2312/2312_1.jpg
+  imp 2324: 거리 = 0.4458, 임계값 = 0.4490, 차이 = 0.0032
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2324/2324_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2324/2324_1.jpg
+  imp 2349: 거리 = 0.4445, 임계값 = 0.4490, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2349/2349_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2349/2349_1.jpg
+  imp 2350: 거리 = 0.4342, 임계값 = 0.4490, 차이 = 0.0148
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2350/2350_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2350/2350_1.jpg
+  imp 2365: 거리 = 0.4486, 임계값 = 0.4490, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2365/2365_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2365/2365_1.jpg
+  imp 2366: 거리 = 0.4260, 임계값 = 0.4490, 차이 = 0.0230
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2366/2366_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2366/2366_1.jpg
+  imp 2385: 거리 = 0.4127, 임계값 = 0.4490, 차이 = 0.0363
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2385/2385_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2385/2385_1.jpg
+  imp 2388: 거리 = 0.4488, 임계값 = 0.4490, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2388/2388_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2388/2388_1.jpg
+  imp 2389: 거리 = 0.4020, 임계값 = 0.4490, 차이 = 0.0470
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2389/2389_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2389/2389_1.jpg
+  imp 2390: 거리 = 0.4054, 임계값 = 0.4490, 차이 = 0.0436
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2390/2390_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2390/2390_1.jpg
+
+거짓 음성(False Negative) 오탐지: 29개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2100: 거리 = 0.4511, 임계값 = 0.4490, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2100/2100_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2100/2100_1.jpg
+  gen 2103: 거리 = 0.4608, 임계값 = 0.4490, 차이 = 0.0118
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2103/2103_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2103/2103_1.jpg
+  gen 2115: 거리 = 0.4520, 임계값 = 0.4490, 차이 = 0.0030
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2115/2115_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2115/2115_1.jpg
+  gen 2116: 거리 = 0.4732, 임계값 = 0.4490, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2116/2116_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2116/2116_1.jpg
+  gen 2124: 거리 = 0.4667, 임계값 = 0.4490, 차이 = 0.0177
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2124/2124_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2124/2124_1.jpg
+  gen 2138: 거리 = 0.5062, 임계값 = 0.4490, 차이 = 0.0572
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2138/2138_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2138/2138_1.jpg
+  gen 2141: 거리 = 0.5025, 임계값 = 0.4490, 차이 = 0.0535
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2141/2141_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2141/2141_1.jpg
+  gen 2146: 거리 = 0.4668, 임계값 = 0.4490, 차이 = 0.0178
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2146/2146_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2146/2146_1.jpg
+  gen 2166: 거리 = 0.4512, 임계값 = 0.4490, 차이 = 0.0022
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2166/2166_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2166/2166_1.jpg
+  gen 2167: 거리 = 0.5325, 임계값 = 0.4490, 차이 = 0.0835
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2167/2167_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2167/2167_1.jpg
+  gen 2169: 거리 = 0.4929, 임계값 = 0.4490, 차이 = 0.0439
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2169/2169_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2169/2169_1.jpg
+  gen 2176: 거리 = 0.4657, 임계값 = 0.4490, 차이 = 0.0167
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2176/2176_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2176/2176_1.jpg
+  gen 2186: 거리 = 0.4648, 임계값 = 0.4490, 차이 = 0.0158
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2186/2186_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2186/2186_1.jpg
+  gen 2203: 거리 = 0.4919, 임계값 = 0.4490, 차이 = 0.0429
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2203/2203_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2203/2203_1.jpg
+  gen 2209: 거리 = 0.4490, 임계값 = 0.4490, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2209/2209_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2209/2209_1.jpg
+  gen 2213: 거리 = 0.4824, 임계값 = 0.4490, 차이 = 0.0334
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2213/2213_1.jpg
+  gen 2222: 거리 = 0.4692, 임계값 = 0.4490, 차이 = 0.0202
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2222/2222_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2222/2222_1.jpg
+  gen 2226: 거리 = 0.5044, 임계값 = 0.4490, 차이 = 0.0554
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2226/2226_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2226/2226_1.jpg
+  gen 2232: 거리 = 0.4580, 임계값 = 0.4490, 차이 = 0.0090
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2232/2232_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2232/2232_1.jpg
+  gen 2235: 거리 = 0.4898, 임계값 = 0.4490, 차이 = 0.0408
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2235/2235_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2235/2235_1.jpg
+  gen 2248: 거리 = 0.4848, 임계값 = 0.4490, 차이 = 0.0358
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2248/2248_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2248/2248_1.jpg
+  gen 2267: 거리 = 0.4503, 임계값 = 0.4490, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2267/2267_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2267/2267_1.jpg
+  gen 2275: 거리 = 0.5166, 임계값 = 0.4490, 차이 = 0.0676
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2275/2275_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2275/2275_1.jpg
+  gen 2283: 거리 = 0.5120, 임계값 = 0.4490, 차이 = 0.0630
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2283/2283_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2283/2283_1.jpg
+  gen 2319: 거리 = 0.4535, 임계값 = 0.4490, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2319/2319_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2319/2319_1.jpg
+  gen 2325: 거리 = 0.4807, 임계값 = 0.4490, 차이 = 0.0317
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2325/2325_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2325/2325_1.jpg
+  gen 2341: 거리 = 0.4921, 임계값 = 0.4490, 차이 = 0.0431
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2341/2341_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2341/2341_1.jpg
+  gen 2344: 거리 = 0.5043, 임계값 = 0.4490, 차이 = 0.0553
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2344/2344_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2344/2344_1.jpg
+  gen 2395: 거리 = 0.4562, 임계값 = 0.4490, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2395/2395_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2395/2395_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9354)
+
+거짓 양성(False Positive) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2403: 거리 = 0.4393, 임계값 = 0.4440, 차이 = 0.0047
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2403/2403_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2403/2403_1.jpg
+  imp 2553: 거리 = 0.4197, 임계값 = 0.4440, 차이 = 0.0243
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2553/2553_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2553/2553_1.jpg
+  imp 2565: 거리 = 0.4429, 임계값 = 0.4440, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2565/2565_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2565/2565_1.jpg
+  imp 2570: 거리 = 0.4315, 임계값 = 0.4440, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2570/2570_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2570/2570_1.jpg
+  imp 2580: 거리 = 0.4313, 임계값 = 0.4440, 차이 = 0.0127
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2580/2580_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2580/2580_1.jpg
+  imp 2586: 거리 = 0.4259, 임계값 = 0.4440, 차이 = 0.0181
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2586/2586_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2586/2586_1.jpg
+  imp 2608: 거리 = 0.4405, 임계값 = 0.4440, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2608/2608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2608/2608_1.jpg
+  imp 2646: 거리 = 0.4385, 임계값 = 0.4440, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2646/2646_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2646/2646_1.jpg
+  imp 2666: 거리 = 0.4041, 임계값 = 0.4440, 차이 = 0.0399
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2666/2666_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2666/2666_1.jpg
+  imp 2668: 거리 = 0.4426, 임계값 = 0.4440, 차이 = 0.0014
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2668/2668_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2668/2668_1.jpg
+  imp 2697: 거리 = 0.3965, 임계값 = 0.4440, 차이 = 0.0475
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2697/2697_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2697/2697_1.jpg
+
+거짓 음성(False Negative) 오탐지: 31개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2403: 거리 = 0.4491, 임계값 = 0.4440, 차이 = 0.0051
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2403/2403_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2403/2403_1.jpg
+  gen 2408: 거리 = 0.4987, 임계값 = 0.4440, 차이 = 0.0547
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2408/2408_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2408/2408_1.jpg
+  gen 2410: 거리 = 0.4763, 임계값 = 0.4440, 차이 = 0.0323
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2410/2410_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2410/2410_1.jpg
+  gen 2414: 거리 = 0.4920, 임계값 = 0.4440, 차이 = 0.0480
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2414/2414_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2414/2414_1.jpg
+  gen 2416: 거리 = 0.4699, 임계값 = 0.4440, 차이 = 0.0259
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2416/2416_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2416/2416_1.jpg
+  gen 2422: 거리 = 0.4671, 임계값 = 0.4440, 차이 = 0.0231
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2422/2422_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2422/2422_1.jpg
+  gen 2423: 거리 = 0.4602, 임계값 = 0.4440, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2423/2423_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2423/2423_1.jpg
+  gen 2425: 거리 = 0.5094, 임계값 = 0.4440, 차이 = 0.0654
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2425/2425_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2425/2425_1.jpg
+  gen 2426: 거리 = 0.4601, 임계값 = 0.4440, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2426/2426_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2426/2426_1.jpg
+  gen 2427: 거리 = 0.4750, 임계값 = 0.4440, 차이 = 0.0310
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2427/2427_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2427/2427_1.jpg
+  gen 2435: 거리 = 0.5145, 임계값 = 0.4440, 차이 = 0.0705
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2435/2435_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2435/2435_1.jpg
+  gen 2448: 거리 = 0.4778, 임계값 = 0.4440, 차이 = 0.0338
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2448/2448_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2448/2448_1.jpg
+  gen 2460: 거리 = 0.4790, 임계값 = 0.4440, 차이 = 0.0350
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2460/2460_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2460/2460_1.jpg
+  gen 2463: 거리 = 0.4830, 임계값 = 0.4440, 차이 = 0.0390
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2463/2463_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2463/2463_1.jpg
+  gen 2474: 거리 = 0.4826, 임계값 = 0.4440, 차이 = 0.0386
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2474/2474_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2474/2474_1.jpg
+  gen 2485: 거리 = 0.4480, 임계값 = 0.4440, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2485/2485_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2485/2485_1.jpg
+  gen 2513: 거리 = 0.5049, 임계값 = 0.4440, 차이 = 0.0609
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2513/2513_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2513/2513_1.jpg
+  gen 2525: 거리 = 0.4645, 임계값 = 0.4440, 차이 = 0.0205
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2525/2525_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2525/2525_1.jpg
+  gen 2528: 거리 = 0.4564, 임계값 = 0.4440, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2528/2528_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2528/2528_1.jpg
+  gen 2535: 거리 = 0.4547, 임계값 = 0.4440, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2535/2535_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2535/2535_1.jpg
+  gen 2545: 거리 = 0.4719, 임계값 = 0.4440, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2545/2545_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2545/2545_1.jpg
+  gen 2546: 거리 = 0.4621, 임계값 = 0.4440, 차이 = 0.0181
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2546/2546_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2546/2546_1.jpg
+  gen 2551: 거리 = 0.4597, 임계값 = 0.4440, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2551/2551_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2551/2551_1.jpg
+  gen 2556: 거리 = 0.4681, 임계값 = 0.4440, 차이 = 0.0241
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2556/2556_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2556/2556_1.jpg
+  gen 2563: 거리 = 0.5177, 임계값 = 0.4440, 차이 = 0.0737
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2563/2563_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2563/2563_1.jpg
+  gen 2591: 거리 = 0.4461, 임계값 = 0.4440, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2591/2591_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2591/2591_1.jpg
+  gen 2597: 거리 = 0.4556, 임계값 = 0.4440, 차이 = 0.0116
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2597/2597_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2597/2597_1.jpg
+  gen 2621: 거리 = 0.4486, 임계값 = 0.4440, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2621/2621_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2621/2621_1.jpg
+  gen 2623: 거리 = 0.4571, 임계값 = 0.4440, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2623/2623_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2623/2623_1.jpg
+  gen 2646: 거리 = 0.4741, 임계값 = 0.4440, 차이 = 0.0301
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2646/2646_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2646/2646_1.jpg
+  gen 2670: 거리 = 0.4537, 임계값 = 0.4440, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2670/2670_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2670/2670_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9357)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2833: 거리 = 0.4314, 임계값 = 0.4440, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2833/2833_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2833/2833_1.jpg
+  imp 2896: 거리 = 0.4356, 임계값 = 0.4440, 차이 = 0.0084
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2896/2896_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2896/2896_1.jpg
+  imp 2917: 거리 = 0.4388, 임계값 = 0.4440, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2917/2917_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2917/2917_1.jpg
+  imp 2993: 거리 = 0.4419, 임계값 = 0.4440, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2993/2993_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/imp/2993/2993_1.jpg
+
+거짓 음성(False Negative) 오탐지: 40개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2702: 거리 = 0.4759, 임계값 = 0.4440, 차이 = 0.0319
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2702/2702_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2702/2702_1.jpg
+  gen 2706: 거리 = 0.4456, 임계값 = 0.4440, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2706/2706_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2706/2706_1.jpg
+  gen 2710: 거리 = 0.4833, 임계값 = 0.4440, 차이 = 0.0393
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2710/2710_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2710/2710_1.jpg
+  gen 2711: 거리 = 0.4540, 임계값 = 0.4440, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2711/2711_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2711/2711_1.jpg
+  gen 2713: 거리 = 0.4488, 임계값 = 0.4440, 차이 = 0.0048
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2713/2713_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2713/2713_1.jpg
+  gen 2716: 거리 = 0.4693, 임계값 = 0.4440, 차이 = 0.0253
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2716/2716_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2716/2716_1.jpg
+  gen 2727: 거리 = 0.5099, 임계값 = 0.4440, 차이 = 0.0659
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2727/2727_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2727/2727_1.jpg
+  gen 2730: 거리 = 0.5028, 임계값 = 0.4440, 차이 = 0.0588
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2730/2730_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2730/2730_1.jpg
+  gen 2737: 거리 = 0.4486, 임계값 = 0.4440, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2737/2737_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2737/2737_1.jpg
+  gen 2743: 거리 = 0.4915, 임계값 = 0.4440, 차이 = 0.0475
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2743/2743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2743/2743_1.jpg
+  gen 2744: 거리 = 0.4644, 임계값 = 0.4440, 차이 = 0.0204
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2744/2744_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2744/2744_1.jpg
+  gen 2747: 거리 = 0.4855, 임계값 = 0.4440, 차이 = 0.0415
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2747/2747_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2747/2747_1.jpg
+  gen 2749: 거리 = 0.4563, 임계값 = 0.4440, 차이 = 0.0123
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2749/2749_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2749/2749_1.jpg
+  gen 2751: 거리 = 0.4901, 임계값 = 0.4440, 차이 = 0.0461
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2751/2751_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2751/2751_1.jpg
+  gen 2756: 거리 = 0.4829, 임계값 = 0.4440, 차이 = 0.0389
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2756/2756_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2756/2756_1.jpg
+  gen 2758: 거리 = 0.4583, 임계값 = 0.4440, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2758/2758_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2758/2758_1.jpg
+  gen 2759: 거리 = 0.4507, 임계값 = 0.4440, 차이 = 0.0067
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2759/2759_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2759/2759_1.jpg
+  gen 2761: 거리 = 0.5058, 임계값 = 0.4440, 차이 = 0.0618
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2761/2761_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2761/2761_1.jpg
+  gen 2762: 거리 = 0.4485, 임계값 = 0.4440, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2762/2762_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2762/2762_1.jpg
+  gen 2766: 거리 = 0.4440, 임계값 = 0.4440, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2766/2766_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2766/2766_1.jpg
+  gen 2768: 거리 = 0.4547, 임계값 = 0.4440, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2768/2768_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2768/2768_1.jpg
+  gen 2774: 거리 = 0.4910, 임계값 = 0.4440, 차이 = 0.0470
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2774/2774_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2774/2774_1.jpg
+  gen 2782: 거리 = 0.4867, 임계값 = 0.4440, 차이 = 0.0427
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2782/2782_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2782/2782_1.jpg
+  gen 2784: 거리 = 0.4753, 임계값 = 0.4440, 차이 = 0.0313
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2784/2784_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2784/2784_1.jpg
+  gen 2800: 거리 = 0.4721, 임계값 = 0.4440, 차이 = 0.0281
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2800/2800_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2800/2800_1.jpg
+  gen 2803: 거리 = 0.4631, 임계값 = 0.4440, 차이 = 0.0191
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2803/2803_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2803/2803_1.jpg
+  gen 2805: 거리 = 0.4634, 임계값 = 0.4440, 차이 = 0.0194
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2805/2805_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2805/2805_1.jpg
+  gen 2821: 거리 = 0.4467, 임계값 = 0.4440, 차이 = 0.0027
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2821/2821_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2821/2821_1.jpg
+  gen 2822: 거리 = 0.4873, 임계값 = 0.4440, 차이 = 0.0433
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2822/2822_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2822/2822_1.jpg
+  gen 2827: 거리 = 0.4757, 임계값 = 0.4440, 차이 = 0.0317
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2827/2827_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2827/2827_1.jpg
+  gen 2829: 거리 = 0.4918, 임계값 = 0.4440, 차이 = 0.0478
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2829/2829_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2829/2829_1.jpg
+  gen 2842: 거리 = 0.4638, 임계값 = 0.4440, 차이 = 0.0198
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2842/2842_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2842/2842_1.jpg
+  gen 2843: 거리 = 0.5031, 임계값 = 0.4440, 차이 = 0.0591
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2843/2843_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2843/2843_1.jpg
+  gen 2882: 거리 = 0.4669, 임계값 = 0.4440, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2882/2882_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2882/2882_1.jpg
+  gen 2904: 거리 = 0.5042, 임계값 = 0.4440, 차이 = 0.0602
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2904/2904_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2904/2904_1.jpg
+  gen 2931: 거리 = 0.4474, 임계값 = 0.4440, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2931/2931_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2931/2931_1.jpg
+  gen 2957: 거리 = 0.4635, 임계값 = 0.4440, 차이 = 0.0195
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2957/2957_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2957/2957_1.jpg
+  gen 2962: 거리 = 0.4485, 임계값 = 0.4440, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2962/2962_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2962/2962_1.jpg
+  gen 2968: 거리 = 0.4948, 임계값 = 0.4440, 차이 = 0.0508
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2968/2968_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2968/2968_1.jpg
+  gen 2990: 거리 = 0.4484, 임계값 = 0.4440, 차이 = 0.0044
+    경로1: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2990/2990_0.jpg
+    경로2: work_dirs/corruptions/CALFW/defocus_blur_2/gen/2990/2990_1.jpg
+Accuracy for each fold: [0.93333333 0.92833333 0.94166667 0.92833333 0.92666667 0.94833333
+ 0.94833333 0.92333333 0.93       0.92666667]
+Mean Accuracy: 0.9334999999999999
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.3712453
+Standard deviation for genuine pairs: 0.056415506
+Average distance for imposter pairs: 0.4931491
+Standard deviation for imposter pairs: 0.024089241

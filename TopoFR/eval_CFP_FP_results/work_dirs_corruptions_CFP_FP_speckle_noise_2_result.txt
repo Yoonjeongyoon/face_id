@@ -1,0 +1,1148 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9514)
+
+거짓 양성(False Positive) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 25: 거리 = 0.4551, 임계값 = 0.4560, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0025/25_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0025/25_1.jpg
+  imp 27: 거리 = 0.4496, 임계값 = 0.4560, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0027/27_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0027/27_1.jpg
+  imp 90: 거리 = 0.4394, 임계값 = 0.4560, 차이 = 0.0166
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0090/90_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0090/90_1.jpg
+  imp 115: 거리 = 0.4457, 임계값 = 0.4560, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0115/115_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0115/115_1.jpg
+  imp 125: 거리 = 0.4485, 임계값 = 0.4560, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0125/125_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0125/125_1.jpg
+  imp 158: 거리 = 0.4544, 임계값 = 0.4560, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0158/158_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0158/158_1.jpg
+  imp 159: 거리 = 0.4550, 임계값 = 0.4560, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0159/159_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0159/159_1.jpg
+  imp 315: 거리 = 0.4443, 임계값 = 0.4560, 차이 = 0.0117
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0315/315_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0315/315_1.jpg
+  imp 334: 거리 = 0.4395, 임계값 = 0.4560, 차이 = 0.0165
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0334/334_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0334/334_1.jpg
+  imp 348: 거리 = 0.4400, 임계값 = 0.4560, 차이 = 0.0160
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0348/348_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0348/348_1.jpg
+
+거짓 음성(False Negative) 오탐지: 22개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 35: 거리 = 0.4870, 임계값 = 0.4560, 차이 = 0.0310
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0035/35_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0035/35_1.jpg
+  gen 45: 거리 = 0.4664, 임계값 = 0.4560, 차이 = 0.0104
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0045/45_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0045/45_1.jpg
+  gen 76: 거리 = 0.4571, 임계값 = 0.4560, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0076/76_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0076/76_1.jpg
+  gen 120: 거리 = 0.5077, 임계값 = 0.4560, 차이 = 0.0517
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0120/120_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0120/120_1.jpg
+  gen 125: 거리 = 0.5084, 임계값 = 0.4560, 차이 = 0.0524
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0125/125_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0125/125_1.jpg
+  gen 139: 거리 = 0.4707, 임계값 = 0.4560, 차이 = 0.0147
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0139/139_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0139/139_1.jpg
+  gen 155: 거리 = 0.4692, 임계값 = 0.4560, 차이 = 0.0132
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0155/155_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0155/155_1.jpg
+  gen 158: 거리 = 0.4886, 임계값 = 0.4560, 차이 = 0.0326
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0158/158_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0158/158_1.jpg
+  gen 160: 거리 = 0.4900, 임계값 = 0.4560, 차이 = 0.0340
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0160/160_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0160/160_1.jpg
+  gen 178: 거리 = 0.4610, 임계값 = 0.4560, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0178/178_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0178/178_1.jpg
+  gen 200: 거리 = 0.4965, 임계값 = 0.4560, 차이 = 0.0405
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0200/200_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0200/200_1.jpg
+  gen 201: 거리 = 0.4989, 임계값 = 0.4560, 차이 = 0.0429
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0201/201_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0201/201_1.jpg
+  gen 252: 거리 = 0.4651, 임계값 = 0.4560, 차이 = 0.0091
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0252/252_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0252/252_1.jpg
+  gen 255: 거리 = 0.4945, 임계값 = 0.4560, 차이 = 0.0385
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0255/255_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0255/255_1.jpg
+  gen 268: 거리 = 0.4756, 임계값 = 0.4560, 차이 = 0.0196
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0268/268_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0268/268_1.jpg
+  gen 270: 거리 = 0.4584, 임계값 = 0.4560, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0270/270_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0270/270_1.jpg
+  gen 274: 거리 = 0.4862, 임계값 = 0.4560, 차이 = 0.0302
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0274/274_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0274/274_1.jpg
+  gen 275: 거리 = 0.4839, 임계값 = 0.4560, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0275/275_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0275/275_1.jpg
+  gen 277: 거리 = 0.4722, 임계값 = 0.4560, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0277/277_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0277/277_1.jpg
+  gen 284: 거리 = 0.4810, 임계값 = 0.4560, 차이 = 0.0250
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0284/284_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0284/284_1.jpg
+  gen 285: 거리 = 0.4781, 임계값 = 0.4560, 차이 = 0.0221
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0285/285_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0285/285_1.jpg
+  gen 292: 거리 = 0.4601, 임계값 = 0.4560, 차이 = 0.0041
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0292/292_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0292/292_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9527)
+
+거짓 양성(False Positive) 오탐지: 5개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 404: 거리 = 0.4161, 임계값 = 0.4560, 차이 = 0.0399
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0404/404_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0404/404_1.jpg
+  imp 448: 거리 = 0.4479, 임계값 = 0.4560, 차이 = 0.0081
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0448/448_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0448/448_1.jpg
+  imp 516: 거리 = 0.4301, 임계값 = 0.4560, 차이 = 0.0259
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0516/516_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0516/516_1.jpg
+  imp 643: 거리 = 0.4502, 임계값 = 0.4560, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0643/643_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0643/643_1.jpg
+  imp 688: 거리 = 0.4549, 임계값 = 0.4560, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0688/688_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0688/688_1.jpg
+
+거짓 음성(False Negative) 오탐지: 35개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 365: 거리 = 0.4945, 임계값 = 0.4560, 차이 = 0.0385
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0365/365_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0365/365_1.jpg
+  gen 378: 거리 = 0.4628, 임계값 = 0.4560, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0378/378_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0378/378_1.jpg
+  gen 379: 거리 = 0.4626, 임계값 = 0.4560, 차이 = 0.0066
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0379/379_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0379/379_1.jpg
+  gen 392: 거리 = 0.4843, 임계값 = 0.4560, 차이 = 0.0283
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0392/392_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0392/392_1.jpg
+  gen 393: 거리 = 0.4644, 임계값 = 0.4560, 차이 = 0.0084
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0393/393_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0393/393_1.jpg
+  gen 397: 거리 = 0.4788, 임계값 = 0.4560, 차이 = 0.0228
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0397/397_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0397/397_1.jpg
+  gen 406: 거리 = 0.4588, 임계값 = 0.4560, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0406/406_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0406/406_1.jpg
+  gen 427: 거리 = 0.4731, 임계값 = 0.4560, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0427/427_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0427/427_1.jpg
+  gen 451: 거리 = 0.4615, 임계값 = 0.4560, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0451/451_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0451/451_1.jpg
+  gen 455: 거리 = 0.4819, 임계값 = 0.4560, 차이 = 0.0259
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0455/455_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0455/455_1.jpg
+  gen 459: 거리 = 0.5088, 임계값 = 0.4560, 차이 = 0.0528
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0459/459_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0459/459_1.jpg
+  gen 460: 거리 = 0.4855, 임계값 = 0.4560, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0460/460_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0460/460_1.jpg
+  gen 477: 거리 = 0.4979, 임계값 = 0.4560, 차이 = 0.0419
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0477/477_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0477/477_1.jpg
+  gen 496: 거리 = 0.4562, 임계값 = 0.4560, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0496/496_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0496/496_1.jpg
+  gen 538: 거리 = 0.4657, 임계값 = 0.4560, 차이 = 0.0097
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0538/538_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0538/538_1.jpg
+  gen 558: 거리 = 0.4679, 임계값 = 0.4560, 차이 = 0.0119
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0558/558_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0558/558_1.jpg
+  gen 562: 거리 = 0.4648, 임계값 = 0.4560, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0562/562_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0562/562_1.jpg
+  gen 587: 거리 = 0.4586, 임계값 = 0.4560, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0587/587_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0587/587_1.jpg
+  gen 602: 거리 = 0.4610, 임계값 = 0.4560, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0602/602_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0602/602_1.jpg
+  gen 610: 거리 = 0.5415, 임계값 = 0.4560, 차이 = 0.0855
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0610/610_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0610/610_1.jpg
+  gen 612: 거리 = 0.5441, 임계값 = 0.4560, 차이 = 0.0881
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0612/612_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0612/612_1.jpg
+  gen 631: 거리 = 0.4724, 임계값 = 0.4560, 차이 = 0.0164
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0631/631_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0631/631_1.jpg
+  gen 632: 거리 = 0.5286, 임계값 = 0.4560, 차이 = 0.0726
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0632/632_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0632/632_1.jpg
+  gen 633: 거리 = 0.5053, 임계값 = 0.4560, 차이 = 0.0493
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0633/633_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0633/633_1.jpg
+  gen 634: 거리 = 0.4958, 임계값 = 0.4560, 차이 = 0.0398
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0634/634_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0634/634_1.jpg
+  gen 635: 거리 = 0.5091, 임계값 = 0.4560, 차이 = 0.0531
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0635/635_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0635/635_1.jpg
+  gen 636: 거리 = 0.4731, 임계값 = 0.4560, 차이 = 0.0171
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0636/636_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0636/636_1.jpg
+  gen 648: 거리 = 0.4755, 임계값 = 0.4560, 차이 = 0.0195
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0648/648_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0648/648_1.jpg
+  gen 654: 거리 = 0.4660, 임계값 = 0.4560, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0654/654_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0654/654_1.jpg
+  gen 655: 거리 = 0.5057, 임계값 = 0.4560, 차이 = 0.0497
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0655/655_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0655/655_1.jpg
+  gen 656: 거리 = 0.4756, 임계값 = 0.4560, 차이 = 0.0196
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0656/656_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0656/656_1.jpg
+  gen 679: 거리 = 0.4712, 임계값 = 0.4560, 차이 = 0.0152
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0679/679_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0679/679_1.jpg
+  gen 681: 거리 = 0.4659, 임계값 = 0.4560, 차이 = 0.0099
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0681/681_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0681/681_1.jpg
+  gen 685: 거리 = 0.4600, 임계값 = 0.4560, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0685/685_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0685/685_1.jpg
+  gen 694: 거리 = 0.4710, 임계값 = 0.4560, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0694/694_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0694/694_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9513)
+
+거짓 양성(False Positive) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 721: 거리 = 0.4475, 임계값 = 0.4560, 차이 = 0.0085
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0721/721_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0721/721_1.jpg
+  imp 756: 거리 = 0.4396, 임계값 = 0.4560, 차이 = 0.0164
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0756/756_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0756/756_1.jpg
+  imp 808: 거리 = 0.4548, 임계값 = 0.4560, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0808/808_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0808/808_1.jpg
+  imp 822: 거리 = 0.4226, 임계값 = 0.4560, 차이 = 0.0334
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0822/822_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0822/822_1.jpg
+  imp 859: 거리 = 0.4507, 임계값 = 0.4560, 차이 = 0.0053
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0859/859_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0859/859_1.jpg
+  imp 869: 거리 = 0.4544, 임계값 = 0.4560, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0869/869_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0869/869_1.jpg
+  imp 965: 거리 = 0.4429, 임계값 = 0.4560, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0965/965_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0965/965_1.jpg
+  imp 970: 거리 = 0.4544, 임계값 = 0.4560, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0970/970_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0970/970_1.jpg
+  imp 973: 거리 = 0.4491, 임계값 = 0.4560, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0973/973_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/0973/973_1.jpg
+  imp 1005: 거리 = 0.4511, 임계값 = 0.4560, 차이 = 0.0049
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1005/1005_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1005/1005_1.jpg
+
+거짓 음성(False Negative) 오탐지: 21개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 705: 거리 = 0.5342, 임계값 = 0.4560, 차이 = 0.0782
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0705/705_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0705/705_1.jpg
+  gen 717: 거리 = 0.4787, 임계값 = 0.4560, 차이 = 0.0227
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0717/717_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0717/717_1.jpg
+  gen 739: 거리 = 0.4568, 임계값 = 0.4560, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0739/739_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0739/739_1.jpg
+  gen 742: 거리 = 0.4823, 임계값 = 0.4560, 차이 = 0.0263
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0742/742_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0742/742_1.jpg
+  gen 823: 거리 = 0.4623, 임계값 = 0.4560, 차이 = 0.0063
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0823/823_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0823/823_1.jpg
+  gen 826: 거리 = 0.4768, 임계값 = 0.4560, 차이 = 0.0208
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0826/826_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0826/826_1.jpg
+  gen 828: 거리 = 0.4651, 임계값 = 0.4560, 차이 = 0.0091
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0828/828_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0828/828_1.jpg
+  gen 831: 거리 = 0.4798, 임계값 = 0.4560, 차이 = 0.0238
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0831/831_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0831/831_1.jpg
+  gen 834: 거리 = 0.4853, 임계값 = 0.4560, 차이 = 0.0293
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0834/834_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0834/834_1.jpg
+  gen 837: 거리 = 0.4681, 임계값 = 0.4560, 차이 = 0.0121
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0837/837_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0837/837_1.jpg
+  gen 854: 거리 = 0.4772, 임계값 = 0.4560, 차이 = 0.0212
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0854/854_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0854/854_1.jpg
+  gen 856: 거리 = 0.4576, 임계값 = 0.4560, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0856/856_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0856/856_1.jpg
+  gen 857: 거리 = 0.4592, 임계값 = 0.4560, 차이 = 0.0032
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0857/857_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0857/857_1.jpg
+  gen 859: 거리 = 0.4664, 임계값 = 0.4560, 차이 = 0.0104
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0859/859_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0859/859_1.jpg
+  gen 864: 거리 = 0.4661, 임계값 = 0.4560, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0864/864_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0864/864_1.jpg
+  gen 927: 거리 = 0.4674, 임계값 = 0.4560, 차이 = 0.0114
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0927/927_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0927/927_1.jpg
+  gen 928: 거리 = 0.4668, 임계값 = 0.4560, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0928/928_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0928/928_1.jpg
+  gen 994: 거리 = 0.4876, 임계값 = 0.4560, 차이 = 0.0316
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0994/994_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0994/994_1.jpg
+  gen 999: 거리 = 0.5045, 임계값 = 0.4560, 차이 = 0.0485
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0999/999_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/0999/999_1.jpg
+  gen 1005: 거리 = 0.4773, 임계값 = 0.4560, 차이 = 0.0213
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1005/1005_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1005/1005_1.jpg
+  gen 1046: 거리 = 0.4720, 임계값 = 0.4560, 차이 = 0.0160
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1046/1046_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1046/1046_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9521)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1063: 거리 = 0.4410, 임계값 = 0.4560, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1063/1063_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1063/1063_1.jpg
+  imp 1076: 거리 = 0.4552, 임계값 = 0.4560, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1076/1076_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1076/1076_1.jpg
+  imp 1193: 거리 = 0.4554, 임계값 = 0.4560, 차이 = 0.0006
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1193/1193_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1193/1193_1.jpg
+  imp 1237: 거리 = 0.4540, 임계값 = 0.4560, 차이 = 0.0020
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1237/1237_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1237/1237_1.jpg
+  imp 1295: 거리 = 0.4558, 임계값 = 0.4560, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1295/1295_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1295/1295_1.jpg
+  imp 1346: 거리 = 0.4342, 임계값 = 0.4560, 차이 = 0.0218
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1346/1346_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1346/1346_1.jpg
+  imp 1359: 거리 = 0.4545, 임계값 = 0.4560, 차이 = 0.0015
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1359/1359_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1359/1359_1.jpg
+  imp 1370: 거리 = 0.4492, 임계값 = 0.4560, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1370/1370_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1370/1370_1.jpg
+
+거짓 음성(False Negative) 오탐지: 28개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1072: 거리 = 0.4673, 임계값 = 0.4560, 차이 = 0.0113
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1072/1072_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1072/1072_1.jpg
+  gen 1078: 거리 = 0.4629, 임계값 = 0.4560, 차이 = 0.0069
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1078/1078_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1078/1078_1.jpg
+  gen 1081: 거리 = 0.4835, 임계값 = 0.4560, 차이 = 0.0275
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1081/1081_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1081/1081_1.jpg
+  gen 1082: 거리 = 0.4990, 임계값 = 0.4560, 차이 = 0.0430
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1082/1082_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1082/1082_1.jpg
+  gen 1083: 거리 = 0.4735, 임계값 = 0.4560, 차이 = 0.0175
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1083/1083_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1083/1083_1.jpg
+  gen 1084: 거리 = 0.4766, 임계값 = 0.4560, 차이 = 0.0206
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1084/1084_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1084/1084_1.jpg
+  gen 1089: 거리 = 0.4582, 임계값 = 0.4560, 차이 = 0.0022
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1089/1089_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1089/1089_1.jpg
+  gen 1091: 거리 = 0.4767, 임계값 = 0.4560, 차이 = 0.0207
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1091/1091_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1091/1091_1.jpg
+  gen 1092: 거리 = 0.4595, 임계값 = 0.4560, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1092/1092_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1092/1092_1.jpg
+  gen 1098: 거리 = 0.4606, 임계값 = 0.4560, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1098/1098_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1098/1098_1.jpg
+  gen 1109: 거리 = 0.4752, 임계값 = 0.4560, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1109/1109_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1109/1109_1.jpg
+  gen 1132: 거리 = 0.4683, 임계값 = 0.4560, 차이 = 0.0123
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1132/1132_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1132/1132_1.jpg
+  gen 1200: 거리 = 0.4641, 임계값 = 0.4560, 차이 = 0.0081
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1200/1200_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1200/1200_1.jpg
+  gen 1216: 거리 = 0.5012, 임계값 = 0.4560, 차이 = 0.0452
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1216/1216_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1216/1216_1.jpg
+  gen 1233: 거리 = 0.4668, 임계값 = 0.4560, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1233/1233_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1233/1233_1.jpg
+  gen 1236: 거리 = 0.4926, 임계값 = 0.4560, 차이 = 0.0366
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1236/1236_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1236/1236_1.jpg
+  gen 1238: 거리 = 0.4843, 임계값 = 0.4560, 차이 = 0.0283
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1238/1238_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1238/1238_1.jpg
+  gen 1247: 거리 = 0.4600, 임계값 = 0.4560, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1247/1247_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1247/1247_1.jpg
+  gen 1248: 거리 = 0.4662, 임계값 = 0.4560, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1248/1248_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1248/1248_1.jpg
+  gen 1249: 거리 = 0.4746, 임계값 = 0.4560, 차이 = 0.0186
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1249/1249_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1249/1249_1.jpg
+  gen 1286: 거리 = 0.5004, 임계값 = 0.4560, 차이 = 0.0444
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1286/1286_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1286/1286_1.jpg
+  gen 1287: 거리 = 0.4735, 임계값 = 0.4560, 차이 = 0.0175
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1287/1287_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1287/1287_1.jpg
+  gen 1297: 거리 = 0.4724, 임계값 = 0.4560, 차이 = 0.0164
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1297/1297_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1297/1297_1.jpg
+  gen 1299: 거리 = 0.4795, 임계값 = 0.4560, 차이 = 0.0235
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1299/1299_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1299/1299_1.jpg
+  gen 1344: 거리 = 0.4628, 임계값 = 0.4560, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1344/1344_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1344/1344_1.jpg
+  gen 1354: 거리 = 0.4594, 임계값 = 0.4560, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1354/1354_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1354/1354_1.jpg
+  gen 1360: 거리 = 0.5000, 임계값 = 0.4560, 차이 = 0.0440
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1360/1360_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1360/1360_1.jpg
+  gen 1363: 거리 = 0.4874, 임계값 = 0.4560, 차이 = 0.0314
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1363/1363_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9543)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1451: 거리 = 0.4526, 임계값 = 0.4560, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1451/1451_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1451/1451_1.jpg
+  imp 1457: 거리 = 0.4531, 임계값 = 0.4560, 차이 = 0.0029
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1457/1457_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1457/1457_1.jpg
+  imp 1458: 거리 = 0.4474, 임계값 = 0.4560, 차이 = 0.0086
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1458/1458_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1458/1458_1.jpg
+  imp 1536: 거리 = 0.4508, 임계값 = 0.4560, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1536/1536_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1536/1536_1.jpg
+  imp 1641: 거리 = 0.4530, 임계값 = 0.4560, 차이 = 0.0030
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1641/1641_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1641/1641_1.jpg
+  imp 1685: 거리 = 0.4456, 임계값 = 0.4560, 차이 = 0.0104
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1685/1685_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1685/1685_1.jpg
+
+거짓 음성(False Negative) 오탐지: 44개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1500: 거리 = 0.4659, 임계값 = 0.4560, 차이 = 0.0099
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1500/1500_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1500/1500_1.jpg
+  gen 1526: 거리 = 0.4598, 임계값 = 0.4560, 차이 = 0.0038
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1526/1526_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1526/1526_1.jpg
+  gen 1528: 거리 = 0.4802, 임계값 = 0.4560, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1528/1528_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1528/1528_1.jpg
+  gen 1533: 거리 = 0.4634, 임계값 = 0.4560, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1533/1533_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1533/1533_1.jpg
+  gen 1537: 거리 = 0.4602, 임계값 = 0.4560, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1537/1537_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1537/1537_1.jpg
+  gen 1541: 거리 = 0.4637, 임계값 = 0.4560, 차이 = 0.0077
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1541/1541_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1541/1541_1.jpg
+  gen 1542: 거리 = 0.4634, 임계값 = 0.4560, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1542/1542_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1542/1542_1.jpg
+  gen 1543: 거리 = 0.4760, 임계값 = 0.4560, 차이 = 0.0200
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1543/1543_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1543/1543_1.jpg
+  gen 1544: 거리 = 0.4805, 임계값 = 0.4560, 차이 = 0.0245
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1544/1544_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1544/1544_1.jpg
+  gen 1545: 거리 = 0.4818, 임계값 = 0.4560, 차이 = 0.0258
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1545/1545_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1545/1545_1.jpg
+  gen 1546: 거리 = 0.4689, 임계값 = 0.4560, 차이 = 0.0129
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1546/1546_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1546/1546_1.jpg
+  gen 1550: 거리 = 0.4698, 임계값 = 0.4560, 차이 = 0.0138
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1550/1550_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1550/1550_1.jpg
+  gen 1560: 거리 = 0.4696, 임계값 = 0.4560, 차이 = 0.0136
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1560/1560_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1560/1560_1.jpg
+  gen 1568: 거리 = 0.5067, 임계값 = 0.4560, 차이 = 0.0507
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1568/1568_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1568/1568_1.jpg
+  gen 1571: 거리 = 0.4833, 임계값 = 0.4560, 차이 = 0.0273
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1571/1571_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1571/1571_1.jpg
+  gen 1574: 거리 = 0.4935, 임계값 = 0.4560, 차이 = 0.0375
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1574/1574_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1574/1574_1.jpg
+  gen 1587: 거리 = 0.4571, 임계값 = 0.4560, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1587/1587_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1587/1587_1.jpg
+  gen 1590: 거리 = 0.5367, 임계값 = 0.4560, 차이 = 0.0807
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1590/1590_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1590/1590_1.jpg
+  gen 1593: 거리 = 0.4815, 임계값 = 0.4560, 차이 = 0.0255
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1593/1593_1.jpg
+  gen 1596: 거리 = 0.4561, 임계값 = 0.4560, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1596/1596_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1596/1596_1.jpg
+  gen 1598: 거리 = 0.4612, 임계값 = 0.4560, 차이 = 0.0052
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1598/1598_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1598/1598_1.jpg
+  gen 1602: 거리 = 0.4614, 임계값 = 0.4560, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1602/1602_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1602/1602_1.jpg
+  gen 1609: 거리 = 0.4899, 임계값 = 0.4560, 차이 = 0.0339
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1609/1609_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1609/1609_1.jpg
+  gen 1618: 거리 = 0.4594, 임계값 = 0.4560, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1618/1618_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1618/1618_1.jpg
+  gen 1619: 거리 = 0.4732, 임계값 = 0.4560, 차이 = 0.0172
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1619/1619_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1619/1619_1.jpg
+  gen 1620: 거리 = 0.4756, 임계값 = 0.4560, 차이 = 0.0196
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1620/1620_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1620/1620_1.jpg
+  gen 1621: 거리 = 0.4821, 임계값 = 0.4560, 차이 = 0.0261
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1621/1621_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1621/1621_1.jpg
+  gen 1623: 거리 = 0.4672, 임계값 = 0.4560, 차이 = 0.0112
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1623/1623_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1623/1623_1.jpg
+  gen 1652: 거리 = 0.4628, 임계값 = 0.4560, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1652/1652_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1652/1652_1.jpg
+  gen 1657: 거리 = 0.4834, 임계값 = 0.4560, 차이 = 0.0274
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1657/1657_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1657/1657_1.jpg
+  gen 1658: 거리 = 0.4703, 임계값 = 0.4560, 차이 = 0.0143
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1658/1658_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1658/1658_1.jpg
+  gen 1659: 거리 = 0.4781, 임계값 = 0.4560, 차이 = 0.0221
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1659/1659_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1659/1659_1.jpg
+  gen 1660: 거리 = 0.4807, 임계값 = 0.4560, 차이 = 0.0247
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1660/1660_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1660/1660_1.jpg
+  gen 1661: 거리 = 0.5150, 임계값 = 0.4560, 차이 = 0.0590
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1661/1661_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1661/1661_1.jpg
+  gen 1662: 거리 = 0.4671, 임계값 = 0.4560, 차이 = 0.0111
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1662/1662_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1662/1662_1.jpg
+  gen 1665: 거리 = 0.5251, 임계값 = 0.4560, 차이 = 0.0691
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1665/1665_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1665/1665_1.jpg
+  gen 1699: 거리 = 0.4716, 임계값 = 0.4560, 차이 = 0.0156
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1699/1699_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1699/1699_1.jpg
+  gen 1701: 거리 = 0.4858, 임계값 = 0.4560, 차이 = 0.0298
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1701/1701_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1701/1701_1.jpg
+  gen 1702: 거리 = 0.5088, 임계값 = 0.4560, 차이 = 0.0528
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1702/1702_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1702/1702_1.jpg
+  gen 1705: 거리 = 0.4721, 임계값 = 0.4560, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1705/1705_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1705/1705_1.jpg
+  gen 1706: 거리 = 0.4708, 임계값 = 0.4560, 차이 = 0.0148
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1706/1706_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1706/1706_1.jpg
+  gen 1738: 거리 = 0.4565, 임계값 = 0.4560, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1738/1738_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1738/1738_1.jpg
+  gen 1739: 거리 = 0.4668, 임계값 = 0.4560, 차이 = 0.0108
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1739/1739_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1739/1739_1.jpg
+  gen 1741: 거리 = 0.4615, 임계값 = 0.4560, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1741/1741_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1741/1741_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9522)
+
+거짓 양성(False Positive) 오탐지: 9개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1772: 거리 = 0.4537, 임계값 = 0.4560, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1772/1772_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1772/1772_1.jpg
+  imp 1815: 거리 = 0.4275, 임계값 = 0.4560, 차이 = 0.0285
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1815/1815_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1815/1815_1.jpg
+  imp 1827: 거리 = 0.4095, 임계값 = 0.4560, 차이 = 0.0465
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1827/1827_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1827/1827_1.jpg
+  imp 1835: 거리 = 0.4527, 임계값 = 0.4560, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1835/1835_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1835/1835_1.jpg
+  imp 1852: 거리 = 0.4353, 임계값 = 0.4560, 차이 = 0.0207
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1852/1852_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1852/1852_1.jpg
+  imp 1927: 거리 = 0.4411, 임계값 = 0.4560, 차이 = 0.0149
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1927/1927_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1927/1927_1.jpg
+  imp 1965: 거리 = 0.4436, 임계값 = 0.4560, 차이 = 0.0124
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1965/1965_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/1965/1965_1.jpg
+  imp 2055: 거리 = 0.4548, 임계값 = 0.4560, 차이 = 0.0012
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2055/2055_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2055/2055_1.jpg
+  imp 2095: 거리 = 0.4552, 임계값 = 0.4560, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2095/2095_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2095/2095_1.jpg
+
+거짓 음성(False Negative) 오탐지: 28개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1810: 거리 = 0.4588, 임계값 = 0.4560, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1810/1810_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1810/1810_1.jpg
+  gen 1813: 거리 = 0.4636, 임계값 = 0.4560, 차이 = 0.0076
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1813/1813_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1813/1813_1.jpg
+  gen 1815: 거리 = 0.4976, 임계값 = 0.4560, 차이 = 0.0416
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1815/1815_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1815/1815_1.jpg
+  gen 1819: 거리 = 0.4573, 임계값 = 0.4560, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1819/1819_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1819/1819_1.jpg
+  gen 1835: 거리 = 0.4754, 임계값 = 0.4560, 차이 = 0.0194
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1835/1835_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1835/1835_1.jpg
+  gen 1838: 거리 = 0.4864, 임계값 = 0.4560, 차이 = 0.0304
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1838/1838_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1838/1838_1.jpg
+  gen 1849: 거리 = 0.4661, 임계값 = 0.4560, 차이 = 0.0101
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1849/1849_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1849/1849_1.jpg
+  gen 1856: 거리 = 0.4721, 임계값 = 0.4560, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1856/1856_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1856/1856_1.jpg
+  gen 1859: 거리 = 0.4744, 임계값 = 0.4560, 차이 = 0.0184
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1859/1859_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1859/1859_1.jpg
+  gen 1860: 거리 = 0.5088, 임계값 = 0.4560, 차이 = 0.0528
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1860/1860_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1860/1860_1.jpg
+  gen 1869: 거리 = 0.4685, 임계값 = 0.4560, 차이 = 0.0125
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1869/1869_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1869/1869_1.jpg
+  gen 1871: 거리 = 0.4763, 임계값 = 0.4560, 차이 = 0.0203
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1871/1871_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1871/1871_1.jpg
+  gen 1873: 거리 = 0.4984, 임계값 = 0.4560, 차이 = 0.0424
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1873/1873_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1873/1873_1.jpg
+  gen 1883: 거리 = 0.4789, 임계값 = 0.4560, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1883/1883_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1883/1883_1.jpg
+  gen 1885: 거리 = 0.4746, 임계값 = 0.4560, 차이 = 0.0186
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1885/1885_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1885/1885_1.jpg
+  gen 1888: 거리 = 0.4933, 임계값 = 0.4560, 차이 = 0.0373
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1888/1888_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1888/1888_1.jpg
+  gen 1889: 거리 = 0.4902, 임계값 = 0.4560, 차이 = 0.0342
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1889/1889_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1889/1889_1.jpg
+  gen 1918: 거리 = 0.4645, 임계값 = 0.4560, 차이 = 0.0085
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1918/1918_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1918/1918_1.jpg
+  gen 1922: 거리 = 0.4895, 임계값 = 0.4560, 차이 = 0.0335
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1922/1922_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1922/1922_1.jpg
+  gen 1923: 거리 = 0.4614, 임계값 = 0.4560, 차이 = 0.0054
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1923/1923_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1923/1923_1.jpg
+  gen 1946: 거리 = 0.4680, 임계값 = 0.4560, 차이 = 0.0120
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1946/1946_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1946/1946_1.jpg
+  gen 1956: 거리 = 0.4597, 임계값 = 0.4560, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1956/1956_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1956/1956_1.jpg
+  gen 1958: 거리 = 0.4841, 임계값 = 0.4560, 차이 = 0.0281
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1958/1958_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1958/1958_1.jpg
+  gen 1959: 거리 = 0.4596, 임계값 = 0.4560, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1959/1959_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/1959/1959_1.jpg
+  gen 2008: 거리 = 0.4722, 임계값 = 0.4560, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2008/2008_1.jpg
+  gen 2009: 거리 = 0.4582, 임계값 = 0.4560, 차이 = 0.0022
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2009/2009_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2009/2009_1.jpg
+  gen 2069: 거리 = 0.4593, 임계값 = 0.4560, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2069/2069_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2069/2069_1.jpg
+  gen 2071: 거리 = 0.4646, 임계값 = 0.4560, 차이 = 0.0086
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2071/2071_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2071/2071_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4600 (훈련 정확도: 0.9505)
+
+거짓 양성(False Positive) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2107: 거리 = 0.4540, 임계값 = 0.4600, 차이 = 0.0060
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2107/2107_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2107/2107_1.jpg
+  imp 2159: 거리 = 0.4529, 임계값 = 0.4600, 차이 = 0.0071
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2159/2159_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2159/2159_1.jpg
+  imp 2169: 거리 = 0.4560, 임계값 = 0.4600, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2169/2169_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2169/2169_1.jpg
+  imp 2184: 거리 = 0.4563, 임계값 = 0.4600, 차이 = 0.0037
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2184/2184_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2184/2184_1.jpg
+  imp 2185: 거리 = 0.4527, 임계값 = 0.4600, 차이 = 0.0073
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2185/2185_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2185/2185_1.jpg
+  imp 2189: 거리 = 0.4512, 임계값 = 0.4600, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2189/2189_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2189/2189_1.jpg
+  imp 2190: 거리 = 0.4587, 임계값 = 0.4600, 차이 = 0.0013
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2190/2190_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2190/2190_1.jpg
+  imp 2289: 거리 = 0.4236, 임계값 = 0.4600, 차이 = 0.0364
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2289/2289_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2289/2289_1.jpg
+  imp 2316: 거리 = 0.4438, 임계값 = 0.4600, 차이 = 0.0162
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2316/2316_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2316/2316_1.jpg
+  imp 2317: 거리 = 0.4263, 임계값 = 0.4600, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2317/2317_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2317/2317_1.jpg
+  imp 2350: 거리 = 0.4578, 임계값 = 0.4600, 차이 = 0.0022
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2350/2350_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2350/2350_1.jpg
+  imp 2354: 거리 = 0.4463, 임계값 = 0.4600, 차이 = 0.0137
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2354/2354_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2354/2354_1.jpg
+  imp 2403: 거리 = 0.4567, 임계값 = 0.4600, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2403/2403_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2403/2403_1.jpg
+
+거짓 음성(False Negative) 오탐지: 14개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2107: 거리 = 0.4968, 임계값 = 0.4600, 차이 = 0.0368
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2107/2107_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2107/2107_1.jpg
+  gen 2110: 거리 = 0.4751, 임계값 = 0.4600, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2110/2110_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2110/2110_1.jpg
+  gen 2192: 거리 = 0.4713, 임계값 = 0.4600, 차이 = 0.0113
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2192/2192_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2192/2192_1.jpg
+  gen 2193: 거리 = 0.4623, 임계값 = 0.4600, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2193/2193_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2193/2193_1.jpg
+  gen 2202: 거리 = 0.4778, 임계값 = 0.4600, 차이 = 0.0178
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2202/2202_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2202/2202_1.jpg
+  gen 2219: 거리 = 0.4813, 임계값 = 0.4600, 차이 = 0.0213
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2219/2219_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2219/2219_1.jpg
+  gen 2223: 거리 = 0.5129, 임계값 = 0.4600, 차이 = 0.0529
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2223/2223_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2223/2223_1.jpg
+  gen 2224: 거리 = 0.4761, 임계값 = 0.4600, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2224/2224_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2224/2224_1.jpg
+  gen 2335: 거리 = 0.4912, 임계값 = 0.4600, 차이 = 0.0312
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2335/2335_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2335/2335_1.jpg
+  gen 2360: 거리 = 0.4619, 임계값 = 0.4600, 차이 = 0.0019
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2360/2360_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2360/2360_1.jpg
+  gen 2378: 거리 = 0.4616, 임계값 = 0.4600, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2378/2378_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2378/2378_1.jpg
+  gen 2417: 거리 = 0.4689, 임계값 = 0.4600, 차이 = 0.0089
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2417/2417_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2417/2417_1.jpg
+  gen 2438: 거리 = 0.4751, 임계값 = 0.4600, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2438/2438_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2438/2438_1.jpg
+  gen 2445: 거리 = 0.4668, 임계값 = 0.4600, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2445/2445_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2445/2445_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9511)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2485: 거리 = 0.4524, 임계값 = 0.4560, 차이 = 0.0036
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2485/2485_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2485/2485_1.jpg
+  imp 2518: 거리 = 0.4443, 임계값 = 0.4560, 차이 = 0.0117
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2518/2518_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2518/2518_1.jpg
+  imp 2622: 거리 = 0.4556, 임계값 = 0.4560, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2622/2622_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2622/2622_1.jpg
+  imp 2669: 거리 = 0.4549, 임계값 = 0.4560, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2669/2669_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2669/2669_1.jpg
+  imp 2675: 거리 = 0.4550, 임계값 = 0.4560, 차이 = 0.0010
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2675/2675_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2675/2675_1.jpg
+  imp 2680: 거리 = 0.4331, 임계값 = 0.4560, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2680/2680_1.jpg
+  imp 2699: 거리 = 0.4397, 임계값 = 0.4560, 차이 = 0.0163
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2699/2699_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2699/2699_1.jpg
+
+거짓 음성(False Negative) 오탐지: 23개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2507: 거리 = 0.4706, 임계값 = 0.4560, 차이 = 0.0146
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2507/2507_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2507/2507_1.jpg
+  gen 2508: 거리 = 0.4608, 임계값 = 0.4560, 차이 = 0.0048
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2508/2508_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2508/2508_1.jpg
+  gen 2550: 거리 = 0.4591, 임계값 = 0.4560, 차이 = 0.0031
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2550/2550_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2550/2550_1.jpg
+  gen 2564: 거리 = 0.4744, 임계값 = 0.4560, 차이 = 0.0184
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2564/2564_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2564/2564_1.jpg
+  gen 2566: 거리 = 0.4603, 임계값 = 0.4560, 차이 = 0.0043
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2566/2566_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2566/2566_1.jpg
+  gen 2567: 거리 = 0.4999, 임계값 = 0.4560, 차이 = 0.0439
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2567/2567_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2567/2567_1.jpg
+  gen 2573: 거리 = 0.4602, 임계값 = 0.4560, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2573/2573_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2573/2573_1.jpg
+  gen 2575: 거리 = 0.5106, 임계값 = 0.4560, 차이 = 0.0546
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2575/2575_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2575/2575_1.jpg
+  gen 2613: 거리 = 0.4586, 임계값 = 0.4560, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2613/2613_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2613/2613_1.jpg
+  gen 2614: 거리 = 0.4790, 임계값 = 0.4560, 차이 = 0.0230
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2614/2614_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2614/2614_1.jpg
+  gen 2616: 거리 = 0.4564, 임계값 = 0.4560, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2616/2616_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2616/2616_1.jpg
+  gen 2632: 거리 = 0.4602, 임계값 = 0.4560, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2632/2632_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2632/2632_1.jpg
+  gen 2687: 거리 = 0.4958, 임계값 = 0.4560, 차이 = 0.0398
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2687/2687_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2687/2687_1.jpg
+  gen 2709: 거리 = 0.4652, 임계값 = 0.4560, 차이 = 0.0092
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2709/2709_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2709/2709_1.jpg
+  gen 2726: 거리 = 0.4635, 임계값 = 0.4560, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2726/2726_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2726/2726_1.jpg
+  gen 2731: 거리 = 0.4878, 임계값 = 0.4560, 차이 = 0.0318
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2731/2731_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2731/2731_1.jpg
+  gen 2733: 거리 = 0.5057, 임계값 = 0.4560, 차이 = 0.0497
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2733/2733_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2733/2733_1.jpg
+  gen 2734: 거리 = 0.4595, 임계값 = 0.4560, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2734/2734_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2734/2734_1.jpg
+  gen 2735: 거리 = 0.4604, 임계값 = 0.4560, 차이 = 0.0044
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2735/2735_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2735/2735_1.jpg
+  gen 2759: 거리 = 0.4779, 임계값 = 0.4560, 차이 = 0.0219
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2759/2759_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2759/2759_1.jpg
+  gen 2761: 거리 = 0.4639, 임계값 = 0.4560, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2761/2761_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2761/2761_1.jpg
+  gen 2767: 거리 = 0.4810, 임계값 = 0.4560, 차이 = 0.0250
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2767/2767_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2767/2767_1.jpg
+  gen 2771: 거리 = 0.5210, 임계값 = 0.4560, 차이 = 0.0650
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2771/2771_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2771/2771_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4560 (훈련 정확도: 0.9511)
+
+거짓 양성(False Positive) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2810: 거리 = 0.4503, 임계값 = 0.4560, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2810/2810_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2810/2810_1.jpg
+  imp 2851: 거리 = 0.4010, 임계값 = 0.4560, 차이 = 0.0550
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2851/2851_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2851/2851_1.jpg
+  imp 2899: 거리 = 0.4416, 임계값 = 0.4560, 차이 = 0.0144
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2899/2899_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2899/2899_1.jpg
+  imp 2917: 거리 = 0.4527, 임계값 = 0.4560, 차이 = 0.0033
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2917/2917_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2917/2917_1.jpg
+  imp 2928: 거리 = 0.4460, 임계값 = 0.4560, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2928/2928_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2928/2928_1.jpg
+  imp 2955: 거리 = 0.4484, 임계값 = 0.4560, 차이 = 0.0076
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2955/2955_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2955/2955_1.jpg
+  imp 2957: 거리 = 0.4515, 임계값 = 0.4560, 차이 = 0.0045
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2957/2957_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2957/2957_1.jpg
+  imp 2979: 거리 = 0.4274, 임계값 = 0.4560, 차이 = 0.0286
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2979/2979_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/2979/2979_1.jpg
+  imp 3012: 거리 = 0.4529, 임계값 = 0.4560, 차이 = 0.0031
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3012/3012_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3012/3012_1.jpg
+  imp 3013: 거리 = 0.4534, 임계값 = 0.4560, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3013/3013_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3013/3013_1.jpg
+  imp 3046: 거리 = 0.4410, 임계값 = 0.4560, 차이 = 0.0150
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3046/3046_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3046/3046_1.jpg
+  imp 3056: 거리 = 0.4541, 임계값 = 0.4560, 차이 = 0.0019
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3056/3056_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3056/3056_1.jpg
+  imp 3057: 거리 = 0.4559, 임계값 = 0.4560, 차이 = 0.0001
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3057/3057_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3057/3057_1.jpg
+
+거짓 음성(False Negative) 오탐지: 17개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2836: 거리 = 0.4893, 임계값 = 0.4560, 차이 = 0.0333
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2836/2836_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2836/2836_1.jpg
+  gen 2837: 거리 = 0.4648, 임계값 = 0.4560, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2837/2837_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2837/2837_1.jpg
+  gen 2842: 거리 = 0.4997, 임계값 = 0.4560, 차이 = 0.0437
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2842/2842_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2842/2842_1.jpg
+  gen 2843: 거리 = 0.4876, 임계값 = 0.4560, 차이 = 0.0316
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2843/2843_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2843/2843_1.jpg
+  gen 2878: 거리 = 0.4962, 임계값 = 0.4560, 차이 = 0.0402
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2878/2878_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2878/2878_1.jpg
+  gen 2879: 거리 = 0.4691, 임계값 = 0.4560, 차이 = 0.0131
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2879/2879_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2879/2879_1.jpg
+  gen 2964: 거리 = 0.4618, 임계값 = 0.4560, 차이 = 0.0058
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2964/2964_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2964/2964_1.jpg
+  gen 2989: 거리 = 0.4578, 임계값 = 0.4560, 차이 = 0.0018
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2989/2989_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/2989/2989_1.jpg
+  gen 3008: 거리 = 0.4592, 임계값 = 0.4560, 차이 = 0.0032
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3008/3008_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3008/3008_1.jpg
+  gen 3027: 거리 = 0.4560, 임계값 = 0.4560, 차이 = 0.0000
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3027/3027_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3027/3027_1.jpg
+  gen 3031: 거리 = 0.4752, 임계값 = 0.4560, 차이 = 0.0192
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3031/3031_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3031/3031_1.jpg
+  gen 3035: 거리 = 0.4753, 임계값 = 0.4560, 차이 = 0.0193
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3035/3035_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3035/3035_1.jpg
+  gen 3040: 거리 = 0.4581, 임계값 = 0.4560, 차이 = 0.0021
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3040/3040_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3040/3040_1.jpg
+  gen 3044: 거리 = 0.4734, 임계값 = 0.4560, 차이 = 0.0174
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3044/3044_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3044/3044_1.jpg
+  gen 3067: 거리 = 0.4888, 임계값 = 0.4560, 차이 = 0.0328
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3067/3067_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3067/3067_1.jpg
+  gen 3068: 거리 = 0.4857, 임계값 = 0.4560, 차이 = 0.0297
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3068/3068_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3068/3068_1.jpg
+  gen 3106: 거리 = 0.4674, 임계값 = 0.4560, 차이 = 0.0114
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3106/3106_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3106/3106_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4600 (훈련 정확도: 0.9510)
+
+거짓 양성(False Positive) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 3167: 거리 = 0.4454, 임계값 = 0.4600, 차이 = 0.0146
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3167/3167_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3167/3167_1.jpg
+  imp 3170: 거리 = 0.4480, 임계값 = 0.4600, 차이 = 0.0120
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3170/3170_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3170/3170_1.jpg
+  imp 3177: 거리 = 0.4566, 임계값 = 0.4600, 차이 = 0.0034
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3177/3177_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3177/3177_1.jpg
+  imp 3307: 거리 = 0.4595, 임계값 = 0.4600, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3307/3307_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3307/3307_1.jpg
+  imp 3331: 거리 = 0.4526, 임계값 = 0.4600, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3331/3331_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3331/3331_1.jpg
+  imp 3334: 거리 = 0.4558, 임계값 = 0.4600, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3334/3334_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3334/3334_1.jpg
+  imp 3351: 거리 = 0.4591, 임계값 = 0.4600, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3351/3351_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3351/3351_1.jpg
+  imp 3374: 거리 = 0.4541, 임계값 = 0.4600, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3374/3374_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3374/3374_1.jpg
+  imp 3390: 거리 = 0.4560, 임계값 = 0.4600, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3390/3390_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3390/3390_1.jpg
+  imp 3447: 거리 = 0.4598, 임계값 = 0.4600, 차이 = 0.0002
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3447/3447_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3447/3447_1.jpg
+  imp 3449: 거리 = 0.4468, 임계값 = 0.4600, 차이 = 0.0132
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3449/3449_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/imp/3449/3449_1.jpg
+
+거짓 음성(False Negative) 오탐지: 19개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 3161: 거리 = 0.4644, 임계값 = 0.4600, 차이 = 0.0044
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3161/3161_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3161/3161_1.jpg
+  gen 3186: 거리 = 0.4757, 임계값 = 0.4600, 차이 = 0.0157
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3186/3186_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3186/3186_1.jpg
+  gen 3237: 거리 = 0.4953, 임계값 = 0.4600, 차이 = 0.0353
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3237/3237_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3237/3237_1.jpg
+  gen 3238: 거리 = 0.4862, 임계값 = 0.4600, 차이 = 0.0262
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3238/3238_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3238/3238_1.jpg
+  gen 3244: 거리 = 0.4642, 임계값 = 0.4600, 차이 = 0.0042
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3244/3244_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3244/3244_1.jpg
+  gen 3269: 거리 = 0.4934, 임계값 = 0.4600, 차이 = 0.0334
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3269/3269_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3269/3269_1.jpg
+  gen 3270: 거리 = 0.4786, 임계값 = 0.4600, 차이 = 0.0186
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3270/3270_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3270/3270_1.jpg
+  gen 3272: 거리 = 0.4814, 임계값 = 0.4600, 차이 = 0.0214
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3272/3272_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3272/3272_1.jpg
+  gen 3284: 거리 = 0.4956, 임계값 = 0.4600, 차이 = 0.0356
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3284/3284_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3284/3284_1.jpg
+  gen 3286: 거리 = 0.4734, 임계값 = 0.4600, 차이 = 0.0134
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3286/3286_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3286/3286_1.jpg
+  gen 3314: 거리 = 0.4728, 임계값 = 0.4600, 차이 = 0.0128
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3314/3314_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3314/3314_1.jpg
+  gen 3337: 거리 = 0.4682, 임계값 = 0.4600, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3337/3337_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3337/3337_1.jpg
+  gen 3404: 거리 = 0.4608, 임계값 = 0.4600, 차이 = 0.0008
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3404/3404_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3404/3404_1.jpg
+  gen 3408: 거리 = 0.4705, 임계값 = 0.4600, 차이 = 0.0105
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3408/3408_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3408/3408_1.jpg
+  gen 3449: 거리 = 0.5075, 임계값 = 0.4600, 차이 = 0.0475
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3449/3449_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3449/3449_1.jpg
+  gen 3474: 거리 = 0.4672, 임계값 = 0.4600, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3474/3474_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3474/3474_1.jpg
+  gen 3486: 거리 = 0.4696, 임계값 = 0.4600, 차이 = 0.0096
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3486/3486_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3486/3486_1.jpg
+  gen 3488: 거리 = 0.4881, 임계값 = 0.4600, 차이 = 0.0281
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3488/3488_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3488/3488_1.jpg
+  gen 3489: 거리 = 0.5102, 임계값 = 0.4600, 차이 = 0.0502
+    경로1: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3489/3489_0.jpg
+    경로2: work_dirs/corruptions/CFP_FP/speckle_noise_2/gen/3489/3489_1.jpg
+Accuracy for each fold: [0.95428571 0.94285714 0.95571429 0.94857143 0.92857143 0.94714286
+ 0.96142857 0.95714286 0.95714286 0.95714286]
+Mean Accuracy: 0.951
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.3826915
+Standard deviation for genuine pairs: 0.048282776
+Average distance for imposter pairs: 0.4972354
+Standard deviation for imposter pairs: 0.019759197

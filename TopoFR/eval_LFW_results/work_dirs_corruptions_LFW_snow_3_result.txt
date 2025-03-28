@@ -1,0 +1,488 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9819)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 20: 거리 = 0.4435, 임계값 = 0.4450, 차이 = 0.0015
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0020/20_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0020/20_1.jpg
+  imp 44: 거리 = 0.4385, 임계값 = 0.4450, 차이 = 0.0065
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0044/44_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0044/44_1.jpg
+  imp 176: 거리 = 0.4432, 임계값 = 0.4450, 차이 = 0.0018
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0176/176_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0176/176_1.jpg
+  imp 187: 거리 = 0.4285, 임계값 = 0.4450, 차이 = 0.0165
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0187/187_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0187/187_1.jpg
+  imp 228: 거리 = 0.4208, 임계값 = 0.4450, 차이 = 0.0242
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0228/228_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0228/228_1.jpg
+  imp 267: 거리 = 0.4168, 임계값 = 0.4450, 차이 = 0.0282
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0267/267_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0267/267_1.jpg
+  imp 284: 거리 = 0.4413, 임계값 = 0.4450, 차이 = 0.0037
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0284/284_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0284/284_1.jpg
+
+거짓 음성(False Negative) 오탐지: 16개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 36: 거리 = 0.4586, 임계값 = 0.4450, 차이 = 0.0136
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0036/36_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0036/36_1.jpg
+  gen 44: 거리 = 0.4533, 임계값 = 0.4450, 차이 = 0.0083
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0044/44_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0044/44_1.jpg
+  gen 47: 거리 = 0.4717, 임계값 = 0.4450, 차이 = 0.0267
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0047/47_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0047/47_1.jpg
+  gen 68: 거리 = 0.5044, 임계값 = 0.4450, 차이 = 0.0594
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0068/68_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0068/68_1.jpg
+  gen 69: 거리 = 0.4855, 임계값 = 0.4450, 차이 = 0.0405
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0069/69_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0069/69_1.jpg
+  gen 92: 거리 = 0.4589, 임계값 = 0.4450, 차이 = 0.0139
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0092/92_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0092/92_1.jpg
+  gen 98: 거리 = 0.4476, 임계값 = 0.4450, 차이 = 0.0026
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0098/98_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0098/98_1.jpg
+  gen 112: 거리 = 0.4544, 임계값 = 0.4450, 차이 = 0.0094
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0112/112_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0112/112_1.jpg
+  gen 120: 거리 = 0.4540, 임계값 = 0.4450, 차이 = 0.0090
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0120/120_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0120/120_1.jpg
+  gen 171: 거리 = 0.4626, 임계값 = 0.4450, 차이 = 0.0176
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0171/171_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0171/171_1.jpg
+  gen 180: 거리 = 0.4723, 임계값 = 0.4450, 차이 = 0.0273
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0180/180_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0180/180_1.jpg
+  gen 184: 거리 = 0.4579, 임계값 = 0.4450, 차이 = 0.0129
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0184/184_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0184/184_1.jpg
+  gen 201: 거리 = 0.4758, 임계값 = 0.4450, 차이 = 0.0308
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0201/201_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0201/201_1.jpg
+  gen 229: 거리 = 0.4598, 임계값 = 0.4450, 차이 = 0.0148
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0229/229_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0229/229_1.jpg
+  gen 242: 거리 = 0.4468, 임계값 = 0.4450, 차이 = 0.0018
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0242/242_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0242/242_1.jpg
+  gen 297: 거리 = 0.4922, 임계값 = 0.4450, 차이 = 0.0472
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0297/297_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0297/297_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9798)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 319: 거리 = 0.4420, 임계값 = 0.4450, 차이 = 0.0030
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0319/319_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0319/319_1.jpg
+  imp 400: 거리 = 0.4275, 임계값 = 0.4450, 차이 = 0.0175
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0400/400_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0400/400_1.jpg
+  imp 402: 거리 = 0.4431, 임계값 = 0.4450, 차이 = 0.0019
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0402/402_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0402/402_1.jpg
+  imp 560: 거리 = 0.4417, 임계값 = 0.4450, 차이 = 0.0033
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0560/560_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0560/560_1.jpg
+
+거짓 음성(False Negative) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 318: 거리 = 0.4633, 임계값 = 0.4450, 차이 = 0.0183
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0318/318_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0318/318_1.jpg
+  gen 325: 거리 = 0.4451, 임계값 = 0.4450, 차이 = 0.0001
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0325/325_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0325/325_1.jpg
+  gen 349: 거리 = 0.4692, 임계값 = 0.4450, 차이 = 0.0242
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0349/349_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0349/349_1.jpg
+  gen 448: 거리 = 0.4483, 임계값 = 0.4450, 차이 = 0.0033
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0448/448_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0448/448_1.jpg
+  gen 449: 거리 = 0.4620, 임계값 = 0.4450, 차이 = 0.0170
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0449/449_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0449/449_1.jpg
+  gen 539: 거리 = 0.4685, 임계값 = 0.4450, 차이 = 0.0235
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0539/539_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0539/539_1.jpg
+  gen 541: 거리 = 0.4493, 임계값 = 0.4450, 차이 = 0.0043
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0541/541_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0541/541_1.jpg
+  gen 544: 거리 = 0.4789, 임계값 = 0.4450, 차이 = 0.0339
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0544/544_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0544/544_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9798)
+
+거짓 양성(False Positive) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 793: 거리 = 0.4285, 임계값 = 0.4450, 차이 = 0.0165
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0793/793_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0793/793_1.jpg
+  imp 796: 거리 = 0.4251, 임계값 = 0.4450, 차이 = 0.0199
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0796/796_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0796/796_1.jpg
+  imp 805: 거리 = 0.4274, 임계값 = 0.4450, 차이 = 0.0176
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0805/805_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0805/805_1.jpg
+  imp 829: 거리 = 0.4317, 임계값 = 0.4450, 차이 = 0.0133
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0829/829_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0829/829_1.jpg
+  imp 838: 거리 = 0.4309, 임계값 = 0.4450, 차이 = 0.0141
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0838/838_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0838/838_1.jpg
+  imp 853: 거리 = 0.4114, 임계값 = 0.4450, 차이 = 0.0336
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0853/853_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0853/853_1.jpg
+  imp 854: 거리 = 0.4388, 임계값 = 0.4450, 차이 = 0.0062
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0854/854_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0854/854_1.jpg
+  imp 894: 거리 = 0.4231, 임계값 = 0.4450, 차이 = 0.0219
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/0894/894_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/0894/894_1.jpg
+
+거짓 음성(False Negative) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 645: 거리 = 0.4584, 임계값 = 0.4450, 차이 = 0.0134
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0645/645_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0645/645_1.jpg
+  gen 662: 거리 = 0.4499, 임계값 = 0.4450, 차이 = 0.0049
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0662/662_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0662/662_1.jpg
+  gen 667: 거리 = 0.4750, 임계값 = 0.4450, 차이 = 0.0300
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0667/667_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0667/667_1.jpg
+  gen 743: 거리 = 0.4538, 임계값 = 0.4450, 차이 = 0.0088
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0743/743_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0743/743_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9794)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1098: 거리 = 0.4423, 임계값 = 0.4440, 차이 = 0.0017
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1098/1098_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1098/1098_1.jpg
+
+거짓 음성(False Negative) 오탐지: 10개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 902: 거리 = 0.4550, 임계값 = 0.4440, 차이 = 0.0110
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0902/902_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0902/902_1.jpg
+  gen 915: 거리 = 0.4516, 임계값 = 0.4440, 차이 = 0.0076
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0915/915_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0915/915_1.jpg
+  gen 943: 거리 = 0.4735, 임계값 = 0.4440, 차이 = 0.0295
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0943/943_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0943/943_1.jpg
+  gen 961: 거리 = 0.5004, 임계값 = 0.4440, 차이 = 0.0564
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/0961/961_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/0961/961_1.jpg
+  gen 1025: 거리 = 0.4512, 임계값 = 0.4440, 차이 = 0.0072
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1025/1025_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1025/1025_1.jpg
+  gen 1107: 거리 = 0.4701, 임계값 = 0.4440, 차이 = 0.0261
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1107/1107_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1107/1107_1.jpg
+  gen 1109: 거리 = 0.4791, 임계값 = 0.4440, 차이 = 0.0351
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1109/1109_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1109/1109_1.jpg
+  gen 1126: 거리 = 0.4516, 임계값 = 0.4440, 차이 = 0.0076
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1126/1126_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1126/1126_1.jpg
+  gen 1144: 거리 = 0.4446, 임계값 = 0.4440, 차이 = 0.0006
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1144/1144_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1144/1144_1.jpg
+  gen 1155: 거리 = 0.4556, 임계값 = 0.4440, 차이 = 0.0116
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1155/1155_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1155/1155_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9793)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1376: 거리 = 0.4433, 임계값 = 0.4450, 차이 = 0.0017
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1376/1376_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1376/1376_1.jpg
+
+거짓 음성(False Negative) 오탐지: 8개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1288: 거리 = 0.4489, 임계값 = 0.4450, 차이 = 0.0039
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1288/1288_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1288/1288_1.jpg
+  gen 1298: 거리 = 0.4843, 임계값 = 0.4450, 차이 = 0.0393
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1298/1298_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1298/1298_1.jpg
+  gen 1350: 거리 = 0.4620, 임계값 = 0.4450, 차이 = 0.0170
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1350/1350_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1350/1350_1.jpg
+  gen 1351: 거리 = 0.4825, 임계값 = 0.4450, 차이 = 0.0375
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1351/1351_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1351/1351_1.jpg
+  gen 1409: 거리 = 0.4654, 임계값 = 0.4450, 차이 = 0.0204
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1409/1409_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1409/1409_1.jpg
+  gen 1449: 거리 = 0.4508, 임계값 = 0.4450, 차이 = 0.0058
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1449/1449_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1449/1449_1.jpg
+  gen 1470: 거리 = 0.4506, 임계값 = 0.4450, 차이 = 0.0056
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1470/1470_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1470/1470_1.jpg
+  gen 1498: 거리 = 0.4699, 임계값 = 0.4450, 차이 = 0.0249
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1498/1498_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1498/1498_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4440 (훈련 정확도: 0.9802)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1525: 거리 = 0.4367, 임계값 = 0.4440, 차이 = 0.0073
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1525/1525_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1525/1525_1.jpg
+  imp 1534: 거리 = 0.4310, 임계값 = 0.4440, 차이 = 0.0130
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1534/1534_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1534/1534_1.jpg
+  imp 1541: 거리 = 0.4261, 임계값 = 0.4440, 차이 = 0.0179
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1541/1541_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1541/1541_1.jpg
+  imp 1553: 거리 = 0.4325, 임계값 = 0.4440, 차이 = 0.0115
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1553/1553_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1553/1553_1.jpg
+  imp 1644: 거리 = 0.4351, 임계값 = 0.4440, 차이 = 0.0089
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1644/1644_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1644/1644_1.jpg
+  imp 1797: 거리 = 0.4398, 임계값 = 0.4440, 차이 = 0.0042
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1797/1797_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1797/1797_1.jpg
+
+거짓 음성(False Negative) 오탐지: 9개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1525: 거리 = 0.4476, 임계값 = 0.4440, 차이 = 0.0036
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1525/1525_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1525/1525_1.jpg
+  gen 1570: 거리 = 0.4557, 임계값 = 0.4440, 차이 = 0.0117
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1570/1570_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1570/1570_1.jpg
+  gen 1660: 거리 = 0.4509, 임계값 = 0.4440, 차이 = 0.0069
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1660/1660_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1660/1660_1.jpg
+  gen 1676: 거리 = 0.4492, 임계값 = 0.4440, 차이 = 0.0052
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1676/1676_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1676/1676_1.jpg
+  gen 1699: 거리 = 0.4619, 임계값 = 0.4440, 차이 = 0.0179
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1699/1699_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1699/1699_1.jpg
+  gen 1727: 거리 = 0.4446, 임계값 = 0.4440, 차이 = 0.0006
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1727/1727_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1727/1727_1.jpg
+  gen 1767: 거리 = 0.4552, 임계값 = 0.4440, 차이 = 0.0112
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1767/1767_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1767/1767_1.jpg
+  gen 1768: 거리 = 0.4553, 임계값 = 0.4440, 차이 = 0.0113
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1768/1768_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1768/1768_1.jpg
+  gen 1795: 거리 = 0.4733, 임계값 = 0.4440, 차이 = 0.0293
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1795/1795_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1795/1795_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9802)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1922: 거리 = 0.4444, 임계값 = 0.4450, 차이 = 0.0006
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/1922/1922_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/1922/1922_1.jpg
+  imp 2046: 거리 = 0.4309, 임계값 = 0.4450, 차이 = 0.0141
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2046/2046_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2046/2046_1.jpg
+  imp 2051: 거리 = 0.4210, 임계값 = 0.4450, 차이 = 0.0240
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2051/2051_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2051/2051_1.jpg
+
+거짓 음성(False Negative) 오탐지: 11개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1806: 거리 = 0.4510, 임계값 = 0.4450, 차이 = 0.0060
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1806/1806_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1806/1806_1.jpg
+  gen 1839: 거리 = 0.4481, 임계값 = 0.4450, 차이 = 0.0031
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1839/1839_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1839/1839_1.jpg
+  gen 1840: 거리 = 0.4512, 임계값 = 0.4450, 차이 = 0.0062
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1840/1840_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1840/1840_1.jpg
+  gen 1841: 거리 = 0.4854, 임계값 = 0.4450, 차이 = 0.0404
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1841/1841_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1841/1841_1.jpg
+  gen 1908: 거리 = 0.4593, 임계값 = 0.4450, 차이 = 0.0143
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1908/1908_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1908/1908_1.jpg
+  gen 1929: 거리 = 0.4638, 임계값 = 0.4450, 차이 = 0.0188
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1929/1929_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1929/1929_1.jpg
+  gen 1965: 거리 = 0.4709, 임계값 = 0.4450, 차이 = 0.0259
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1965/1965_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1965/1965_1.jpg
+  gen 1991: 거리 = 0.4520, 임계값 = 0.4450, 차이 = 0.0070
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1991/1991_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1991/1991_1.jpg
+  gen 1997: 거리 = 0.4583, 임계값 = 0.4450, 차이 = 0.0133
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/1997/1997_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/1997/1997_1.jpg
+  gen 2091: 거리 = 0.4785, 임계값 = 0.4450, 차이 = 0.0335
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2091/2091_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2091/2091_1.jpg
+  gen 2092: 거리 = 0.4685, 임계값 = 0.4450, 차이 = 0.0235
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2092/2092_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2092/2092_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9793)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2105: 거리 = 0.4283, 임계값 = 0.4450, 차이 = 0.0167
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2105/2105_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2105/2105_1.jpg
+  imp 2174: 거리 = 0.4379, 임계값 = 0.4450, 차이 = 0.0071
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2174/2174_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2174/2174_1.jpg
+  imp 2328: 거리 = 0.4367, 임계값 = 0.4450, 차이 = 0.0083
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2328/2328_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2328/2328_1.jpg
+
+거짓 음성(False Negative) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2144: 거리 = 0.4715, 임계값 = 0.4450, 차이 = 0.0265
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2144/2144_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2144/2144_1.jpg
+  gen 2310: 거리 = 0.4798, 임계값 = 0.4450, 차이 = 0.0348
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2310/2310_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2310/2310_1.jpg
+  gen 2326: 거리 = 0.4636, 임계값 = 0.4450, 차이 = 0.0186
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2326/2326_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2326/2326_1.jpg
+  gen 2353: 거리 = 0.4557, 임계값 = 0.4450, 차이 = 0.0107
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2353/2353_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2353/2353_1.jpg
+  gen 2355: 거리 = 0.4482, 임계값 = 0.4450, 차이 = 0.0032
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2355/2355_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2355/2355_1.jpg
+  gen 2385: 거리 = 0.4466, 임계값 = 0.4450, 차이 = 0.0016
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2385/2385_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2385/2385_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9798)
+
+거짓 양성(False Positive) 오탐지: 7개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2442: 거리 = 0.4365, 임계값 = 0.4450, 차이 = 0.0085
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2442/2442_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2442/2442_1.jpg
+  imp 2456: 거리 = 0.4013, 임계값 = 0.4450, 차이 = 0.0437
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2456/2456_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2456/2456_1.jpg
+  imp 2476: 거리 = 0.4105, 임계값 = 0.4450, 차이 = 0.0345
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2476/2476_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2476/2476_1.jpg
+  imp 2497: 거리 = 0.4171, 임계값 = 0.4450, 차이 = 0.0279
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2497/2497_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2497/2497_1.jpg
+  imp 2508: 거리 = 0.4247, 임계값 = 0.4450, 차이 = 0.0203
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2508/2508_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2508/2508_1.jpg
+  imp 2509: 거리 = 0.4326, 임계값 = 0.4450, 차이 = 0.0124
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2509/2509_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2509/2509_1.jpg
+  imp 2639: 거리 = 0.4408, 임계값 = 0.4450, 차이 = 0.0042
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2639/2639_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2639/2639_1.jpg
+
+거짓 음성(False Negative) 오탐지: 5개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2435: 거리 = 0.4720, 임계값 = 0.4450, 차이 = 0.0270
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2435/2435_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2435/2435_1.jpg
+  gen 2470: 거리 = 0.4850, 임계값 = 0.4450, 차이 = 0.0400
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2470/2470_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2470/2470_1.jpg
+  gen 2570: 거리 = 0.4747, 임계값 = 0.4450, 차이 = 0.0297
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2570/2570_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2570/2570_1.jpg
+  gen 2572: 거리 = 0.4695, 임계값 = 0.4450, 차이 = 0.0245
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2572/2572_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2572/2572_1.jpg
+  gen 2680: 거리 = 0.4462, 임계값 = 0.4450, 차이 = 0.0012
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2680/2680_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4450 (훈련 정확도: 0.9787)
+
+거짓 양성(False Positive) 오탐지: 2개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2865: 거리 = 0.4034, 임계값 = 0.4450, 차이 = 0.0416
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2865/2865_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2865/2865_1.jpg
+  imp 2946: 거리 = 0.4414, 임계값 = 0.4450, 차이 = 0.0036
+    경로1: work_dirs/corruptions/LFW/snow_3/imp/2946/2946_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/imp/2946/2946_1.jpg
+
+거짓 음성(False Negative) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2841: 거리 = 0.4473, 임계값 = 0.4450, 차이 = 0.0023
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2841/2841_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2841/2841_1.jpg
+  gen 2875: 거리 = 0.4556, 임계값 = 0.4450, 차이 = 0.0106
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2875/2875_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2875/2875_1.jpg
+  gen 2921: 거리 = 0.4674, 임계값 = 0.4450, 차이 = 0.0224
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2921/2921_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2921/2921_1.jpg
+  gen 2980: 거리 = 0.4497, 임계값 = 0.4450, 차이 = 0.0047
+    경로1: work_dirs/corruptions/LFW/snow_3/gen/2980/2980_0.jpg
+    경로2: work_dirs/corruptions/LFW/snow_3/gen/2980/2980_1.jpg
+Accuracy for each fold: [0.96166667 0.98       0.98       0.98166667 0.985      0.975
+ 0.97666667 0.985      0.98       0.99      ]
+Mean Accuracy: 0.9795
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.35971868
+Standard deviation for genuine pairs: 0.043175563
+Average distance for imposter pairs: 0.49445814
+Standard deviation for imposter pairs: 0.020977894

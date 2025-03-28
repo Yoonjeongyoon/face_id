@@ -1,0 +1,907 @@
+Running on device: cuda:0
+
+===== 폴드 1/10 처리 중 =====
+최적 임계값: 0.4310 (훈련 정확도: 0.9563)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 15: 거리 = 0.4235, 임계값 = 0.4310, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0015/15_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0015/15_1.jpg
+
+거짓 음성(False Negative) 오탐지: 20개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2: 거리 = 0.4501, 임계값 = 0.4310, 차이 = 0.0191
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0002/2_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0002/2_1.jpg
+  gen 6: 거리 = 0.4326, 임계값 = 0.4310, 차이 = 0.0016
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0006/6_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0006/6_1.jpg
+  gen 30: 거리 = 0.5056, 임계값 = 0.4310, 차이 = 0.0746
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0030/30_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0030/30_1.jpg
+  gen 33: 거리 = 0.4822, 임계값 = 0.4310, 차이 = 0.0512
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0033/33_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0033/33_1.jpg
+  gen 64: 거리 = 0.4746, 임계값 = 0.4310, 차이 = 0.0436
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0064/64_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0064/64_1.jpg
+  gen 72: 거리 = 0.4613, 임계값 = 0.4310, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0072/72_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0072/72_1.jpg
+  gen 84: 거리 = 0.4764, 임계값 = 0.4310, 차이 = 0.0454
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0084/84_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0084/84_1.jpg
+  gen 99: 거리 = 0.4527, 임계값 = 0.4310, 차이 = 0.0217
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0099/99_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0099/99_1.jpg
+  gen 106: 거리 = 0.4338, 임계값 = 0.4310, 차이 = 0.0028
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0106/106_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0106/106_1.jpg
+  gen 134: 거리 = 0.5103, 임계값 = 0.4310, 차이 = 0.0793
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0134/134_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0134/134_1.jpg
+  gen 147: 거리 = 0.4944, 임계값 = 0.4310, 차이 = 0.0634
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0147/147_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0147/147_1.jpg
+  gen 162: 거리 = 0.4732, 임계값 = 0.4310, 차이 = 0.0422
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0162/162_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0162/162_1.jpg
+  gen 168: 거리 = 0.4905, 임계값 = 0.4310, 차이 = 0.0595
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0168/168_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0168/168_1.jpg
+  gen 182: 거리 = 0.4324, 임계값 = 0.4310, 차이 = 0.0014
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0182/182_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0182/182_1.jpg
+  gen 194: 거리 = 0.4950, 임계값 = 0.4310, 차이 = 0.0640
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0194/194_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0194/194_1.jpg
+  gen 206: 거리 = 0.4917, 임계값 = 0.4310, 차이 = 0.0607
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0206/206_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0206/206_1.jpg
+  gen 211: 거리 = 0.4744, 임계값 = 0.4310, 차이 = 0.0434
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0211/211_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0211/211_1.jpg
+  gen 231: 거리 = 0.4401, 임계값 = 0.4310, 차이 = 0.0091
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0231/231_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0231/231_1.jpg
+  gen 252: 거리 = 0.5006, 임계값 = 0.4310, 차이 = 0.0696
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0252/252_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0252/252_1.jpg
+  gen 299: 거리 = 0.5073, 임계값 = 0.4310, 차이 = 0.0763
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0299/299_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0299/299_1.jpg
+
+===== 폴드 2/10 처리 중 =====
+최적 임계값: 0.4340 (훈련 정확도: 0.9594)
+
+거짓 양성(False Positive) 오탐지: 1개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 301: 거리 = 0.4147, 임계값 = 0.4340, 차이 = 0.0193
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0301/301_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0301/301_1.jpg
+
+거짓 음성(False Negative) 오탐지: 34개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 323: 거리 = 0.5025, 임계값 = 0.4340, 차이 = 0.0685
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0323/323_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0323/323_1.jpg
+  gen 330: 거리 = 0.4959, 임계값 = 0.4340, 차이 = 0.0619
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0330/330_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0330/330_1.jpg
+  gen 344: 거리 = 0.5091, 임계값 = 0.4340, 차이 = 0.0751
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0344/344_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0344/344_1.jpg
+  gen 359: 거리 = 0.4785, 임계값 = 0.4340, 차이 = 0.0445
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0359/359_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0359/359_1.jpg
+  gen 372: 거리 = 0.4818, 임계값 = 0.4340, 차이 = 0.0478
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0372/372_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0372/372_1.jpg
+  gen 380: 거리 = 0.4818, 임계값 = 0.4340, 차이 = 0.0478
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0380/380_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0380/380_1.jpg
+  gen 401: 거리 = 0.4710, 임계값 = 0.4340, 차이 = 0.0370
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0401/401_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0401/401_1.jpg
+  gen 402: 거리 = 0.4692, 임계값 = 0.4340, 차이 = 0.0352
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0402/402_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0402/402_1.jpg
+  gen 406: 거리 = 0.4474, 임계값 = 0.4340, 차이 = 0.0134
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0406/406_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0406/406_1.jpg
+  gen 416: 거리 = 0.4793, 임계값 = 0.4340, 차이 = 0.0453
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0416/416_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0416/416_1.jpg
+  gen 419: 거리 = 0.4442, 임계값 = 0.4340, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0419/419_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0419/419_1.jpg
+  gen 421: 거리 = 0.4466, 임계값 = 0.4340, 차이 = 0.0126
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0421/421_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0421/421_1.jpg
+  gen 423: 거리 = 0.4663, 임계값 = 0.4340, 차이 = 0.0323
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0423/423_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0423/423_1.jpg
+  gen 431: 거리 = 0.4916, 임계값 = 0.4340, 차이 = 0.0576
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0431/431_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0431/431_1.jpg
+  gen 433: 거리 = 0.5024, 임계값 = 0.4340, 차이 = 0.0684
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0433/433_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0433/433_1.jpg
+  gen 438: 거리 = 0.4843, 임계값 = 0.4340, 차이 = 0.0503
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0438/438_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0438/438_1.jpg
+  gen 456: 거리 = 0.4649, 임계값 = 0.4340, 차이 = 0.0309
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0456/456_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0456/456_1.jpg
+  gen 481: 거리 = 0.4912, 임계값 = 0.4340, 차이 = 0.0572
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0481/481_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0481/481_1.jpg
+  gen 498: 거리 = 0.4724, 임계값 = 0.4340, 차이 = 0.0384
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0498/498_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0498/498_1.jpg
+  gen 501: 거리 = 0.4858, 임계값 = 0.4340, 차이 = 0.0518
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0501/501_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0501/501_1.jpg
+  gen 513: 거리 = 0.4458, 임계값 = 0.4340, 차이 = 0.0118
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0513/513_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0513/513_1.jpg
+  gen 516: 거리 = 0.5129, 임계값 = 0.4340, 차이 = 0.0789
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0516/516_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0516/516_1.jpg
+  gen 530: 거리 = 0.4454, 임계값 = 0.4340, 차이 = 0.0114
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0530/530_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0530/530_1.jpg
+  gen 532: 거리 = 0.4758, 임계값 = 0.4340, 차이 = 0.0418
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0532/532_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0532/532_1.jpg
+  gen 539: 거리 = 0.4858, 임계값 = 0.4340, 차이 = 0.0518
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0539/539_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0539/539_1.jpg
+  gen 543: 거리 = 0.4795, 임계값 = 0.4340, 차이 = 0.0455
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0543/543_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0543/543_1.jpg
+  gen 553: 거리 = 0.4520, 임계값 = 0.4340, 차이 = 0.0180
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0553/553_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0553/553_1.jpg
+  gen 558: 거리 = 0.5146, 임계값 = 0.4340, 차이 = 0.0806
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0558/558_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0558/558_1.jpg
+  gen 559: 거리 = 0.4828, 임계값 = 0.4340, 차이 = 0.0488
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0559/559_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0559/559_1.jpg
+  gen 560: 거리 = 0.4741, 임계값 = 0.4340, 차이 = 0.0401
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0560/560_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0560/560_1.jpg
+  gen 562: 거리 = 0.4904, 임계값 = 0.4340, 차이 = 0.0564
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0562/562_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0562/562_1.jpg
+  gen 573: 거리 = 0.5207, 임계값 = 0.4340, 차이 = 0.0867
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0573/573_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0573/573_1.jpg
+  gen 575: 거리 = 0.4417, 임계값 = 0.4340, 차이 = 0.0077
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0575/575_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0575/575_1.jpg
+  gen 592: 거리 = 0.4428, 임계값 = 0.4340, 차이 = 0.0088
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0592/592_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0592/592_1.jpg
+
+===== 폴드 3/10 처리 중 =====
+최적 임계값: 0.4340 (훈련 정확도: 0.9576)
+
+거짓 양성(False Positive) 오탐지: 2개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 701: 거리 = 0.4294, 임계값 = 0.4340, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0701/701_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0701/701_1.jpg
+  imp 787: 거리 = 0.4329, 임계값 = 0.4340, 차이 = 0.0011
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0787/787_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/0787/787_1.jpg
+
+거짓 음성(False Negative) 오탐지: 23개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 601: 거리 = 0.4620, 임계값 = 0.4340, 차이 = 0.0280
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0601/601_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0601/601_1.jpg
+  gen 602: 거리 = 0.5087, 임계값 = 0.4340, 차이 = 0.0747
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0602/602_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0602/602_1.jpg
+  gen 618: 거리 = 0.4649, 임계값 = 0.4340, 차이 = 0.0309
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0618/618_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0618/618_1.jpg
+  gen 650: 거리 = 0.4611, 임계값 = 0.4340, 차이 = 0.0271
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0650/650_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0650/650_1.jpg
+  gen 656: 거리 = 0.4635, 임계값 = 0.4340, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0656/656_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0656/656_1.jpg
+  gen 660: 거리 = 0.4412, 임계값 = 0.4340, 차이 = 0.0072
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0660/660_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0660/660_1.jpg
+  gen 661: 거리 = 0.4903, 임계값 = 0.4340, 차이 = 0.0563
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0661/661_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0661/661_1.jpg
+  gen 662: 거리 = 0.4690, 임계값 = 0.4340, 차이 = 0.0350
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0662/662_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0662/662_1.jpg
+  gen 674: 거리 = 0.4501, 임계값 = 0.4340, 차이 = 0.0161
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0674/674_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0674/674_1.jpg
+  gen 695: 거리 = 0.5147, 임계값 = 0.4340, 차이 = 0.0807
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0695/695_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0695/695_1.jpg
+  gen 722: 거리 = 0.4801, 임계값 = 0.4340, 차이 = 0.0461
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0722/722_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0722/722_1.jpg
+  gen 741: 거리 = 0.4990, 임계값 = 0.4340, 차이 = 0.0650
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0741/741_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0741/741_1.jpg
+  gen 743: 거리 = 0.4582, 임계값 = 0.4340, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0743/743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0743/743_1.jpg
+  gen 745: 거리 = 0.5088, 임계값 = 0.4340, 차이 = 0.0748
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0745/745_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0745/745_1.jpg
+  gen 755: 거리 = 0.5165, 임계값 = 0.4340, 차이 = 0.0825
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0755/755_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0755/755_1.jpg
+  gen 766: 거리 = 0.4447, 임계값 = 0.4340, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0766/766_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0766/766_1.jpg
+  gen 778: 거리 = 0.4386, 임계값 = 0.4340, 차이 = 0.0046
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0778/778_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0778/778_1.jpg
+  gen 833: 거리 = 0.4728, 임계값 = 0.4340, 차이 = 0.0388
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0833/833_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0833/833_1.jpg
+  gen 848: 거리 = 0.4894, 임계값 = 0.4340, 차이 = 0.0554
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0848/848_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0848/848_1.jpg
+  gen 852: 거리 = 0.4981, 임계값 = 0.4340, 차이 = 0.0641
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0852/852_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0852/852_1.jpg
+  gen 860: 거리 = 0.4918, 임계값 = 0.4340, 차이 = 0.0578
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0860/860_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0860/860_1.jpg
+  gen 880: 거리 = 0.4506, 임계값 = 0.4340, 차이 = 0.0166
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0880/880_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0880/880_1.jpg
+  gen 887: 거리 = 0.4832, 임계값 = 0.4340, 차이 = 0.0492
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0887/887_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0887/887_1.jpg
+
+===== 폴드 4/10 처리 중 =====
+최적 임계값: 0.4340 (훈련 정확도: 0.9587)
+
+거짓 양성(False Positive) 오탐지: 2개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1015: 거리 = 0.4316, 임계값 = 0.4340, 차이 = 0.0024
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1015/1015_1.jpg
+  imp 1126: 거리 = 0.4326, 임계값 = 0.4340, 차이 = 0.0014
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1126/1126_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1126/1126_1.jpg
+
+거짓 음성(False Negative) 오탐지: 29개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 914: 거리 = 0.4787, 임계값 = 0.4340, 차이 = 0.0447
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0914/914_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0914/914_1.jpg
+  gen 923: 거리 = 0.4544, 임계값 = 0.4340, 차이 = 0.0204
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0923/923_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0923/923_1.jpg
+  gen 931: 거리 = 0.4927, 임계값 = 0.4340, 차이 = 0.0587
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0931/931_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0931/931_1.jpg
+  gen 938: 거리 = 0.4619, 임계값 = 0.4340, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0938/938_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0938/938_1.jpg
+  gen 947: 거리 = 0.5217, 임계값 = 0.4340, 차이 = 0.0877
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0947/947_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0947/947_1.jpg
+  gen 949: 거리 = 0.4959, 임계값 = 0.4340, 차이 = 0.0619
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0949/949_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0949/949_1.jpg
+  gen 952: 거리 = 0.5133, 임계값 = 0.4340, 차이 = 0.0793
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0952/952_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0952/952_1.jpg
+  gen 955: 거리 = 0.4415, 임계값 = 0.4340, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0955/955_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0955/955_1.jpg
+  gen 979: 거리 = 0.4920, 임계값 = 0.4340, 차이 = 0.0580
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0979/979_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/0979/979_1.jpg
+  gen 1015: 거리 = 0.4986, 임계값 = 0.4340, 차이 = 0.0646
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1015/1015_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1015/1015_1.jpg
+  gen 1017: 거리 = 0.4414, 임계값 = 0.4340, 차이 = 0.0074
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1017/1017_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1017/1017_1.jpg
+  gen 1019: 거리 = 0.5102, 임계값 = 0.4340, 차이 = 0.0762
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1019/1019_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1019/1019_1.jpg
+  gen 1027: 거리 = 0.4836, 임계값 = 0.4340, 차이 = 0.0496
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1027/1027_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1027/1027_1.jpg
+  gen 1032: 거리 = 0.4914, 임계값 = 0.4340, 차이 = 0.0574
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1032/1032_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1032/1032_1.jpg
+  gen 1038: 거리 = 0.5322, 임계값 = 0.4340, 차이 = 0.0982
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1038/1038_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1038/1038_1.jpg
+  gen 1047: 거리 = 0.4706, 임계값 = 0.4340, 차이 = 0.0366
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1047/1047_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1047/1047_1.jpg
+  gen 1064: 거리 = 0.4939, 임계값 = 0.4340, 차이 = 0.0599
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1064/1064_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1064/1064_1.jpg
+  gen 1068: 거리 = 0.4853, 임계값 = 0.4340, 차이 = 0.0513
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1068/1068_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1068/1068_1.jpg
+  gen 1069: 거리 = 0.4971, 임계값 = 0.4340, 차이 = 0.0631
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1069/1069_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1069/1069_1.jpg
+  gen 1081: 거리 = 0.4447, 임계값 = 0.4340, 차이 = 0.0107
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1081/1081_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1081/1081_1.jpg
+  gen 1082: 거리 = 0.4841, 임계값 = 0.4340, 차이 = 0.0501
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1082/1082_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1082/1082_1.jpg
+  gen 1086: 거리 = 0.4522, 임계값 = 0.4340, 차이 = 0.0182
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1086/1086_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1086/1086_1.jpg
+  gen 1104: 거리 = 0.4365, 임계값 = 0.4340, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1104/1104_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1104/1104_1.jpg
+  gen 1105: 거리 = 0.4786, 임계값 = 0.4340, 차이 = 0.0446
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1105/1105_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1105/1105_1.jpg
+  gen 1107: 거리 = 0.4939, 임계값 = 0.4340, 차이 = 0.0599
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1107/1107_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1107/1107_1.jpg
+  gen 1110: 거리 = 0.4890, 임계값 = 0.4340, 차이 = 0.0550
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1110/1110_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1110/1110_1.jpg
+  gen 1138: 거리 = 0.4442, 임계값 = 0.4340, 차이 = 0.0102
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1138/1138_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1138/1138_1.jpg
+  gen 1148: 거리 = 0.4415, 임계값 = 0.4340, 차이 = 0.0075
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1148/1148_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1148/1148_1.jpg
+  gen 1174: 거리 = 0.4975, 임계값 = 0.4340, 차이 = 0.0635
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1174/1174_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1174/1174_1.jpg
+
+===== 폴드 5/10 처리 중 =====
+최적 임계값: 0.4340 (훈련 정확도: 0.9596)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1348: 거리 = 0.4290, 임계값 = 0.4340, 차이 = 0.0050
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1348/1348_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1348/1348_1.jpg
+  imp 1396: 거리 = 0.4285, 임계값 = 0.4340, 차이 = 0.0055
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1396/1396_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1396/1396_1.jpg
+  imp 1478: 거리 = 0.4300, 임계값 = 0.4340, 차이 = 0.0040
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1478/1478_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1478/1478_1.jpg
+
+거짓 음성(False Negative) 오탐지: 33개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1202: 거리 = 0.4712, 임계값 = 0.4340, 차이 = 0.0372
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1202/1202_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1202/1202_1.jpg
+  gen 1221: 거리 = 0.4733, 임계값 = 0.4340, 차이 = 0.0393
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1221/1221_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1221/1221_1.jpg
+  gen 1240: 거리 = 0.4952, 임계값 = 0.4340, 차이 = 0.0612
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1240/1240_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1240/1240_1.jpg
+  gen 1243: 거리 = 0.4899, 임계값 = 0.4340, 차이 = 0.0559
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1243/1243_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1243/1243_1.jpg
+  gen 1246: 거리 = 0.4550, 임계값 = 0.4340, 차이 = 0.0210
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1246/1246_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1246/1246_1.jpg
+  gen 1293: 거리 = 0.4443, 임계값 = 0.4340, 차이 = 0.0103
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1293/1293_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1293/1293_1.jpg
+  gen 1300: 거리 = 0.4875, 임계값 = 0.4340, 차이 = 0.0535
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1300/1300_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1300/1300_1.jpg
+  gen 1308: 거리 = 0.4397, 임계값 = 0.4340, 차이 = 0.0057
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1308/1308_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1308/1308_1.jpg
+  gen 1318: 거리 = 0.5075, 임계값 = 0.4340, 차이 = 0.0735
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1318/1318_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1318/1318_1.jpg
+  gen 1320: 거리 = 0.5168, 임계값 = 0.4340, 차이 = 0.0828
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1320/1320_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1320/1320_1.jpg
+  gen 1332: 거리 = 0.4671, 임계값 = 0.4340, 차이 = 0.0331
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1332/1332_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1332/1332_1.jpg
+  gen 1336: 거리 = 0.4477, 임계값 = 0.4340, 차이 = 0.0137
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1336/1336_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1336/1336_1.jpg
+  gen 1341: 거리 = 0.4594, 임계값 = 0.4340, 차이 = 0.0254
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1341/1341_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1341/1341_1.jpg
+  gen 1355: 거리 = 0.4662, 임계값 = 0.4340, 차이 = 0.0322
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1355/1355_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1355/1355_1.jpg
+  gen 1361: 거리 = 0.4887, 임계값 = 0.4340, 차이 = 0.0547
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1361/1361_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1361/1361_1.jpg
+  gen 1363: 거리 = 0.4734, 임계값 = 0.4340, 차이 = 0.0394
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1363/1363_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1363/1363_1.jpg
+  gen 1372: 거리 = 0.4619, 임계값 = 0.4340, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1372/1372_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1372/1372_1.jpg
+  gen 1374: 거리 = 0.4902, 임계값 = 0.4340, 차이 = 0.0562
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1374/1374_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1374/1374_1.jpg
+  gen 1396: 거리 = 0.4925, 임계값 = 0.4340, 차이 = 0.0585
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1396/1396_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1396/1396_1.jpg
+  gen 1405: 거리 = 0.4706, 임계값 = 0.4340, 차이 = 0.0366
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1405/1405_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1405/1405_1.jpg
+  gen 1426: 거리 = 0.4583, 임계값 = 0.4340, 차이 = 0.0243
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1426/1426_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1426/1426_1.jpg
+  gen 1444: 거리 = 0.4818, 임계값 = 0.4340, 차이 = 0.0478
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1444/1444_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1444/1444_1.jpg
+  gen 1448: 거리 = 0.4913, 임계값 = 0.4340, 차이 = 0.0573
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1448/1448_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1448/1448_1.jpg
+  gen 1453: 거리 = 0.4630, 임계값 = 0.4340, 차이 = 0.0290
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1453/1453_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1453/1453_1.jpg
+  gen 1458: 거리 = 0.4804, 임계값 = 0.4340, 차이 = 0.0464
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1458/1458_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1458/1458_1.jpg
+  gen 1460: 거리 = 0.4956, 임계값 = 0.4340, 차이 = 0.0616
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1460/1460_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1460/1460_1.jpg
+  gen 1463: 거리 = 0.5006, 임계값 = 0.4340, 차이 = 0.0666
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1463/1463_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1463/1463_1.jpg
+  gen 1468: 거리 = 0.4924, 임계값 = 0.4340, 차이 = 0.0584
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1468/1468_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1468/1468_1.jpg
+  gen 1477: 거리 = 0.4536, 임계값 = 0.4340, 차이 = 0.0196
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1477/1477_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1477/1477_1.jpg
+  gen 1478: 거리 = 0.5106, 임계값 = 0.4340, 차이 = 0.0766
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1478/1478_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1478/1478_1.jpg
+  gen 1481: 거리 = 0.4739, 임계값 = 0.4340, 차이 = 0.0399
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1481/1481_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1481/1481_1.jpg
+  gen 1497: 거리 = 0.4727, 임계값 = 0.4340, 차이 = 0.0387
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1497/1497_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1497/1497_1.jpg
+  gen 1499: 거리 = 0.4627, 임계값 = 0.4340, 차이 = 0.0287
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1499/1499_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1499/1499_1.jpg
+
+===== 폴드 6/10 처리 중 =====
+최적 임계값: 0.4420 (훈련 정확도: 0.9559)
+
+거짓 양성(False Positive) 오탐지: 6개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 1593: 거리 = 0.4336, 임계값 = 0.4420, 차이 = 0.0084
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1593/1593_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1593/1593_1.jpg
+  imp 1642: 거리 = 0.4416, 임계값 = 0.4420, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1642/1642_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1642/1642_1.jpg
+  imp 1645: 거리 = 0.4372, 임계값 = 0.4420, 차이 = 0.0048
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1645/1645_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1645/1645_1.jpg
+  imp 1693: 거리 = 0.4416, 임계값 = 0.4420, 차이 = 0.0004
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1693/1693_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1693/1693_1.jpg
+  imp 1700: 거리 = 0.4310, 임계값 = 0.4420, 차이 = 0.0110
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1700/1700_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1700/1700_1.jpg
+  imp 1778: 거리 = 0.4395, 임계값 = 0.4420, 차이 = 0.0025
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1778/1778_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/1778/1778_1.jpg
+
+거짓 음성(False Negative) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1508: 거리 = 0.4653, 임계값 = 0.4420, 차이 = 0.0233
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1508/1508_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1508/1508_1.jpg
+  gen 1543: 거리 = 0.4774, 임계값 = 0.4420, 차이 = 0.0354
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1543/1543_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1543/1543_1.jpg
+  gen 1577: 거리 = 0.5051, 임계값 = 0.4420, 차이 = 0.0631
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1577/1577_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1577/1577_1.jpg
+  gen 1581: 거리 = 0.4429, 임계값 = 0.4420, 차이 = 0.0009
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1581/1581_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1581/1581_1.jpg
+  gen 1608: 거리 = 0.5281, 임계값 = 0.4420, 차이 = 0.0861
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1608/1608_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1608/1608_1.jpg
+  gen 1611: 거리 = 0.5158, 임계값 = 0.4420, 차이 = 0.0738
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1611/1611_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1611/1611_1.jpg
+  gen 1657: 거리 = 0.4715, 임계값 = 0.4420, 차이 = 0.0295
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1657/1657_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1657/1657_1.jpg
+  gen 1671: 거리 = 0.4983, 임계값 = 0.4420, 차이 = 0.0563
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1671/1671_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1671/1671_1.jpg
+  gen 1672: 거리 = 0.4588, 임계값 = 0.4420, 차이 = 0.0168
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1672/1672_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1672/1672_1.jpg
+  gen 1680: 거리 = 0.4602, 임계값 = 0.4420, 차이 = 0.0182
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1680/1680_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1680/1680_1.jpg
+  gen 1743: 거리 = 0.5210, 임계값 = 0.4420, 차이 = 0.0790
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1743/1743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1743/1743_1.jpg
+  gen 1772: 거리 = 0.4757, 임계값 = 0.4420, 차이 = 0.0337
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1772/1772_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1772/1772_1.jpg
+  gen 1781: 거리 = 0.4689, 임계값 = 0.4420, 차이 = 0.0269
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1781/1781_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1781/1781_1.jpg
+
+===== 폴드 7/10 처리 중 =====
+최적 임계값: 0.4340 (훈련 정확도: 0.9554)
+
+거짓 음성(False Negative) 오탐지: 13개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 1803: 거리 = 0.5222, 임계값 = 0.4340, 차이 = 0.0882
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1803/1803_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1803/1803_1.jpg
+  gen 1818: 거리 = 0.4877, 임계값 = 0.4340, 차이 = 0.0537
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1818/1818_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1818/1818_1.jpg
+  gen 1850: 거리 = 0.4971, 임계값 = 0.4340, 차이 = 0.0631
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1850/1850_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1850/1850_1.jpg
+  gen 1855: 거리 = 0.4594, 임계값 = 0.4340, 차이 = 0.0254
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1855/1855_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1855/1855_1.jpg
+  gen 1857: 거리 = 0.4753, 임계값 = 0.4340, 차이 = 0.0413
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1857/1857_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1857/1857_1.jpg
+  gen 1862: 거리 = 0.4516, 임계값 = 0.4340, 차이 = 0.0176
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1862/1862_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1862/1862_1.jpg
+  gen 1877: 거리 = 0.4581, 임계값 = 0.4340, 차이 = 0.0241
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1877/1877_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1877/1877_1.jpg
+  gen 1901: 거리 = 0.4662, 임계값 = 0.4340, 차이 = 0.0322
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1901/1901_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1901/1901_1.jpg
+  gen 1906: 거리 = 0.4470, 임계값 = 0.4340, 차이 = 0.0130
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1906/1906_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1906/1906_1.jpg
+  gen 1953: 거리 = 0.4755, 임계값 = 0.4340, 차이 = 0.0415
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1953/1953_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/1953/1953_1.jpg
+  gen 2008: 거리 = 0.4408, 임계값 = 0.4340, 차이 = 0.0068
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2008/2008_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2008/2008_1.jpg
+  gen 2025: 거리 = 0.5031, 임계값 = 0.4340, 차이 = 0.0691
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2025/2025_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2025/2025_1.jpg
+  gen 2029: 거리 = 0.4866, 임계값 = 0.4340, 차이 = 0.0526
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2029/2029_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2029/2029_1.jpg
+
+===== 폴드 8/10 처리 중 =====
+최적 임계값: 0.4340 (훈련 정확도: 0.9576)
+
+거짓 양성(False Positive) 오탐지: 4개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2123: 거리 = 0.4256, 임계값 = 0.4340, 차이 = 0.0084
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2123/2123_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2123/2123_1.jpg
+  imp 2299: 거리 = 0.4276, 임계값 = 0.4340, 차이 = 0.0064
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2299/2299_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2299/2299_1.jpg
+  imp 2389: 거리 = 0.4284, 임계값 = 0.4340, 차이 = 0.0056
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2389/2389_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2389/2389_1.jpg
+  imp 2390: 거리 = 0.4098, 임계값 = 0.4340, 차이 = 0.0242
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2390/2390_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2390/2390_1.jpg
+
+거짓 음성(False Negative) 오탐지: 21개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2138: 거리 = 0.5104, 임계값 = 0.4340, 차이 = 0.0764
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2138/2138_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2138/2138_1.jpg
+  gen 2141: 거리 = 0.4936, 임계값 = 0.4340, 차이 = 0.0596
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2141/2141_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2141/2141_1.jpg
+  gen 2166: 거리 = 0.4643, 임계값 = 0.4340, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2166/2166_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2166/2166_1.jpg
+  gen 2167: 거리 = 0.5288, 임계값 = 0.4340, 차이 = 0.0948
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2167/2167_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2167/2167_1.jpg
+  gen 2169: 거리 = 0.4927, 임계값 = 0.4340, 차이 = 0.0587
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2169/2169_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2169/2169_1.jpg
+  gen 2176: 거리 = 0.4801, 임계값 = 0.4340, 차이 = 0.0461
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2176/2176_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2176/2176_1.jpg
+  gen 2187: 거리 = 0.4632, 임계값 = 0.4340, 차이 = 0.0292
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2187/2187_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2187/2187_1.jpg
+  gen 2203: 거리 = 0.4838, 임계값 = 0.4340, 차이 = 0.0498
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2203/2203_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2203/2203_1.jpg
+  gen 2213: 거리 = 0.5233, 임계값 = 0.4340, 차이 = 0.0893
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2213/2213_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2213/2213_1.jpg
+  gen 2222: 거리 = 0.4942, 임계값 = 0.4340, 차이 = 0.0602
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2222/2222_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2222/2222_1.jpg
+  gen 2226: 거리 = 0.4867, 임계값 = 0.4340, 차이 = 0.0527
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2226/2226_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2226/2226_1.jpg
+  gen 2232: 거리 = 0.4814, 임계값 = 0.4340, 차이 = 0.0474
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2232/2232_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2232/2232_1.jpg
+  gen 2235: 거리 = 0.4705, 임계값 = 0.4340, 차이 = 0.0365
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2235/2235_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2235/2235_1.jpg
+  gen 2248: 거리 = 0.5022, 임계값 = 0.4340, 차이 = 0.0682
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2248/2248_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2248/2248_1.jpg
+  gen 2267: 거리 = 0.5051, 임계값 = 0.4340, 차이 = 0.0711
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2267/2267_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2267/2267_1.jpg
+  gen 2275: 거리 = 0.5070, 임계값 = 0.4340, 차이 = 0.0730
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2275/2275_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2275/2275_1.jpg
+  gen 2283: 거리 = 0.5257, 임계값 = 0.4340, 차이 = 0.0917
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2283/2283_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2283/2283_1.jpg
+  gen 2325: 거리 = 0.5050, 임계값 = 0.4340, 차이 = 0.0710
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2325/2325_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2325/2325_1.jpg
+  gen 2341: 거리 = 0.4764, 임계값 = 0.4340, 차이 = 0.0424
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2341/2341_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2341/2341_1.jpg
+  gen 2344: 거리 = 0.4836, 임계값 = 0.4340, 차이 = 0.0496
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2344/2344_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2344/2344_1.jpg
+  gen 2382: 거리 = 0.4624, 임계값 = 0.4340, 차이 = 0.0284
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2382/2382_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2382/2382_1.jpg
+
+===== 폴드 9/10 처리 중 =====
+최적 임계값: 0.4370 (훈련 정확도: 0.9580)
+
+거짓 양성(False Positive) 오탐지: 3개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2486: 거리 = 0.4340, 임계값 = 0.4370, 차이 = 0.0030
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2486/2486_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2486/2486_1.jpg
+  imp 2630: 거리 = 0.4344, 임계값 = 0.4370, 차이 = 0.0026
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2630/2630_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2630/2630_1.jpg
+  imp 2697: 거리 = 0.4091, 임계값 = 0.4370, 차이 = 0.0279
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2697/2697_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2697/2697_1.jpg
+
+거짓 음성(False Negative) 오탐지: 25개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2408: 거리 = 0.4699, 임계값 = 0.4370, 차이 = 0.0329
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2408/2408_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2408/2408_1.jpg
+  gen 2414: 거리 = 0.4932, 임계값 = 0.4370, 차이 = 0.0562
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2414/2414_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2414/2414_1.jpg
+  gen 2425: 거리 = 0.5063, 임계값 = 0.4370, 차이 = 0.0693
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2425/2425_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2425/2425_1.jpg
+  gen 2427: 거리 = 0.5329, 임계값 = 0.4370, 차이 = 0.0959
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2427/2427_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2427/2427_1.jpg
+  gen 2435: 거리 = 0.4978, 임계값 = 0.4370, 차이 = 0.0608
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2435/2435_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2435/2435_1.jpg
+  gen 2444: 거리 = 0.4599, 임계값 = 0.4370, 차이 = 0.0229
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2444/2444_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2444/2444_1.jpg
+  gen 2448: 거리 = 0.5034, 임계값 = 0.4370, 차이 = 0.0664
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2448/2448_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2448/2448_1.jpg
+  gen 2460: 거리 = 0.4752, 임계값 = 0.4370, 차이 = 0.0382
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2460/2460_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2460/2460_1.jpg
+  gen 2463: 거리 = 0.4560, 임계값 = 0.4370, 차이 = 0.0190
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2463/2463_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2463/2463_1.jpg
+  gen 2466: 거리 = 0.4393, 임계값 = 0.4370, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2466/2466_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2466/2466_1.jpg
+  gen 2474: 거리 = 0.4781, 임계값 = 0.4370, 차이 = 0.0411
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2474/2474_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2474/2474_1.jpg
+  gen 2476: 거리 = 0.4673, 임계값 = 0.4370, 차이 = 0.0303
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2476/2476_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2476/2476_1.jpg
+  gen 2513: 거리 = 0.5038, 임계값 = 0.4370, 차이 = 0.0668
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2513/2513_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2513/2513_1.jpg
+  gen 2525: 거리 = 0.4853, 임계값 = 0.4370, 차이 = 0.0483
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2525/2525_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2525/2525_1.jpg
+  gen 2528: 거리 = 0.5120, 임계값 = 0.4370, 차이 = 0.0750
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2528/2528_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2528/2528_1.jpg
+  gen 2535: 거리 = 0.4808, 임계값 = 0.4370, 차이 = 0.0438
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2535/2535_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2535/2535_1.jpg
+  gen 2545: 거리 = 0.4927, 임계값 = 0.4370, 차이 = 0.0557
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2545/2545_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2545/2545_1.jpg
+  gen 2551: 거리 = 0.4470, 임계값 = 0.4370, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2551/2551_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2551/2551_1.jpg
+  gen 2563: 거리 = 0.5187, 임계값 = 0.4370, 차이 = 0.0817
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2563/2563_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2563/2563_1.jpg
+  gen 2591: 거리 = 0.4449, 임계값 = 0.4370, 차이 = 0.0079
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2591/2591_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2591/2591_1.jpg
+  gen 2597: 거리 = 0.4688, 임계값 = 0.4370, 차이 = 0.0318
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2597/2597_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2597/2597_1.jpg
+  gen 2604: 거리 = 0.4413, 임계값 = 0.4370, 차이 = 0.0043
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2604/2604_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2604/2604_1.jpg
+  gen 2646: 거리 = 0.4832, 임계값 = 0.4370, 차이 = 0.0462
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2646/2646_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2646/2646_1.jpg
+  gen 2670: 거리 = 0.4644, 임계값 = 0.4370, 차이 = 0.0274
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2670/2670_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2670/2670_1.jpg
+  gen 2680: 거리 = 0.4375, 임계값 = 0.4370, 차이 = 0.0005
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2680/2680_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2680/2680_1.jpg
+
+===== 폴드 10/10 처리 중 =====
+최적 임계값: 0.4330 (훈련 정확도: 0.9585)
+
+거짓 양성(False Positive) 오탐지: 2개
+
+상세 정보 (임계값보다 거리가 작아서 같은 사람으로 오인):
+  imp 2833: 거리 = 0.3973, 임계값 = 0.4330, 차이 = 0.0357
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2833/2833_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2833/2833_1.jpg
+  imp 2837: 거리 = 0.4054, 임계값 = 0.4330, 차이 = 0.0276
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2837/2837_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/imp/2837/2837_1.jpg
+
+거짓 음성(False Negative) 오탐지: 29개
+
+상세 정보 (임계값보다 거리가 커서 다른 사람으로 오인):
+  gen 2702: 거리 = 0.4677, 임계값 = 0.4330, 차이 = 0.0347
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2702/2702_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2702/2702_1.jpg
+  gen 2710: 거리 = 0.4353, 임계값 = 0.4330, 차이 = 0.0023
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2710/2710_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2710/2710_1.jpg
+  gen 2713: 거리 = 0.4481, 임계값 = 0.4330, 차이 = 0.0151
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2713/2713_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2713/2713_1.jpg
+  gen 2716: 거리 = 0.4724, 임계값 = 0.4330, 차이 = 0.0394
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2716/2716_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2716/2716_1.jpg
+  gen 2727: 거리 = 0.4890, 임계값 = 0.4330, 차이 = 0.0560
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2727/2727_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2727/2727_1.jpg
+  gen 2730: 거리 = 0.5149, 임계값 = 0.4330, 차이 = 0.0819
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2730/2730_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2730/2730_1.jpg
+  gen 2737: 거리 = 0.4816, 임계값 = 0.4330, 차이 = 0.0486
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2737/2737_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2737/2737_1.jpg
+  gen 2743: 거리 = 0.4960, 임계값 = 0.4330, 차이 = 0.0630
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2743/2743_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2743/2743_1.jpg
+  gen 2749: 거리 = 0.4950, 임계값 = 0.4330, 차이 = 0.0620
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2749/2749_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2749/2749_1.jpg
+  gen 2751: 거리 = 0.5094, 임계값 = 0.4330, 차이 = 0.0764
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2751/2751_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2751/2751_1.jpg
+  gen 2756: 거리 = 0.4919, 임계값 = 0.4330, 차이 = 0.0589
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2756/2756_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2756/2756_1.jpg
+  gen 2758: 거리 = 0.4675, 임계값 = 0.4330, 차이 = 0.0345
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2758/2758_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2758/2758_1.jpg
+  gen 2761: 거리 = 0.5057, 임계값 = 0.4330, 차이 = 0.0727
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2761/2761_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2761/2761_1.jpg
+  gen 2763: 거리 = 0.4511, 임계값 = 0.4330, 차이 = 0.0181
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2763/2763_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2763/2763_1.jpg
+  gen 2774: 거리 = 0.4630, 임계값 = 0.4330, 차이 = 0.0300
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2774/2774_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2774/2774_1.jpg
+  gen 2782: 거리 = 0.4798, 임계값 = 0.4330, 차이 = 0.0468
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2782/2782_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2782/2782_1.jpg
+  gen 2786: 거리 = 0.4389, 임계값 = 0.4330, 차이 = 0.0059
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2786/2786_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2786/2786_1.jpg
+  gen 2805: 거리 = 0.4565, 임계값 = 0.4330, 차이 = 0.0235
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2805/2805_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2805/2805_1.jpg
+  gen 2822: 거리 = 0.4761, 임계값 = 0.4330, 차이 = 0.0431
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2822/2822_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2822/2822_1.jpg
+  gen 2827: 거리 = 0.4718, 임계값 = 0.4330, 차이 = 0.0388
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2827/2827_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2827/2827_1.jpg
+  gen 2829: 거리 = 0.4862, 임계값 = 0.4330, 차이 = 0.0532
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2829/2829_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2829/2829_1.jpg
+  gen 2843: 거리 = 0.4333, 임계값 = 0.4330, 차이 = 0.0003
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2843/2843_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2843/2843_1.jpg
+  gen 2882: 거리 = 0.4736, 임계값 = 0.4330, 차이 = 0.0406
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2882/2882_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2882/2882_1.jpg
+  gen 2904: 거리 = 0.5332, 임계값 = 0.4330, 차이 = 0.1002
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2904/2904_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2904/2904_1.jpg
+  gen 2937: 거리 = 0.4430, 임계값 = 0.4330, 차이 = 0.0100
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2937/2937_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2937/2937_1.jpg
+  gen 2957: 거리 = 0.4365, 임계값 = 0.4330, 차이 = 0.0035
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2957/2957_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2957/2957_1.jpg
+  gen 2962: 거리 = 0.4561, 임계값 = 0.4330, 차이 = 0.0231
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2962/2962_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2962/2962_1.jpg
+  gen 2968: 거리 = 0.5124, 임계값 = 0.4330, 차이 = 0.0794
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2968/2968_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2968/2968_1.jpg
+  gen 2990: 거리 = 0.4412, 임계값 = 0.4330, 차이 = 0.0082
+    경로1: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2990/2990_0.jpg
+    경로2: work_dirs/corruptions/CALFW/gaussian_noise_1/gen/2990/2990_1.jpg
+Accuracy for each fold: [0.965      0.94166667 0.95833333 0.94833333 0.94       0.96833333
+ 0.97833333 0.95833333 0.95333333 0.94833333]
+Mean Accuracy: 0.9560000000000001
+현재 작업 디렉토리: /home/comple/faceid/TopoFR
+Average distance for genuine pairs: 0.3388095
+Standard deviation for genuine pairs: 0.058019277
+Average distance for imposter pairs: 0.49671957
+Standard deviation for imposter pairs: 0.022811964
