@@ -166,6 +166,11 @@ def _shuffle_pixels_njit_glass_blur(d0, d1, x, c):
                 x[h, w], x[h_prime, w_prime] = x[h_prime, w_prime], x[h, w]
     return x
 
+def next_power_of_2(x):
+    return 1 if x == 0 else 2 ** (x - 1).bit_length()
+
+def rgb2gray(rgb):
+    return np.dot(rgb[..., :3], [0.2989, 0.5870, 0.1140])
 # /////////////// End Corruption Helpers ///////////////
 
 
@@ -287,10 +292,6 @@ def zoom_blur(x, severity=1):
     return np.clip(x, 0, 1) * 255
 
 
-def next_power_of_2(x):
-    return 1 if x == 0 else 2 ** (x - 1).bit_length()
-
-
 def fog(x, severity=1):
     c = [(1.5, 2), (2., 2), (2.5, 1.7), (2.5, 1.5), (3., 1.4)][severity - 1]
 
@@ -362,10 +363,6 @@ def frost(x, severity=1):
         frost_rescaled = frost_rescaled[x_start:x_start + x_shape[0],
                                         y_start:y_start + x_shape[1]][..., [2, 1, 0]]
     return np.clip(c[0] * np.array(x) + c[1] * frost_rescaled, 0, 255)
-
-
-def rgb2gray(rgb):
-    return np.dot(rgb[..., :3], [0.2989, 0.5870, 0.1140])
 
 
 def snow(x, severity=1):
