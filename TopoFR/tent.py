@@ -53,8 +53,14 @@ def forward_and_adapt(x, model, optimizer):
     """
     # forward
     outputs = model(x)
+    #tofofr은 forward출력이 2개임 따라서 튜플 중 로짓만 사용
+    if isinstance(outputs, tuple):
+        logits = outputs[0]
+    else:
+        logits = outputs
+
     # adapt
-    loss = softmax_entropy(outputs).mean(0)
+    loss = softmax_entropy(logits).mean(0)
     loss.backward()
     optimizer.step()
     optimizer.zero_grad()
