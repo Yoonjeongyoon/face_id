@@ -1,0 +1,355 @@
+** Test Dataset: defocus_blur_3
+** Running on device: cuda:0
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 10, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 16
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.53298104
+** Standard deviation for genuine pairs: 0.15597795
+** Average distance for imposter pairs: 0.94182974
+** Standard deviation for imposter pairs: 0.070509605
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.75167, 0.72667, 0.725, 0.71167, 0.75667, 0.76833, 0.755, 0.75667, 0.705, 0.75333]
+** Adapted Mean Accuracy: 0.741
+** Best Adapted Accuracy threshold: [0.42, 0.513, 0.547, 0.525, 0.469, 0.481, 0.486, 0.531, 0.445, 0.492]
+** TPR@FPR: 0.12, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.4412426
+** Adpaeted Standard deviation for genuine pairs: 0.19244604
+** Adpaeted Average distance for imposter pairs: 0.65920794
+** Adpaeted Standard deviation for imposter pairs: 0.18906824
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 5, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 16
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.53298104
+** Standard deviation for genuine pairs: 0.15597795
+** Average distance for imposter pairs: 0.94182974
+** Standard deviation for imposter pairs: 0.070509605
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.79167, 0.79, 0.78167, 0.785, 0.81333, 0.82167, 0.80833, 0.81333, 0.78833, 0.80167]
+** Adapted Mean Accuracy: 0.7995
+** Best Adapted Accuracy threshold: [0.642, 0.683, 0.671, 0.693, 0.674, 0.657, 0.656, 0.656, 0.664, 0.655]
+** TPR@FPR: 0.199, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.56597203
+** Adpaeted Standard deviation for genuine pairs: 0.15952405
+** Adpaeted Average distance for imposter pairs: 0.789269
+** Adpaeted Standard deviation for imposter pairs: 0.130715
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 1, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 16
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.53298104
+** Standard deviation for genuine pairs: 0.15597795
+** Average distance for imposter pairs: 0.94182974
+** Standard deviation for imposter pairs: 0.070509605
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.875, 0.86333, 0.84667, 0.85167, 0.85333, 0.87333, 0.855, 0.87, 0.87667, 0.86833]
+** Adapted Mean Accuracy: 0.863333
+** Best Adapted Accuracy threshold: [0.774, 0.803, 0.797, 0.79, 0.791, 0.815, 0.776, 0.798, 0.804, 0.789]
+** TPR@FPR: 0.348333, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.6835962
+** Adpaeted Standard deviation for genuine pairs: 0.12846094
+** Adpaeted Average distance for imposter pairs: 0.90220946
+** Adpaeted Standard deviation for imposter pairs: 0.078454085
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 10, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 32
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.53298503
+** Standard deviation for genuine pairs: 0.1559768
+** Average distance for imposter pairs: 0.9418292
+** Standard deviation for imposter pairs: 0.07051075
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.74333, 0.74667, 0.72333, 0.7, 0.76833, 0.77167, 0.74, 0.74667, 0.715, 0.74833]
+** Adapted Mean Accuracy: 0.740333
+** Best Adapted Accuracy threshold: [0.437, 0.476, 0.478, 0.467, 0.54, 0.459, 0.408, 0.494, 0.433, 0.448]
+** TPR@FPR: 0.096, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.41300416
+** Adpaeted Standard deviation for genuine pairs: 0.16102104
+** Adpaeted Average distance for imposter pairs: 0.6020917
+** Adpaeted Standard deviation for imposter pairs: 0.16040835
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 5, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 32
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.53298503
+** Standard deviation for genuine pairs: 0.1559768
+** Average distance for imposter pairs: 0.9418292
+** Standard deviation for imposter pairs: 0.07051075
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.80167, 0.805, 0.78333, 0.78833, 0.82, 0.81333, 0.805, 0.81167, 0.79833, 0.815]
+** Adapted Mean Accuracy: 0.804167
+** Best Adapted Accuracy threshold: [0.672, 0.658, 0.664, 0.691, 0.657, 0.657, 0.644, 0.663, 0.63, 0.663]
+** TPR@FPR: 0.230667, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.5535994
+** Adpaeted Standard deviation for genuine pairs: 0.14747848
+** Adpaeted Average distance for imposter pairs: 0.7714264
+** Adpaeted Standard deviation for imposter pairs: 0.120169856
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 1, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 32
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.53298503
+** Standard deviation for genuine pairs: 0.1559768
+** Average distance for imposter pairs: 0.9418292
+** Standard deviation for imposter pairs: 0.07051075
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.88, 0.85833, 0.86333, 0.87333, 0.87167, 0.88667, 0.855, 0.87833, 0.88167, 0.88333]
+** Adapted Mean Accuracy: 0.873167
+** Best Adapted Accuracy threshold: [0.801, 0.806, 0.788, 0.796, 0.814, 0.786, 0.788, 0.796, 0.799, 0.778]
+** TPR@FPR: 0.372333, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.66914344
+** Adpaeted Standard deviation for genuine pairs: 0.12975875
+** Adpaeted Average distance for imposter pairs: 0.89850163
+** Adpaeted Standard deviation for imposter pairs: 0.07907301
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 10, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 48
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.5329847
+** Standard deviation for genuine pairs: 0.15597649
+** Average distance for imposter pairs: 0.94182926
+** Standard deviation for imposter pairs: 0.0705109
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.72833, 0.74667, 0.72167, 0.69167, 0.77667, 0.76333, 0.73833, 0.76, 0.72333, 0.74]
+** Adapted Mean Accuracy: 0.739
+** Best Adapted Accuracy threshold: [0.428, 0.46, 0.464, 0.43, 0.463, 0.464, 0.427, 0.481, 0.467, 0.432]
+** TPR@FPR: 0.127333, FPR: 0.0006666666666666668
+** Adpaeted Average distance for genuine pairs: 0.396183
+** Adpaeted Standard deviation for genuine pairs: 0.14807878
+** Adpaeted Average distance for imposter pairs: 0.5650997
+** Adpaeted Standard deviation for imposter pairs: 0.14155741
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 5, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 48
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.5329847
+** Standard deviation for genuine pairs: 0.15597649
+** Average distance for imposter pairs: 0.94182926
+** Standard deviation for imposter pairs: 0.0705109
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.8, 0.79833, 0.78167, 0.79667, 0.82833, 0.81667, 0.79167, 0.82167, 0.81167, 0.82167]
+** Adapted Mean Accuracy: 0.806833
+** Best Adapted Accuracy threshold: [0.641, 0.65, 0.638, 0.653, 0.673, 0.658, 0.648, 0.646, 0.664, 0.62]
+** TPR@FPR: 0.248, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.5487373
+** Adpaeted Standard deviation for genuine pairs: 0.14264336
+** Adpaeted Average distance for imposter pairs: 0.761115
+** Adpaeted Standard deviation for imposter pairs: 0.11398014
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R50_TopoFR_9727.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 1, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 48
+** Accuracy for each fold: [0.95833, 0.96333, 0.96, 0.95333, 0.955, 0.98, 0.955, 0.97333, 0.96833, 0.96667]
+** Mean Accuracy: 0.963333
+** Best Accuracy threshold: [0.756, 0.779, 0.817, 0.817, 0.783, 0.8, 0.771, 0.771, 0.802, 0.751]
+** TPR@FPR: 0.785333, FPR: 0.001
+** Average distance for genuine pairs: 0.5329847
+** Standard deviation for genuine pairs: 0.15597649
+** Average distance for imposter pairs: 0.94182926
+** Standard deviation for imposter pairs: 0.0705109
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.88167, 0.86167, 0.85667, 0.87833, 0.87167, 0.89167, 0.86167, 0.88167, 0.88667, 0.89167]
+** Adapted Mean Accuracy: 0.876333
+** Best Adapted Accuracy threshold: [0.799, 0.765, 0.782, 0.793, 0.809, 0.782, 0.782, 0.79, 0.777, 0.772]
+** TPR@FPR: 0.406667, FPR: 0.001
+** Adpaeted Average distance for genuine pairs: 0.6646477
+** Adpaeted Standard deviation for genuine pairs: 0.13037442
+** Adpaeted Average distance for imposter pairs: 0.8975608
+** Adpaeted Standard deviation for imposter pairs: 0.07950949
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R100_TopoFR_9760.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 10, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 16
+** Accuracy for each fold: [0.96667, 0.97333, 0.96667, 0.96167, 0.975, 0.98333, 0.975, 0.975, 0.975, 0.975]
+** Mean Accuracy: 0.972667
+** Best Accuracy threshold: [0.823, 0.769, 0.803, 0.831, 0.804, 0.783, 0.79, 0.814, 0.798, 0.788]
+** TPR@FPR: 0.842667, FPR: 0.001
+** Average distance for genuine pairs: 0.52558905
+** Standard deviation for genuine pairs: 0.15702982
+** Average distance for imposter pairs: 0.9601499
+** Standard deviation for imposter pairs: 0.068487145
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.71167, 0.67667, 0.71333, 0.67167, 0.70667, 0.73333, 0.65167, 0.69833, 0.65833, 0.715]
+** Adapted Mean Accuracy: 0.693667
+** Best Adapted Accuracy threshold: [0.484, 0.529, 0.483, 0.438, 0.36, 0.497, 0.39, 0.466, 0.526, 0.376]
+** TPR@FPR: 0.069333, FPR: 0.0006666666666666668
+** Adpaeted Average distance for genuine pairs: 0.42521697
+** Adpaeted Standard deviation for genuine pairs: 0.23082928
+** Adpaeted Average distance for imposter pairs: 0.6372266
+** Adpaeted Standard deviation for imposter pairs: 0.24617629
+** --------------------------------- **
+** Model loaded: {'model_path': 'work_dirs/Glint360K_R100_TopoFR_9760.pt', 'optimizer': Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+), 'tent_steps': 5, 'episodic': True}
+** Calculating embeddings for 12000 images with batch size 16
+** Accuracy for each fold: [0.96667, 0.97333, 0.96667, 0.96167, 0.975, 0.98333, 0.975, 0.975, 0.975, 0.975]
+** Mean Accuracy: 0.972667
+** Best Accuracy threshold: [0.823, 0.769, 0.803, 0.831, 0.804, 0.783, 0.79, 0.814, 0.798, 0.788]
+** TPR@FPR: 0.842667, FPR: 0.001
+** Average distance for genuine pairs: 0.52558905
+** Standard deviation for genuine pairs: 0.15702982
+** Average distance for imposter pairs: 0.9601499
+** Standard deviation for imposter pairs: 0.068487145
+>>>>>>>>>>>>>>>>>>>>>
+** Adapted Accuracy for each fold: [0.77667, 0.73167, 0.75833, 0.72167, 0.77833, 0.79333, 0.745, 0.785, 0.76, 0.79]
+** Adapted Mean Accuracy: 0.764
+** Best Adapted Accuracy threshold: [0.664, 0.636, 0.619, 0.688, 0.631, 0.663, 0.642, 0.677, 0.659, 0.617]
+** TPR@FPR: 0.128, FPR: 0.0013333333333333335
+** Adpaeted Average distance for genuine pairs: 0.5645456
+** Adpaeted Standard deviation for genuine pairs: 0.17436144
+** Adpaeted Average distance for imposter pairs: 0.78390884
+** Adpaeted Standard deviation for imposter pairs: 0.15110797
+** --------------------------------- **

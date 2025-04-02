@@ -80,36 +80,66 @@ def get_topofr_model(name='r50'):
 # 0. Load Original model
 models = ['r100']#['r50', 'r100', 'r200']
 
-img_dirs = ["work_dirs/corruptions/LFW/defocus_blur_1"]#["/data/dataset/Face/benchmark/tent/calfw",
+img_folders = ["work_dirs/corruptions/LFW",
+               "work_dirs/corruptions/CALFW",
+               "work_dirs/corruptions/CPLFW",
+               "work_dirs/corruptions/CFP_FP",
+               "work_dirs/corruptions/AgeDB_30"
+               ]
+
+
+
+#["/data/dataset/Face/benchmark/tent/calfw",
            #"/data/dataset/Face/benchmark/tent/agedb_30",
            #"/data/dataset/Face/benchmark/tent/cfp_fp",
            #"/data/dataset/Face/benchmark/tent/cplfw",
            #"/data/dataset/Face/benchmark/tent/lfw",
            #]
-tent_step =  [10]#[1, 3, 5, 10, 20]
+
+img_dirs = []
+
+for folder in img_folders:
+    try:
+        subdirs = [os.path.join(folder, subfolder) for subfolder in os.listdir(folder)
+                   if os.path.isdir(os.path.join(folder, subfolder))]
+        img_dirs.extend(subdirs)
+    except FileNotFoundError:
+        print(f"경로를 찾을 수 없습니다: {folder}")
+
+print("처리할 디렉터리 목록:")
+for dir_path in img_dirs:
+    print(f"- {dir_path}")
+
+
+tent_step =  [1, 5, 10]#[1, 3, 5, 10, 20]
 tent_batch_size = [256]#[2, 4, 8, 16, 32, 64, 128, 256]     # 2, 4, 8, 16, 32, 64, 128, 256
 
 exp_cnt = 0
 for img_dir in img_dirs:
-    dataset_name = os.path.basename(img_dir)
-
+    corruption_name = os.path.basename(img_dir)
+    parent_path = os.path.dirname(img_dir)
+    dataset_name = os.path.basename(parent_path)
     for model_name in models:
         if model_name == 'r200':
             tent_batch_size = [2, 4, 8, 16, 32, 64]
         else:
-            tent_batch_size = [2, 4, 8, 16, 32, 64, 128, 256]
+            tent_batch_size = [128, 256]
 
         for ts in tent_step:
             for tbs in tent_batch_size:
-                print(f"Experiment {exp_cnt}: {dataset_name} - {model_name} - Tent Step: {ts} - Batch Size: {tbs}")
-                experiment_name = f"{dataset_name}_{model_name}_tent_step{ts}_batch_size{tbs}"
-
+                print(f"Experiment {exp_cnt}: {dataset_name}-{corruption_name} - {model_name} - Tent Step: {ts} - Batch Size: {tbs}")
+                experiment_name = f"{dataset_name}_{corruption_name}_{model_name}_tent_step{ts}_batch_size{tbs}"
+                adapted_model_path = f'model_out/MS1MV2_{model_name}_TopoFR_adapted__dataset{dataset_name}__corruptions{corruption_name}__epoch{ts}_batch{tbs}.pt'
+                if os.path.exists(adapted_model_path):
+                    print(f" {experiment_name} skip. Adapted model already exists.")
+                    continue
                 # Load your dataset
                 img_path_list = []
-                for img_file in os.listdir(img_dir):
-                    img_path = os.path.join(img_dir, img_file)
-                    if os.path.isfile(img_path):
-                        img_path_list.append(img_path)
+                for root, dirs, files in os.walk(img_dir):
+                    for img_file in files:
+                        img_path = os.path.join(root, img_file)
+                        if os.path.isfile(img_path):
+                            img_path_list.append(img_path)
                 dataset = FaceDataset(img_path_list)
                 dataloader = DataLoader(dataset, batch_size=tbs, shuffle=False)
                 
@@ -141,7 +171,7 @@ for img_dir in img_dirs:
 
                 # After completing test-time adaptation, save the adapted model weights
                 os.makedirs('model_out', exist_ok=True)
-                adapted_model_path = f'model_out/MS1MV2_{model_name}_TopoFR_adapted_{dataset_name}_epoch{ts}_batch{tbs}.pt'
+                adapted_model_path = f'model_out/MS1MV2_{model_name}_TopoFR_adapted__dataset{dataset_name}__corruptions{corruption_name}__epoch{ts}_batch{tbs}.pt'
                 # torch.save(tented_model.model.state_dict(), "model_out/Glint360_torch_state.pt") #adapted_model_path)
                 torch.save(tented_model.model, adapted_model_path)
                 # model_script = torch.jit.script(tented_model.model)

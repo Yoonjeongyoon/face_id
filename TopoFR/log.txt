@@ -1,17 +1,339 @@
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 2
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch2.pt
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 4
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch4.pt
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 8
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch8.pt
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 16
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch16.pt
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 32
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch32.pt
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 64
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch64.pt
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 128
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch128.pt
-Experiment 0: defocus_blur_1 - r100 - Tent Step: 10 - Batch Size: 256
-Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted_defocus_blur_1_epoch10_batch256.pt
-All experiments completed.
+처리할 디렉터리 목록:
+- work_dirs/corruptions/LFW/zoom_blur_1
+- work_dirs/corruptions/LFW/zoom_blur_2
+- work_dirs/corruptions/LFW/impulse_noise_4
+- work_dirs/corruptions/LFW/snow_3
+- work_dirs/corruptions/LFW/impulse_noise_1
+- work_dirs/corruptions/LFW/gaussian_noise_4
+- work_dirs/corruptions/LFW/impulse_noise_5
+- work_dirs/corruptions/LFW/gaussian_noise_1
+- work_dirs/corruptions/LFW/motion_blur_5
+- work_dirs/corruptions/LFW/snow_5
+- work_dirs/corruptions/LFW/snow_4
+- work_dirs/corruptions/LFW/speckle_noise_2
+- work_dirs/corruptions/LFW/shot_noise_1
+- work_dirs/corruptions/LFW/motion_blur_3
+- work_dirs/corruptions/LFW/defocus_blur_4
+- work_dirs/corruptions/LFW/frost_1
+- work_dirs/corruptions/LFW/speckle_noise_4
+- work_dirs/corruptions/LFW/shot_noise_3
+- work_dirs/corruptions/LFW/speckle_noise_1
+- work_dirs/corruptions/LFW/shot_noise_5
+- work_dirs/corruptions/LFW/impulse_noise_2
+- work_dirs/corruptions/LFW/motion_blur_2
+- work_dirs/corruptions/LFW/shot_noise_2
+- work_dirs/corruptions/LFW/speckle_noise_3
+- work_dirs/corruptions/LFW/defocus_blur_2
+- work_dirs/corruptions/LFW/frost_3
+- work_dirs/corruptions/LFW/impulse_noise_3
+- work_dirs/corruptions/LFW/zoom_blur_4
+- work_dirs/corruptions/LFW/fog_3
+- work_dirs/corruptions/LFW/zoom_blur_3
+- work_dirs/corruptions/LFW/shot_noise_4
+- work_dirs/corruptions/LFW/zoom_blur_5
+- work_dirs/corruptions/LFW/defocus_blur_3
+- work_dirs/corruptions/LFW/motion_blur_1
+- work_dirs/corruptions/LFW/defocus_blur_1
+- work_dirs/corruptions/LFW/frost_2
+- work_dirs/corruptions/LFW/fog_2
+- work_dirs/corruptions/LFW/gaussian_noise_5
+- work_dirs/corruptions/LFW/frost_5
+- work_dirs/corruptions/LFW/snow_2
+- work_dirs/corruptions/LFW/motion_blur_4
+- work_dirs/corruptions/LFW/fog_5
+- work_dirs/corruptions/LFW/snow_1
+- work_dirs/corruptions/LFW/fog_4
+- work_dirs/corruptions/LFW/gaussian_noise_2
+- work_dirs/corruptions/LFW/fog_1
+- work_dirs/corruptions/LFW/speckle_noise_5
+- work_dirs/corruptions/LFW/gaussian_noise_3
+- work_dirs/corruptions/LFW/frost_4
+- work_dirs/corruptions/LFW/defocus_blur_5
+- work_dirs/corruptions/CALFW/zoom_blur_1
+- work_dirs/corruptions/CALFW/zoom_blur_2
+- work_dirs/corruptions/CALFW/impulse_noise_4
+- work_dirs/corruptions/CALFW/snow_3
+- work_dirs/corruptions/CALFW/impulse_noise_1
+- work_dirs/corruptions/CALFW/gaussian_noise_4
+- work_dirs/corruptions/CALFW/impulse_noise_5
+- work_dirs/corruptions/CALFW/gaussian_noise_1
+- work_dirs/corruptions/CALFW/motion_blur_5
+- work_dirs/corruptions/CALFW/snow_5
+- work_dirs/corruptions/CALFW/snow_4
+- work_dirs/corruptions/CALFW/speckle_noise_2
+- work_dirs/corruptions/CALFW/shot_noise_1
+- work_dirs/corruptions/CALFW/motion_blur_3
+- work_dirs/corruptions/CALFW/defocus_blur_4
+- work_dirs/corruptions/CALFW/frost_1
+- work_dirs/corruptions/CALFW/speckle_noise_4
+- work_dirs/corruptions/CALFW/shot_noise_3
+- work_dirs/corruptions/CALFW/speckle_noise_1
+- work_dirs/corruptions/CALFW/shot_noise_5
+- work_dirs/corruptions/CALFW/impulse_noise_2
+- work_dirs/corruptions/CALFW/motion_blur_2
+- work_dirs/corruptions/CALFW/shot_noise_2
+- work_dirs/corruptions/CALFW/speckle_noise_3
+- work_dirs/corruptions/CALFW/defocus_blur_2
+- work_dirs/corruptions/CALFW/frost_3
+- work_dirs/corruptions/CALFW/impulse_noise_3
+- work_dirs/corruptions/CALFW/zoom_blur_4
+- work_dirs/corruptions/CALFW/fog_3
+- work_dirs/corruptions/CALFW/zoom_blur_3
+- work_dirs/corruptions/CALFW/shot_noise_4
+- work_dirs/corruptions/CALFW/zoom_blur_5
+- work_dirs/corruptions/CALFW/defocus_blur_3
+- work_dirs/corruptions/CALFW/motion_blur_1
+- work_dirs/corruptions/CALFW/defocus_blur_1
+- work_dirs/corruptions/CALFW/frost_2
+- work_dirs/corruptions/CALFW/fog_2
+- work_dirs/corruptions/CALFW/gaussian_noise_5
+- work_dirs/corruptions/CALFW/frost_5
+- work_dirs/corruptions/CALFW/snow_2
+- work_dirs/corruptions/CALFW/motion_blur_4
+- work_dirs/corruptions/CALFW/fog_5
+- work_dirs/corruptions/CALFW/snow_1
+- work_dirs/corruptions/CALFW/fog_4
+- work_dirs/corruptions/CALFW/gaussian_noise_2
+- work_dirs/corruptions/CALFW/fog_1
+- work_dirs/corruptions/CALFW/speckle_noise_5
+- work_dirs/corruptions/CALFW/gaussian_noise_3
+- work_dirs/corruptions/CALFW/frost_4
+- work_dirs/corruptions/CALFW/defocus_blur_5
+- work_dirs/corruptions/CPLFW/zoom_blur_1
+- work_dirs/corruptions/CPLFW/zoom_blur_2
+- work_dirs/corruptions/CPLFW/impulse_noise_4
+- work_dirs/corruptions/CPLFW/snow_3
+- work_dirs/corruptions/CPLFW/impulse_noise_1
+- work_dirs/corruptions/CPLFW/gaussian_noise_4
+- work_dirs/corruptions/CPLFW/impulse_noise_5
+- work_dirs/corruptions/CPLFW/gaussian_noise_1
+- work_dirs/corruptions/CPLFW/motion_blur_5
+- work_dirs/corruptions/CPLFW/snow_5
+- work_dirs/corruptions/CPLFW/snow_4
+- work_dirs/corruptions/CPLFW/speckle_noise_2
+- work_dirs/corruptions/CPLFW/shot_noise_1
+- work_dirs/corruptions/CPLFW/motion_blur_3
+- work_dirs/corruptions/CPLFW/defocus_blur_4
+- work_dirs/corruptions/CPLFW/frost_1
+- work_dirs/corruptions/CPLFW/speckle_noise_4
+- work_dirs/corruptions/CPLFW/shot_noise_3
+- work_dirs/corruptions/CPLFW/speckle_noise_1
+- work_dirs/corruptions/CPLFW/shot_noise_5
+- work_dirs/corruptions/CPLFW/impulse_noise_2
+- work_dirs/corruptions/CPLFW/motion_blur_2
+- work_dirs/corruptions/CPLFW/shot_noise_2
+- work_dirs/corruptions/CPLFW/speckle_noise_3
+- work_dirs/corruptions/CPLFW/defocus_blur_2
+- work_dirs/corruptions/CPLFW/frost_3
+- work_dirs/corruptions/CPLFW/impulse_noise_3
+- work_dirs/corruptions/CPLFW/zoom_blur_4
+- work_dirs/corruptions/CPLFW/fog_3
+- work_dirs/corruptions/CPLFW/zoom_blur_3
+- work_dirs/corruptions/CPLFW/shot_noise_4
+- work_dirs/corruptions/CPLFW/zoom_blur_5
+- work_dirs/corruptions/CPLFW/defocus_blur_3
+- work_dirs/corruptions/CPLFW/motion_blur_1
+- work_dirs/corruptions/CPLFW/defocus_blur_1
+- work_dirs/corruptions/CPLFW/frost_2
+- work_dirs/corruptions/CPLFW/fog_2
+- work_dirs/corruptions/CPLFW/gaussian_noise_5
+- work_dirs/corruptions/CPLFW/frost_5
+- work_dirs/corruptions/CPLFW/snow_2
+- work_dirs/corruptions/CPLFW/motion_blur_4
+- work_dirs/corruptions/CPLFW/fog_5
+- work_dirs/corruptions/CPLFW/snow_1
+- work_dirs/corruptions/CPLFW/fog_4
+- work_dirs/corruptions/CPLFW/gaussian_noise_2
+- work_dirs/corruptions/CPLFW/fog_1
+- work_dirs/corruptions/CPLFW/speckle_noise_5
+- work_dirs/corruptions/CPLFW/gaussian_noise_3
+- work_dirs/corruptions/CPLFW/frost_4
+- work_dirs/corruptions/CPLFW/defocus_blur_5
+- work_dirs/corruptions/CFP_FP/zoom_blur_1
+- work_dirs/corruptions/CFP_FP/zoom_blur_2
+- work_dirs/corruptions/CFP_FP/impulse_noise_4
+- work_dirs/corruptions/CFP_FP/snow_3
+- work_dirs/corruptions/CFP_FP/impulse_noise_1
+- work_dirs/corruptions/CFP_FP/gaussian_noise_4
+- work_dirs/corruptions/CFP_FP/impulse_noise_5
+- work_dirs/corruptions/CFP_FP/gaussian_noise_1
+- work_dirs/corruptions/CFP_FP/motion_blur_5
+- work_dirs/corruptions/CFP_FP/snow_5
+- work_dirs/corruptions/CFP_FP/snow_4
+- work_dirs/corruptions/CFP_FP/speckle_noise_2
+- work_dirs/corruptions/CFP_FP/shot_noise_1
+- work_dirs/corruptions/CFP_FP/motion_blur_3
+- work_dirs/corruptions/CFP_FP/defocus_blur_4
+- work_dirs/corruptions/CFP_FP/frost_1
+- work_dirs/corruptions/CFP_FP/speckle_noise_4
+- work_dirs/corruptions/CFP_FP/shot_noise_3
+- work_dirs/corruptions/CFP_FP/speckle_noise_1
+- work_dirs/corruptions/CFP_FP/shot_noise_5
+- work_dirs/corruptions/CFP_FP/impulse_noise_2
+- work_dirs/corruptions/CFP_FP/motion_blur_2
+- work_dirs/corruptions/CFP_FP/shot_noise_2
+- work_dirs/corruptions/CFP_FP/speckle_noise_3
+- work_dirs/corruptions/CFP_FP/defocus_blur_2
+- work_dirs/corruptions/CFP_FP/frost_3
+- work_dirs/corruptions/CFP_FP/impulse_noise_3
+- work_dirs/corruptions/CFP_FP/zoom_blur_4
+- work_dirs/corruptions/CFP_FP/fog_3
+- work_dirs/corruptions/CFP_FP/zoom_blur_3
+- work_dirs/corruptions/CFP_FP/shot_noise_4
+- work_dirs/corruptions/CFP_FP/zoom_blur_5
+- work_dirs/corruptions/CFP_FP/defocus_blur_3
+- work_dirs/corruptions/CFP_FP/motion_blur_1
+- work_dirs/corruptions/CFP_FP/defocus_blur_1
+- work_dirs/corruptions/CFP_FP/frost_2
+- work_dirs/corruptions/CFP_FP/fog_2
+- work_dirs/corruptions/CFP_FP/gaussian_noise_5
+- work_dirs/corruptions/CFP_FP/frost_5
+- work_dirs/corruptions/CFP_FP/snow_2
+- work_dirs/corruptions/CFP_FP/motion_blur_4
+- work_dirs/corruptions/CFP_FP/fog_5
+- work_dirs/corruptions/CFP_FP/snow_1
+- work_dirs/corruptions/CFP_FP/fog_4
+- work_dirs/corruptions/CFP_FP/gaussian_noise_2
+- work_dirs/corruptions/CFP_FP/fog_1
+- work_dirs/corruptions/CFP_FP/speckle_noise_5
+- work_dirs/corruptions/CFP_FP/gaussian_noise_3
+- work_dirs/corruptions/CFP_FP/frost_4
+- work_dirs/corruptions/CFP_FP/defocus_blur_5
+- work_dirs/corruptions/AgeDB_30/zoom_blur_1
+- work_dirs/corruptions/AgeDB_30/zoom_blur_2
+- work_dirs/corruptions/AgeDB_30/impulse_noise_4
+- work_dirs/corruptions/AgeDB_30/snow_3
+- work_dirs/corruptions/AgeDB_30/impulse_noise_1
+- work_dirs/corruptions/AgeDB_30/gaussian_noise_4
+- work_dirs/corruptions/AgeDB_30/impulse_noise_5
+- work_dirs/corruptions/AgeDB_30/gaussian_noise_1
+- work_dirs/corruptions/AgeDB_30/motion_blur_5
+- work_dirs/corruptions/AgeDB_30/snow_5
+- work_dirs/corruptions/AgeDB_30/snow_4
+- work_dirs/corruptions/AgeDB_30/speckle_noise_2
+- work_dirs/corruptions/AgeDB_30/shot_noise_1
+- work_dirs/corruptions/AgeDB_30/motion_blur_3
+- work_dirs/corruptions/AgeDB_30/defocus_blur_4
+- work_dirs/corruptions/AgeDB_30/frost_1
+- work_dirs/corruptions/AgeDB_30/speckle_noise_4
+- work_dirs/corruptions/AgeDB_30/shot_noise_3
+- work_dirs/corruptions/AgeDB_30/speckle_noise_1
+- work_dirs/corruptions/AgeDB_30/shot_noise_5
+- work_dirs/corruptions/AgeDB_30/impulse_noise_2
+- work_dirs/corruptions/AgeDB_30/motion_blur_2
+- work_dirs/corruptions/AgeDB_30/shot_noise_2
+- work_dirs/corruptions/AgeDB_30/speckle_noise_3
+- work_dirs/corruptions/AgeDB_30/defocus_blur_2
+- work_dirs/corruptions/AgeDB_30/frost_3
+- work_dirs/corruptions/AgeDB_30/impulse_noise_3
+- work_dirs/corruptions/AgeDB_30/zoom_blur_4
+- work_dirs/corruptions/AgeDB_30/fog_3
+- work_dirs/corruptions/AgeDB_30/zoom_blur_3
+- work_dirs/corruptions/AgeDB_30/shot_noise_4
+- work_dirs/corruptions/AgeDB_30/zoom_blur_5
+- work_dirs/corruptions/AgeDB_30/defocus_blur_3
+- work_dirs/corruptions/AgeDB_30/motion_blur_1
+- work_dirs/corruptions/AgeDB_30/defocus_blur_1
+- work_dirs/corruptions/AgeDB_30/frost_2
+- work_dirs/corruptions/AgeDB_30/fog_2
+- work_dirs/corruptions/AgeDB_30/gaussian_noise_5
+- work_dirs/corruptions/AgeDB_30/frost_5
+- work_dirs/corruptions/AgeDB_30/snow_2
+- work_dirs/corruptions/AgeDB_30/motion_blur_4
+- work_dirs/corruptions/AgeDB_30/fog_5
+- work_dirs/corruptions/AgeDB_30/snow_1
+- work_dirs/corruptions/AgeDB_30/fog_4
+- work_dirs/corruptions/AgeDB_30/gaussian_noise_2
+- work_dirs/corruptions/AgeDB_30/fog_1
+- work_dirs/corruptions/AgeDB_30/speckle_noise_5
+- work_dirs/corruptions/AgeDB_30/gaussian_noise_3
+- work_dirs/corruptions/AgeDB_30/frost_4
+- work_dirs/corruptions/AgeDB_30/defocus_blur_5
+Experiment 0: LFW-zoom_blur_1 - r100 - Tent Step: 1 - Batch Size: 128
+ LFW_zoom_blur_1_r100_tent_step1_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_1 - r100 - Tent Step: 1 - Batch Size: 256
+ LFW_zoom_blur_1_r100_tent_step1_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_1 - r100 - Tent Step: 5 - Batch Size: 128
+ LFW_zoom_blur_1_r100_tent_step5_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_1 - r100 - Tent Step: 5 - Batch Size: 256
+ LFW_zoom_blur_1_r100_tent_step5_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_1 - r100 - Tent Step: 10 - Batch Size: 128
+ LFW_zoom_blur_1_r100_tent_step10_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_1 - r100 - Tent Step: 10 - Batch Size: 256
+ LFW_zoom_blur_1_r100_tent_step10_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_2 - r100 - Tent Step: 1 - Batch Size: 128
+ LFW_zoom_blur_2_r100_tent_step1_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_2 - r100 - Tent Step: 1 - Batch Size: 256
+ LFW_zoom_blur_2_r100_tent_step1_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_2 - r100 - Tent Step: 5 - Batch Size: 128
+ LFW_zoom_blur_2_r100_tent_step5_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_2 - r100 - Tent Step: 5 - Batch Size: 256
+ LFW_zoom_blur_2_r100_tent_step5_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_2 - r100 - Tent Step: 10 - Batch Size: 128
+ LFW_zoom_blur_2_r100_tent_step10_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-zoom_blur_2 - r100 - Tent Step: 10 - Batch Size: 256
+ LFW_zoom_blur_2_r100_tent_step10_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_4 - r100 - Tent Step: 1 - Batch Size: 128
+ LFW_impulse_noise_4_r100_tent_step1_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_4 - r100 - Tent Step: 1 - Batch Size: 256
+ LFW_impulse_noise_4_r100_tent_step1_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_4 - r100 - Tent Step: 5 - Batch Size: 128
+ LFW_impulse_noise_4_r100_tent_step5_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_4 - r100 - Tent Step: 5 - Batch Size: 256
+ LFW_impulse_noise_4_r100_tent_step5_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_4 - r100 - Tent Step: 10 - Batch Size: 128
+ LFW_impulse_noise_4_r100_tent_step10_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_4 - r100 - Tent Step: 10 - Batch Size: 256
+ LFW_impulse_noise_4_r100_tent_step10_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-snow_3 - r100 - Tent Step: 1 - Batch Size: 128
+ LFW_snow_3_r100_tent_step1_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-snow_3 - r100 - Tent Step: 1 - Batch Size: 256
+ LFW_snow_3_r100_tent_step1_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-snow_3 - r100 - Tent Step: 5 - Batch Size: 128
+ LFW_snow_3_r100_tent_step5_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-snow_3 - r100 - Tent Step: 5 - Batch Size: 256
+ LFW_snow_3_r100_tent_step5_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-snow_3 - r100 - Tent Step: 10 - Batch Size: 128
+ LFW_snow_3_r100_tent_step10_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-snow_3 - r100 - Tent Step: 10 - Batch Size: 256
+ LFW_snow_3_r100_tent_step10_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_1 - r100 - Tent Step: 1 - Batch Size: 128
+ LFW_impulse_noise_1_r100_tent_step1_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_1 - r100 - Tent Step: 1 - Batch Size: 256
+ LFW_impulse_noise_1_r100_tent_step1_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_1 - r100 - Tent Step: 5 - Batch Size: 128
+ LFW_impulse_noise_1_r100_tent_step5_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_1 - r100 - Tent Step: 5 - Batch Size: 256
+ LFW_impulse_noise_1_r100_tent_step5_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_1 - r100 - Tent Step: 10 - Batch Size: 128
+ LFW_impulse_noise_1_r100_tent_step10_batch_size128 skip. Adapted model already exists.
+Experiment 0: LFW-impulse_noise_1 - r100 - Tent Step: 10 - Batch Size: 256
+ LFW_impulse_noise_1_r100_tent_step10_batch_size256 skip. Adapted model already exists.
+Experiment 0: LFW-gaussian_noise_4 - r100 - Tent Step: 1 - Batch Size: 128
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 640 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 1280 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 1920 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 2560 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 3200 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 3840 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 4480 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 5120 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 5760 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 6400 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 7040 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 7680 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 8320 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 8960 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 9600 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 10240 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 10880 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size128 - Processed 11520 images
+Adapted model saved to model_out/MS1MV2_r100_TopoFR_adapted__datasetLFW__corruptionsgaussian_noise_4__epoch1_batch128.pt
+Experiment 0: LFW-gaussian_noise_4 - r100 - Tent Step: 1 - Batch Size: 256
+LFW_gaussian_noise_4_r100_tent_step1_batch_size256 - Processed 1280 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size256 - Processed 2560 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size256 - Processed 3840 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size256 - Processed 5120 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size256 - Processed 6400 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size256 - Processed 7680 images
+LFW_gaussian_noise_4_r100_tent_step1_batch_size256 - Processed 8960 images

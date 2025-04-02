@@ -61,7 +61,7 @@ resnet = get_model(args.network, dropout=0, fp16=False, num_features=cfg.embeddi
 resnet.load_state_dict(weight)
 model = torch.nn.DataParallel(resnet)
 model.eval()
-def get_embeddings_from_pathlist(path_list, batch_size=16):
+def get_embeddings_from_pathlist(path_list, batch_size):
     dataset = FaceDataset(path_list, transform=trans)
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
 
@@ -366,7 +366,7 @@ def evaluate(embeddings, actual_issame, nrof_folds=10, distance_metric=0, subtra
 
 
 path_list, issame_list = get_paths(dataset_dir)
-embeddings_dict=get_embeddings_from_pathlist(path_list, batch_size=16)
+embeddings_dict=get_embeddings_from_pathlist(path_list, batch_size)
 embeddings_eval = np.array([embeddings_dict[path] for path in path_list])
 tpr, fpr, accuracy, val, val_std, far = evaluate(embeddings_eval, issame_list)
 print("Accuracy for each fold:", accuracy)
