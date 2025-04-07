@@ -44,7 +44,7 @@ pair_list = []
 if not gender_groups:
     print("❌ 데이터가 충분하지 않습니다. 종료합니다.")
 else:
-    while len(pair_list) < 1884:
+    while len(pair_list) < 3000:
         gender_group = random.choice(gender_groups)
 
         if len(gender_group) < 2:
