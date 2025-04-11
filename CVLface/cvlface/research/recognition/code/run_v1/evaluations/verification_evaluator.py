@@ -102,9 +102,15 @@ class VerificationEvaluator(BaseEvaluator):
         embeddings = (collection['features'] + collection_flip['features']).numpy()
         embeddings = sklearn.preprocessing.normalize(embeddings)
         issame_list = collection['is_same'].numpy()[::2]
-        _, _, accuracy, val, val_std, far = evaluate(embeddings, issame_list, nrof_folds=10)
+        _, _, accuracy, val, val_std, far, tp_arr, tn_arr, fp_arr, fn_arr = evaluate(embeddings, issame_list, nrof_folds=10)
         accuracy = accuracy * 100
         acc, std = np.mean(accuracy), np.std(accuracy)
         result = {'acc': acc, 'std': std}
+        np.savez("confusion_metrics.npz",
+                 tp=tp_arr,
+                 tn=tn_arr,
+                 fp=fp_arr,
+                 fn=fn_arr)
+
         return result
 

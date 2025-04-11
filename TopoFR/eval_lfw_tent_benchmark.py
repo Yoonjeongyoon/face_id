@@ -415,7 +415,7 @@ if __name__ == '__main__':
     
     # 출력 결과를 저장 하기 위해 Tee 클래스 사용, 로그 파일명 설정 (원하는 경로로 수정 가능)
     dataset_name = os.path.basename(args.image_path.rstrip("/"))
-    log_file = os.path.join(os.path.dirname(__file__), f'log/CPLFW_{dataset_name}_benchmark_results.txt')
+    log_file = os.path.join(os.path.dirname(__file__), f'log/AgeDB_30_{dataset_name}_benchmark_results.txt')
 
     # 콘솔과 파일에 동시 출력 하도록 설정
     sys.stdout = Tee(log_file)

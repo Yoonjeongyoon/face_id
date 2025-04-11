@@ -49,7 +49,7 @@ if __name__ == '__main__':
     parser.add_argument('--precision', type=str, default='32-true')
     parser.add_argument('--eval_config_name', type=str, default='quick')
     parser.add_argument('--pipeline_name', type=str, default='default')
-    parser.add_argument('--ckpt_dir', type=str, default="../../../../pretrained_models/recognition/adaface_ir101_ms1mv2")
+    parser.add_argument('--ckpt_dir', type=str, default="../../../../pretrained_models/recognition/adaface_ir50_ms1mv2")
     args = parser.parse_args()
 
     # setup output dir

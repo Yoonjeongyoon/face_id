@@ -38,6 +38,10 @@ def calculate_roc(thresholds,
 
     tprs = np.zeros((nrof_folds, nrof_thresholds))
     fprs = np.zeros((nrof_folds, nrof_thresholds))
+    tp_arr = np.zeros((nrof_folds, nrof_thresholds))
+    fp_arr = np.zeros((nrof_folds, nrof_thresholds))
+    tn_arr = np.zeros((nrof_folds, nrof_thresholds))
+    fn_arr = np.zeros((nrof_folds, nrof_thresholds))
     accuracy = np.zeros((nrof_folds))
     indices = np.arange(nrof_pairs)
 
@@ -63,14 +67,18 @@ def calculate_roc(thresholds,
         # Find the best threshold for the fold
         acc_train = np.zeros((nrof_thresholds))
         for threshold_idx, threshold in enumerate(thresholds):
-            _, _, acc_train[threshold_idx] = calculate_accuracy(
+            _, _, acc_train[threshold_idx], _, _, _, _ = calculate_accuracy(
                 threshold, dist[train_set], actual_issame[train_set])
         best_threshold_index = np.argmax(acc_train)
         for threshold_idx, threshold in enumerate(thresholds):
-            tprs[fold_idx, threshold_idx], fprs[fold_idx, threshold_idx], _ = calculate_accuracy(
+            tprs[fold_idx, threshold_idx], fprs[fold_idx, threshold_idx], _, tp, tn, fp, fn = calculate_accuracy(
                 threshold, dist[test_set],
                 actual_issame[test_set])
-        _, _, accuracy[fold_idx] = calculate_accuracy(
+            tp_arr[fold_idx, threshold_idx] = tp
+            fp_arr[fold_idx, threshold_idx] = fp
+            tn_arr[fold_idx, threshold_idx] = tn
+            fn_arr[fold_idx, threshold_idx] = fn
+        _, _, accuracy[fold_idx], _, _, _, _ = calculate_accuracy(
             thresholds[best_threshold_index], dist[test_set],
             actual_issame[test_set])
 
@@ -84,7 +92,7 @@ def calculate_roc(thresholds,
     # auc = sklearn.metrics.auc(fprs[4], tprs[4])
     # acc = np.mean(accuracy)
 
-    return tpr, fpr, accuracy
+    return tpr, fpr, accuracy, tp_arr, tn_arr, fp_arr, fn_arr
 
 def plot_roc_custom(fprs, tprs, save_path, figsize=(6, 3), use_log_scale=True):
 
@@ -127,7 +135,7 @@ def calculate_accuracy(threshold, dist, actual_issame):
     tpr = 0 if (tp + fn == 0) else float(tp) / float(tp + fn)
     fpr = 0 if (fp + tn == 0) else float(fp) / float(fp + tn)
     acc = float(tp + tn) / dist.size
-    return tpr, fpr, acc
+    return tpr, fpr, acc, tp, tn, fp, fn
 
 
 def calculate_val(thresholds,
@@ -150,7 +158,9 @@ def calculate_val(thresholds,
     indices = np.arange(nrof_pairs)
 
     for fold_idx, (train_set, test_set) in enumerate(k_fold.split(indices)):
-
+        n_diff_test = np.sum(np.logical_not(actual_issame[test_set]))
+        n_same_test = np.sum(actual_issame[test_set])
+        print(f"🔍 Fold {fold_idx} — same: {n_same_test}, diff: {n_diff_test}")
         # Find the threshold that gives FAR = far_target
         far_train = np.zeros(nrof_thresholds)
         for threshold_idx, threshold in enumerate(thresholds):
@@ -187,10 +197,11 @@ def calculate_val_far(threshold, dist, actual_issame):
 
 def evaluate(embeddings, actual_issame, nrof_folds=10, pca=0):
     # Calculate evaluation metrics
+    actual_issame = np.array(actual_issame, dtype=bool)
     thresholds = np.arange(0, 4, 0.01)
     embeddings1 = embeddings[0::2]
     embeddings2 = embeddings[1::2]
-    tpr, fpr, accuracy = calculate_roc(thresholds,
+    tpr, fpr, accuracy, tp_arr, tn_arr, fp_arr, fn_arr = calculate_roc(thresholds,
                                        embeddings1,
                                        embeddings2,
                                        np.asarray(actual_issame),
@@ -203,7 +214,7 @@ def evaluate(embeddings, actual_issame, nrof_folds=10, pca=0):
                                       np.asarray(actual_issame),
                                       1e-3,
                                       nrof_folds=nrof_folds)
-    return tpr, fpr, accuracy, val, val_std, far
+    return tpr, fpr, accuracy, val, val_std, far, tp_arr, tn_arr, fp_arr, fn_arr
 
 @torch.no_grad()
 def load_bin(path, image_size):
@@ -278,7 +289,7 @@ def test(data_set, backbone, batch_size, nfolds=10):
     embeddings = sklearn.preprocessing.normalize(embeddings)
     print(embeddings.shape)
     print('infer time', time_consumed)
-    _, _, accuracy, val, val_std, far = evaluate(embeddings, issame_list, nrof_folds=nfolds)
+    _, _, accuracy, val, val_std, far, tp_arr, tn_arr, fp_arr, fn_arr = evaluate(embeddings, issame_list, nrof_folds=nfolds)
     acc2, std2 = np.mean(accuracy), np.std(accuracy)
     return acc1, std1, acc2, std2, _xnorm, embeddings_list
 
