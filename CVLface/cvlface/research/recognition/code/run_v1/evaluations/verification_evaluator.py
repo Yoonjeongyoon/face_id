@@ -106,11 +106,11 @@ class VerificationEvaluator(BaseEvaluator):
         accuracy = accuracy * 100
         acc, std = np.mean(accuracy), np.std(accuracy)
         result = {'acc': acc, 'std': std}
-        np.savez("confusion_metrics.npz",
-                 tp=tp_arr,
-                 tn=tn_arr,
-                 fp=fp_arr,
-                 fn=fn_arr)
+        #np.savez("adaface_ms1mv3_ir101_LFW.npz",
+        #         tp=tp_arr,
+        #         tn=tn_arr,
+        #         fp=fp_arr,
+        #         fn=fn_arr)
 
         return result
 

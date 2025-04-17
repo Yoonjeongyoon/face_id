@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # 이미지 폴더들이 들어 있는 상위 디렉토리 경로
-base_dataset_dir = 'work_dirs/corruptions/AgeDB_30/test'  # 또는 다른 경로
+base_dataset_dir = 'work_dirs/corruptions/LFW/test'  # 또는 다른 경로
 
 
 # 이미지 폴더들 순회

@@ -394,4 +394,3 @@ print(f"AUC (ROC): {roc_auc:.4f}")
 
 eer = float(eer_func(0.0))
 print(f"EER: {eer:.4f}")
-

@@ -63,14 +63,13 @@ class FaceDataset(Dataset):
         return image, img_path
 
 
-def tent_get_embeddings_from_pathlist(path_list, batch_size=16):
-    dataset = FaceDataset(path_list, transform=TRANSFORM)
-    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
+def tent_get_embeddings_from_pathlist(dataset, batch_size=16):
+    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=8)
 
     embeddings_dict = {}
     adapted_embeddings_dict = {}
     with torch.no_grad():
-        print(f"** Calculating embeddings for {len(path_list)} images with batch size {batch_size}")
+        print(f"** Calculating images with batch size {batch_size}")
         for batch_imgs, batch_paths in dataloader:
             batch_imgs = batch_imgs.to(device)
             
@@ -148,7 +147,7 @@ def get_paths(dataset_dir):
                 nrof_skipped_pairs += 1
     
     if nrof_skipped_pairs > 0:
-        print(f'Skipped {nrof_skipped_pairs} image paiars')
+        print(f'Skipped {nrof_skipped_pairs} image pairs')
     return path_list, issame_list
 
 
@@ -415,7 +414,7 @@ if __name__ == '__main__':
     
     # 출력 결과를 저장 하기 위해 Tee 클래스 사용, 로그 파일명 설정 (원하는 경로로 수정 가능)
     dataset_name = os.path.basename(args.image_path.rstrip("/"))
-    log_file = os.path.join(os.path.dirname(__file__), f'log/AgeDB_30_{dataset_name}_benchmark_results.txt')
+    log_file = os.path.join(os.path.dirname(__file__), f'log/LFW_{dataset_name}_benchmark_results.txt')
 
     # 콘솔과 파일에 동시 출력 하도록 설정
     sys.stdout = Tee(log_file)
@@ -423,7 +422,8 @@ if __name__ == '__main__':
     # 이미지 폴더 경로
     dataset_dir = args.image_path
     print(f"** Test Dataset: {os.path.basename(dataset_dir)}")
-    
+    path_list, issame_list = get_paths(dataset_dir)
+    dataset = FaceDataset(path_list, transform=TRANSFORM)
     names = ['r50' , 'r100', 'r200']
     tent_steps = [10, 5, 1]
     episodic = [True]
@@ -446,9 +446,7 @@ if __name__ == '__main__':
                     print("** --------------------------------- **")
                     print(f"** Model loaded: {param}")
 
-                    path_list, issame_list = get_paths(dataset_dir)
-                    embeddings_dict, adapted_embeddings_dict = tent_get_embeddings_from_pathlist(path_list, batch_size=tbs)
-                    
+                    embeddings_dict, adapted_embeddings_dict = tent_get_embeddings_from_pathlist(dataset, batch_size=tbs)
                     embeddings_eval = np.array([embeddings_dict[path] for path in path_list])
                     adapted_embeddings_eval = np.array([adapted_embeddings_dict[path] for path in path_list])
                     
