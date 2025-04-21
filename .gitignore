@@ -199,3 +199,4 @@ MTLFace/work_dirs
 MTLFace/mtlface_checkpoints.tar
 *.txt
 *.npz
+*.pdf
