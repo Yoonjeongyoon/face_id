@@ -16,6 +16,7 @@ from scipy import interpolate
 import sys
 import warnings
 from backbones import get_model
+from utils.utils_config import get_config
 from sklearn.metrics import auc
 from scipy.interpolate import interp1d
 warnings.filterwarnings(("ignore"))
@@ -60,7 +61,8 @@ class FaceDataset(Dataset):
 
 
 weight = torch.load(model_path)
-resnet = get_model(args.network, dropout=0, fp16=True).cuda()
+cfg = get_config('configs/ms1mv2_r200.py')
+resnet = get_model(args.network, dropout=0, fp16=False, num_features=cfg.embedding_size, num_classes=cfg.num_classes).cuda()
 resnet.load_state_dict(weight)
 model = torch.nn.DataParallel(resnet)
 model.eval()
@@ -74,7 +76,7 @@ def get_embeddings_from_pathlist(path_list, batch_size=16):
     with torch.no_grad():
         for batch_imgs, batch_paths in dataloader:
             batch_imgs = batch_imgs.to(device)
-            batch_embeds = model(batch_imgs)  # 배치 단위로 임베딩 계산
+            batch_embeds = model(batch_imgs, phase='infer')  # 배치 단위로 임베딩 계산
             batch_embeds = batch_embeds.cpu().numpy()  # CPU로 변환 후 numpy 배열로 변환
 
             for path, embed in zip(batch_paths, batch_embeds):
@@ -377,19 +379,17 @@ tpr, fpr, accuracy, tp_arr, tn_arr, fp_arr, fn_arr = evaluate(embeddings_eval, i
 print("Accuracy for each fold:", accuracy)
 print("Mean Accuracy:", np.mean(accuracy))
 print("현재 작업 디렉토리:", os.getcwd())
-np.savez("arcface_ms1mv3_r50_LFW.npz",
+np.savez("topofr_ms1mv2_r200_asian_celebrity.npz",
          tp=tp_arr,
          tn=tn_arr,
          fp=fp_arr,
          fn=fn_arr)
 eps= 1e-10
 
-tpr_arr = tp_arr / (tp_arr + fn_arr + eps)
-fnr_arr = 1 - tpr_arr
-fpr_arr = fp_arr / (fp_arr + tn_arr + eps)
-eer_func = interp1d(fpr_arr - fnr_arr, fpr_arr)
+fnr = 1 - tpr
+eer_func = interp1d(fpr - fnr, fpr)
 
-roc_auc = auc(fpr_arr, tpr_arr)
+roc_auc = auc(fpr, tpr)
 print(f"AUC (ROC): {roc_auc:.4f}")
 
 eer = float(eer_func(0.0))

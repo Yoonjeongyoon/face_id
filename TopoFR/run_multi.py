@@ -6,21 +6,9 @@ MODEL_PREFIX = "work_dirs/MS1MV2_R100_TopoFR_9695.pt"
 BATCH_SIZE = 16
 NETWORK = "r100"
 BASE_PARENT_DIR = "work_dirs/corruptions"
-CONFIG = "configs/ms1mv2_r100.py"
 PARENT_DIRS = [
-    "CPLFW",
-    "AgeDB_30",
-    "LFW",
-    "CFP_FP",
+    "Asian_celebrity_LFW_OOD"
 ]
---model_dir
-model_test
---image_path
-work_dirs/corruptions/LFW/defocus_blur_1
---result_dir
-tenttest
---batch-size
-256
 
 def run_eval(image_path, output_dir):
     output_name = image_path.replace("/", "_").replace("\\", "_")
@@ -31,8 +19,7 @@ def run_eval(image_path, output_dir):
         "--model-prefix", MODEL_PREFIX,
         "--image-path", image_path,
         "--batch-size", str(BATCH_SIZE),
-        "--network", NETWORK,
-        "--model_config", CONFIG
+        "--network", NETWORK
     ]
 
     print(f"Running evaluation for: {image_path}")

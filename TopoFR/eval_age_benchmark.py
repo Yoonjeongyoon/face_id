@@ -56,7 +56,7 @@ class FaceDataset(Dataset):
         image = self.transform(image)
         return image, img_path
 weight = torch.load(model_path)
-cfg = get_config('configs/ms1mv2_r100.py')
+cfg = get_config('configs/ms1mv2_r50.py')
 resnet = get_model(args.network, dropout=0, fp16=False, num_features=cfg.embedding_size, num_classes=cfg.num_classes).cuda()
 resnet.load_state_dict(weight)
 model = torch.nn.DataParallel(resnet)
