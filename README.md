@@ -39,3 +39,18 @@
 | **입력 형식** | `face_align.ipynb`에서 정렬된 얼굴 이미지 (`Asian_celebrity_align/…`) |
 | **출력 형식** | `imp/0/`, `imp/1/` … `imp/2999/`<br>└─ 각 폴더에 `pair1_<파일명>.jpg`, `pair2_<파일명>.jpg` |
 | **기능 요약** | - 인물 폴더명(예: `홍길동_m/…`)의 이미지 확장자로 성별 (m/w) 판별<br>- 같은 성별 그룹(남 ↔ 남, 여 ↔ 여)에서 서로 다른 인물 두 명을 무작위 선택<br>- `random.seed(42)`로 재현 가능한 3 000 쌍 생성<br>- 쌍마다 고유 인덱스 폴더를 만들고 두 이미지를 복사 |
+
+<details>
+<summary><b> hf_dataset_builder.ipynb</b></summary>
+
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`hf_dataset_builder.ipynb`](face_id/hf_dataset_builder.ipynb) |
+| **파일 경로** | `face_id/hf_dataset_builder.ipynb` |
+| **기능** | `gen/`·`imp/` 페어를 **10‑fold** 로 분할 후, Hugging Face `Dataset`으로 변환·병합하여 디스크에 저장 |
+| **사용 모델** | ― |
+| **입력 형식** | `gen/` & `imp/` 폴더 구조 (`pair1_*.jpg`, `pair2_*.jpg`)<br>예) `gen/0/…`, `imp/42/…` |
+| **출력 형식** | `folded_dataset/fold_0/…` ~ `fold_9/…`<br>`merged_dataset/` (Arrow 포맷) + `examples/0.jpg` … `4.jpg` |
+| **파라미터** | `--src_dataset_dir` (원본 gen/imp 경로)<br>`--output_base_dir` (HF dataset 저장 루트) |
+| **기능 요약** | 1. `split_into_folds` → gen/imp를 10개 fold로 디렉터리 복사<br>2. 각 fold를 `Dataset.from_list`로 변환하며 **전역 인덱스** 부여<br>3. `concatenate_datasets`로 병합, `save_to_disk` 저장<br>4. 예시 이미지 5장을 `examples/`에 저장 |
+</details>
