@@ -42,7 +42,6 @@ if len(female_folders) >= 2:
 pair_list = []
 
 if not gender_groups:
-    print("❌ 데이터가 충분하지 않습니다. 종료합니다.")
 else:
     while len(pair_list) < 3000:
         gender_group = random.choice(gender_groups)
@@ -69,4 +68,4 @@ for idx, (person1, img1, person2, img2) in enumerate(pair_list):
     shutil.copy(os.path.join(input_folder, person2, img2),
                 os.path.join(pair_folder, f"pair2_{img2}"))
 
-    print(f"✅ Pair {idx} 복사 완료: {img1}, {img2}")
+    print(f"Pair {idx} 복사 완료: {img1}, {img2}")

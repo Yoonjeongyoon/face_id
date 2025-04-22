@@ -55,7 +55,7 @@ def split_into_folds(src_dir, dst_base_dir, num_folds=10):
                 dst = os.path.join(fold_label_path, pair_id)
                 shutil.copytree(src, dst)
 
-    print(f"✅ {num_folds} folds로 나누기 완료: {dst_base_dir}")
+    print(f"{num_folds} folds로 나누기 완료: {dst_base_dir}")
 
 
 def convert_fold_to_dataset(fold_path, global_start_index=0):
@@ -102,11 +102,11 @@ if __name__ == '__main__':
     # Step 4: 저장
     os.makedirs(merged_output_dir, exist_ok=True)
     merged_dataset.save_to_disk(merged_output_dir, num_shards=1)
-    print(f"✅ 전체 fold 병합 Hugging Face dataset 저장 완료: {merged_output_dir}")
+    print(f"전체 fold 병합 Hugging Face dataset 저장 완료: {merged_output_dir}")
 
     # Step 5: 샘플 이미지 저장
     sample_dir = os.path.join(merged_output_dir, 'examples')
     os.makedirs(sample_dir, exist_ok=True)
     for i in range(5):
         merged_dataset[i]['image'].save(os.path.join(sample_dir, f'{i}.jpg'))
-    print(f"🖼️ 샘플 이미지 저장 완료: {sample_dir}")
+    print(f"샘플 이미지 저장 완료: {sample_dir}")
