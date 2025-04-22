@@ -316,9 +316,7 @@ def calculate_val(thresholds, embeddings1, embeddings2, actual_issame, far_targe
 
 def calculate_val(thresholds, embeddings1, embeddings2, actual_issame, far_target, nrof_folds=10, distance_metric=0,
                   subtract_mean=False):
-    """
-    목표 FAR에 해당하는 임계값을 찾아 검증율을 계산합니다.
-    """
+
     assert embeddings1.shape[0] == embeddings2.shape[0]
     assert embeddings1.shape[1] == embeddings2.shape[1]
     nrof_pairs = min(len(actual_issame), embeddings1.shape[0])
@@ -337,16 +335,16 @@ def calculate_val(thresholds, embeddings1, embeddings2, actual_issame, far_targe
             mean = 0.0
         dist = distance(embeddings1 - mean, embeddings2 - mean, distance_metric)
 
-        # 훈련 세트에서 목표 FAR에 해당하는 임계값 찾기
+
         far_train = np.zeros(nrof_thresholds)
         for threshold_idx, threshold in enumerate(thresholds):
             _, far_train[threshold_idx] = calculate_val_far(threshold, dist[train_set], actual_issame[train_set])
 
-        # far_train에서 중복 제거
+
         unique_far_train, unique_indices = np.unique(far_train, return_index=True)
 
         if len(unique_far_train) > 1 and np.max(unique_far_train) >= far_target:
-            unique_thresholds = thresholds[unique_indices]  # 중복 제거된 thresholds 선택
+            unique_thresholds = thresholds[unique_indices]
             f = interpolate.interp1d(unique_far_train, unique_thresholds, kind='slinear', fill_value="extrapolate")
             threshold = f(far_target)
         else:
