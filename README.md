@@ -231,10 +231,10 @@
 | **기능** | 하위에 존재하는 **각 corruption 폴더**(contrast_1, motion_blur_2 …)를 순회하면서,<br>각 폴더를 `eval_lfw_tent_benchmark.py` 에 넘겨 **일괄 평가** 실행 |
 
 </details>
+</details>
 
 <details>
    <summary><b>imagecorruptions</b></summary>
-</details>
 <br>
 <details>
 <summary><b>corrupt_images.py</b></summary>
@@ -253,5 +253,5 @@
 </details>
 
    
- </details>
+</details>
 
