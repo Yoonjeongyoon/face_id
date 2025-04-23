@@ -214,7 +214,7 @@
  
  | 항목 | 내용 |
  |------|------|
- | **이름** | [`exract_accuracy.ipynb`](TopoFR/log/exract_accuracy.ipynb) |
+ | **이름** | [`exract_accuracy.ipynb`](TopoFR/log/extract_accuracy.ipynb) |
  | **파일 경로** | `face_id/TopoFR/log/exract_accuracy.ipynb` |
  | **기능** | tent_run으로 출력된 log파일을 노션에 입력하기 좋은 형태로 변환해 주는 코드 아래 셀의 original은 위의 셀을 보고 맞게 수정해야 함|
  | **기능요약** | 실험한 내용에 맞게 bs16-ts10값은 수정, text editor에 한번 복사하고 입력|
@@ -226,7 +226,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| **이름** | [`tent_run.py`](face_id/TopoFR/tent_run.py) |
+| **이름** | [`tent_run.py`](TopoFR/tent_run.py) |
 | **파일 경로** | `face_id/TopoFR/tent_run.py` |
 | **기능** | 하위에 존재하는 **각 corruption 폴더**(contrast_1, motion_blur_2 …)를 순회하면서,<br>각 폴더를 `eval_lfw_tent_benchmark.py` 에 넘겨 **일괄 평가** 실행 |
 
