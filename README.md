@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><b>Dataset</b></summary>
+<summary>🔍<b>Dataset</b></summary>
 <br>
 <details>
 <summary>face_align.ipynb</summary>
@@ -47,7 +47,7 @@
 </details>
 </details>
 <details>
-<summary><b>CVLface</b></summary>
+<summary>🔍<b>CVLface</b></summary>
    <br>
    <details>
      <summary>folder_to_huggingface.py</summary>
@@ -113,7 +113,7 @@ python eval_lfw_tent_benchmark.py \
    </details>
   </details>
  <details>
-   <summary><b>insightface</b></summary>
+   <summary>🔍<b>insightface</b></summary>
    <br>
    <details>
      <summary>fited_threshold.py</summary>
@@ -167,7 +167,7 @@ python eval_lfw_tent_benchmark.py \
  </details>
  
  <details>
-   <summary><b>TopoFR</b></summary>
+   <summary>🔍<b>TopoFR</b></summary>
    <br>
    <details>
      <summary>eval_age_benchmark.py</summary>
@@ -270,7 +270,7 @@ python eval_lfw_tent_benchmark.py \
 </details>
 
 <details>
-   <summary><b>imagecorruptions</b></summary>
+   <summary>🔍<b>imagecorruptions</b></summary>
 <br>
 <details>
 <summary>corrupt_images.py</summary>
