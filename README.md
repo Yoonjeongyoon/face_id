@@ -1,8 +1,11 @@
 # face_id  
 
----
+
 <details>
-<summary>### 📄 face_align.ipynb</summary>
+<summary><b>Dataset</b></summary>
+<br>
+<details>
+<summary><b>face_align.ipynb</b></summary>
 
 | 항목 | 내용 |
 |------|------|
@@ -16,7 +19,7 @@
 </details>
 
 <details>
-<summary>### 📄 gen_pairs.ipynb</summary>
+<summary><b>gen_pairs.ipynb</b></summary>
 
 | 항목 | 내용 |
 |------|------|
@@ -30,7 +33,7 @@
 </details>
 
 <details>
-<summary>### 📄 imp_pairs.py</summary>
+<summary><b>imp_pairs.py</b></summary>
 
 | 항목 | 내용 |
 |------|------|
@@ -42,3 +45,10 @@
 | **출력 형식** | `imp/0/`, `imp/1/` … `imp/2999/`<br>└─ 각 폴더에 `pair1_<파일명>.jpg`, `pair2_<파일명>.jpg` |
 | **기능 요약** | - 인물 폴더명(예: `홍길동_m/…`)의 이미지 확장자로 성별 (m/w) 판별<br>- 같은 성별 그룹(남 ↔ 남, 여 ↔ 여)에서 서로 다른 인물 두 명을 무작위 선택<br>- `random.seed(42)`로 재현 가능한 3 000 쌍 생성<br>- 쌍마다 고유 인덱스 폴더를 만들고 두 이미지를 복사 |
 </details>
+
+</details>
+  
+<details>
+
+</details>
+
