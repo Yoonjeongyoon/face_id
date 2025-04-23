@@ -232,6 +232,26 @@
 
 </details>
 
+<details>
+   <summary><b>imagecorruptions</b></summary>
+</details>
+<br>
+<details>
+<summary><b>corrupt_images.py</b></summary>
+
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`corrupt_images.py`](imagecorruptions/corrupt_images.py) |
+| **파일 경로** | `face_id/imagecorruptions/corrupt_images.py` |
+| **기능** | 이미지 폴더에 **ImageNet-C 스타일 손상**을 병렬 적용<br>‣ `imagecorruptions` 라이브러리로 〈노이즈/블러/날씨/디지털〉 등 17 손상 유형 지원<br>‣ 심각도 1 – 5 선택, 최대 `-j` 코어 병렬 처리, 진행 상황 `tqdm` 표시 |
+| **사용 모델** | ― |
+| **입력 형식** | `$IN_DIR/**/이미지.*` (JPG/PNG 등) |
+| **출력 형식** | 옵션별<br> • `subdirs` → `$OUT/…/snow/1/image.jpg`<br> • `filename` → `$OUT/…/image_snow_1.jpg`<br> • `foldername` → `$OUT/snow_1/…/image.jpg` |
+| **Arguments** | **필수**<br> `in_path` (원본 이미지 루트)<br> `out_path` (출력 루트)<br> `output_type` (`subdirs` / `filename` / `foldername`)FOLDERNAME으로 지정해야 입력한 폴더구조 그대로 출력 됨<br>**선택**<br> `-j N` (동시 코어 수, default 1)<br> `-c <types>` (손상 목록 지정)<br> `-su <subset>` (`common` / `noise` / `blur` / …)<br> `-se <levels>` (심각도 리스트, default 1-5) |
+| **기능 요약** | 1. 입력 폴더에서 재귀적으로 이미지 경로 수집<br>2. 선택한 손상 & 심각도별로 출력 경로 생성<br>3. 멀티프로세싱으로 `imagecorruptions.corrupt` 적용·저장<br>4. `tqdm` 진행바로 실시간 상태 표시 |
+
+</details>
+
    
  </details>
 
