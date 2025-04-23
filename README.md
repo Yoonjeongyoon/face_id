@@ -88,8 +88,8 @@
     
 | 항목 | 내용 |
 |------|------|
-| **이름** | [`fited_threshold.py`](instightface/recognition/arcface_torch/fixed_threshold.py) |
-| **파일 경로** | `face_id/eval_pairs_fixed_thresh.py` |
+| **이름** | [`fited_threshold.py`](insightface/recognition/arcface_torch/fixed_threshold.py) |
+| **파일 경로** | `insightface/recognition/arcface_torch/eval_pairs_fixed_thresh.py` |
 | **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 **고정 Threshold**(315라인에 전역변수로 임의 지정) 로 LFW-스타일 검증을 수행하고 Accuracy·FP(gen의 오답 개수)·FN(imp의 오답 개수)를 출력 |
 | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 arcface모델 백본  |
 | **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
@@ -99,4 +99,72 @@
 
         
   </details>
+  <details>
+    <summary><b>eval_age_benchmark.py</b></summary>
+    
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`eval_age_benchmark.py`](insightface/recognition/arcface_torch/eval_age_benchmark.py) |
+| **파일 경로** | `insightface/recognition/arcface_torch/eval_age_benchmark.py` |
+| **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 fold별 최적의 threshold와 오답의 거리와 경로를 출력하고 각 fold 별 Accuracy와 평균 Accuracy, gen pair의 평균거리와 표준편차, imp pair 평균거리와 표준편차를 출력 |
+| **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 arcface모델 백본  |
+| **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
+| **출력 형식** |  각 fold별 최적의 threshold<br> 오답의 코사인 유사도 거리, threshold, 둘 간의 차이<br>오답 이미지 페어의 경로<br>각 fold 별 Accuracy <br>최종 평균 Accuracy <br>gen pair의 평균거리와 표준편차 <br>imp pair 평균거리와 표준편차|
+| **Arguments** | `--model-prefix` (backbone pth/pt)<br>`--image-path` (평가용 gen/imp 루트)<br>`--result-dir` (결과 저장)<br>`--batch-size` (추론 배치 크기)<br>`--network` 백본의 사이즈(ex: r50, r100) |
+| **기능 요약** | 1. 이미지 경로 파싱 → 10-fold 분할<br>2. `DataLoader` 로 배치 추론, 임베딩 추출<br>3. 코사인 유사도 거리 → 결과 계산·출력 |
+
+        
+  </details>
+
+  <details>
+    <summary><b>extract_ROC.py</b></summary>
+    
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`extract_ROC.py`](insightface/recognition/arcface_torch/extract_ROC.py) |
+| **파일 경로** | `insightface/recognition/arcface_torch/extract_ROC.py` |
+| **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 threshold 별 confuse_matrix 값을 .npz형태로 저장 + 이를 이용하여 AUC와 EER도 출력  |
+| **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 arcface모델 백본  |
+| **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
+| **출력 형식** |  confuse_matrix 값을 .npz형태로 저장<br>AUC와 EER|
+| **Arguments** | `--model-prefix` (backbone pth/pt)<br>`--image-path` (평가용 gen/imp 루트)<br>`--result-dir` (결과 저장)<br>`--batch-size` (추론 배치 크기)<br>`--network` 백본의 사이즈(ex: r50, r100) |
+| **기능 요약** | 1. 이미지 경로 파싱 → 10-fold 분할<br>2. `DataLoader` 로 배치 추론, 임베딩 추출<br>3. 코사인 유사도 거리 → confuse_matrix 값 계산· 각 결과출력 |
+
+        
+  </details>
+</details>
+<details>
+  <summary><b>TopoFR</b></summary>
+  <br>
+  <details>
+    <summary><b>eval_age_benchmark.py</b></summary>
+
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`eval_age_benchmark.py`](TopoFR/eval_age_benchmark.py) |
+| **파일 경로** | `TopoFR/eval_age_benchmark.py` |
+| **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 fold별 최적의 threshold와 오답의 거리와 경로를 출력하고 각 fold 별 Accuracy와 평균 Accuracy, gen pair의 평균거리와 표준편차, imp pair 평균거리와 표준편차를 출력 |
+| **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 TopoFR모델 백본  |
+| **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
+| **출력 형식** |  각 fold별 최적의 threshold<br> 오답의 코사인 유사도 거리, threshold, 둘 간의 차이<br>오답 이미지 페어의 경로<br>각 fold 별 Accuracy <br>최종 평균 Accuracy <br>gen pair의 평균거리와 표준편차 <br>imp pair 평균거리와 표준편차|
+| **Arguments** | `--model-prefix` (backbone pth/pt)<br>`--image-path` (평가용 gen/imp 루트)<br>`--result-dir` (결과 저장)<br>`--batch-size` (추론 배치 크기)<br>`--network` 백본의 사이즈(ex: r50, r100) |
+| **기능 요약** | 1. 이미지 경로 파싱 → 10-fold 분할<br>2. `DataLoader` 로 배치 추론, 임베딩 추출<br>3. 코사인 유사도 거리 → 결과 계산·출력 |
+  </details>
+<details>
+    <summary><b>extract_ROC.py</b></summary>
+    
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`extract_ROC.py`](TopoFR/extract_ROC.py) |
+| **파일 경로** | `TopoFR/extract_ROC.py` |
+| **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 threshold 별 confuse_matrix 값을 .npz형태로 저장 + 이를 이용하여 AUC와 EER도 출력  |
+| **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 TopoFR모델 백본  |
+| **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
+| **출력 형식** |  confuse_matrix 값을 .npz형태로 저장<br>AUC와 EER|
+| **Arguments** | `--model-prefix` (backbone pth/pt)<br>`--image-path` (평가용 gen/imp 루트)<br>`--result-dir` (결과 저장)<br>`--batch-size` (추론 배치 크기)<br>`--network` 백본의 사이즈(ex: r50, r100) |
+| **기능 요약** | 1. 이미지 경로 파싱 → 10-fold 분할<br>2. `DataLoader` 로 배치 추론, 임베딩 추출<br>3. 코사인 유사도 거리 → confuse_matrix 값 계산· 각 결과출력 |
+
+        
+  </details>
+  
 </details>
