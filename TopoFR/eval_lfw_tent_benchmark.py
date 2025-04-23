@@ -95,8 +95,8 @@ def distance(embeding1, embeding2, distance_metric = 0):
     eps = 1e-6
     if distance_metric == 0:
         dot = np.sum(np.multiply(embeding1,embeding2), axis=1)# 벡터의 내적
-        norm1 = np.linalg.norm(embeding1, ord=2, axis=1)
-        norm2 = np.linalg.norm(embeding2, ord=2, axis=1)
+        norm1 = np.linalg.norm(embeding1,ord=2,axis=1)
+        norm2 = np.linalg.norm(embeding2,ord=2,axis=1)
         norm = norm1 * norm2 + eps  # 0 나누기를 피하기 위해 eps 추가
         cos_similarity = dot / norm
 

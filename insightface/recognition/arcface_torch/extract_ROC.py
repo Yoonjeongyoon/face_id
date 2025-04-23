@@ -384,12 +384,12 @@ np.savez("arcface_ms1mv3_r50_LFW.npz",
          fn=fn_arr)
 eps= 1e-10
 
-tpr_arr = tp_arr / (tp_arr + fn_arr + eps)
-fnr_arr = 1 - tpr_arr
-fpr_arr = fp_arr / (fp_arr + tn_arr + eps)
-eer_func = interp1d(fpr_arr - fnr_arr, fpr_arr)
 
-roc_auc = auc(fpr_arr, tpr_arr)
+fnr = 1 - tpr
+
+eer_func = interp1d(fpr - fnr, fpr)
+
+roc_auc = auc(fpr, tpr)
 print(f"AUC (ROC): {roc_auc:.4f}")
 
 eer = float(eer_func(0.0))

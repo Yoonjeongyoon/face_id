@@ -312,7 +312,7 @@ def calculate_val(thresholds, embeddings1, embeddings2, actual_issame, far_targe
 
 
 # 고정 Threshold 값 설정
-FIXED_THRESHOLD = 0.41431000000000007
+FIXED_THRESHOLD = 0.451431000000000007
 
 def evaluate_fixed_threshold(embeddings, actual_issame, threshold=FIXED_THRESHOLD, nrof_folds=10, distance_metric=0, subtract_mean=False):
     """
