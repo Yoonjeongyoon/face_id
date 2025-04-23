@@ -5,7 +5,7 @@
 <summary><b>Dataset</b></summary>
 <br>
 <details>
-<summary><b>face_align.ipynb</b></summary>
+<summary>face_align.ipynb</summary>
 
 | 항목 | 내용 |
 |------|------|
@@ -19,7 +19,7 @@
 </details>
 
 <details>
-<summary><b>gen_pairs.ipynb</b></summary>
+<summary>gen_pairs.ipynb</summary>
 
 | 항목 | 내용 |
 |------|------|
@@ -33,7 +33,7 @@
 </details>
 
 <details>
-<summary><b>imp_pairs.py</b></summary>
+<summary>imp_pairs.py</summary>
 
 | 항목 | 내용 |
 |------|------|
@@ -64,7 +64,43 @@
    | **기능 요약** | 1. `split_into_folds` → gen/imp를 10개 fold로 디렉터리 복사<br>2. 각 fold를 `Dataset.from_list`로 변환하며 **전역 인덱스** 부여<br>3. `concatenate_datasets`로 병합하여 하나의 형태로 저장<br>4. 예시 이미지 5장을 `examples/`에 저장 |
    
    </details>
- 
+ <details>
+<summary>eval.py</summary>
+
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`eval.py`](CVLface/cvlface/research/recognition/code/run_v1/recognition/eval.py) |
+| **파일 경로** | `face_id/CVLface/cvlface/research/recognition/code/run_v1/eval.py` |
+| **기능** | adaface의사전 학습 얼굴 인식 모델 YAML로 읽어 자동 빌드 후, 설정된 **여러 벤치마크**(LFW, CPLFW, …)를 한 번에 돌려 결과를 출력|
+| **사용 모델** | `models.get_model()` 로 로드되는 Adaface사전 학습모델 |
+
+### 평가 스크립트 간단 사용법
+
+```bash
+python eval_lfw_tent_benchmark.py \
+  --num_gpu <GPU개수> \
+  --eval_config_name face_id/CVLface/cvlface/research/recognition/code/run_v1/evaluations/config/<원하는 YAML> \
+  --ckpt_dir <사전학습 모델 폴더>
+```
+
+- `--num_gpu`: 사용 GPU 개수
+- `--eval_config_name`: 평가 설정 YAML 파일 경로
+  - 예시 YAML(필요 시 값만 수정):
+
+    ```yaml
+    eval_every_n_epochs: 1
+    per_epoch_evaluations:
+      lfw:
+        path: facerec_val/cfp_fp #평가에 수행할 데이터셋 경로 folder_to_huggingface.py로 변환하여 사용
+        evaluation_type: verification  #평가 방법 LFW=verification, ijb=ijbbc, tinyface=tinyface
+        color_space: RGB
+        batch_size: 32 #배치사이즈
+        num_workers: 4 # 데이터셋 처리 코어 개수
+    ```
+- `--ckpt_dir`: `.pt`, `config.yaml`, `model.yaml`이 함께 있는 체크포인트 폴더의 경로 
+
+
+</details>
    <details>
      <summary>example.ipynb</summary>
      
@@ -80,7 +116,7 @@
    <summary><b>insightface</b></summary>
    <br>
    <details>
-     <summary><b>fited_threshold.py</b></summary>
+     <summary>fited_threshold.py</summary>
      
  | 항목 | 내용 |
  |------|------|
@@ -96,7 +132,7 @@
          
    </details>
  <details>
-     <summary><b>eval_age_benchmark.py</b></summary>
+     <summary>eval_age_benchmark.py</summary>
      
  | 항목 | 내용 |
  |------|------|
@@ -113,7 +149,7 @@
    </details>
  
    <details>
-     <summary><b>extract_ROC.py</b></summary>
+     <summary>extract_ROC.py</summary>
      
  | 항목 | 내용 |
  |------|------|
@@ -134,7 +170,7 @@
    <summary><b>TopoFR</b></summary>
    <br>
    <details>
-     <summary><b>eval_age_benchmark.py</b></summary>
+     <summary>eval_age_benchmark.py</summary>
  
  | 항목 | 내용 |
  |------|------|
@@ -148,7 +184,7 @@
  | **기능 요약** | 1. 이미지 경로 파싱 → 10-fold 분할<br>2. `DataLoader` 로 배치 추론, 임베딩 추출<br>3. 코사인 유사도 거리 → 결과 계산·출력 |
    </details>
  <details>
-     <summary><b>extract_ROC.py</b></summary>
+     <summary>extract_ROC.py</summary>
      
  | 항목 | 내용 |
  |------|------|
@@ -165,7 +201,7 @@
    </details>
 
 <details>
-     <summary><b>embedding_compare.py</b></summary>
+     <summary>embedding_compare.py</summary>
      
  | 항목 | 내용 |
  |------|------|
@@ -179,7 +215,7 @@
    </details>
 
 <details>
-     <summary><b>run_multi.py</b></summary>
+     <summary>run_multi.py</summary>
  
  | 항목 | 내용 |
  |------|------|
@@ -193,7 +229,7 @@
    </details>
 
  <details>
-     <summary><b>eval_lfw_tent_benchmark.py</b></summary>
+     <summary>eval_lfw_tent_benchmark.py</summary>
      
  | 항목 | 내용 |
  |------|------|
@@ -210,7 +246,7 @@
    </details>
 
 <details>
-     <summary><b>exract_accuracy.ipynb</b></summary>
+     <summary>exract_accuracy.ipynb</summary>
  
  | 항목 | 내용 |
  |------|------|
@@ -222,7 +258,7 @@
 
 
 <details>
-<summary><b>tent_run.py</b></summary>
+<summary>tent_run.py</summary>
 
 | 항목 | 내용 |
 |------|------|
@@ -237,7 +273,7 @@
    <summary><b>imagecorruptions</b></summary>
 <br>
 <details>
-<summary><b>corrupt_images.py</b></summary>
+<summary>corrupt_images.py</summary>
 
 | 항목 | 내용 |
 |------|------|
