@@ -111,6 +111,14 @@ python eval_lfw_tent_benchmark.py \
    | **기능** | 위의 .arrow파일의 내부 구조를 확인하기 위한 테스트 코드 인덱스와 이미지, 레이블의 구성을 확인 할 수 있음 |
  
    </details>
+
+<details>
+     <summary>adaface에서 confuse_maxtrix를 뽑는 법</summary>
+   <br>
+   face_id/CVLface/cvlface/research/recognition/code/run_v1/evaluations/verification_evaluator.py 코드의 109~113번째 줄 주석을 해제, 파일명은 임의로 지정 
+   
+</details>
+   
   </details>
  <details>
    <summary>🔍<b>insightface</b></summary>
