@@ -13,7 +13,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| **이름** | [`face_align.ipynb`](face_id/face_align.ipynb) |
+| **이름** | [`face_align.ipynb`](face_align.ipynb) |
 | **파일 경로** | `face_id/face_align.ipynb` |
 | **기능** | 얼굴 정렬(Alignment) 수행<br>`insightface`의 `FaceAnalysis` 로 얼굴 검출 후 정렬된 이미지를 저장 |
 | **사용 모델** | `insightface` 내장 face detection + landmark (CPU) |
@@ -26,7 +26,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| **이름** | [`gen_pairs.ipynb`](face_id/gen_pairs.ipynb) |
+| **이름** | [`gen_pairs.ipynb`](gen_pairs.ipynb) |
 | **파일 경로** | `face_id/gen_pairs.ipynb` |
 | **기능** | 동일 인물 폴더 내 모든 이미지 조합을 생성한 뒤 무작위 3,000 쌍을 `gen/` 폴더에 복사하는 **genuine 페어 생성** 코드 |
 | **사용 모델** | ― |
@@ -36,9 +36,10 @@
 </details>
 <details>
 <summary><b> imp_pairs.py</b></summary>
+  
 | 항목 | 내용 |
 |------|------|
-| **이름** | [`imp_pairs.py`](face_id/imp_pairs.py) |
+| **이름** | [`imp_pairs.py`](imp_pairs.py) |
 | **파일 경로** | `face_id/imp_pairs.py` |
 | **기능** | **impostor(타인) 페어 생성** 스크립트.<br>성별(m / w)을 기준으로 **다른 인물**‑이미지 두 장을 무작위로 골라 3,000 쌍을 `imp/` 폴더에 복사 |
 | **사용 모델** | ― |
@@ -78,4 +79,24 @@
 
   </details>
 
+</details>
+<details>
+  <summary><b>insightface</b></summary>
+  <br>
+  <details>
+    <summary><b>fited_threshold.py</b></summary>
+    
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`fited_threshold.py`](instightface/recognition/arcface_torch/fixed_threshold.py) |
+| **파일 경로** | `face_id/eval_pairs_fixed_thresh.py` |
+| **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 **고정 Threshold**(315라인에 전역변수로 임의 지정) 로 LFW-스타일 검증을 수행하고 Accuracy·FP(gen의 오답 개수)·FN(imp의 오답 개수)를 출력 |
+| **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 arcface모델 백본  |
+| **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
+| **출력 형식** |  Accuracy·FP(gen의 오답 개수)·FN(imp의 오답 개수)|
+| **Arguments** | `--model-prefix` (backbone pth/pt)<br>`--image-path` (평가용 gen/imp 루트)<br>`--result-dir` (결과 저장)<br>`--batch-size` (추론 배치 크기)<br>`--network` 백본의 사이즈(ex: r50, r100) |
+| **기능 요약** | 1. 이미지 경로 파싱 → 10-fold 분할<br>2. `DataLoader` 로 배치 추론, 임베딩 추출<br>3. 코사인 유사도 거리 → 고정 Threshold 비교<br>4. Accuracy, False Positive, False Negative 계산·출력 |
+
+        
+  </details>
 </details>
