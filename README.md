@@ -55,7 +55,7 @@
    | 항목 | 내용 |
    |------|------|
    | **이름** | [`folder_to_huggingface.py`](CVLface/cvlface/data_utils/recognition/eval_data/facerec_val/folder_to_huggingface.py) |
-   | **파일 경로** | `CVLface/cvlface/data_utils/recognition/eval_data/facerec_val/folder_to_huggingface.py` |
+   | **파일 경로** | `face_id/CVLface/cvlface/data_utils/recognition/eval_data/facerec_val/folder_to_huggingface.py` |
    | **기능** | `gen/`·`imp/` 페어를 LFW 프로토콜에 맞게 **10‑fold** 로 분할 후, Hugging Face `Dataset`으로 변환·병합하여 adaface를 돌릴 수 있는 형태로 변환<br> 이후 evaluations/configs의 yaml파일을 수정하여 eval.py를 실행 |
    | **사용 모델** | 
    | **입력 형식** | `gen/` & `imp/` 폴더 구조 (`pair1_*.jpg`, `pair2_*.jpg`)<br>예) `gen/0/…`, `imp/42/…` |
@@ -71,7 +71,7 @@
    | 항목 | 내용 |
    |------|------|
    | **이름** | [`example.ipynb`](CVLface/cvlface/data_utils/recognition/eval_data/facerec_val/example.ipynb) |
-   | **파일 경로** | `CVLface/cvlface/data_utils/recognition/eval_data/facerec_val/example.ipynb` |
+   | **파일 경로** | `face_id/CVLface/cvlface/data_utils/recognition/eval_data/facerec_val/example.ipynb` |
    | **기능** | 위의 .arrow파일의 내부 구조를 확인하기 위한 테스트 코드 인덱스와 이미지, 레이블의 구성을 확인 할 수 있음 |
  
    </details>
@@ -85,7 +85,7 @@
  | 항목 | 내용 |
  |------|------|
  | **이름** | [`fited_threshold.py`](instightface/recognition/arcface_torch/fixed_threshold.py) |
- | **파일 경로** | `face_id/eval_pairs_fixed_thresh.py` |
+ | **파일 경로** | `face_id/instightface/recognition/arcface_torch/eval_pairs_fixed_thresh.py` |
  | **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 **고정 Threshold**(315라인에 전역변수로 임의 지정) 로 LFW-스타일 검증을 수행하고 Accuracy·FP(gen의 오답 개수)·FN(imp의 오답 개수)를 출력 |
  | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 arcface모델 백본  |
  | **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
@@ -101,7 +101,7 @@
  | 항목 | 내용 |
  |------|------|
  | **이름** | [`eval_age_benchmark.py`](insightface/recognition/arcface_torch/eval_age_benchmark.py) |
- | **파일 경로** | `insightface/recognition/arcface_torch/eval_age_benchmark.py` |
+ | **파일 경로** | `face_id/insightface/recognition/arcface_torch/eval_age_benchmark.py` |
  | **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 fold별 최적의 threshold와 오답의 거리와 경로를 출력하고 각 fold 별 Accuracy와 평균 Accuracy, gen pair의 평균거리와 표준편차, imp pair 평균거리와 표준편차를 출력 |
  | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 arcface모델 백본  |
  | **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
@@ -118,7 +118,7 @@
  | 항목 | 내용 |
  |------|------|
  | **이름** | [`extract_ROC.py`](insightface/recognition/arcface_torch/extract_ROC.py) |
- | **파일 경로** | `insightface/recognition/arcface_torch/extract_ROC.py` |
+ | **파일 경로** | `face_id/insightface/recognition/arcface_torch/extract_ROC.py` |
  | **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 threshold 별 confuse_matrix 값을 .npz형태로 저장 + 이를 이용하여 AUC와 EER도 출력  |
  | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 arcface모델 백본  |
  | **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
@@ -139,7 +139,7 @@
  | 항목 | 내용 |
  |------|------|
  | **이름** | [`eval_age_benchmark.py`](TopoFR/eval_age_benchmark.py) |
- | **파일 경로** | `TopoFR/eval_age_benchmark.py` |
+ | **파일 경로** | `face_id/TopoFR/eval_age_benchmark.py` |
  | **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 fold별 최적의 threshold와 오답의 거리와 경로를 출력하고 각 fold 별 Accuracy와 평균 Accuracy, gen pair의 평균거리와 표준편차, imp pair 평균거리와 표준편차를 출력 |
  | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 TopoFR모델 백본  |
  | **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
@@ -153,7 +153,7 @@
  | 항목 | 내용 |
  |------|------|
  | **이름** | [`extract_ROC.py`](TopoFR/extract_ROC.py) |
- | **파일 경로** | `TopoFR/extract_ROC.py` |
+ | **파일 경로** | `face_id/TopoFR/extract_ROC.py` |
  | **기능** | 사전 학습된 얼굴 임베딩 모델을 로드한 뒤 `gen/`·`imp/` 페어에 대해 LFW-스타일 검증을 수행하고 각 threshold 별 confuse_matrix 값을 .npz형태로 저장 + 이를 이용하여 AUC와 EER도 출력  |
  | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 TopoFR모델 백본  |
  | **입력 형식** | `--image-path` 경로 아래 `gen/ID/…`, `imp/ID/…` 구조 (각 폴더에 `pair1_*.jpg`, `pair2_*.jpg`) |
@@ -163,6 +163,7 @@
  
          
    </details>
+
    
  </details>
 
