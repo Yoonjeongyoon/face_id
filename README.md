@@ -164,6 +164,74 @@
          
    </details>
 
+<details>
+     <summary><b>embedding_compare.py</b></summary>
+     
+ | 항목 | 내용 |
+ |------|------|
+ | **이름** | [`embedding_compare.py`](TopoFR/embedding_compare.py) |
+ | **파일 경로** | `face_id/TopoFR/embedding_compare.py` |
+ | **기능** | 두 장의 이미지를 입력으로 임베딩의 코사인 유사도 거리를 측정하여 반환|
+ | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 TopoFR모델 백본  |
+ | **입력 형식** | 'img_path1', 'img_path2' 두 장의 이미지 |
+ | **출력 형식** |  임베딩 거리|
+ 
+   </details>
+
+<details>
+     <summary><b>run_multi.py</b></summary>
+ 
+ | 항목 | 내용 |
+ |------|------|
+ | **이름** | [`run_multi.py`](TopoFR/run_multi.py) |
+ | **파일 경로** | `face_id/TopoFR/run_multi.py` |
+ | **기능** | eval_age_benchmark.py를 목표 디렉터리의 하위 디렉터리 전부에 대해 병렬로 실행하여 log를 txt형태로 저장하는 코드|
+ | **사용 모델** | `backbones.get_model()` 로 불러오는 사전학습된 TopoFR모델 백본  |
+ | **입력 형식** | MODEL_PREFIX = 백본모델 경로, BATCH_SIZE = 배치사이즈, NETWORK = 백본의 모델의 크기, BASE_PARENT_DIR=목표디렉터리의 경로, PARENT_DIRS= 목표디렉터리|
+ | **출력 형식** |  eval_age_benchmark.py의 결과가 eval_{PARENT_DIRS}_results 디렉터리 아래 하위 폴더 이름별 txt파일로 반환|
+ | **기능요약** | 여러 개의 이미지 폴더에 대해 eval_age_benchmark.py를 병렬로 실행하는 자동화 코드 41라인의 Pool()로 Multi_level을 조정|
+   </details>
+
+ <details>
+     <summary><b>eval_lfw_tent_benchmark.py</b></summary>
+     
+ | 항목 | 내용 |
+ |------|------|
+ | **이름** | [`eval_lfw_tent_benchmark.py`](TopoFR/eval_lfw_tent_benchmark.py) |
+ | **파일 경로** | `face_id/TopoFR/eval_lfw_tent_benchmark.py` |
+ | **기능** | 배치 크기·TENT step·백본 크기(r50 / r100/r200)를 조합해 **원본 Accuracy**와 **TENT 적용 Accuracy**를 모두 계산·비교하고 로그로 저장 |
+| **사용 모델** | `backbones.get_model()` 로 불러오는 **TopoFR 사전 학습 백본** |
+| **입력 형식** | `--image-path` 아래<br> `gen/ID/pair1_*.jpg`, `pair2_*.jpg`<br> `imp/ID/pair1_*.jpg`, `pair2_*.jpg` |
+| **출력 형식** | `log/LFW_<dataset>_benchmark_results.txt` (평가 결과·Threshold·Accuracy 기록) |
+| **Arguments** | `--model-prefix` (백본 pth/pt 경로)<br>`--image-path` (평가용 gen/imp 루트)<br>`--result-dir` (로그 저장 폴더)<br>`--batch-size` (추론 배치 크기)<br>`--network` (백본 이름: `r50`, `r100`, `r200` …) |
+| **기능 요약** | 1. 이미지 경로 파싱 → 10-fold 분할<br>2. `DataLoader`로 배치 추론, 임베딩 추출<br>3. 코사인 거리 기반 Accuracy·TPR/FPR 계산<br>4. 동일 설정에서 **TENT** 적용 후 동일 지표 재계산<br>5. 두 결과를 나란히 비교해 로그 파일에 저장 |
+
+         
+   </details>
+
+<details>
+     <summary><b>exract_accuracy.ipynb</b></summary>
+ 
+ | 항목 | 내용 |
+ |------|------|
+ | **이름** | [`exract_accuracy.ipynb`](TopoFR/log/exract_accuracy.ipynb) |
+ | **파일 경로** | `face_id/TopoFR/log/exract_accuracy.ipynb` |
+ | **기능** | tent_run으로 출력된 log파일을 노션에 입력하기 좋은 형태로 변환해 주는 코드 아래 셀의 original은 위의 셀을 보고 맞게 수정해야 함|
+ | **기능요약** | 실험한 내용에 맞게 bs16-ts10값은 수정, text editor에 한번 복사하고 입력|
+   </details>
+
+
+<details>
+<summary><b>tent_run.py</b></summary>
+
+| 항목 | 내용 |
+|------|------|
+| **이름** | [`tent_run.py`](face_id/TopoFR/tent_run.py) |
+| **파일 경로** | `face_id/TopoFR/tent_run.py` |
+| **기능** | 하위에 존재하는 **각 corruption 폴더**(contrast_1, motion_blur_2 …)를 순회하면서,<br>각 폴더를 `eval_lfw_tent_benchmark.py` 에 넘겨 **일괄 평가** 실행 |
+
+</details>
+
    
  </details>
 
